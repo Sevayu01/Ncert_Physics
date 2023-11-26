@@ -1,14 +1,12 @@
-import './App.css'
-import QuizPage from './pages/quiz/QuizPage'
-
+import "./App.css";
+import QuizPage from "./pages/quiz/QuizPage";
 
 function App() {
-
   return (
     <>
       <QuizPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

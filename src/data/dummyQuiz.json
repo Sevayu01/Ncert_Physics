@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "statement": "What is the SI unit of magnetic flux?",
+      "options": ["Weber", "Tesla", "Ohm", "Ampere-turn"],
+      "answer": 0
+    },
+    {
+      "statement": "Which law states that the magnetic intensity at any point due to a magnetic pole is directly proportional to the pole strength and inversely proportional to the square of the distance from the pole?",
+      "options": [
+        "Coulomb's Law",
+        "Ampere's Law",
+        "Biot-Savart Law",
+        "Inverse Square Law"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "What is the phenomenon where a material becomes magnetized in the direction of an external magnetic field and retains its magnetization after the field is removed?",
+      "options": [
+        "Diamagnetism",
+        "Paramagnetism",
+        "Ferromagnetism",
+        "Electromagnetism"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "In a magnetic field, the force experienced by a current-carrying conductor is described by which law?",
+      "options": [
+        "Faraday's Law",
+        "Ohm's Law",
+        "Lorentz Force Law",
+        "Lenz's Law"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "Which type of magnetism occurs when a material is weakly attracted to a magnetic field, and the magnetic dipoles align parallel to the field?",
+      "options": [
+        "Ferromagnetism",
+        "Antiferromagnetism",
+        "Paramagnetism",
+        "Ferrimagnetism"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "What is the unit of magnetic susceptibility?",
+      "options": ["Henry", "Tesla", "Ampere", "Dimensionless"],
+      "answer": 3
+    },
+    {
+      "statement": "In a magnetic material, the region where all the magnetic dipoles are aligned in the same direction is called what?",
+      "options": ["Domain", "Coil", "Loop", "Cell"],
+      "answer": 0
+    },
+    {
+      "statement": "What is the principle behind a magnetic coil or solenoid producing a magnetic field when current flows through it?",
+      "options": [
+        "Ampere's Circuital Law",
+        "Gauss's Law",
+        "Ohm's Law",
+        "Coulomb's Law"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "Which material is characterized by having zero magnetic permeability and is repelled by a magnetic field?",
+      "options": [
+        "Ferromagnetic",
+        "Antiferromagnetic",
+        "Paramagnetic",
+        "Diamagnetic"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "What is the term for the magnetic field strength inside a magnetized material?",
+      "options": [
+        "Magnetic Flux",
+        "Magnetic Intensity",
+        "Magnetic Dipole",
+        "Magnetic Induction"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -43,7 +43,10 @@ const ModuleCard = ({ name }) => {
           <Link to="quiz">
             <img src={quizIcon} className="w-8 h-8 cursor-pointer" />
           </Link>
-          <img src={faqIcon} className="w-8 h-8 cursor-pointer" />
+          <Link to="content">
+            <img src={faqIcon} className="w-8 h-8 cursor-pointer" />
+          </Link>
+          
         </div>
       </div>
     </div>

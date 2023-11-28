@@ -7,6 +7,7 @@ import Electriccharge from "./pages/Content/Electriccharge";
 import Couloumb from "./pages/Content/Couloumb";
 import ElectricField from "./pages/Content/ElectricField";
 import GaussLaw from "./pages/Content/GaussLaw";
+import Slider from "./components/Slider";
 function App() {
   return (
     <>
@@ -26,6 +27,10 @@ function App() {
           <Route
             path="gauss-law"
             element={<GaussLaw/>}
+          />
+          <Route
+            path="slider"
+            element={<Slider/>}
           />
       </Route>
     </Routes>

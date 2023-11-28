@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Electric Field"
+        },
+        {
+            "name":"Paragraph",
+            "body":"In science and engineering, we use different aspects like temperature and pressure to understand spaces like auditoriums or swimming pools. Imagine the temperature at various points in an auditorium or the pressure at different spots in a swimming pool - that's what we mean by fields."
+        },
+        {
+            "name":"Paragraph",
+            "body":"Now, some fields are simple, like temperature or pressure, which only have a size (magnitude) and no specific direction. These are called scalar fields."
+        },
+        {
+            "name":"Paragraph",
+            "body":"On the other hand, an electric field  is a bit more complex. It's like a map showing both the strength and direction of forces around a charged object. Unlike temperature or pressure, electric fields involve both how strong the force is and in what direction it acts. So, we call electric fields vector fields(E)."
+        },
+        {
+            "name":"Paragraph",
+            "body":"To understand an electric field at a particular point (like a spot near a charged object), we do a test. We put a tiny positive charge there (it's like a test charge), and then we measure how the electric force acts on this charge. This helps us understand the electric field around that charged object. At P, we place a particle with a small positive charge q0, called a test charge because we use it to test the field"
+        }
+    ]
+}

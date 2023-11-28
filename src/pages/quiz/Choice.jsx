@@ -1,4 +1,4 @@
-const Choice = ({ choice, answer, idx, questionIdx, clickedChoice, setClickedChoice, setSelected }) => {
+const Choice = ({ choice, answer, idx, clickedChoice, setClickedChoice}) => {
   const defaultStyle =
     "bg-[#F4F4F4] hover:bg-[#f0f0f0] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light cursor-pointer";
     const correctStyle =
@@ -10,11 +10,6 @@ const Choice = ({ choice, answer, idx, questionIdx, clickedChoice, setClickedCho
 
   const clickHandler = () => {
     setClickedChoice((prev) => idx);
-    if (idx === answer) {
-      setSelected(prev => ({...prev, [questionIdx]:1}));
-    } else {
-      setSelected(prev => ({...prev, [questionIdx]:0}));
-    }
   };
 
   const styleSelector = () => {

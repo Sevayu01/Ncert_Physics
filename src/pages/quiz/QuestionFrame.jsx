@@ -5,6 +5,15 @@ const QuestionFrame = ({ question, idx, setSelected }) => {
   const { statement, options, answer } = question;
   const [clickedChoice, setClickedChoice] = useState(-1);
 
+  useEffect(() => {
+    if (clickedChoice === -1) return;
+    if (clickedChoice === answer) {
+      setSelected((prev) => ({ ...prev, [idx]: 1 }));
+    } else {
+      setSelected((prev) => ({ ...prev, [idx]: 0 }));
+    }
+  }, [clickedChoice]);
+
   return (
     <div className="ml-3 mb-10">
       <p className="text-[20px] mb-1 font-light libre">Question {idx + 1}.</p>
@@ -16,8 +25,6 @@ const QuestionFrame = ({ question, idx, setSelected }) => {
             answer={answer}
             clickedChoice={clickedChoice}
             setClickedChoice={setClickedChoice}
-            setSelected={setSelected}
-            questionIdx={idx}
             idx={choiceIdx}
             key={choiceIdx}
           />

@@ -1,20 +1,15 @@
-const Choice = ({ choice, answer, idx, questionIdx, clickedChoice, setClickedChoice, setSelected }) => {
+const Choice = ({ choice, answer, idx, clickedChoice, setClickedChoice }) => {
   const defaultStyle =
     "bg-[#F4F4F4] hover:bg-[#f0f0f0] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light cursor-pointer";
-    const correctStyle =
+  const correctStyle =
     "bg-[#EFFFE7] border-[1px] border-[#82BF6D] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light";
-    const incorrectStyle =
+  const incorrectStyle =
     "bg-[#FFE5E5] border-[1px] border-[#DF9595] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light";
-    const selectedStyle =
-      "bg-[#F4F4F4] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light";
+  const selectedStyle =
+    "bg-[#F4F4F4] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light";
 
   const clickHandler = () => {
     setClickedChoice((prev) => idx);
-    if (idx === answer) {
-      setSelected(prev => ({...prev, [questionIdx]:1}));
-    } else {
-      setSelected(prev => ({...prev, [questionIdx]:0}));
-    }
   };
 
   const styleSelector = () => {

@@ -1,13 +1,12 @@
 {
-    "title":"Electricity and Magnetism",
-    "topic": "Electrostatics",
-    "subtopics": [
-      "Electric Charge",
-      "Coulomb's Law",
-      "Electric Field",
-      "Gauss Law",
-      "Conductor",
-      "Electric Potential"
-    ]
-  }
-  
+  "title": "Electricity and Magnetism",
+  "topic": "Electrostatics",
+  "subtopics": [
+    "Electric Charge",
+    "Coulomb's Law",
+    "Electric Field",
+    "Gauss Law",
+    "Conductor",
+    "Electric Potential"
+  ]
+}

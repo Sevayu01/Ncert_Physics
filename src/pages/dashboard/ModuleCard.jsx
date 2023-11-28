@@ -1,5 +1,5 @@
 import quizIcon from "../../assets/quiz.png";
-import faqIcon from "../../assets/faq.png";
+import faqIcon from "/assets/faq.png";
 import { Link } from "react-router-dom";
 
 const ModuleCard = ({ name }) => {

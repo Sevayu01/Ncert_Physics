@@ -26,6 +26,13 @@ export default defineConfig({
 
 
     },
+    includeAssets: [
+      "/favicon.ico",
+      "/assets/*.*",
+      "/**/*.*",
+      "/*.*",
+      "/*/*.*",
+    ],
     workbox: {
       runtimeCaching: [
         {

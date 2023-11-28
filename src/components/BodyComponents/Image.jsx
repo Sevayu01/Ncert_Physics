@@ -1,4 +1,4 @@
-import Silkrod from "../../assets/silkrod.png";
+import Silkrod from "/assets/silkrod.png";
 const Image = ({info}) => {
   return (
     <div className="w-full flex justify-center ">

@@ -1,5 +1,6 @@
 // sidebar for smaller devices
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 const Sidebar1 = ({ isOpen, onClose,topic,subtopics}) => {
   return (
     <div
@@ -14,8 +15,8 @@ const Sidebar1 = ({ isOpen, onClose,topic,subtopics}) => {
       <p className="text-left pt-5 text-xl pb-4 font-medium text-black">{topic}</p>
       {subtopics.map((e,idx)=>{
         return(
-          // <Link to="/" key="1"><p className="text-left text-xl pb-2">{e}</p></Link>
-          <p className="text-left text-md pb-2 text-black" key={idx}>{e}</p>
+          <Link to={e.link} key={idx}><p className="text-left text-xl pb-2">{e.name}</p></Link>
+          // <p className="text-left text-md pb-2 text-black" key={idx}>{e.name}</p>
         )
       })}
     </div>

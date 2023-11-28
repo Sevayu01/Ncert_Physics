@@ -2,12 +2,26 @@
     "title":"Electricity and Magnetism",
     "topic": "Electrostatics",
     "subtopics": [
-      "Electric Charge",
-      "Coulomb's Law",
-      "Electric Field",
-      "Gauss Law",
-      "Conductor",
-      "Electric Potential"
+      {
+        "name":"Electric Charge",
+        "link":"/chapter1"
+      },
+      {
+        "name":"Coulomb's Law",
+        "link":"/chapter1/couloumb's-law"
+      },
+      {
+        "name":"Electric Field",
+        "link":"/chapter1/electric-field"
+      },
+      {
+        "name":"Gauss Law",
+        "link":"/chapter1/gauss-law"
+      },
+      {
+        "name":"Conductor",
+        "link":"/chapter1/gauss-law"
+      }
     ]
   }
   

@@ -20,7 +20,6 @@ const Electriccharge = () => {
             return null; 
         }
      })}
-
     </div>
   )
 }

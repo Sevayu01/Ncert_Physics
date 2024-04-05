@@ -25,6 +25,8 @@ const Sidebar1 = ({ isOpen, onClose,topic,subtopics}) => {
 Sidebar1.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
+  topic: PropTypes.string.isRequired,
+  subtopics: PropTypes.array.isRequired
 };
 
 export default Sidebar1;

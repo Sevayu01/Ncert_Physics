@@ -2,7 +2,7 @@ import quizIcon from "../../assets/quiz.png";
 import faqIcon from "/assets/faq.png";
 import { Link } from "react-router-dom";
 
-const ModuleCard = ({ name }) => {
+const ModuleCard = ({ name, topic }) => {
   const colors = [
     "#74FFEE",
     "#FF7474",
@@ -36,7 +36,7 @@ const ModuleCard = ({ name }) => {
   };
 
   return (
-    <Link to="chapter1">
+    <Link to={`/${name}/${topic}`}>
       <div style={cardStyle}>
         <div style={contentStyle}>
           <center style={{ fontWeight: "bold", fontSize: "16px" }}>

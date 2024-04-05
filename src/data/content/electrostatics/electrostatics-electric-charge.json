@@ -33,7 +33,7 @@
     {
       "idx": "7",
       "name": "image",
-      "body": "../../assets/silkrod.png",
+      "body": "../../assets/Formula1/gif1.gif",
       "alt": "Image description"
     },
     {
@@ -45,6 +45,11 @@
       "idx": "9",
       "name": "Paragraph",
       "body": "Now, why do things get charged? Well, everything is made of tiny particles called atoms. Normally, they have a balanced amount of positive and negative charges, so they're neutral. But when you rub things, some of these charges move around. For example, when you rub a balloon on your hair, it steals some electrons, making it negatively charged. The forces between these charged particles are what make things stick or repel."
+    },
+    {
+      "idx": "10",
+      "name": "expression",
+      "body": "$U = k \\left( \\frac{q_1 \\cdot q_2}{|\\mathbf{r}_1 - \\mathbf{r}_2|} + \\frac{q_1 \\cdot q_3}{|\\mathbf{r}_1 - \\mathbf{r}_3|} + \\frac{q_1 \\cdot q_4}{|\\mathbf{r}_1 - \\mathbf{r}_4|} + \\frac{q_2 \\cdot q_3}{|\\mathbf{r}_2 - \\mathbf{r}_3|} + \\frac{q_2 \\cdot q_4}{|\\mathbf{r}_2 - \\mathbf{r}_4|} + \\frac{q_3 \\cdot q_4}{|\\mathbf{r}_3 - \\mathbf{r}_4|} \\right)$"
     }
   ]
 }

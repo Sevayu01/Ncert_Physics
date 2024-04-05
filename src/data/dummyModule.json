@@ -1,13 +1,5 @@
 {
   "data": [
-    { "name": "Electrostatics" },
-    { "name": "Electrical Charges and Fields" },
-    { "name": "Electric Potential and Capacitance" },
-    { "name": "Current and Electricity" },
-    { "name": "Moving Charges and Magnetism" },
-    { "name": "Magnetism and Matter" },
-    { "name": "Electromagnetic Induction" },
-    { "name": "Alternating Current" },
-    { "name": "Electromagnetic Waves" }
+    { "name": "electrostatics", "topic": "electric-charge" }
   ]
 }

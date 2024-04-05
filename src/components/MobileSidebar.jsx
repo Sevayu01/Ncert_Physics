@@ -1,7 +1,7 @@
 // sidebar for smaller devices
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-const Sidebar1 = ({ isOpen, onClose,topic,subtopics}) => {
+const MobileSidebar = ({ isOpen, onClose,topic,subtopics}) => {
   return (
     <div
       className={`fixed top-0 left-0 h-full w-64 bg-[#ADBDC8] text-white pl-6 transition-transform ease-in-out duration-300 transform ${
@@ -22,11 +22,11 @@ const Sidebar1 = ({ isOpen, onClose,topic,subtopics}) => {
     </div>
   );
 };
-Sidebar1.propTypes = {
+MobileSidebar.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   topic: PropTypes.string.isRequired,
   subtopics: PropTypes.array.isRequired
 };
 
-export default Sidebar1;
+export default MobileSidebar;

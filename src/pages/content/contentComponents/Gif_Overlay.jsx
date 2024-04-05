@@ -1,12 +1,17 @@
-import React from 'react'
+import PropTypes from "prop-types";
 
-function Gif_Overlay({src, alt}) {
+function Gif_Overlay({ src, alt }) {
   return (
     //overlay to show gif in the center of the screen and in bigger size
     <div>
-        <img src={src} alt={alt} className="w-96 "></img>
+      <img src={src} alt={alt} className="w-96 "></img>
     </div>
-  )
+  );
 }
 
-export default Gif_Overlay
+Gif_Overlay.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
+
+export default Gif_Overlay;

@@ -1,4 +1,4 @@
-// sidebar component for larger devices
+import PropTypes from 'prop-types';
 import { Link, useParams } from "react-router-dom";
 
 const Sidebar = ({ topic, subtopics }) => {
@@ -19,6 +19,11 @@ const Sidebar = ({ topic, subtopics }) => {
       </Link>
     </div>
   );
+};
+
+Sidebar.propTypes = {
+  topic: PropTypes.string.isRequired,
+  subtopics: PropTypes.array.isRequired,
 };
 
 export default Sidebar;

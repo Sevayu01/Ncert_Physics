@@ -1,5 +1,6 @@
 import Latex from "react-latex-next";
 import "katex/dist/katex.min.css";
+import PropTypes from 'prop-types';
 
 const Expression = ({ latex }) => {
   return (
@@ -9,6 +10,10 @@ const Expression = ({ latex }) => {
     </center>
     </>
   );
+};
+
+Expression.propTypes = {
+  latex: PropTypes.string.isRequired,
 };
 
 export default Expression;

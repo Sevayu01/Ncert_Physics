@@ -4,7 +4,7 @@ import Expression from "./contentComponents/Expression";
 import Paragraph from "./contentComponents/Paragraph";
 import Heading from "./contentComponents/Heading";
 import Image from "./contentComponents/Image";
-import Sidebar1 from "../../components/Sidebar1";
+import MobileSidebar from "../../components/MobileSidebar";
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 
@@ -41,7 +41,7 @@ const ContentPage = () => {
         {/* Chapter sidebar for routing */}
         <Sidebar topic={topics.topic} subtopics={topics.subtopics} />
         {/* chapter sidebar for routing for smaller devices */}
-        <Sidebar1
+        <MobileSidebar
           isOpen={isSidebarOpen}
           onClose={toggleSidebar}
           topic={topics.topic}

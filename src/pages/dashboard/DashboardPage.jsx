@@ -1,10 +1,10 @@
 import Navbar from "../../components/Navbar";
 import ModuleCard from "./ModuleCard";
-import dummyModule from "../../data/dummyModule.json";
+import module from "../../data/modules.json";
 import { useState } from "react";
 
 const DashboardPage = () => {
-  const { data } = dummyModule;
+  const { data } = module;
   const [modules] = useState(data);
   const progress = 66;
 

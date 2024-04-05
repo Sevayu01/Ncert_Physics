@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Choice from "./Choice";
+import PropTypes from "prop-types";
 
 const QuestionFrame = ({ question, idx, setSelected }) => {
   const { statement, options, answer } = question;
@@ -12,7 +13,7 @@ const QuestionFrame = ({ question, idx, setSelected }) => {
     } else {
       setSelected((prev) => ({ ...prev, [idx]: 0 }));
     }
-  }, [clickedChoice]);
+  }, [clickedChoice, answer, idx, setSelected]);
 
   return (
     <div className="ml-3 mb-10">
@@ -32,6 +33,12 @@ const QuestionFrame = ({ question, idx, setSelected }) => {
       })}
     </div>
   );
+};
+
+QuestionFrame.propTypes = {
+  question: PropTypes.object.isRequired,
+  idx: PropTypes.number.isRequired,
+  setSelected: PropTypes.func.isRequired,
 };
 
 export default QuestionFrame;

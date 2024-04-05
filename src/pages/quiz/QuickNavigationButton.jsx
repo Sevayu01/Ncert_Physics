@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const QuickNavigationButton = ({ idx, selected }) => {
   const defaultStyle =
     "w-16 h-16 rounded-full border-[5px] border-white bg-white text-center text-xl flex justify-center items-center";
@@ -13,6 +15,11 @@ const QuickNavigationButton = ({ idx, selected }) => {
   };
 
   return <div className={getStyle()}>{idx + 1}</div>;
+};
+
+QuickNavigationButton.propTypes = {
+  idx: PropTypes.number.isRequired,
+  selected: PropTypes.object.isRequired,
 };
 
 export default QuickNavigationButton;

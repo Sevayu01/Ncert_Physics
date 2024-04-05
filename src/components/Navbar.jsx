@@ -21,3 +21,4 @@ Navbar.propTypes = {
   toggle: PropTypes.func.isRequired,
 };
 export default Navbar;
+  

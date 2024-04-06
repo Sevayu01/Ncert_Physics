@@ -1,10 +1,38 @@
 import PropTypes from "prop-types";
+import { IoExpand } from "react-icons/io5";
+import { IoContractSharp } from "react-icons/io5";
+import { useState } from "react";
 
 const Image = ({ info }) => {
+  const [overlayVisible, setOverlayVisible] = useState(false);
+
+  const imageItem = <img className="w-full h-full mx-auto object-cover" src={info.body} alt={info.alt} />;
+
   return (
-    <div className="w-full flex justify-center ">
-      <img src={info.body} alt={info.alt} className="w-96 "></img>
-    </div>
+    <center>
+      <div
+        className={`flex justify-center relative rounded-lg w-[30rem] my-10 ${
+          !overlayVisible ? "overflow-hidden" : ""
+        }`}
+      >
+        <button
+          onClick={() => setOverlayVisible(!overlayVisible)}
+          className="absolute top-2 right-2 w-6 h-6"
+        ><IoExpand className="text-gray-300 font-extrabold text-xl" /></button>
+        <div
+          className={`bg-red-400 absolute top-[-14rem] bottom-[-14rem] left-[-14rem] right-[-14rem] bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden ${
+            overlayVisible ? "block" : "hidden"
+          }`}
+        >
+          <button
+            onClick={() => setOverlayVisible(!overlayVisible)}
+            className="absolute top-2 right-2 w-6 h-6"
+          ><IoContractSharp className="text-gray-300 font-extrabold text-xl" /></button>
+          {imageItem}
+        </div>
+        {imageItem}
+      </div>
+    </center>
   );
 };
 

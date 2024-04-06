@@ -21,7 +21,7 @@ const ContentPage = () => {
 
   useEffect(() => {
     (async () => {
-      const contentImportPath = `../../data/content/${chapter}/${chapter}-${topic}.json`;
+      const contentImportPath = `../../data/content/${chapter}/${topic}.json`;
       const topicImportPath = `../../data/topics/${chapter}-topics.json`;
       const importedData = await import(contentImportPath);
       const importedTopic = await import(topicImportPath);
@@ -48,20 +48,20 @@ const ContentPage = () => {
           subtopics={topics.subtopics}
         />
         <div className="w-full px-6 pb-10 overflow-y-scroll">
-          {data.map((element) => {
+          {data.map((element, idx) => {
             switch (element.name) {
               case "heading":
-                return <Heading key={element.idx} heading={element.body} />;
-              case "Paragraph":
-                return <Paragraph key={element.idx} text={element.body} />;
+                return <Heading key={idx} heading={element.body} />;
+              case "paragraph":
+                return <Paragraph key={idx} text={element.body} />;
               case "description":
                 return (
-                  <span key={element.idx} className="w-full text-center">
+                  <span key={idx} className="w-full text-center">
                     {element.body}
                   </span>
                 );
               case "image":
-                return <Image key={element.idx} info={element} />;
+                return <Image key={idx} info={element} />;
               case "expression":
                 return <Expression latex={element.body} />;
               default:

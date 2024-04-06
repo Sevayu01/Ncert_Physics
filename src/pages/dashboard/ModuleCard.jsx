@@ -1,8 +1,9 @@
 import quizIcon from "../../assets/quiz.png";
 import faqIcon from "/assets/faq.png";
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-const ModuleCard = ({ name, topic }) => {
+const ModuleCard = ({ name, topic, link }) => {
   const colors = [
     "#74FFEE",
     "#FF7474",
@@ -36,7 +37,7 @@ const ModuleCard = ({ name, topic }) => {
   };
 
   return (
-    <Link to={`/${name}/${topic}`}>
+    <Link to={`/${link}/${topic}`}>
       <div style={cardStyle}>
         <div style={contentStyle}>
           <center style={{ fontWeight: "bold", fontSize: "16px" }}>
@@ -53,6 +54,12 @@ const ModuleCard = ({ name, topic }) => {
       </div>
     </Link>
   );
+};
+
+ModuleCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  topic: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default ModuleCard;

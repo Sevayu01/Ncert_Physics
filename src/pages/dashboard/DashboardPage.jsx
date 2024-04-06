@@ -24,7 +24,7 @@ const DashboardPage = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10">
           {modules.map((module, idx) => (
-            <ModuleCard name={module.name} topic={module.topic} key={idx} />
+            <ModuleCard name={module.name} link={module.link} topic={module.topic} key={idx} />
           ))}
         </div>
       </div>

@@ -1,5 +1,14 @@
 {
   "data": [
-    { "name": "electrostatics", "topic": "electric-charge" }
+    {
+      "name": "Electrostatics",
+      "link": "electrostatics",
+      "topic": "electric-charge"
+    },
+    {
+      "name": "Electrostatic potential and capacitance",
+      "link": "electrostatic-potential-and-capacitance",
+      "topic": "electrostatic-potential"
+    }
   ]
 }

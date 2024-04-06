@@ -1,0 +1,54 @@
+{
+  "title": "Electrostatic Potential and Capacitance",
+  "topic": "Electrostatic Potential and Capacitance",
+  "subtopics": [
+    {
+      "name": "Electrostatic Potential",
+      "link": "electrostatic-potential"
+    },
+    {
+      "name": "Potential due to point charge/dipole/system of charges",
+      "link": "potential-due-to-point-charge-dipole-system-of-charges"
+    },
+    {
+      "name": "Equipotential Surface Relation between field and potential",
+      "link": "equipotential-surface-relation-between-field-and-potential"
+    },
+    {
+      "name": "Potential energy of a system of charges",
+      "link": "potential-energy-of-a-system-of-charges"
+    },
+    {
+      "name": "Potential energy in an external field Potential energy of a system of charges in an external field",
+      "link": "potential-energy-in-an-external-field-potential-energy-of-a-system-of-charges-in-an-external-field"
+    },
+    {
+      "name": "Electrostatics of Conductors",
+      "link": "electrostatics-of-conductors"
+    },
+    {
+      "name": "Dielectrics and Polarisation",
+      "link": "dielectrics-and-polarisation"
+    },
+    {
+      "name": "Capacitors and Capacitance",
+      "link": "capacitors-and-capacitance"
+    },
+    {
+      "name": "parallel plate capacitor",
+      "link": "parallel-plate-capacitor"
+    },
+    {
+      "name": "Effect of Dielectric on Capacitance",
+      "link": "effect-of-dielectric-on-capacitance"
+    },
+    {
+      "name": "Combination of Capacitors",
+      "link": "combination-of-capacitors"
+    },
+    {
+      "name": "Energy stored in a capacitor",
+      "link": "energy-stored-in-a-capacitor"
+    }
+  ]
+}

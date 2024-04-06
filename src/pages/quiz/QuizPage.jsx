@@ -6,7 +6,7 @@ import dummyQuestions from "../../data/dummyQuiz.json";
 
 const QuizPage = () => {
   const { data } = dummyQuestions;
-  const [questions, setQuestions] = useState(data);
+  const [questions] = useState(data);
   const newObject = {};
   for (let i = 0; i < questions.length; i++) {
     newObject[i] = -1;

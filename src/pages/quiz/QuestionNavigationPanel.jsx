@@ -1,7 +1,7 @@
 import QuickNavigationButton from "./QuickNavigationButton";
 import PropTypes from "prop-types";
 
-const QuestionNavigationPanel = ({ questions, selected }) => {
+const QuestionNavigationPanel = ({ quiz, selected }) => {
   let selectedArray = Object.values(selected);
   let score = selectedArray.reduce((count, number) => {
     return number === 1 ? count + 1 : count;
@@ -10,7 +10,7 @@ const QuestionNavigationPanel = ({ questions, selected }) => {
   return (
     <div className=" bg-[#ADBDC8] w-[500px] h-full pt-24 sm:block hidden">
       <div className="w-10/12 mx-auto p-5 grid grid-cols-3 gap-y-5">
-        {questions.map((question, idx) => {
+        {quiz.map((question, idx) => {
           return (
             <QuickNavigationButton idx={idx} selected={selected} key={idx} />
           );
@@ -27,7 +27,7 @@ const QuestionNavigationPanel = ({ questions, selected }) => {
 };
 
 QuestionNavigationPanel.propTypes = {
-  questions: PropTypes.array.isRequired,
+  quiz: PropTypes.array.isRequired,
   selected: PropTypes.object.isRequired,
 };
 

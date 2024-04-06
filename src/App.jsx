@@ -9,7 +9,7 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<DashboardPage />} />
-      <Route path=":chapter">
+      <Route path=":chapter/">
         <Route path=":topic" element={<ContentPage />} />
         <Route path="quiz" element={<QuizPage />} />
       </Route>

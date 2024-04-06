@@ -38,16 +38,16 @@ const ContentPage = () => {
     <div>
       <Navbar title={topics.title} toggle={toggleSidebar} />
       <div className="flex flex-row content-height">
-        {/* Chapter sidebar for routing */}
         <Sidebar topic={topics.topic} subtopics={topics.subtopics} />
-        {/* chapter sidebar for routing for smaller devices */}
+
         <MobileSidebar
           isOpen={isSidebarOpen}
           onClose={toggleSidebar}
           topic={topics.topic}
           subtopics={topics.subtopics}
         />
-        <div className="w-full px-6 pb-10 overflow-y-scroll">
+
+        <div className="w-full pl-6 pr-24 pb-10 overflow-y-scroll">
           {data.map((element, idx) => {
             switch (element.name) {
               case "heading":

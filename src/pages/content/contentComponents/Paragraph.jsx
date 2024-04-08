@@ -1,9 +1,13 @@
 import PropTypes from "prop-types";
+import Latex from "react-latex-next";
+import "katex/dist/katex.min.css";
 
 const Paragraph = ({ text }) => {
   return (
-    <div className="text-left w-full mb-4">
-      <p className="text-lg">{text}</p>
+    <div className="text-left w-full mb-4 text-lg">
+      <Latex>
+        {text}
+      </Latex>
     </div>
   );
 };

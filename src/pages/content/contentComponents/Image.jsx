@@ -1,12 +1,22 @@
 import PropTypes from "prop-types";
 import { IoExpand } from "react-icons/io5";
 import { IoContractSharp } from "react-icons/io5";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const Image = ({ info }) => {
+const Image = ({ body, alt }) => {
+  const [image, setImage] = useState(null);
+
+  useEffect(() => {
+    (async () => {
+      const image = await import(/* @vite-ignore */ body);
+      setImage(image.default);
+    })();
+  }, [body]);
+
   const [overlayVisible, setOverlayVisible] = useState(false);
-
-  const imageItem = <img className="w-full h-full mx-auto object-cover" src={info.body} alt={info.alt} />;
+  const imageItem = (
+    <img className="w-full h-full mx-auto object-contain" loading="lazy" src={image} alt={alt} />
+  );
 
   return (
     <center>
@@ -17,17 +27,21 @@ const Image = ({ info }) => {
       >
         <button
           onClick={() => setOverlayVisible(!overlayVisible)}
-          className="absolute top-2 right-2 w-6 h-6"
-        ><IoExpand className="text-gray-300 font-extrabold text-xl" /></button>
+          className="absolute bottom-2 z-10 right-2 w-6 h-6"
+        >
+          <IoExpand className="text-gray-500 font-extrabold text-xl" />
+        </button>
         <div
-          className={`bg-red-400 absolute top-[-14rem] bottom-[-14rem] left-[-14rem] right-[-14rem] bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden ${
+          className={`bg-gray-100 absolute z-10 border-2 border-white top-[-14rem] bottom-[-14rem] left-[-14rem] right-[-14rem] bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden ${
             overlayVisible ? "block" : "hidden"
           }`}
         >
           <button
             onClick={() => setOverlayVisible(!overlayVisible)}
             className="absolute top-2 right-2 w-6 h-6"
-          ><IoContractSharp className="text-gray-300 font-extrabold text-xl" /></button>
+          >
+            <IoContractSharp className="text-gray-500 font-extrabold text-xl" />
+          </button>
           {imageItem}
         </div>
         {imageItem}
@@ -37,7 +51,8 @@ const Image = ({ info }) => {
 };
 
 Image.propTypes = {
-  info: PropTypes.object.isRequired,
+  body: PropTypes.object.isRequired,
+  alt: PropTypes.object.isRequired,
 };
 
 export default Image;

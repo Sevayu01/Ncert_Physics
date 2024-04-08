@@ -26,11 +26,11 @@
     },
     {
       "name": "image",
-      "body": "../../assets/Formula1/gif1.gif",
+      "body": "../../../assets/Formula1/gif1.gif",
       "alt": "Image description"
     },
     {
-      "name": "description",
+      "name": "paragraph",
       "body": "Rods: like charges repel and unlike charges attract each other"
     },
     {

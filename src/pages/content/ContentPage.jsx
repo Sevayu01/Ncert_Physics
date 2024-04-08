@@ -7,6 +7,7 @@ import Image from "./contentComponents/Image";
 import MobileSidebar from "../../components/MobileSidebar";
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
+import BoldLine from "./contentComponents/BoldLine";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -23,8 +24,8 @@ const ContentPage = () => {
     (async () => {
       const contentImportPath = `../../data/content/${chapter}/${topic}.json`;
       const topicImportPath = `../../data/topics/${chapter}-topics.json`;
-      const importedData = await import(contentImportPath);
-      const importedTopic = await import(topicImportPath);
+      const importedData = await import(/* @vite-ignore */ contentImportPath);
+      const importedTopic = await import(/* @vite-ignore */ topicImportPath);
       setData(importedData.data);
       setTopics(importedTopic.default);
     })();
@@ -54,16 +55,12 @@ const ContentPage = () => {
                 return <Heading key={idx} heading={element.body} />;
               case "paragraph":
                 return <Paragraph key={idx} text={element.body} />;
-              case "description":
-                return (
-                  <span key={idx} className="w-full text-center">
-                    {element.body}
-                  </span>
-                );
               case "image":
-                return <Image key={idx} info={element} />;
+                return <Image key={idx} alt={element.alt} body={element.body} />;
               case "expression":
                 return <Expression latex={element.body} />;
+              case "bold":
+                return <BoldLine key={idx} text={element.body} />;
               default:
                 return null;
             }

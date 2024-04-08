@@ -9,6 +9,11 @@
       "body": "When you lift a weight against gravity, it gains potential energy because of its position. As it falls, it gains kinetic energy and loses potential energy. The total energy remains constant. Forces like these are called conservative forces, like the spring force and gravity. The Coulomb force between stationary charges is also conservative. This isn't surprising because both forces depend on distance inversely and differ mainly in their constants. Like how a mass gains potential energy in a gravitational field, a charge gains electrostatic potential energy in an electrostatic field."
     },
     {
+      "name": "image",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image1.png",
+      "alt": "image description"
+    },
+    {
       "name": "paragraph",
       "body": "We have an electric field (E) due to a charge (Q) placed at the origin. Now, let's bring a test charge (q) from point R to point P against the repulsive force from charge Q. This scenario occurs when both Q and q are positive or negative. For simplicity, let's assume both are positive."
     },
@@ -29,7 +34,7 @@
       "body": "$\\Delta U = U_{P} - U_{R} = W_{RP}$"
     },
     {
-      "name": "description",
+      "name": "bold",
       "body": "Work done by Electric field = - ( Work done by external forces )"
     }
   ]

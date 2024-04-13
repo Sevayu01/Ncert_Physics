@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Resistivity of Various Materials"
+    },
+    {
+      "name": "paragraph",
+      "body": "Materials are categorized into conductors, semiconductors, and insulators based on their resistivities, arranged in increasing order of their values. Metals typically possess low resistivities ranging from \\(10^{-8}\\) m to \\(10^{-6}\\) m. At the opposite end of the spectrum are insulators like ceramics, rubber, and plastics, with resistivities exceeding those of metals by a factor of \\(10^{18}\\) or more. Semiconductors fall between these two extremes. However, their resistivities typically decrease with increasing temperature. The resistivities of semiconductors can be further reduced by incorporating small amounts of suitable impurities. This property is crucially exploited in the utilization of semiconductors for electronic devices."
+    }
+  ]
+}

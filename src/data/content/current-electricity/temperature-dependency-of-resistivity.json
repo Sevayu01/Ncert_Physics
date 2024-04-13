@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Temperature Dependency of Resistivity"
+    },
+    {
+      "name": "paragraph",
+      "body": "The resistivity of a material is found to be dependent on the temperature. Different materials do not exhibit the same dependence on temperatures. Over a limited range of temperatures, that is not too large, the resistivity of a metallic conductor is approximately given by,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\rho_T = \\rho_0 [1 + \\alpha(T - T_0)] \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( \\rho_T \\) is the resistivity at a temperature \\( T \\) and \\( \\rho_0 \\) is the same at a reference temperature \\( T_0 \\). \\( \\alpha \\) is called the temperature coefficient of resistivity, and the dimension of \\( \\alpha \\) is \\( (\\text{Temperature})^{-1} \\). For metals, \\( \\alpha \\) is positive."
+    },
+    {
+      "name": "paragraph",
+      "body": "Some materials like Nichrome (which is an alloy of nickel, iron, and chromium) exhibit a very weak dependence of resistivity with temperature. Manganin and constantan have similar properties. These materials are thus widely used in wire-bound standard resistors since their resistance values would change very little with temperatures."
+    },
+    {
+      "name": "paragraph",
+      "body": "Unlike metals, the resistivities of semiconductors decrease with increasing temperatures."
+    },
+    {
+      "name": "paragraph",
+      "body": "As we know "
+    },
+    {
+      "name": "expression",
+      "body": "\\sigma = \\frac{ne^2}{m} \\tau"
+    },
+    {
+      "name": "expression",
+      "body": "So , \\rho = \\frac{1}{\\sigma} = \\frac{m}{ne^2\\tau}"
+    },
+    {
+      "name": "paragraph",
+      "body": "Resistivity thus depends inversely both on the number \\( n \\) of free electrons per unit volume and on the average time between collisions. As we increase temperature, the average speed of the electrons, which act as the carriers of current, increases resulting in more frequent collisions. The average time of collisions thus decreases with temperature."
+    },
+    {
+      "name": "paragraph",
+      "body": "In a metal, \\( n \\) is not dependent on temperature to any appreciable extent and thus the decrease in the value of \\( \\tau \\) with the rise in temperature causes \\( \\rho \\) to increase as we have observed."
+    },
+    {
+      "name": "paragraph",
+      "body": "For insulators and semiconductors, however, \\( n \\) increases with temperature. This increase more than compensates any decrease in \\( \\tau \\) in Eq. (3.23) so that for such materials, \\( \\rho \\) decreases with temperature."
+    }
+  ]
+}

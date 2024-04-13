@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Electricity, Energy and Power"
+    },
+    {
+      "name": "paragraph",
+      "body": "When charge moves from point $A$ to point $B$ in a conductor, its potential energy changes due to the potential difference between the two points. This change in potential energy ($\\Delta U_{\\text{pot}}$) is given by the equation:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\Delta U_{\\text{pot}} = -\\Delta Q \\cdot V\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Here, $\\Delta Q$ represents the amount of charge moved, and $V$ is the potential difference between points $A$ and $B"
+    },
+    {
+      "name": "paragraph",
+      "body": "The power dissipated ($P$) per unit time is the rate at which energy is converted to heat. Mathematically, it is expressed as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[P = \\frac{\\Delta W}{\\Delta t}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Where $\\Delta W$ is the energy dissipated as heat, and $\\Delta t$ is the time interval."
+    },
+    {
+      "name": "paragraph",
+      "body": "According to Ohm's law, the power dissipated in a conductor can be related to current ($I$), voltage ($V$), and resistance ($R$) through the equations:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[P = IV\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "or"
+    },
+    {
+      "name": "expression",
+      "body": "\\[P = I^2R = \\frac{V^2}{R}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "These equations show how power depends on the current, voltage, and resistance of the conductor."
+    },
+    {
+      "name": "paragraph",
+      "body": "In practical scenarios, when power is transmitted over long distances, minimizing power loss in transmission cables is crucial. The power wasted ($P_c$) due to the resistance ($R_c$) of the cables is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[P_c = I^2 \\cdot R_c\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "To reduce power loss, transmission cables carry high voltage ($V$), which is then transformed back to lower voltages using transformers for safe consumption."
+    }
+  ]
+}

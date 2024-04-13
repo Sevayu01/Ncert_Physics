@@ -5,7 +5,7 @@ import "katex/dist/katex.min.css";
 const BoldLine = ({ text }) => {
   return (
     <>
-      <p className="font-bold">
+      <p className="font-bold relative">
         <Latex>{text}</Latex>
       </p>
     </>

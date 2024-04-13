@@ -2,13 +2,15 @@
   "data": [
     {
       "name": "Electrostatics",
-      "link": "electrostatics",
-      "topic": "electric-charge"
+      "link": "electrostatics"
     },
     {
       "name": "Electrostatic potential and capacitance",
-      "link": "electrostatic-potential-and-capacitance",
-      "topic": "electrostatic-potential"
+      "link": "electrostatic-potential-and-capacitance"
+    },
+    {
+      "name": "Current Electricity",
+      "link": "current-electricity"
     }
   ]
 }

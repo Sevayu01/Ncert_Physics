@@ -3,7 +3,7 @@ import faqIcon from "/assets/faq.png";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-const ModuleCard = ({ name, topic, link }) => {
+const ModuleCard = ({ name, link }) => {
   const colors = [
     "#74FFEE",
     "#FF7474",
@@ -37,7 +37,7 @@ const ModuleCard = ({ name, topic, link }) => {
   };
 
   return (
-    <Link to={`/${link}/${topic}`}>
+    <Link to={`/${link}/introduction`}>
       <div style={cardStyle}>
         <div style={contentStyle}>
           <center style={{ fontWeight: "bold", fontSize: "16px" }}>

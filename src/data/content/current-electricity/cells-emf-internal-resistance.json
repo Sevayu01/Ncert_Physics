@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Cells, EMF, Internal Resistance"
+    },
+    {
+      "name": "paragraph",
+      "body": "A cell consists of two electrodes, positive (P) and negative (N), immersed in an electrolytic solution. The positive electrode has a potential difference \\( V^+ \\) relative to the adjacent electrolyte, while the negative electrode has a potential difference \\( -V^- \\). The electromotive force (emf) of the cell (\\( e \\)) is the sum of these potential differences:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[e = V^+ + V^-\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "When a resistor (\\( R \\)) is connected across the cell, a current (\\( I \\)) flows through it. The electrolyte also has internal resistance (\\( r \\)). When \\( R \\) is infinite (no current flows), the potential difference between P and N is equal to the emf (\\( e \\)):"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = e\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "When \\( R \\) is finite, the potential difference between P and N becomes \\( e - Ir \\), where \\( I \\) is the current flowing through the resistor:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = e - Ir\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "In practical scenarios, we neglect internal resistances when \\( e \\) is much greater than \\( Ir \\). The maximum current (\\( I_{\\text{max}} \\)) a cell can provide occurs when \\( R = 0 \\), and it is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[I_{\\text{max}} = \\frac{e}{r}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "However, to prevent damage, the actual maximum allowed current is typically lower than this value."
+    },
+    {
+      "name": "paragraph",
+      "body": "Ohm's law (\\( V = IR \\)) relates the potential difference across the resistor to the current and resistance:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = IR\\]"
+    }
+  ]
+}

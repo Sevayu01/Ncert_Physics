@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "INTRODUCTION"
+    },
+    {
+      "name": "paragraph",
+      "body": "When you lift a weight against gravity, it gains potential energy because of its position. As it falls, it gains kinetic energy and loses potential energy. The total energy remains constant. Forces like these are called conservative forces, like the spring force and gravity. The Coulomb force between stationary charges is also conservative. This isn't surprising because both forces depend on distance inversely and differ mainly in their constants. Like how a mass gains potential energy in a gravitational field, a charge gains electrostatic potential energy in an electrostatic field."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image1.png",
+      "alt": "image description"
+    },
+    {
+      "name": "paragraph",
+      "body": "We have an electric field (E) due to a charge (Q) placed at the origin. Now, let's bring a test charge (q) from point R to point P against the repulsive force from charge Q. This scenario occurs when both Q and q are positive or negative. For simplicity, let's assume both are positive."
+    },
+    {
+      "name": "paragraph",
+      "body": "Two points to note: First, we assume q is very small so it doesn't affect the original setup. Second, we apply an external force ($F_ext$) just enough to counter the electric force (F), so there's no net force on q as it moves from R to P."
+    },
+    {
+      "name": "paragraph",
+      "body": "The work done by the external force equals the negative of the work done by the electric force, storing potential energy in q. Suppose we remove the external force at P. In that case, the electric force will propel q away from Q, using the stored potential energy to give q kinetic energy, keeping the total energy constant. Thus, work done by external forces in moving a charge q from R to P is"
+    },
+    {
+      "name": "paragraph",
+      "body": "The work done against the repulsive electrostatic force is stored as potential energy. At each point in the electric field, a particle with charge q gains electrostatic potential energy. The work done increases its potential energy by an amount equal to the potential energy difference between points R and P. So, the potential energy difference (∆U) from point R to point P is equal to the negative of the work done (W)."
+    },
+    {
+      "name": "expression",
+      "body": "$\\Delta U = U_{P} - U_{R} = W_{RP}$"
+    },
+    {
+      "name": "bold",
+      "body": "Work done by Electric field = - ( Work done by external forces )"
+    }
+  ]
+}

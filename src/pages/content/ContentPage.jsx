@@ -8,6 +8,7 @@ import MobileSidebar from "../../components/MobileSidebar";
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 import BoldLine from "./contentComponents/BoldLine";
+import Description from "./contentComponents/Description";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -55,6 +56,8 @@ const ContentPage = () => {
                 return <Heading key={idx} heading={element.body} />;
               case "paragraph":
                 return <Paragraph key={idx} text={element.body} />;
+              case "description":
+                return <Description key={idx} text={element.body} />;
               case "image":
                 return <Image key={idx} alt={element.alt} body={element.body} />;
               case "expression":

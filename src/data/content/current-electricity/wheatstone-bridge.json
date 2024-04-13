@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Wheatstone Bridge"
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider the Wheatstone bridge circuit comprising four resistors \\( R_1 \\), \\( R_2 \\), \\( R_3 \\), and \\( R_4 \\). A source is connected across points A and C, forming the battery arm. A galvanometer \\( G \\) is connected between vertices B and D, forming the galvanometer arm."
+    },
+    {
+      "name": "paragraph",
+      "body": "In the balanced bridge scenario, where \\( I_g = 0 \\) (current through the galvanometer), Kirchhoff's junction rule applied to junctions D and B gives us \\( I_1 = I_3 \\) and \\( I_2 = I_4 \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "Applying Kirchhoff's loop rule to closed loops ADBA and CBDC, we get:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\begin{aligned}-I_1 R_1 + I_2 R_2 &= 0 \\\\I_2 R_4 - I_1 R_3 &= 0\\end{aligned}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "From these equations, we obtain:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\begin{aligned}\\frac{I_1}{I_2} &= \\frac{R_2}{R_1} \\\\\\frac{I_3}{I_4} &=\\frac{R_3}{R_4}\\end{aligned}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Hence, we derive the condition:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\frac{R_1}{R_2} = \\frac{R_3}{R_4}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This equation, known as the balance condition, ensures zero deflection in the galvanometer."
+    },
+    {
+      "name": "paragraph",
+      "body": "The Wheatstone bridge, along with its balance condition, provides a practical method for determining unknown resistances. By varying \\( R_3 \\) until the galvanometer shows null deflection, the bridge becomes balanced. From the balance condition, the value of the unknown resistance \\( R_4 \\) can be determined as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[R_4 = \\frac{R_3 \\times R_2}{R_1}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This principle is used in practical devices like the meter bridge."
+    },
+    {
+      "name": "paragraph",
+      "body": "The Wheatstone bridge offers a simple yet effective way to measure unknown resistances, making it a valuable tool in electrical engineering and experimentation."
+    }
+  ]
+}

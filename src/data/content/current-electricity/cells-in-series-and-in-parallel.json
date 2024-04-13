@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Cells in Series and in Parallel"
+    },
+    {
+      "name": "paragraph",
+      "body": "Cells in an electric circuit can be combined, similar to how resistors are combined. When cells are connected in series (one terminal of each cell is joined together), their individual electromotive forces (emfs) and internal resistances add up. "
+    },
+    {
+      "name": "paragraph",
+      "body": "For example, if we have two cells with emfs \\( e_1 \\) and \\( e_2 \\), and internal resistances \\( r_1 \\) and \\( r_2 \\), connected in series, the total emf (\\( e_{\\text{eq}} \\)) and total internal resistance (\\( r_{\\text{eq}} \\)) of the combination are:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[e_{\\text{eq}} = e_1 + e_2\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "and"
+    },
+    {
+      "name": "expression",
+      "body": "\\[r_{\\text{eq}} = r_1 + r_2\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "If the negative terminal of the second cell is connected to the positive terminal of the first, the emf of the combination is \\( e_{\\text{eq}} = e_1 - e_2 \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "When cells are connected in parallel (positive terminals together, negative terminals together), the total emf and total internal resistance are calculated differently. For two cells in parallel, the total emf (\\( e_{\\text{eq}} \\)) and total internal resistance (\\( r_{\\text{eq}} \\)) are:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[e_{\\text{eq}} = \\frac{e_1 r_2 + e_2 r_1}{r_1 + r_2}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "and"
+    },
+    {
+      "name": "expression",
+      "body": "\\[r_{\\text{eq}} = \\frac{r_1 r_2}{r_1 + r_2}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "These formulas hold when the current leaves each cell from the positive terminal. If the current leaves from the negative terminal, the sign of the emf changes accordingly."
+    },
+    {
+      "name": "paragraph",
+      "body": "For a parallel combination of \\( n \\) cells, the equivalent emf (\\( e_{\\text{eq}} \\)) and internal resistance (\\( r_{\\text{eq}} \\)) are calculated by averaging the individual emfs and internal resistances."
+    }
+  ]
+}
+ 

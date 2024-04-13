@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Mobility"
+    },
+    {
+      "name": "paragraph",
+      "body": "As observed, conductivity emerges from mobile charge carriers. In metals, these carriers are electrons; in an ionized gas, they include electrons and positively charged ions; in an electrolyte, both positive and negative ions can serve as carriers."
+    },
+    {
+      "name": "paragraph",
+      "body": "An essential parameter is the mobility, defined as the magnitude of the drift velocity per unit electric field:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mu = \\frac{|v_d|}{|E|} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The SI unit of mobility is m²/Vs, which is \\(10^4\\) times the mobility in practical units (cm²/Vs). Mobility is positive. From Eq. (3.17), we have:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ |v_d| = \\frac{eE \\tau}{m} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Hence,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mu = \\frac{|v_d|}{|E|} = \\frac{e}{m} \\tau \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( \\tau \\) is the average collision time for electrons."
+    }
+  ]
+}

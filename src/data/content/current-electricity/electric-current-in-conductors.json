@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Electric Current in Conductors"
+    },
+    {
+      "name": "paragraph",
+      "body": "When an electric field is applied, an electric charge experiences a force. If the charge is free to move, it will consequently move, contributing to a current. In nature, free charged particles exist, such as in the upper layers of the atmosphere known as the ionosphere. However, in atoms and molecules, electrons and nuclei are bound to each other and thus not free to move. Bulk matter comprises numerous molecules; for instance, a gram of water contains roughly $10^{22}$ molecules. These molecules are densely packed, causing the electrons to no longer be attached to individual nuclei. In some materials, electrons remain bound and do not accelerate even under an electric field, while in others, notably metals, some electrons are practically free to move within the material. Such materials, commonly referred to as conductors, develop electric currents when an electric field is applied."
+    },
+    {
+      "name": "paragraph",
+      "body": "Considering solid conductors, the atoms are tightly bound to each other, and thus the current is carried by the negatively charged electrons. However, there are other types of conductors, such as electrolytic solutions, where both positive and negative charges can move. In our discussion, we will focus solely on solid conductors, where the current is carried by negatively charged electrons against a background of fixed positive ions."
+    },
+    {
+      "name": "paragraph",
+      "body": "Initially, when no electric field is present, electrons move due to thermal motion, colliding with fixed ions. After colliding with an ion, an electron emerges with the same speed but with a completely random direction of velocity. At any given time, there is no preferred direction for the velocities of the electrons. Consequently, the number of electrons traveling in any direction is equal to the number traveling in the opposite direction, resulting in no net electric current."
+    },
+    {
+      "name": "paragraph",
+      "body": "However, when an electric field is applied to a piece of conductor, electrons are accelerated towards positively charged regions. As long as they are in motion, these electrons constitute an electric current. Thus, there will be a current for a brief period, followed by none thereafter."
+    },
+    {
+      "name": "paragraph",
+      "body": "One could imagine a scenario where the ends of the conductor are supplied with fresh charges to compensate for those neutralized by moving electrons within the conductor. In such a case, a steady electric field would be maintained within the conductor, resulting in a continuous current rather than a transient one. Mechanisms such as cells or batteries maintain such steady electric fields, which we will study later in this chapter. Subsequently, we will examine the steady current resulting from a constant electric field in conductors."
+    },
+    {
+      "name": "description",
+      "body": "Charges +Q and -Q put at the ends of a metallic cylinder. The electrons will drift because of the electric field created to neutralize the charges. The current thus will stop after a while unless the charges +Q and -Q are continuously replenished."
+    }
+  ]
+}

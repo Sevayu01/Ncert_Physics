@@ -1,0 +1,62 @@
+{
+  "title": "Current Electricity",
+  "topic": "Current Electricity",
+  "subtopics": [
+    {
+      "name": "Introduction",
+      "link": "introduction"
+    },
+    {
+      "name": "Electric Current",
+      "link": "electric-current"
+    },
+    {
+      "name": "Electric Current In Conductors",
+      "link": "electric-current-in-conductors"
+    },
+    {
+      "name": "Ohm's Law",
+      "link": "ohms-law"
+    },
+    {
+      "name": "Drift Of Electrons And The Origin Of Resistivity",
+      "link": "drift-of-electrons-and-the-origin-of-resistivity"
+    },
+    {
+      "name": "Mobility",
+      "link": "mobility"
+    },
+    {
+      "name": "Limitations Of Ohm's Law",
+      "link": "limitations-of-ohms-law"
+    },
+    {
+      "name": "Resistivity Of Various Materials",
+      "link": "resistivity-of-various-materials"
+    },
+    {
+      "name": "Temperature Dependency Of Resistivity",
+      "link": "temperature-dependency-of-resistivity"
+    },
+    {
+      "name": "Electricity Energy, Power",
+      "link": "electricity-energy-power"
+    },
+    {
+      "name": "Cells, EMF, Internal Resistance",
+      "link": "cells-emf-internal-resistance"
+    },
+    {
+      "name": "Cells In Series And In Parallel",
+      "link": "cells-in-series-and-in-parallel"
+    },
+    {
+      "name": "Kirchhoff's Rule",
+      "link": "kirchhoffs-rule"
+    },
+    {
+      "name": "Wheatstone Bridge",
+      "link": "wheatstone-bridge"
+    }
+  ]
+}

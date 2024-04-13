@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Electric Current"
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider a small area perpendicular to the flow of charges. Both positive and negative charges can move back and forth across this area. Within a time interval $t$, let $q^+$ represent the net positive charge flowing forward across the area (forward minus backward), and similarly, let $q^-$ represent the net negative charge flowing forward. The total charge flowing forward across the area in time $t$ is then $q = q^+ - q^-$. For steady currents, this quantity is proportional to $t$, and the ratio $\\frac{q}{t}$ is defined as the current across the area in the forward direction (if it's negative, it indicates a backward current)."
+    },
+    {
+      "name": "paragraph",
+      "body": "Currents aren't always steady, so we define current more generally. Let $Q$ be the net charge flowing across a conductor's cross-section during the time $t$ (between $t$ and $t + \\Delta t$). Then, the current at time $t$ across the cross-section is the limit of the ratio $\\frac{Q}{\\Delta t}$ as $\\Delta t$ approaches zero:\\[ I(t) = \\lim_{\\Delta t \\to 0} \\frac{Q}{\\Delta t} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The SI unit of current is the ampere, defined through the magnetic effects of currents studied in subsequent chapters. An ampere is typically the order of magnitude of currents in household appliances. Lightning, on average, carries currents of tens of thousands of amperes, while currents in nerves are in microamperes."
+    }
+  ]
+}

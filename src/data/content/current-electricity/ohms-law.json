@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Ohm's Law"
+    },
+    {
+      "name": "paragraph",
+      "body": "G.S. Ohm discovered a fundamental law concerning current flow in 1828, predating the understanding of the underlying physical mechanisms. Consider a conductor with a current $I$ flowing through it and let $V$ represent the potential difference across its ends. Ohm's law states that:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{V}{I} = R \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "or, equivalently:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = RI \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $R$, the resistance of the conductor, is a constant of proportionality. The SI unit of resistance is the ohm (\\(\\Omega\\)). The resistance $R$ not only relies on the material of the conductor but also its dimensions. To understand the dependence on dimensions, envision a conductor in the form of a slab with length $l$ and cross-sectional area $A$. Now, consider placing two identical slabs side by side, doubling the length but keeping the cross-sectional area constant. The resistance of this combination, $R_c$, is double that of a single slab due to the doubling of length, demonstrating that resistance is proportional to length ($R \\propto l$)."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, imagine dividing the slab into two equal parts, each having half the original cross-sectional area. Each half-slab would have double the resistance of the original, indicating that resistance is inversely proportional to cross-sectional area ($R \\propto \\frac{1}{A}$). Combining these relationships, we arrive at:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ R = \\frac{\\rho l}{A} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $\\rho$ is a constant dependent on the material, known as resistivity."
+    },
+    {
+      "name": "paragraph",
+      "body": "Expressing Ohm's law in terms of current density $j$ (current per unit area, normal to the current direction), if $E$ is the magnitude of a uniform electric field across a conductor of length $l$, then the potential difference $V$ across its ends is $El$. This leads to the equation:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ E = j \\rho \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "In vector form, this equation becomes:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{E} = \\mathbf{j} \\rho \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $\\sigma$ is the conductivity ($\\frac{1}{\\rho}$). Ohm's law is often expressed alternatively as $\\mathbf{j} = \\sigma \\mathbf{E}$, alongside the traditional $V = IR$. \\end{document}"
+    }
+  ]
+}

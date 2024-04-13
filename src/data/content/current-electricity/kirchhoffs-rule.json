@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Krichoff's Rule"
+    },
+    {
+      "name": "paragraph",
+      "body": "Electric circuits often involve complex interconnections of resistors and cells. While formulas for series and parallel combinations of resistors are helpful, they may not suffice to determine all currents and potential differences in a circuit. Kirchhoff's rules provide a powerful tool for analyzing electric circuits."
+    },
+    {
+      "name": "paragraph",
+      "body": "To apply Kirchhoff's rules, we first label currents in each resistor with a symbol, like \\( I \\), and a directed arrow indicating the flow direction. Similarly, for each cell, we label the positive and negative electrodes and the direction of current flow through the cell. This allows us to determine the potential difference,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = V(P) - V(N) = e - Ir\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "across the cell. If the current direction through the cell goes from positive to negative, then "
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = e + Ir\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, let's delve into Kirchhoff's rules:"
+    },
+    {
+      "name": "bold",
+      "body": "Junction Rule:"
+    },
+    {
+      "name": "paragraph",
+      "body": "At any junction, the sum of currents entering equals the sum of currents leaving. This applies whether it's a junction of several lines or a point in a line. The proof stems from the fact that, in steady currents, there's no charge accumulation at any junction or point in a line."
+    },
+    {
+      "name": "expression",
+      "body": " \\sum \\text{Currents entering} = \\sum \\text{Currents leaving}"
+    },
+    {
+      "name": "bold",
+      "body": "Loop rule:"
+    },
+    {
+      "name": "paragraph",
+      "body": "The algebraic sum of potential changes around any closed loop involving resistors and cells is zero. This rule is intuitive since electric potential depends on location. Therefore, when returning to the starting point in a closed loop, the total potential change must be zero."
+    },
+    {
+      "name": "expression",
+      "body": "\\sum \\text{Potential changes in a closed loop} = 0"
+    },
+    {
+      "name": "paragraph",
+      "body": "In circuits with symmetry, the power of Kirchhoff's rules might not be evident. However, in general networks lacking such simplification, Kirchhoff's rules are indispensable. By applying these rules to junctions and closed loops, we can handle complex problems and solve for unknowns in the network."
+    },
+    {
+      "name": "paragraph",
+      "body": "Kirchhoff's rules are fundamental tools for circuit analysis, allowing engineers and physicists to analyze and design intricate electrical systems effectively."
+    }
+  ]
+}

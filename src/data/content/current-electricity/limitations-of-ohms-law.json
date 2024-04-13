@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Limitations of Ohm's Law"
+    },
+    {
+      "name": "paragraph",
+      "body": "While Ohm's law holds true for a vast range of materials, there are materials and devices utilized in electric circuits where the relationship between voltage (V) and current (I) deviates from proportionality. These deviations can broadly be categorized into the following types:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(a) V ceases to be proportional to I."
+    },
+    {
+      "name": "paragraph",
+      "body": "(b) The relationship between V and I varies based on the sign of V. In other words, reversing the direction of V while keeping its magnitude fixed does not result in a current of the same magnitude as I in the opposite direction."
+    },
+    {
+      "name": "paragraph",
+      "body": "(c) The relationship between V and I is not unique, meaning there is more than one value of V for the same current I. A material demonstrating such behavior is GaAs."
+    },
+    {
+      "name": "paragraph",
+      "body": "Materials and devices that do not adhere to Ohm's law in the form of Eq. (3.3) are extensively used in electronic circuits. However, in this and several subsequent chapters, we will focus on studying electrical currents in materials that obey Ohm's law."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Drift of Electrons and the Origin of Resistivity"
+    },
+    {
+      "name": "paragraph",
+      "body": "As previously mentioned, electrons undergo collisions with heavy fixed ions, emerging with the same speed but in random directions. Considering all electrons, their average velocity is zero since their directions are random. Thus, for $N$ electrons at a given time, denoting the velocity of the $i$-th electron as $v_i$ ($i = 1, 2, 3, \\ldots, N$), we have:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\sum_{i=1}^{N} \\frac{1}{N} v_i = 0 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, consider the scenario with an electric field present. Electrons experience acceleration due to this field:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ a = - \\frac{E e}{m} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $-e$ is the charge and $m$ is the mass of an electron. Considering the $i$-th electron at a given time $t$, if $v_i$ was its velocity immediately after the last collision $t_i$ time before $t$, then its velocity $V_i$ at time $t$ is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V_i = v_i + \\frac{eE}{m} t_i \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The average velocity $v_d$ of electrons at time $t$ is the average of all $V_i$'s, where the average of $v_i$'s is zero since immediately after any collision, the direction of the velocity of an electron is completely random. Let $\\tau$ denote the average time between successive collisions. At a given time, some electrons would have spent time less than $\\tau$ and some more than $\\tau$. The average value of $t_i$ then is $\\tau$ (known as relaxation time). Thus, averaging over the $N$ electrons at any given time $t$ gives us for the average velocity $v_d$:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ v_d = \\frac{eE \\tau}{m} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This phenomenon of electrons moving with an average velocity independent of time despite acceleration is called drift, and $v_d$ is termed the drift velocity. Due to drift, there will be net transport of charges across any area perpendicular to $E$. Consider a planar area $A$ inside the conductor with the normal to the area parallel to $E$. Because of drift, in an infinitesimal amount of time $t$, all electrons to the left of the area at distances up to $|v_d| t$ would have crossed the area. If $n$ is the number of free electrons per unit volume in the metal, then there are $nt|v_d|A$ such electrons. Since each electron carries a charge $-e$, the total charge transported across this area $A$ to the right in time $t$ is $-neA|v_d|t$. Since $E$ is directed towards the left, the total charge transported along $E$ across the area is the negative of this. The amount of charge crossing the area $A$ in time $t$ is, by definition, $I t$, where $I$ is the magnitude of the current. Hence:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ I t = neA|v_d|t \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Substituting the value of $|v_d|$ yields:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ I = \\frac{ne^2\\tau}{m} A E \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The vector $j$ is parallel to $E$, so we can write this equation in vector form:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{j} = \\frac{ne^2\\tau}{m} \\mathbf{E} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Comparing with $\\mathbf{j} = \\sigma \\mathbf{E}$ shows that this equation is exactly Ohm's law if we identify the conductivity $\\sigma$ as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\sigma = \\frac{ne^2\\tau}{m} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This simple picture of electrical conduction reproduces Ohm's law. However, we've made assumptions $\\tau$ and $n$ are constants, independent of $E$. We shall, in the next section, discuss the limitations of Ohm's law."
+    }
+  ]
+}

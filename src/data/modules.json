@@ -11,6 +11,10 @@
     {
       "name": "Current Electricity",
       "link": "current-electricity"
+    },
+    {
+      "name": "Moving Charges and Magnetism",
+      "link": "moving-charges-and-magnetism"
     }
   ]
 }

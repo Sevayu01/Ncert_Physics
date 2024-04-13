@@ -55,6 +55,11 @@
     {
       "name": "paragraph",
       "body": "The Wheatstone bridge offers a simple yet effective way to measure unknown resistances, making it a valuable tool in electrical engineering and experimentation."
+    },
+    {
+      "name": "image",
+      "alt": "image17",
+      "body": "../../../../public/assets/current-electricity/image17.png"
     }
   ]
 }

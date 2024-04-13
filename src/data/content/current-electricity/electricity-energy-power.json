@@ -59,6 +59,11 @@
     {
       "name": "paragraph",
       "body": "To reduce power loss, transmission cables carry high voltage ($V$), which is then transformed back to lower voltages using transformers for safe consumption."
+    },
+    {
+      "name": "image",
+      "alt": "image51",
+      "body": "../../../../public/assets/current-electricity/image51.png"
     }
   ]
 }

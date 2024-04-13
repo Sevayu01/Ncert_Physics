@@ -1,4 +1,4 @@
-import quizIcon from "../../assets/quiz.png";
+import quizIcon from "/assets/quiz.png";
 import faqIcon from "/assets/faq.png";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";

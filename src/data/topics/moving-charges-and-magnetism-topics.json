@@ -1,0 +1,46 @@
+{
+  "title": "Moving Charges and Magnetism",
+  "topic": "Moving Charges and Magnetism",
+  "subtopics": [
+    {
+      "name": "Introduction",
+      "link": "introduction"
+    },
+    {
+      "name": "Magnetic Force",
+      "link": "magnetic-force"
+    },
+    {
+      "name": "Motion in a Magnetic Field",
+      "link": "motion-in-a-magnetic-field"
+    },
+    {
+      "name": "Magnetic Field due to a Current Element (biot-savart law)",
+      "link": "magnetic-field-due-to-a-current-element"
+    },
+    {
+      "name": "Magnetic Field on the Axis of a Circular Current Loop",
+      "link": "magnetic-field-on-the-axis-of-a-circular-current-loop"
+    },
+    {
+      "name": "Ampere's Circuital Law",
+      "link": "amperes-circuital-law"
+    },
+    {
+      "name": "Solenoid",
+      "link": "solenoid"
+    },
+    {
+      "name": "Force between two Parallel Currents",
+      "link": "force-between-two-parallel-currents"
+    },
+    {
+      "name": "Torque on Current Loop, magnetic dipole",
+      "link": "torque-on-current-loop-magnetic-dipole"
+    },
+    {
+      "name": "The moving coil galvanometer",
+      "link": "the-moving-coil-galvanometer"
+    }
+  ]
+}

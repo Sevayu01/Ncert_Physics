@@ -17,6 +17,11 @@
       "body": "where \\( \\rho_T \\) is the resistivity at a temperature \\( T \\) and \\( \\rho_0 \\) is the same at a reference temperature \\( T_0 \\). \\( \\alpha \\) is called the temperature coefficient of resistivity, and the dimension of \\( \\alpha \\) is \\( (\\text{Temperature})^{-1} \\). For metals, \\( \\alpha \\) is positive."
     },
     {
+      "name": "image",
+      "alt": "image27",
+      "body": "../../../../public/assets/current-electricity/image27.png"
+    },
+    {
       "name": "paragraph",
       "body": "Some materials like Nichrome (which is an alloy of nickel, iron, and chromium) exhibit a very weak dependence of resistivity with temperature. Manganin and constantan have similar properties. These materials are thus widely used in wire-bound standard resistors since their resistance values would change very little with temperatures."
     },

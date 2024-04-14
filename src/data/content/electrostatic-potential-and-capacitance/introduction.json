@@ -2,16 +2,11 @@
   "data": [
     {
       "name": "heading",
-      "body": "INTRODUCTION"
+      "body": "Introduction"
     },
     {
       "name": "paragraph",
       "body": "When you lift a weight against gravity, it gains potential energy because of its position. As it falls, it gains kinetic energy and loses potential energy. The total energy remains constant. Forces like these are called conservative forces, like the spring force and gravity. The Coulomb force between stationary charges is also conservative. This isn't surprising because both forces depend on distance inversely and differ mainly in their constants. Like how a mass gains potential energy in a gravitational field, a charge gains electrostatic potential energy in an electrostatic field."
-    },
-    {
-      "name": "image",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image1.png",
-      "alt": "image description"
     },
     {
       "name": "paragraph",
@@ -23,7 +18,7 @@
     },
     {
       "name": "paragraph",
-      "body": "The work done by the external force equals the negative of the work done by the electric force, storing potential energy in q. Suppose we remove the external force at P. In that case, the electric force will propel q away from Q, using the stored potential energy to give q kinetic energy, keeping the total energy constant. Thus, work done by external forces in moving a charge q from R to P is"
+      "body": "The work done by the external force equals the negative of the work done by the electric force, storing potential energy in q. Suppose we remove the external force at P. In that case, the electric force will propel q away from Q, using the stored potential energy to give q kinetic energy, keeping the total energy constant."
     },
     {
       "name": "paragraph",
@@ -34,8 +29,44 @@
       "body": "$\\Delta U = U_{P} - U_{R} = W_{RP}$"
     },
     {
+      "name": "paragraph",
+      "body": "Note here that this displacement is in the opposite sense to the electric force and hence work done by the electric field is negative, i.e.$ -W_{RP}$."
+    },
+    {
+      "name": "expression",
+      "body": "\\[W_{\\text{electric}} = -W_{\\text{external}}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "So, we define the electric potential energy difference between two points as the work needed by an external force to move (without accelerating) charge q from one point to another in an electric field created by any arbitrary charge configuration."
+    },
+    {
+      "name": "paragraph",
+      "body": "Points to consider : "
+    },
+    {
+      "name": "paragraph",
+      "body": "1 )  The work done by an electrostatic field to move a charge from one point to another only depends on the initial and final points and is not affected by the path taken between them. This is a fundamental feature of conservative forces. If the work depended on the path, the concept of potential energy wouldn't make sense. The fact that the work done by an electrostatic field is independent of the path can be demonstrated using Coulomb's law."
+    },
+    {
+      "name": "paragraph",
+      "body": "2 ) Potential energy difference is defined using the physically meaningful quantity of work. This implies that the actual value of potential energy isn't physically significant; only the difference in potential energy matters. Adding an arbitrary constant to potential energy at every point won't change the potential energy difference.In simpler terms, we have the freedom to choose where the potential energy is considered zero. A convenient choice is to set the electrostatic potential energy to zero at infinity."
+    },
+    {
+      "name": "expression",
+      "body": "$W_{\\infty P} = U_P - U_{\\infty} = U_P$"
+    },
+    {
+      "name": "paragraph",
+      "body": "If we consider point R to be at infinity the U at R will be 0."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, we can define Potential Energy  as :"
+    },
+    {
       "name": "bold",
-      "body": "Work done by Electric field = - ( Work done by external forces )"
+      "body": "The potential energy of charge q at a point (in the presence of a field due to any charge configuration) is the work done by the external force (equal and opposite to the electric force) in bringing the charge q from infinity to that point."
     }
   ]
 }

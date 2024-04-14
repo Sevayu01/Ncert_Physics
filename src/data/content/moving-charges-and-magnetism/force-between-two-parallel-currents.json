@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Force between two Parallel Currents"
+    },
+    {
+      "name": "paragraph",
+      "body": "We've learned that a conductor carrying a current generates a magnetic field according to the Biot-Savart law. Additionally, an external magnetic field exerts a force on a current-carrying conductor, as per the Lorentz force formula. Consequently, it's reasonable to expect that two nearby current-carrying conductors would exert magnetic forces on each other. In the early 19th century, Ampère meticulously studied the nature of this magnetic force, considering factors such as current magnitude, conductor shape, size, and distance between conductors."
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's focus on the scenario of two parallel current-carrying conductors, which serves as a simple example to appreciate Ampère's work. Figure 4.17 illustrates two long parallel conductors, \\(a\\) and \\(b\\), separated by a distance \\(d\\) and carrying parallel currents \\(I_a\\) and \\(I_b\\) respectively. "
+    },
+    {
+      "name": "paragraph",
+      "body": "Conductor \\(a\\) produces the same magnetic field \\(B_a\\) at all points along conductor \\(b\\), with a downward direction (assuming horizontal placement), and its magnitude is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ B_a = \\frac{\\mu_0}{2\\pi} \\frac{I_a}{d} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Conductor \\(b\\), carrying current \\(I_b\\), experiences a sideways force due to the field \\(B_a\\), directed towards conductor \\(a\\). We label this force as \\(F_{ba}\\), the force on a segment \\(L\\) of \\(b\\), and its magnitude is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ F_{ba} = I_b L B_a = \\frac{\\mu_0}{2\\pi} \\frac{I_a I_b L}{d} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Similarly, the force on conductor \\(a\\) due to \\(b\\), denoted as \\(F_{ab}\\), is equal in magnitude to \\(F_{ba}\\) but directed towards \\(b\\), fulfilling Newton's third Law:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ F_{ba} = -F_{ab} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Hence, for parallel conductors and steady currents, the Biot-Savart law and the Lorentz force yield results consistent with Newton's third Law."
+    },
+    {
+      "name": "paragraph",
+      "body": "It's observed that currents flowing in the same direction attract each other, while oppositely directed currents repel each other. Thus, parallel currents attract, and antiparallel currents repel. This rule contrasts with electrostatics, where like charges repel each other."
+    },
+    {
+      "name": "paragraph",
+      "body": "Let \\(f_{ba}\\) represent the magnitude of the force \\(F_{ba}\\) per unit length. Then, from the above expressions:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ f_{ba} = \\frac{\\mu_0 I_a I_b}{2\\pi d} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This expression defines the ampere (A), one of the seven SI base units. The ampere is the value of a steady current that, when maintained in each of two very long, straight, parallel conductors of negligible cross-section and placed one meter apart in a vacuum, would produce on each conductor a force equal to \\(2 \\times 10^{-7}\\) newtons per meter of length."
+    },
+    {
+      "name": "paragraph",
+      "body": "This theoretical definition of the ampere, adopted in 1946, requires practical implementations to eliminate the earth’s magnetic field and use multiturn coils of appropriate geometries. Instruments like the current balance are used to measure this mechanical force."
+    },
+    {
+      "name": "paragraph",
+      "body": "The SI unit of charge, the coulomb, can now be defined in terms of the ampere: when a steady current of 1A flows through a conductor, the quantity of charge that flows through its cross-section in 1s is one coulomb (1C)."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image32.jpg",
+      "alt": "image32"
+    }
+  ]
+}

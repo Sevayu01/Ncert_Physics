@@ -1,4 +1,4 @@
-import quizIcon from "../../assets/quiz.png";
+import quizIcon from "/assets/quiz.png";
 import faqIcon from "/assets/faq.png";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
@@ -44,7 +44,7 @@ const ModuleCard = ({ name, link }) => {
             {name}
           </center>
           <div className="px-16 bottom-0 left-0 right-0 top-20 absolute flex flex-row justify-around">
-            <Link to="quiz">
+            <Link to={`/${link}/quiz`}>
               <img src={quizIcon} className="w-8 h-8 cursor-pointer" />
             </Link>
 

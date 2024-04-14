@@ -9,6 +9,7 @@ import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 import BoldLine from "./contentComponents/BoldLine";
 import Description from "./contentComponents/Description";
+import SubHeading from "./contentComponents/SubHeading";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -54,6 +55,8 @@ const ContentPage = () => {
             switch (element.name) {
               case "heading":
                 return <Heading key={idx} heading={element.body} />;
+              case "subheading":
+                return <SubHeading key={idx} heading={element.body} />;
               case "paragraph":
                 return <Paragraph key={idx} text={element.body} />;
               case "description":

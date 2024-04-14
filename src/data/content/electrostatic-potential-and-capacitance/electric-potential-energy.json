@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Electrostatic Potential Energy"
+    },
+    {
+      "name": "paragraph",
+      "body": "When a charged particle moves in an electric field, the field exerts a force that can perform work on the particle. When a force F acts on a particle moving from point a to point b, the work W(a->b) done by the force is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "$W_{a\\to b} = \\int_{a}^{b} F \\, ds = \\int_{a}^{b} F \\cos \\theta \\, ds$"
+    },
+    {
+      "name": "paragraph",
+      "body": "where ds is the infinitesimal displacements along the particle's path and θ is the angle between F and ds."
+    },
+    {
+      "name": "paragraph",
+      "body": "Since the Electric Field is conservative, the work done by force F can always be expressed in terms of potential energy "
+    },
+    {
+      "name": "expression",
+      "body": "$W-{a\\to b} = U_a - U_b =  - ( U_b - U_a ) = - \\Delta U$"
+    },
+    {
+      "name": "paragraph",
+      "body": "We can see whenever work done is positive change is potential energy is negative and vice versa."
+    },
+
+    {
+      "name": "subheading",
+      "body": "Electric Potential energy of two charges"
+    },
+    {
+      "name": "paragraph",
+      "body": "The Coulomb's force on \\( q_0 \\) at a distance \\( r \\) from a fixed charge \\( q \\) is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ F_{q_0 q} (r) = \\frac{q q_0}{4 \\pi \\epsilon_0 r^2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "If the two charges have same signs, the force is repulsive, and if the two charges have opposite signs, the force is attractive. The force is not constant during the displacement, so we have to integrate to calculate the work \\( W_{a \\rightarrow b} \\) done on \\( q_0 \\) by this force as \\( q_0 \\) moves from \\( a \\) to \\( b \\)."
+    },
+    {
+      "name": "expression",
+      "body": "\\[W_{a \\rightarrow b} = \\int_{a}^{b} \\mathbf{F} \\cdot d\\mathbf{r} = \\int_{a}^{b} \\frac{1}{4 \\pi \\epsilon_0 r^2} \\cdot q \\cdot q_0 \\, dr\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Being a conservative force, this work is path-independent. From the definition of potential energy, we have:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U = U_b - U_a = -W_{a \\rightarrow b} = \\frac{q q_0}{4 \\pi \\epsilon_0} \\left( \\frac{1}{r_a} - \\frac{1}{r_b} \\right) = \\frac{q q_0}{4 \\pi \\epsilon_0} \\left( \\frac{1}{r_b} - \\frac{1}{r_a} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "We choose the potential energy of the two-charge system to be zero when they have infinite separation. This means \\( U_{\\infty} = 0 \\). The potential energy when the separation is \\( r \\) is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U_r = U - U_{\\infty} = \\frac{q q_0}{4 \\pi \\epsilon_0} \\left( \\frac{1}{r} - 0 \\right) = \\frac{q q_0}{4 \\pi \\epsilon_0 r} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "or"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U_{q_0 q}(r) = \\frac{q q_0}{4 \\pi \\epsilon_0 r} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This is the expression for the electric potential energy of two point charges kept at a separation r."
+    },
+    {
+      "name": "subheading",
+      "body": "Electric Potential energy of a system of charges"
+    },
+    {
+      "name": "paragraph",
+      "body": "The electric potential energy due to a system of charges is given by "
+    },
+    {
+      "name": "expression",
+      "body": "$U = k \\sum_{i < j} \\frac{q_i \\cdot q_j}{|\\mathbf{r}_i - \\mathbf{r}_j|}$"
+    },
+    {
+      "name": "paragraph",
+      "body": "For example - Electric potential energy of 4 point charges q1, q2, q3, q4 will be given by : "
+    },
+    {
+      "name": "expression",
+      "body": "$U = k \\left( \\frac{q_1 \\cdot q_2}{|\\mathbf{r}_1 - \\mathbf{r}_2|} + \\frac{q_1 \\cdot q_3}{|\\mathbf{r}_1 - \\mathbf{r}_3|} + \\frac{q_1 \\cdot q_4}{|\\mathbf{r}_1 - \\mathbf{r}_4|} + \\frac{q_2 \\cdot q_3}{|\\mathbf{r}_2 - \\mathbf{r}_3|} + \\frac{q_2 \\cdot q_4}{|\\mathbf{r}_2 - \\mathbf{r}_4|} + \\frac{q_3 \\cdot q_4}{|\\mathbf{r}_3 - \\mathbf{r}_4|} \\right)$"
+    }
+  ]
+}

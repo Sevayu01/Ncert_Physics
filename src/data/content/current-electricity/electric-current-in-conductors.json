@@ -25,6 +25,11 @@
       "body": "One could imagine a scenario where the ends of the conductor are supplied with fresh charges to compensate for those neutralized by moving electrons within the conductor. In such a case, a steady electric field would be maintained within the conductor, resulting in a continuous current rather than a transient one. Mechanisms such as cells or batteries maintain such steady electric fields, which we will study later in this chapter. Subsequently, we will examine the steady current resulting from a constant electric field in conductors."
     },
     {
+      "name": "image",
+      "alt": "image41",
+      "body": "../../../../public/assets/current-electricity/image41.png"
+    },
+    {
       "name": "description",
       "body": "Charges +Q and -Q put at the ends of a metallic cylinder. The electrons will drift because of the electric field created to neutralize the charges. The current thus will stop after a while unless the charges +Q and -Q are continuously replenished."
     }

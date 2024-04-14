@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Magnetic Force"
+    },
+    {
+      "name": "paragraph",
+      "body": "The charge \\( Q \\), the source of the field, produces an electric field \\( \\mathbf{E} \\), where"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\mathbf{E} = \\frac{Q \\hat{r}}{4\\pi\\varepsilon_0 r^2}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( \\hat{r} \\) is the unit vector along \\( \\mathbf{r} \\), and the field \\( \\mathbf{E} \\) is a vector field."
+    },
+    {
+      "name": "paragraph",
+      "body": "A charge \\( q \\) interacts with this field and experiences a force \\( \\mathbf{F} \\) given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\mathbf{F} = q\\mathbf{E} = \\frac{qQ\\hat{r}}{4\\pi\\varepsilon_0 r^2}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The field \\( \\mathbf{E} \\) is not just an artifact but has a physical role. It can convey energy and momentum and is not established instantaneously but takes finite time to propagate. The concept of a field was specially stressed by Faraday and was incorporated by Maxwell in his unification of electricity and magnetism. In addition to depending on each point in space, it can also vary with time, i.e., be a function of time. In our discussions in this chapter, we will assume that the fields do not change with time."
+    },
+    {
+      "name": "paragraph",
+      "body": "The field at a particular point can be due to one or more charges. If there are more charges, the fields add vectorially. You have already learnt that this is called the principle of superposition."
+    },
+    {
+      "name": "paragraph",
+      "body": "Just as static charges produce an electric field, the currents or moving charges produce (in addition) a magnetic field, denoted by \\( \\mathbf{B}(\\mathbf{r}) \\), again a vector field. It has several basic properties identical to the electric field. It is defined at each point in space (and can in addition depend on time). Experimentally, it is found to obey the principle of superposition: the magnetic field of several sources is the vector addition of the magnetic field of each individual source.Let us suppose that there is a point charge \\( q \\) (moving with a velocity \\( \\mathbf{v} \\) and located at \\( \\mathbf{r} \\) at a given time \\( t \\)) in the presence of both the electric field \\( \\mathbf{E}(\\mathbf{r}) \\) and the magnetic field \\( \\mathbf{B}(\\mathbf{r}) \\). The force on an electric charge \\( q \\) due to both of them can be written as"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{F} = q \\left[ \\mathbf{E}(\\mathbf{r}) + \\mathbf{v} \\times \\mathbf{B}(\\mathbf{r}) \\right] \\equiv \\mathbf{F}_{\\text{electric}} + \\mathbf{F}_{\\text{magnetic}} \\]"
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image50.png",
+      "alt": "image50"
+    },
+    {
+      "name": "paragraph",
+      "body": "This force was first given by H.A. Lorentz based on the extensive experiments of Ampère and others. It is called the Lorentz force. You have already studied in detail the force due to the electric field. If we look at the interaction with the magnetic field, we find the following features:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(1) It depends on \\( q \\), \\( \\mathbf{v} \\), and \\( \\mathbf{B} \\) (charge of the particle, the velocity, and the magnetic field). Force on a negative charge is opposite to that on a positive charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "(2) The magnetic force \\( q \\left[ \\mathbf{v} \\times \\mathbf{B} \\right] \\) includes a vector product of velocity and magnetic field. The vector product makes the force due to the magnetic field vanish (become zero) if the velocity and the magnetic field are parallel or anti-parallel. The force acts in a sideways direction perpendicular to both the velocity and the magnetic field. Its direction is given by the screw rule or the right-hand rule for the vector (or cross) product."
+    },
+    {
+      "name": "paragraph",
+      "body": "(3) The magnetic force is zero if the charge is not moving (as then \\( |\\mathbf{v}| = 0 \\)). Only a moving charge feels the magnetic force."
+    },
+    {
+      "name": "paragraph",
+      "body": "The expression for the magnetic force helps us to define the unit of the magnetic field, if one takes \\( q \\), \\( \\mathbf{F} \\), and \\( \\mathbf{v} \\) all to be unity in the force equation \\( \\mathbf{F} = q [\\mathbf{v} \\times \\mathbf{B}] = qvB\\sin\\theta \\), where \\( \\theta \\) is the angle between \\( \\mathbf{v} \\) and \\( \\mathbf{B} \\). The magnitude of the magnetic field \\( \\mathbf{B} \\) is 1 SI unit when the force acting on a unit charge (1 C), moving perpendicular to \\( \\mathbf{B} \\) with a speed of 1 m/s, is one newton. Dimensionally, we have \\([B] = [\\frac{F}{qv}]\\), and the unit of \\( \\mathbf{B} \\) is Newton second / (coulomb meter). This unit is called tesla (T), named after Nikola Tesla (1856 – 1943). Tesla is a rather large unit. A smaller unit (non-SI) called gauss (\\(=10^{-4}\\) tesla) is also often used. The Earth's magnetic field is about \\(3.6 \\times 10^{-5}\\) T."
+    },
+    {
+      "name": "subheading",
+      "body": "Magnetic force on a current-carrying conductor"
+    },
+    {
+      "name": "paragraph",
+      "body": "We can extend the analysis for the force due to the magnetic field on a single moving charge to a straight rod carrying current. Consider a rod of uniform cross-sectional area \\( A \\) and length \\( l \\). We shall assume one kind of mobile carriers as in a conductor (here electrons). Let the number density of these mobile charge carriers in it be \\( n \\). Then the total number of mobile charge carriers in it is \\( nlA \\). For a steady current \\( I \\) in this conducting rod, we may assume that each mobile carrier has an average drift velocity \\( v_d \\) . In the presence of an external magnetic field \\( \\mathbf{B} \\), the force on these carriers is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{F} = (nlA)q\\mathbf{v_d} \\times \\mathbf{B} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( q \\) is the value of the charge on a carrier. Now \\( nq \\mathbf{v_d} \\) is the current density \\( \\mathbf{j} \\), and \\( |(nq \\mathbf{v_d})|A \\) is the current \\( I \\). Thus,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{F} = [(nq \\mathbf{v_d})lA] \\times \\mathbf{B} = [ \\mathbf{j}A l ] \\times \\mathbf{B} = I\\ell \\times \\mathbf{B} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( \\ell \\) is a vector of magnitude \\( \\ell \\), the length of the rod, and with a direction identical to the current \\( I \\). Note that the current \\( I \\) is not a vector. In the last step, we have transferred the vector sign from \\( \\mathbf{j} \\) to \\( \\ell \\). The above equation holds for a straight rod. In this equation, \\( \\mathbf{B} \\) is the external magnetic field. It is not the field produced by the current-carrying rod. If the wire has an arbitrary shape, we can calculate the Lorentz force \\( \\mathbf{F} = \\sum \\mathbf{F}_l \\) on it by considering it as a collection of linear strips \\( d\\ell_j \\) and summing \\( Id\\ell_j \\times \\mathbf{B} \\). This summation can be converted to an integral in most cases."
+    }
+  ]
+}

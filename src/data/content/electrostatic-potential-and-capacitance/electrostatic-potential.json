@@ -1,0 +1,332 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Electrostatic Potential"
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider any static charge arrangement. We define the potential energy of a test charge q based on the work done on it. This work is directly proportional to q because the force at any point is qE, where E is the electric field due to the given charge setup. Thus, it's useful to divide the work by the amount of charge q, making the resulting quantity independent of q. In essence, the work done per unit test charge characterizes the electric field linked to the charge arrangement. This concept leads us to the idea of electrostatic potential V resulting from a particular charge setup."
+    },
+    {
+      "name": "paragraph",
+      "body": "Work done by external force in bringing a unit positive charge from point R to P:"
+    },
+    {
+      "name": "expression",
+      "body": "$V_P - V_R = \\frac{U_P - U_R}{q}$"
+    },
+    {
+      "name": "paragraph",
+      "body": " where $V_P$ and $V_R$ are the electrostatic potentials at P and R, respectively."
+    },
+    {
+      "name": "paragraph",
+      "body": "The physically significant aspect is not the actual value of the potential but the potential difference. If we set the potential to be zero at infinity, the work done by an external force to bring a unit positive charge from infinity to a point equals the electrostatic potential (V) at that point. "
+    },
+    {
+      "name": "paragraph",
+      "body": "In simpler terms, the electrostatic potential (V) at any point in a region with an electrostatic field is the work done to bring a unit positive charge (without acceleration) from infinity to that point."
+    },
+    {
+      "name": "paragraph",
+      "body": "The SI Unit for Potential is Volt (Joule per couloumb). Also, "
+    },
+    {
+      "name": "bold",
+      "body": "The electric potential at any point in an electric field is defined as the potential energy per unit charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "As we know, The work done by the electrostatic force in displacing a test charge q0 from point A to point B in an electric field is defined as the negative change in potential energy between them."
+    },
+    {
+      "name": "expression",
+      "body": "$\\Delta U = - W_{a-b} \\\\$"
+    },
+    {
+      "name": "expression",
+      "body": "$ U_b - U_a = - W_{a-b} \\\\$"
+    },
+    {
+      "name": "expression",
+      "body": "$\\frac{U_b}{q_0} - \\frac{U_a}{q_0} = - \\frac{W_{a-b}}{q_0} \\\\$"
+    },
+    {
+      "name": "expression",
+      "body": "$ V_a - V_b = \\frac{W_{a-b}}{q_0} \\\\$"
+    },
+    {
+      "name": "expression",
+      "body": "$ V  = \\frac{U}{q_0} \\\\$"
+    },
+    {
+      "name": "paragraph",
+      "body": "The SI Unit of Potential is volt ( V ) which is equal to joule per coulomb."
+    },
+    {
+      "name": "paragraph",
+      "body": "Electric Potential due to a Point Charge"
+    },
+    {
+      "name": "paragraph",
+      "body": "Suppose we have to find potential due to a charge q at a distance of r where charge $q_0$ is situated."
+    },
+    {
+      "name": "paragraph",
+      "body": "From the definition of electric potential"
+    },
+    {
+      "name": "expression",
+      "body": "$V = \\frac{U}{q_0}$"
+    },
+    {
+      "name": "expression",
+      "body": "$V = \\frac{U}{q_0} = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q \\cdot q_0}{r \\cdot q_0}$"
+    },
+    {
+      "name": "expression",
+      "body": "$V = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q}{r}$"
+    },
+    {
+      "name": "paragraph",
+      "body": "Here r is the distance from the point charge q to the point at which potential is evaluated."
+    },
+    {
+      "name": "paragraph",
+      "body": "If q is positive, the potential it produces is positive at all points. If q is negative, it produces a potential that is negative everywhere. In either case, the potential V is equal to zero at r = ∞."
+    },
+    {
+      "name": "bold",
+      "body": "Definition of Electric Potential (V): The electric potential at a point in space due to a charge is defined as the work done in bringing a unit positive charge from infinity to that point against the electric field, per unit positive charge."
+    },
+    {
+      "name": "bold",
+      "body": "Work Done Formula: The work done (\\(W\\)) in bringing a unit positive charge from infinity to a point \\(P\\) at a distance \\(r\\) from a point charge \\(Q\\) is given by the formula:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[W = -\\int_{\\infty}^{r} \\frac{Q}{4\\pi \\epsilon_0 r'^2} dr'\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Where \\(r'\\) is the distance variable, \\(Q\\) is the charge, \\(\\epsilon_0\\) is the permittivity of free space and the negative sign accounts for the fact that work is done against the repulsive force."
+    },
+    {
+      "name": "paragraph",
+      "body": "Integrating this expression from infinity to \\(r\\) gives the total work done \\(W\\) by the external force, which represents the potential (\\(V\\)) at point \\(P\\) due to the charge \\(Q\\):"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V(r) = -\\int_{\\infty}^{r} \\frac{Q}{4\\pi \\epsilon_0 r'^2} dr'\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Upon integration, we get:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V(r) = -\\left[-\\frac{Q}{4\\pi \\epsilon_0 r'}\\right]_{\\infty}^{r}\\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V(r) = \\left(\\frac{Q}{4\\pi \\epsilon_0 r}\\right) - \\left(\\frac{Q}{4\\pi \\epsilon_0 \\infty}\\right)\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Final Result: Since \\( \\lim_{r' \\to \\infty} \\frac{1}{r'} = 0 \\), the second term in the above expression becomes zero, yielding:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V(r) = \\frac{Q}{4\\pi \\epsilon_0 r}\\]"
+    },
+    {
+      "name": "subheading",
+      "body": "Electric Potential due an Electric Dipole"
+    },
+    {
+      "name": "paragraph",
+      "body": "In the previous chapter, we learned about electric dipoles, which consist of two charges, one positive (q) and one negative (–q), separated by a small distance 2a. The total charge of the dipole is zero. It's characterized by a dipole moment vector p, with a magnitude of q × 2a, pointing from the negative charge to the positive charge. We also discovered that the electric field of a dipole at a point depends not only on the distance r but also on the angle between r and p. Additionally, unlike the field due to a single charge, the field of a dipole falls off as 1/r^3 at large distances. Now, we will determine the electric potential due to a dipole and compare it with the potential due to a single charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "As before, we take the origin at the center of the dipole. Now we know that the electric field obeys the superposition principle. Since the electric potential is related to the work done by the field, the electrostatic potential also follows the superposition principle. Thus, the potential due to the dipole is the sum of potentials due to the charges q and –q: "
+    },
+    {
+      "name": "paragraph",
+      "body": "The Electric Potential of a dipole is then given by:"
+    },
+    {
+      "name": "paragraph",
+      "body": "Potential at $P$ due to $+q$: "
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V_+ = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r_2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Potential at $P$ due to $-q$: "
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V_- = \\frac{1}{4\\pi\\epsilon_0} \\frac{-q}{r_1} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Net potential at $P$ due to the dipole:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = V_+ + V_- = \\frac{q}{4\\pi\\epsilon_0} \\left( \\frac{1}{r_2} - \\frac{1}{r_1} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Substitute $r_1$ and $r_2$:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r_1 = AP = CP = OP + OC = r + a\\cos\\theta \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r_2 = BP = DP = OP - OD = r - a\\cos\\theta \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Substitute the expressions for $r_1$ and $r_2$ into $V$:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{q}{4\\pi\\epsilon_0} \\left( \\frac{1}{r - a\\cos\\theta} - \\frac{1}{r + a\\cos\\theta} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Taking the common denominator:"
+    },
+    {
+      "name": "expression",
+      "body": " \\[ V = \\frac{q}{4\\pi\\epsilon_0} \\left( \\frac{(r + a\\cos\\theta) - (r - a\\cos\\theta)}{(r - a\\cos\\theta)(r + a\\cos\\theta)} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Simplify:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{q}{4\\pi\\epsilon_0} \\left( \\frac{2a\\cos\\theta}{r^2 - a^2\\cos^2\\theta} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Substitute $p = 2aq$:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{p\\cos\\theta}{r^2} - \\frac{a^2\\cos^2\\theta}{r^3} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Derivation of Electric Potential due to an Electric Dipole}"
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider an electric dipole consisting of charges $q$ and $-q$ separated by a distance $2a$. The dipole moment $\\mathbf{p}$ is defined as $\\mathbf{p} = q \\times 2a$. The electric potential due to this dipole is given by:"
+    },
+    {
+      "name": "bold",
+      "body": "Potential due to an electric dipole:"
+    },
+    {
+      "name": "expression",
+      "body": " \\[ V = -\\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{r_1} - \\frac{q}{r_2} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $r_1$ and $r_2$ are the distances of the point $P$ from $q$ and $-q$, respectively."
+    },
+    {
+      "name": "paragraph",
+      "body": "By geometry, we find expressions for $r_1^2$ and $r_2^2$:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r_1^2 = r^2 + a^2 - 2ar\\cos\\theta \\]"
+    },
+    {
+      "name": "expression",
+      "body": " \\[ r_2^2 = r^2 + a^2 + 2ar\\cos\\theta \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "For $r \\gg a$, we simplify the expressions:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r + a\\cos\\theta \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r - a\\cos\\theta \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{q}{4\\pi\\epsilon_0} \\left( \\frac{2a\\cos\\theta}{r^2} -\\frac{a^2\\cos^2\\theta}{r^2}\\right) \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{p\\cos\\theta}{r^2} - \\frac{a^2\\cos^2\\theta}{r^3}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Substituting into the potential expression and using $p = 2qa$, we obtain:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\frac{1}{4\\pi\\epsilon_0} \\frac{2q \\cdot a}{r^3} \\cos\\theta = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\mathbf{p} \\cdot \\mathbf{r}}{r^3} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "On the dipole axis ($\\theta = 0, \\pi$), potential is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = \\pm \\frac{1}{4\\pi\\epsilon_0} \\frac{p}{r^2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "In the equatorial plane ($\\theta = \\pi/2$), potential is zero."
+    },
+    {
+      "name": "paragraph",
+      "body": "Approximately true only for distances that are greater than the size of the dipole. Points to consider in mind : "
+    },
+    {
+      "name": "paragraph",
+      "body": "1) The potential due to a dipole depends not just on r but also on the angle between the position vector r and the dipole moment vector p. (It is, however, axially symmetric about p. That is, if you rotate the position vector r  about  p, keeping q fixed, the points corresponding to P on the cone so generated will have the same potential as at P.)"
+    },
+    {
+      "name": "paragraph",
+      "body": "2) The electric dipole potential falls off, at a large distance, as 1/r2, not as 1/r, characteristic of the potential due to a single charge."
+    },
+    {
+      "name": "subheading",
+      "body": "Electric Potential due to a System of Charges"
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's consider a system of charges $q_1$, $q_2$, ..., $q_n$ with position vectors $r_1$, $r_2$, ..., $r_n$ relative to some origin. According to the superposition principle, the potential V at point P due to the total charge configuration is the algebraic sum of the potentials due to the individual charges."
+    },
+    {
+      "name": "expression",
+      "body": "$V = V_1 + V_2 + V_3 + V_4 + …….. + V_n$"
+    },
+    {
+      "name": "expression",
+      "body": "$U = k \\left( \\frac{q_1}{|\\mathbf{r}_1 - \\mathbf{r}_p|} + \\frac{q_2}{|\\mathbf{r}_2 - \\mathbf{r}_p|} + \\frac{q_3}{|\\mathbf{r _3 - \\mathbf{r}_p|} + \\frac{q_4}{|\\mathbf{r}_4 - \\mathbf{r}_p|} + \\frac{q_5}{|\\mathbf{r}_5 - \\mathbf{r}_p|}  \\right)$"
+    },
+    {
+      "name": "paragraph",
+      "body": "If we have a continuous charge distribution characterized by a charge density ρ(r), we divide it into small volume elements, each of size v, carrying a charge v. Then, we determine the potential due to each volume element and sum (or integrate) over all such contributions to determine the potential due to the entire distribution."
+    }
+  ]
+}

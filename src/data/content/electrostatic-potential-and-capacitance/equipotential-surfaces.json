@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Equipotential surfaces"
+    },
+    {
+      "name": "paragraph",
+      "body": "An equipotential surface is a surface with a constant value of potential at all points on the surface. For a single charge q, the potential is given by :"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{q}{r}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This shows that \\(V\\) is constant if \\(r\\) is constant. Thus, equipotential surfaces of a single point charge are concentric spherical surfaces centered at the charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, the electric field lines for a single charge q are radial lines starting from or ending at the charge, depending on whether q is positive or negative. Clearly, the electric field at every point is normal to the equipotential surface passing through that point. This is true in general: for any charge configuration, an equipotential surface through a point is normal to the electric field at that point. The proof of this statement is simple."
+    },
+    {
+      "name": "paragraph",
+      "body": "If the field were not normal to the equipotential surface, it would have a non-zero component along the surface. To move a unit test charge against the direction of the component of the field, work would have to be done. But this is in contradiction to the definition of an equipotential surface: there is no potential difference between any two points on the surface, and no work is required to move a test charge on the surface. The electric field must, therefore, be normal to the equipotential surface at every point. Equipotential surfaces offer an alternative visual picture in addition to the picture of electric field lines around a charge configuration."
+    }
+  ]
+}

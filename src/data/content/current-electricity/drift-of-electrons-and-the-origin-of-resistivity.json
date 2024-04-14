@@ -5,6 +5,11 @@
       "body": "Drift of Electrons and the Origin of Resistivity"
     },
     {
+      "name": "image",
+      "alt": "image14",
+      "body": "../../../../public/assets/current-electricity/image14.png"
+    },
+    {
       "name": "paragraph",
       "body": "As previously mentioned, electrons undergo collisions with heavy fixed ions, emerging with the same speed but in random directions. Considering all electrons, their average velocity is zero since their directions are random. Thus, for $N$ electrons at a given time, denoting the velocity of the $i$-th electron as $v_i$ ($i = 1, 2, 3, \\ldots, N$), we have:"
     },
@@ -67,6 +72,11 @@
     {
       "name": "expression",
       "body": "\\[ \\sigma = \\frac{ne^2\\tau}{m} \\]"
+    },
+    {
+      "name": "image",
+      "alt": "image21",
+      "body": "../../../../public/assets/current-electricity/image21.png"
     },
     {
       "name": "paragraph",

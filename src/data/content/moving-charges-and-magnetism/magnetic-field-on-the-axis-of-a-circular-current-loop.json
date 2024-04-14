@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "MAGNETIC FIELD ON THE AXIS OF A CIRCULAR CURRENT LOOP"
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image37.png",
+      "alt": "image37"
+    },
+    {
+      "name": "paragraph",
+      "body": "In this section, we shall evaluate the magnetic field due to a circular coil along its axis. The evaluation entails summing up the effect of infinitesimal current elements (\\( I \\, d\\ell \\)) mentioned in the previous section. We assume that the current \\( I \\) is steady and that the evaluation is carried out in free space (i.e., vacuum)."
+    },
+    {
+      "name": "paragraph",
+      "body": "The figure depicts a circular loop carrying a steady current \\( I \\). The loop is placed in the \\( y-z \\) plane with its centre at the origin \\( O \\) and has a radius \\( R \\). The \\( x \\)-axis is the axis of the loop. We wish to calculate the magnetic field at the point \\( P \\) on this axis. Let \\( x \\) be the distance of \\( P \\) from the centre \\( O \\) of the loop."
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider a conducting element \\( d\\ell \\) of the loop. The magnitude \\( dB \\) of the magnetic field due to \\( d\\ell \\) is given by the Biot-Savart law:"
+    },
+    {
+      "name": "expression",
+      "body": " \\[ dB = \\frac{\\mu_0 I \\, d\\ell}{4\\pi r^3} \\times r \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Now \\( r^2 = x^2 + R^2 \\). Further, any element of the loop will be perpendicular to the displacement vector from the element to the axial point. For example, the element \\( d\\ell \\) in the figure is in the \\( y-z \\) plane, whereas, the displacement vector \\( r \\) from \\( d\\ell \\) to the axial point \\( P \\) is in the \\( x-y \\) plane. Hence \\( |d\\ell \\times r| = r \\, d\\ell \\). Thus,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ dB = \\frac{\\mu_0 I \\, d\\ell}{4\\pi} \\frac{x^2 + R^2}{(x^2 + R^2)^{3/2}} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The direction of \\( dB \\) is shown in the figure. It is perpendicular to the plane formed by \\( d\\ell \\) and \\( r \\). It has an \\( x \\)-component \\( dB_x \\) and a component perpendicular to the \\( x \\)-axis, \\( dB \\). When the components perpendicular to the \\( x \\)-axis are summed over, they cancel out and we obtain a null result. For example, the \\( dB \\) component due to \\( d\\ell \\) is cancelled by the contribution due to the diametrically opposite \\( d\\ell \\) element, shown in the figure. Thus, only the \\( x \\)-component survives. The net contribution along the \\( x \\)-direction can be obtained by integrating \\( dB_x = dB \\cos \\theta \\) over the loop."
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\cos \\theta = + \\frac{R}{(x^2 + R^2)^{1/2}} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Hence, Putting this value of\\cos \\theta, we get"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ dB_{x} = \\frac{x \\mu_0 I \\, dl}{4\\pi R} \\frac{1}{(x^2 + R^2)^{3/2}} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The summation of elements \\( dl \\) over the loop yields \\( 2R \\), the circumference of the loop. Thus, the magnetic field at \\( P \\) due to the entire circular loop is"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{B} = B \\hat{\\mathbf{i}} = \\frac{\\mu_0 IR^2}{2} \\frac{x}{(x^2 + R^2)^{3/2}} \\hat{\\mathbf{i}} = \\frac{\\mu_0 IR^2}{2} \\frac{x}{(x^2 + R^2)^{3/2}} \\hat{\\mathbf{i}} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "As a special case of the above result, we may obtain the field at the centre of the loop. Here \\( x = 0 \\), and we obtain,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ B = \\frac{\\mu_0 I R^2}{2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The magnetic field lines due to a circular wire form closed loops and are shown below. The direction of the magnetic field is given by another right-hand thumb rule stated below:"
+    },
+    {
+      "name": "paragraph",
+      "body": "Curl the palm of your right hand around the circular wire with the fingers pointing in the direction of the current. The right-hand thumb gives the direction of the magnetic field."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image40.png",
+      "alt": "image40"
+    }
+  ]
+}

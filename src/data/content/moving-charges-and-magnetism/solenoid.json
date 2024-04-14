@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "The Solenoid"
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's delve into the concept of a long solenoid, which is essentially a wire wound into a helix with closely spaced circular loops. Each loop contributes to the net magnetic field, and the wires are insulated from each other with enamel coating."
+    },
+    {
+      "name": "paragraph",
+      "body": "In a finite solenoid, the magnetic field lines form circular loops. Inside the solenoid, at the midpoint, the field is strong, uniform, and aligned with the axis. However, outside the solenoid, the field weakens and aligns with the axis, gradually approaching zero as we move away."
+    },
+    {
+      "name": "paragraph",
+      "body": "As the solenoid length increases, it resembles a long cylindrical metal sheet, and the magnetic field outside diminishes to zero. We assume no field outside the solenoid, and inside, the field runs parallel to the axis."
+    },
+    {
+      "name": "paragraph",
+      "body": "To understand the magnetic field within the solenoid, we consider a rectangular Amperian loop. Along its length, the field is zero, and the transverse sections contribute nothing. The field along the loop's length is denoted as \\( B \\), and the relevant length of the loop is \\( L = h \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "If \\( n \\) is the number of turns per unit length, the total number of turns is \\( nh \\). The enclosed current is \\( I_e = I (n h) \\), where \\( I \\) is the current in the solenoid. Using Ampere's circuital law, we find:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ B = \\mu_0 n I \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The direction of the field follows the right-hand rule. Solenoids are frequently used to generate uniform magnetic fields. Inserting a soft iron core can further amplify the magnetic field strength, as we'll explore in the next chapter."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image4.png",
+      "alt": "image4"
+    }
+  ]
+}

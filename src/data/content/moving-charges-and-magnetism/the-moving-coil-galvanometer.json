@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "The Moving Coil Galvanometer"
+    },
+    {
+      "name": "paragraph",
+      "body": "The moving coil galvanometer (MCG) is a crucial instrument for measuring currents and voltages in circuits. Its principle is based on the interaction between a coil and a magnetic field."
+    },
+    {
+      "name": "bold",
+      "body": "Principle"
+    },
+    {
+      "name": "paragraph",
+      "body": "The galvanometer consists of a coil, with many turns, free to rotate about a fixed axis in a uniform radial magnetic field. A cylindrical soft iron core enhances the strength of the magnetic field. When a current \\( I \\) flows through the coil, a torque \\( \\tau \\) acts on it, given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\tau = NIAB \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( N \\) is the number of turns, \\( A \\) is the area of the coil, and \\( B \\) is the magnetic field strength."
+    },
+    {
+      "name": "paragraph",
+      "body": "The torque tends to rotate the coil, opposed by a counter torque provided by a spring. In equilibrium, the torque due to the magnetic field equals the restoring torque from the spring:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ k\\phi = NIAB \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( k \\) is the torsional constant of the spring."
+    },
+    {
+      "name": "bold",
+      "body": "Usage as a Detector"
+    },
+    {
+      "name": "paragraph",
+      "body": "The galvanometer can serve as a detector to check if a current is flowing in the circuit. Its pointer deflects based on the direction of the current."
+    },
+    {
+      "name": "bold",
+      "body": "Usage as an Ammeter"
+    },
+    {
+      "name": "paragraph",
+      "body": "To measure current, the galvanometer must be connected in series with a shunt resistance \\( r_s \\) to divert most of the current away from the coil. The resistance of this arrangement is approximately \\( r_s \\) if the resistance of the galvanometer (\\( R_G \\)) is much larger than \\( r_s \\)."
+    },
+    {
+      "name": "bold",
+      "body": "Current Sensitivity"
+    },
+    {
+      "name": "paragraph",
+      "body": "The current sensitivity of the galvanometer, defined as the deflection per unit current, is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{\\phi}{I} = \\frac{NAB}{k} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Usage as a Voltmeter"
+    },
+    {
+      "name": "paragraph",
+      "body": "To measure voltage, the galvanometer must be connected in parallel with the circuit and draw a very small current. A large resistance \\( R \\) is connected in series to limit the current drawn by the galvanometer."
+    },
+    {
+      "name": "Voltage Sensitivity",
+      "body": "The voltage sensitivity, defined as the deflection per unit voltage, is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{\\phi}{V} = \\frac{NAB}{k} \\cdot \\frac{1}{R} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Increasing the number of turns in the coil increases the current sensitivity but may not necessarily increase the voltage sensitivity, as it depends on the resistance of the galvanometer."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image25.jpg",
+      "alt": "image25"
+    }
+  ]
+}

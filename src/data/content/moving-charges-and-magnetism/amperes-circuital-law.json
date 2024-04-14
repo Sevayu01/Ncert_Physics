@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Ampere's Circuital Law"
+    },
+    {
+      "name": "paragraph",
+      "body": "There is an alternative and appealing way in which the Biot-Savart law may be expressed. Ampere's circuital law considers an open surface with a boundary. The surface has current passing through it. We consider the boundary to be made up of a number of small line elements. Consider one such element of length \\( dl \\). We take the value of the tangential component of the magnetic field, \\( B_t \\), at this element and multiply it by the length of that element \\( dl \\) [Note: \\( B_t \\, dl = B \\cdot dl \\)]. All such products are added together. We consider the limit as the lengths of elements get smaller and their number gets larger. The sum then tends to an integral. "
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image6.png",
+      "alt": "image6"
+    },
+    {
+      "name": "paragraph",
+      "body": "Ampere's law states that this integral is equal to \\( \\mu_0 \\) times the total current passing through the surface, i.e.,"
+    },
+    {
+      "name": "expression",
+      "body": " \\( \\oint \\mathbf{B} \\cdot d\\ell = \\mu_0 I \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( I \\) is the total current through the surface. The integral is taken over the closed loop coinciding with the boundary \\( C \\) of the surface. The relation above involves a sign-convention, given by the right-hand rule. Let the fingers of the right-hand be curled in the sense the boundary is traversed in the loop integral \\( \\oint \\mathbf{B} \\cdot d\\ell \\). Then the direction of the thumb gives the sense in which the current \\( I \\) is regarded as positive."
+    },
+    {
+      "name": "paragraph",
+      "body": "For several applications, a much simplified version of the above equation proves sufficient. We shall assume that, in such cases, it is possible to choose the loop (called an Amperian loop) such that at each point of the loop, either"
+    },
+    {
+      "name": "paragraph",
+      "body": "(i) \\( \\mathbf{B} \\) is tangential to the loop and is a non-zero constant \\( B \\), or"
+    },
+    {
+      "name": "paragraph",
+      "body": "(ii) \\( \\mathbf{B} \\) is normal to the loop, or"
+    },
+    {
+      "name": "paragraph",
+      "body": "(iii) \\( \\mathbf{B} \\) vanishes."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, let \\( L \\) be the length (part) of the loop for which \\( \\mathbf{B} \\) is tangential. Let \\( I_e \\) be the current enclosed by the loop. Then, the above equation reduces to"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ BL = \\mu_0 I_e \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "When there is a system with a symmetry such as for a straight infinite current-carrying wire, Ampere's law enables an easy evaluation of the magnetic field, much the same way Gauss' law helps in determination of the electric field. The boundary of the loop chosen is a circle and magnetic field is tangential to the circumference of the circle. The law gives, for the left-hand side of \\( \\oint \\mathbf{B} \\cdot d\\ell = B \\cdot 2\\pi r \\). We find that the magnetic field at a distance \\( r \\) outside the wire is tangential and given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{B} \\times 2r = \\mu_0 I \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{B} = \\frac{\\mu_0 I}{2r} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The above result for the infinite wire is interesting from several points of view:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(i) It implies that the field at every point on a circle of radius \\( r \\) (with the wire along the axis) is the same in magnitude. In other words, the magnetic field possesses what is called cylindrical symmetry. The field that normally can depend on three coordinates depends only on one: \\( r \\). Whenever there is symmetry, the solutions simplify."
+    },
+    {
+      "name": "paragraph",
+      "body": "(ii) The field direction at any point on this circle is tangential to it. Thus, the lines of constant magnitude of the magnetic field form concentric circles."
+    },
+    {
+      "name": "paragraph",
+      "body": "(iii) Another interesting point to note is that even though the wire is infinite, the field due to it at a non-zero distance is not infinite. It tends to blow up only when we come very close to the wire. The field is directly proportional to the current and inversely proportional to the distance from the (infinitely long) current source."
+    },
+    {
+      "name": "paragraph",
+      "body": "(iv) There exists a simple rule to determine the direction of the magnetic field due to a long wire. This rule, called the right-hand rule*, is: Grasp the wire in your right hand with your extended thumb pointing in the direction of the current. Your fingers will curl around in the direction of the magnetic field."
+    },
+    {
+      "name": "paragraph",
+      "body": "Ampere's circuital law is not new in content from the Biot-Savart law. Both relate the magnetic field and the current, and both express the same physical consequences of a steady electrical current. Ampere's law is to the Biot-Savart law what Gauss's law is to Coulomb's law. Both Ampere's and Gauss's laws relate a physical quantity on the periphery or boundary (magnetic or electric field) to another physical quantity, namely, the source, in the interior (current or charge). We also note that Ampere's circuital law holds for steady currents which do not fluctuate with time. The following example will help us understand what is meant by the term enclosed current."
+    },
+    {
+      "name": "paragraph",
+      "body": "It should be noted that while Ampere's circuital law holds for any loop, it may not always facilitate an evaluation of the magnetic field in every case."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Motion in a magnetic field"
+    },
+    {
+      "name": "paragraph",
+      "body": "We will now consider, in greater detail, the motion of a charge moving in a magnetic field. We have learned in Mechanics that a force on a particle does work if the force has a component along (or opposed to) the direction of motion of the particle. In the case of motion of a charge in a magnetic field, the magnetic force is perpendicular to the velocity of the particle. So no work is done and no change in the magnitude of the velocity is produced (though the direction of momentum may be changed). [Notice that this is unlike the force due to an electric field, ( $\\qmathbf{E}$ ), which can have a component parallel (or antiparallel) to motion and thus can transfer energy in addition to momentum."
+    },
+    {
+      "name": "paragraph",
+      "body": "We shall consider the motion of a charged particle in a uniform magnetic field. First, consider the case of $\\mathbf{v}$ perpendicular to $\\mathbf{B}$. The perpendicular force, ($ q\\mathbf{v} \\times \\mathbf{B}$), acts as a centripetal force and produces circular motion perpendicular to the magnetic field. The particle will describe a circle if $\\mathbf{v}$ and $\\mathbf{B}$ are perpendicular to each other."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image11.png",
+      "alt": "image11"
+    },
+    {
+      "name": "paragraph",
+      "body": "If the velocity has a component along $\\mathbf{B}$, this component remains unchanged as the motion along the magnetic field will not be affected by the magnetic field. The motion in a plane perpendicular to $\\mathbf{B}$ is as before a circular one, thereby producing a helical motion."
+    },
+    {
+      "name": "paragraph",
+      "body": "You have already learned in earlier classes that if ($ r $) is the radius of the circular path of a particle, then a force of $\\frac{mv^2}{r}$ acts perpendicular to the path towards the center of the circle, and is called the centripetal force. If the velocity ( $v $) is perpendicular to the magnetic field $\\mathbf{B}$, the magnetic force is perpendicular to both $\\mathbf{v}$ and $\\mathbf{B}$ and acts like a centripetal force. It has a magnitude ($ qvB $). Equating the two expressions for centripetal force,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{mv^2}{r} = qvB \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "which gives"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ r = \\frac{mv}{qB} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "for the radius of the circle described by the charged particle. The larger the momentum, the larger is the radius and bigger the circle described. If \\( \\omega \\) is the angular frequency, then \\( v = r\\omega \\). So,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\omega = \\frac{v}{r} = \\frac{qB}{m} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "which is independent of the velocity or energy. Here \\( \\omega \\) is the frequency of rotation. The independence of \\( \\omega \\) from energy has important applications in the design of a cyclotron."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image3.png",
+      "alt": "image3"
+    },
+    {
+      "name": "paragraph",
+      "body": "The time taken for one revolution is \\( T = \\frac{2\\pi}{\\omega} \\). If there is a component of the velocity parallel to the magnetic field (denoted by \\( v_{||} \\)), it will make the particle move along the field and the path of the particle would be a helical oneThe distance moved along the magnetic field in one rotation is called the pitch \\( p \\). As we have from previous discussions"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ p = v_{||} T = \\frac{2\\pi m v_{||}}{qB} \\]"
+    }, 
+    {
+      "name": "paragraph",
+      "body": "The radius of the circular component of motion is called the radius of the helix."
+    }
+  ]
+}

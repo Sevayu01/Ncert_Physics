@@ -23,6 +23,24 @@
     {
       "name": "paragraph",
       "body": "Materials and devices that do not adhere to Ohm's law in the form of Eq. (3.3) are extensively used in electronic circuits. However, in this and several subsequent chapters, we will focus on studying electrical currents in materials that obey Ohm's law."
+    },
+    {
+      "name": "image",
+      "alt": "image29",
+      "body": "../../../../public/assets/current-electricity/image29.png"
+    },
+    {
+      "name": "description",
+      "body": "Characteristic curve of a diode. Note the different scales for negative and positive values of the voltage and current."
+    },
+    {
+      "name": "image",
+      "alt": "image5",
+      "body": "../../../../public/assets/current-electricity/image5.png"
+    },
+    {
+      "name": "description",
+      "body": "Variation of current versus voltage for GaAs."
     }
   ]
 }

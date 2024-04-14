@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "statement": "The region around a current-carrying conductor where its magnetic effect can be felt is called the:",
+      "options": [
+        "Electric field",
+        "Magnetic field",
+        "Electrostatic field",
+        "None of these"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "The force experienced by a moving charged particle in a uniform magnetic field depends on:",
+      "options": [
+        "Magnitude of the charge",
+        "Direction of the magnetic field",
+        "Velocity of the particle relative to the field",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The direction of the magnetic force acting on a charged particle moving in a uniform magnetic field is given by:",
+      "options": [
+        "Right-hand rule",
+        "Fleming's left-hand rule",
+        "Left-hand rule",
+        "None of these"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "A current-carrying straight conductor placed in a uniform magnetic field experiences a force if the:",
+      "options": [
+        "Current is zero",
+        "Magnetic field is zero",
+        "Current and magnetic field are parallel",
+        "Current and magnetic field are perpendicular"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The magnetic moment of a current loop is:",
+      "options": [
+        "Directly proportional to the area of the loop",
+        "Directly proportional to the current flowing through the loop",
+        "Product of the area of the loop and the current flowing through it",
+        "None of these"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "The device that utilizes the principle of a moving charged particle in a magnetic field to accelerate charged particles is called a:",
+      "options": ["Cyclotron", "Transformer", "Motor", "Generator"],
+      "answer": 0
+    },
+    {
+      "statement": "The emf induced in a coil due to a change in magnetic field linked with it is given by:",
+      "options": [
+        "Lenz's Law",
+        "Gauss's Law for magnetism",
+        "Faraday's Law of electromagnetic induction",
+        "Ampere's Law"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "A moving coil galvanometer works on the principle of:",
+      "options": [
+        "Electromagnetic induction",
+        "Magnetic moment",
+        "Lorentz force",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The self-inductance of a coil depends on:",
+      "options": [
+        "Number of turns in the coil",
+        "Material of the core",
+        "Current flowing through the coil",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The mutual inductance between two coils depends on:",
+      "options": [
+        "Relative orientation of the coils",
+        "Distance between the coils",
+        "Material of the cores",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "Diamagnetic materials have a:",
+      "options": [
+        "Positive magnetic susceptibility",
+        "Negative magnetic susceptibility",
+        "Zero magnetic susceptibility",
+        "Very high magnetic susceptibility"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "The magnetic field inside a solenoid is:",
+      "options": [
+        "Non-uniform and weak",
+        "Uniform and weak",
+        "Non-uniform and strong",
+        "Uniform and strong"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "Right-hand rule is used to determine the direction of the magnetic field produced by a:",
+      "options": [
+        "Moving point charge",
+        "Straight current-carrying conductor",
+        "Current loop",
+        "All of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "A transformer works on the principle of:",
+      "options": [
+        "Electromagnetic induction",
+        "Self-inductance",
+        "Mutual inductance",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The electric motor converts:",
+      "options": [
+        "Electrical energy into mechanical energy",
+        "Mechanical energy into electrical energy",
+        "Chemical energy into electrical energy",
+        "Light energy into electrical energy"
+      ],
+      "answer": 0
+    }
+  ]
+}

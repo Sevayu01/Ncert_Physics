@@ -1,10 +1,6 @@
 {
   "data": [
     {
-      "name": "Electrostatics",
-      "link": "electrostatics"
-    },
-    {
       "name": "Electrostatic potential and capacitance",
       "link": "electrostatic-potential-and-capacitance"
     },

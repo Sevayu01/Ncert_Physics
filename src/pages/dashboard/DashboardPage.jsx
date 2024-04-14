@@ -6,7 +6,15 @@ import { useState } from "react";
 const DashboardPage = () => {
   const { data } = module;
   const [modules] = useState(data);
-  const progress = 66;
+  const [progress] = useState(20);
+  const progressBarStyle = {
+    position: "absolute",
+    top: 0,
+    bottom: 0,
+    left: 0,
+    width: `${progress}%`,
+    backgroundColor: "#92ED4B",
+  };
 
   return (
     <>
@@ -20,7 +28,7 @@ const DashboardPage = () => {
           Progress: <span className="font-bold">{progress}%</span>
         </p>
         <div className="w-full h-6 mt-3 mb-16 rounded-xl relative bg-[#D9D9D9] overflow-hidden">
-          <div className={`absolute top-0 bottom-0 left-0 right-[${100-progress}%] bg-[#92ED4B]`}></div>
+          <div style={progressBarStyle}></div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10">
           {modules.map((module, idx) => (

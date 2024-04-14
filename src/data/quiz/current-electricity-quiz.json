@@ -1,0 +1,134 @@
+{
+  "data": [
+    {
+      "statement": "Ohm's law states that the current flowing through a conductor is directly proportional to:",
+      "options": [
+        "Voltage across the conductor",
+        "Resistance of the conductor",
+        "Length of the conductor",
+        "Material of the conductor"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "The unit of electrical resistance is:",
+      "options": ["Ampere (A)", "Volt (V)", "Ohm (Ω)", "Coulomb (C)"],
+      "answer": 2
+    },
+    {
+      "statement": "In a series circuit, the total current flowing through the circuit is:",
+      "options": [
+        "Equal to the sum of currents in each branch",
+        "Equal to the current in any one branch",
+        "Depends on the resistances",
+        "Varies with the applied voltage"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "In a parallel circuit, the potential difference across each branch is:",
+      "options": [
+        "Equal to the potential difference across the entire circuit",
+        "Varies with the resistances",
+        "Depends on the total current",
+        "Equal to zero"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "Kirchhoff's Current Law (KCL) states that the algebraic sum of currents at a junction in a circuit is:",
+      "options": [
+        "Equal to the emf of the source",
+        "Always positive",
+        "Zero",
+        "Depends on the resistances"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "The emf of a cell is responsible for:",
+      "options": [
+        "Creating a potential difference",
+        "Causing current flow",
+        "Both A and B",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "Factors affecting the internal resistance of a cell include:",
+      "options": [
+        "Electrolyte concentration",
+        "Electrode size",
+        "Distance between electrodes",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "When a current flows through a conductor, heat is produced due to:",
+      "options": [
+        "Collisions between electrons and atoms",
+        "Loss of energy",
+        "Work done by the battery",
+        "Ohm's law"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "The power dissipated in a resistor is given by:",
+      "options": ["IR", "V^2/R", "I/V", "VR"],
+      "answer": 1
+    },
+    {
+      "statement": "Superconductors exhibit:",
+      "options": [
+        "Zero electrical resistance below a critical temperature",
+        "High resistance at all temperatures",
+        "Very high conductivity",
+        "Varying resistance depending on current"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "Which of the following is NOT a safety precaution when working with electrical circuits?",
+      "options": [
+        "Always use a properly grounded outlet",
+        "Never overload a circuit",
+        "Work with wet hands",
+        "Use appropriate fuses or circuit breakers"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "What is the main difference between a series circuit and a parallel circuit?",
+      "options": [
+        "Current is the same throughout in series, voltage is the same in parallel",
+        "Voltage is the same throughout in series, current is the same in parallel",
+        "Resistance is additive in series, independent in parallel",
+        "All of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "What instrument is used to measure current in a circuit?",
+      "options": ["Ammeter", "Voltmeter", "Ohmmeter", "Multimeter"],
+      "answer": 0
+    },
+    {
+      "statement": "What is the unit of electromotive force (emf)?",
+      "options": ["Ampere (A)", "Volt (V)", "Ohm (Ω)", "Coulomb (C)"],
+      "answer": 1
+    },
+    {
+      "statement": "What is the difference between potential difference (voltage) and electromotive force (emf)?",
+      "options": [
+        "Voltage is the work done per unit charge, emf is the total energy source",
+        "Voltage is measured across a component, emf is measured across the entire circuit",
+        "Both A and B",
+        "There is no difference"
+      ],
+      "answer": 1
+    }
+  ]
+}

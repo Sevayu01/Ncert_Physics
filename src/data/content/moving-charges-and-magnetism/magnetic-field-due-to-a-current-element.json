@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "MAGNETIC FIELD DUE TO A CURRENT ELEMENT"
+    },
+    {
+      "name": "paragraph",
+      "body": "All magnetic fields that we know are due to currents (or moving charges) and due to intrinsic magnetic moments of particles. Here, we shall study the relation between current and the magnetic field it produces. It is given by the Biot-Savart's law. The below figure shows a finite conductor XY carrying current \\( I \\). Consider an infinitesimal element \\( d\\mathbf{l} \\) of the conductor. The magnetic field \\( d\\mathbf{B} \\) due to this element is to be determined at a point \\( P \\) which is at a distance \\( r \\) from it. Let \\( \\theta \\) be the angle between \\( d\\mathbf{l} \\) and the displacement vector \\( \\mathbf{r} \\). According to Biot-Savart's law, the magnitude of the magnetic field \\( d\\mathbf{B} \\) is proportional to the current \\( I \\), the element length \\( |d\\mathbf{l}| \\), and inversely proportional to the square of the distance \\( r \\). Its direction* is perpendicular to the plane containing \\( d\\mathbf{l} \\) and \\( \\mathbf{r} \\). Thus, in vector notation,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ d\\mathbf{B} \\propto \\frac{I \\, d\\mathbf{l} \times \\mathbf{r}}{4\\pi r^3} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\( \\frac{\\mu_0}{4\\pi} \\) is a constant of proportionality. The above expression holds when the medium is vacuum."
+    },
+    {
+      "name": "image",
+      "body": "../../../../public/assets/moving-charges-and-magnetism/image23.png",
+      "alt": "image23"
+    },
+    {
+      "name": "paragraph",
+      "body": "The magnitude of this field is,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ |d\\mathbf{B}| = \\frac{d \\sin \\theta \\, \\mu_0 I}{4\\pi r^2} = \\frac{\\mu_0 I \\sin \\theta}{4\\pi r^2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where we have used the property of the cross-product. The above equation constitutes our basic equation for the magnetic field. The proportionality constant in SI units has the exact value,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{\\mu_0}{4\\pi} = 7 \\times 10^{-7} \\, \\text{Tm/A} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "We call \\( \\mu_0 \\) the permeability of free space (or vacuum). The Biot-Savart law for the magnetic field has certain similarities, as well as differences with the Coulomb's law for the electrostatic field. Some of these are:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(1) Both are long range, since both depend inversely on the square of the distance from the source to the point of interest. The principle of superposition applies to both fields. [In this connection, note that the magnetic field is linear in the source \\( I \\, d\\ell \\) just as the electrostatic field is linear in its source: the electric charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "(2) The electrostatic field is produced by a scalar source, namely, the electric charge. The magnetic field is produced by a vector source \\( I \\, d\\ell \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "(3) The electrostatic field is along the displacement vector joining the source and the field point. The magnetic field is perpendicular to the plane containing the displacement vector \\( \\mathbf{r} \\) and the current element \\( I \\, d\\ell \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "(4) There is an angle dependence in the Biot-Savart law which is not present in the electrostatic case. In the figure above, the magnetic field at any point in the direction of \\( d\\ell \\) (the dashed line) is zero. Along this line, \\( \\theta = 0 \\), \\( \\sin \\theta = 0 \\), and \\( |d\\mathbf{B}| = 0 \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "There is an interesting relation between \\( \\varepsilon_0 \\), the permittivity of free space; \\( \\mu_0 \\), the permeability of free space; and \\( c \\), the speed of light in vacuum:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\varepsilon_0 \\mu_0 = \\left( \\frac{1}{4\\pi} \\right) \\left( 4\\pi \\times 10^{-7} \\right) = \\frac{\\pi}{\\pi} = 1 \\times 9 \\times 10^9 \\times 10^{-7} = 1 \\] \\[ \\varepsilon_0 \\mu_0 = \\frac{1}{c^2} \\times 8 \\times 10^{-12} = 2 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "We will discuss this connection further in the next chapters on electromagnetic waves. Since the speed of light in vacuum is constant, the product \\\\( \\\\varepsilon_0 \\\\mu_0 \\\\) is fixed in magnitude. Choosing the value of either \\( \\varepsilon_0 \\) or \\( \\mu_0 \\) fixes the value of the other. In SI units, \\( \\mu_0 \\) is fixed to be equal to \\( 4 \\times 10^{-7} \\) in magnitude."
+    }
+  ]
+}

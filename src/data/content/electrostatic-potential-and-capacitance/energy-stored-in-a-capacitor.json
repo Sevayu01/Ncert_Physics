@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Energy stored in capacitor"
+    },
+    {
+      "name": "paragraph",
+      "body": "A capacitor is a system comprising two conductors with charges \\( Q \\) and \\(-Q\\). To determine the energy stored in this setup, let's consider two initially uncharged conductors, 1 and 2. Imagine a process of transferring charge from conductor 2 to conductor 1 bit by bit, resulting in conductor 1 obtaining a charge \\( Q \\) and conductor 2 having a charge \\(-Q\\) at the end."
+    },
+    {
+      "name": "paragraph",
+      "body": "During the transfer of positive charge from conductor 2 to conductor 1, external work is done since conductor 1 is at a higher potential than conductor 2. To calculate the total work done, we start by calculating the work done in transferring an infinitesimal amount of charge."
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider the intermediate situation where conductors 1 and 2 have charges \\( Q' \\) and \\(-Q' \\) respectively. At this stage, the potential difference \\( V' \\) between conductors 1 and 2 is \\( \\frac{Q'}{C} \\), where \\( C \\) is the capacitance of the system."
+    },
+    {
+      "name": "paragraph",
+      "body": "Next, imagine transferring a small charge \\( dQ' \\) from conductor 2 to conductor 1. The work done in this step (\\( dW \\)) resulting in the charge on conductor 1 increasing to \\( Q' + dQ' \\) is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ dW = V'dQ' = \\frac{Q'}{C}dQ' \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Integrating, we obtain:"
+    },
+    {
+      "name": "paragraph",
+      "body": "\\[ W = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} CV^2 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Since the electrostatic force is conservative, this work is stored in the form of potential energy of the system. The final result for potential energy (\\( W \\)) is independent of the manner in which the charge configuration of the capacitor is built up."
+    },
+    {
+      "name": "paragraph",
+      "body": "When the capacitor discharges, this stored-up energy is released. The potential energy of the capacitor can be viewed as 'stored' in the electric field between the plates."
+    },
+    {
+      "name": "paragraph",
+      "body": "For a parallel plate capacitor with area \\( A \\) of each plate and separation \\( d \\) between the plates, the energy stored in the capacitor is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U = \\frac{1}{2} \\frac{\\sigma^2}{\\epsilon_0} A d \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The surface charge density \\( \\sigma \\) is related to the electric field \\( E \\) between the plates by \\( \\sigma = \\epsilon_0 E \\). "
+    },
+    {
+      "name": "paragraph",
+      "body": "Therefore, the energy stored in the capacitor is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U = \\frac{1}{2} \\epsilon_0 E^2 A d \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This result on energy density of an electric field is very general and holds true for electric fields due to any configuration of charges."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    }
+  ]
+}

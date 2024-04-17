@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Combination of Capacitors"
+    },
+    {
+      "name": "bold",
+      "body": "Series capacitor"
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's discuss the behavior of capacitors when they are connected in series. Imagine we have two capacitors, \\( C_1 \\) and \\( C_2 \\), combined in series. In this configuration, the left plate of \\( C_1 \\) and the right plate of \\( C_2 \\) are connected to the terminals of a battery and hold charges \\( Q \\) and \\( -Q \\), respectively."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, to maintain charge neutrality, the right plate of \\( C_1 \\) must have a charge of \\( -Q \\), and the left plate of \\( C_2 \\) must have a charge of \\( Q \\). This way, the net charge on each capacitor is zero, preventing an electric field from forming in the conductor connecting \\( C_1 \\) and \\( C_2 \\). Essentially, the charges on the two plates (\\( \\pm Q \\)) are the same on each capacitor in the series combination."
+    },
+    {
+      "name": "paragraph",
+      "body": "The total potential drop \\( V \\) across the combination is the sum of the potential drops \\( V_1 \\) and \\( V_2 \\) across \\( C_1 \\) and \\( C_2 \\), respectively."
+    },
+    {
+      "name": "paragraph",
+      "body": "Mathematically, this can be expressed as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V = V_1 + V_2 = \\frac{Q}{C_1} + \\frac{Q}{C_2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, we can regard the combination as an effective capacitor with charge \\( Q \\) and potential difference \\( V \\). The effective capacitance \\( C \\) of the combination is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ C = \\frac{Q}{V} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Comparing this with the previous equation, we obtain the formula for the effective capacitance of a series combination:"
+    },
+    {
+      "name": "=expression",
+      "body": "\\[ \\frac{1}{C} = \\frac{1}{C_1} + \\frac{1}{C_2} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This proof holds true for any number of capacitors arranged in a similar way. The equation for two capacitors in series generalizes to:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\frac{1}{C} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\ldots + \\frac{1}{C_n} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Here, \\( C_1, C_2, C_3, \\ldots, C_n \\) represent the capacitance of each capacitor in the series combination. This concept is illustrated in the discussion."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "bold",
+      "body": "Parallel Capacitor"
+    },
+    {
+      "name": "paragraph",
+      "body": "Two capacitors arranged in parallel behave differently. The same potential difference is applied across both the capacitors. However, the plate charges (\\( \\pm Q_1 \\)) on capacitor 1 and the plate charges (\\( \\pm Q_2 \\)) on capacitor 2 are not necessarily the same:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ Q_1 = C_1 V, \\quad Q_2 = C_2 V \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The equivalent capacitor is one with charge:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ Q = Q_1 + Q_2 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "and potential difference \\( V \\). Therefore:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ Q = CV = C_1 V + C_2 V \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The effective capacitance \\( C \\) is then given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ C = C_1 + C_2 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The general formula for effective capacitance \\( C \\) for a parallel combination of \\( n \\) capacitors follows similarly:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ Q = Q_1 + Q_2 + \\ldots + Q_n \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "i.e.,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ CV = C_1 V + C_2 V + \\ldots + C_n V \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "which gives:"
+    },
+    {
+      "name": "paragraph",
+      "body": "\\[ C = C_1 + C_2 + \\ldots + C_n \\]"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    }
+  ]
+}

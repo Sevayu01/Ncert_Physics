@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Dielectric and Polarisation"
+    },
+    {
+      "name": "paragraph",
+      "body": "Dielectrics are insulating materials that lack free charge carriers, unlike conductors. In a conductor placed in an external electric field, free charge carriers move to oppose the external field until the net electrostatic field within the conductor is zero. However, in a dielectric, there are no free charges to move. Instead, the external field induces dipole moments in the molecules of the dielectric, leading to a collective effect where net charges on the dielectric's surface produce a field that opposes the external field. Unlike conductors, the opposing field induced by a dielectric only reduces the external field, rather than canceling it completely."
+    },
+    {
+      "name": "paragraph",
+      "body": "Molecules in a substance may be polar or non-polar. Non-polar molecules, like oxygen and hydrogen, have symmetrical charge distributions and no permanent dipole moment. On the other hand, polar molecules, such as water (H\\textsubscript{2}O) and hydrogen chloride (HCl), have separated positive and negative charges, resulting in a permanent dipole moment even in the absence of an external field. In an external electric field, both non-polar and polar molecules develop induced dipole moments, aligning with the field direction."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "For linear isotropic dielectrics, the induced dipole moment per unit volume, called polarization ($P$), is given by $P = \\epsilon \\chi_0 E$, where $\\epsilon$ is the electric susceptibility of the dielectric medium, and $\\chi_0$ is a constant characteristic of the dielectric."
+    },
+    {
+      "name": "paragraph",
+      "body": "When a polarized dielectric is placed in an external field, it modifies the original field inside it. Consider a rectangular dielectric slab placed in a uniform external field parallel to two of its faces. The field induces a uniform polarization ($P$) of the dielectric, resulting in induced surface charge densities ($p$ and $-p$) at the surfaces normal to the electric field. These induced charges oppose the external field, reducing the total field within the dielectric."
+    }
+  ]
+}

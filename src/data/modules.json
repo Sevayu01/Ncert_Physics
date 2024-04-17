@@ -1,7 +1,11 @@
 {
   "data": [
     {
-      "name": "Electrostatic potential and capacitance",
+      "name": "Introduction and Electric Charge",
+      "link": "introduction-and-electric-charge"
+    },
+    {
+      "name": "Electrostatic Potential and Capacitance",
       "link": "electrostatic-potential-and-capacitance"
     },
     {

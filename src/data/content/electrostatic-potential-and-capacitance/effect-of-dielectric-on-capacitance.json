@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Effect of Dielectric on Capacitance"
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's delve into how the presence of a dielectric material affects the capacitance of a parallel plate capacitor, building upon the understanding of dielectric behavior discussed earlier. "
+    },
+    {
+      "name": "paragraph",
+      "body": "Initially, in a vacuum between the plates, the electric field (\\(E_0\\)) and potential difference (\\(V_0\\)) across the plates are given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E_0 = \\frac{\\sigma}{\\epsilon_0} \\quad \\text{and} \\quad V_0 = E_0 \\cdot d\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The capacitance (\\(C_0\\)) in this scenario is calculated as \\(C_0 = \\frac{Q}{V_0} = \\frac{\\epsilon_0 A}{d}\\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, when a dielectric material fully occupies the space between the plates, it becomes polarized by the electric field. This polarization is equivalent to the presence of two charged sheets (at the surfaces of the dielectric perpendicular to the field) with surface charge densities \\(p\\) and \\(-p\\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "The electric field in the dielectric now corresponds to the situation where the net surface charge density on the plates is \\(\\pm(-p)\\). Mathematically, it's represented as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{\\sigma}{\\epsilon_0} - \\frac{P}{\\epsilon_0}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Resulting in the potential difference across the plates:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[V = E \\cdot d = \\frac{\\sigma}{\\epsilon_0} - \\frac{P}{\\epsilon_0} \\cdot d\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "For linear dielectrics, \\(p\\) is proportional to \\(E_0\\), hence to \\(\\sigma\\). Thus, \\(-p\\) is proportional to \\(\\sigma\\), and we can express it as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\sigma - (-p) = K \\sigma\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where \\(K\\) is a constant characteristic of the dielectric, and clearly \\(K > 1\\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "Then, the capacitance (\\(C\\)) with the dielectric between the plates becomes:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[C = \\frac{Q}{V \\cdot d} = \\frac{\\epsilon_0 A}{Kd}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The product \\( \\epsilon_0 K \\) is termed the permittivity of the medium and represented as \\( \\epsilon = \\epsilon_0 K \\). For vacuum, \\(K = 1\\) and \\( \\epsilon = \\epsilon_0 \\)."
+    },
+    {
+      "name": "paragraph",
+      "body": "The dimensionless ratio \\(K \\epsilon / \\epsilon_0\\) is the dielectric constant of the substance. From the equations, it's evident that \\(K\\) is greater than 1. Comparing the capacitances in vacuum (\\(C_0\\)) and with the dielectric (\\(C\\)), we get:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[K C = \\epsilon_0 C\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Thus, the dielectric constant of a substance indicates how much the capacitance increases from its vacuum value when the dielectric is fully inserted between the plates of a capacitor."
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    }
+  ]
+}

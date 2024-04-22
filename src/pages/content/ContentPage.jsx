@@ -24,8 +24,8 @@ const ContentPage = () => {
 
   useEffect(() => {
     (async () => {
-      const contentImportPath = `../../data/content/${chapter}/${topic}.json`;
-      const topicImportPath = `../../data/topics/${chapter}-topics.json`;
+      const contentImportPath = `../../../public/data/content/${chapter}/${topic}.json`;
+      const topicImportPath = `../../../public/data/topics/${chapter}-topics.json`;
       const importedData = await import(/* @vite-ignore */ contentImportPath);
       const importedTopic = await import(/* @vite-ignore */ topicImportPath);
       setData(importedData.data);

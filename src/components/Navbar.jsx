@@ -11,7 +11,7 @@ const Navbar = ({ title ,toggle}) => {
         {/* <button>Home</button> */}
       </div>
       <p>{title}</p>
-      <p>Menu</p>
+      <p></p>
     </div>
   );
 };
@@ -21,4 +21,3 @@ Navbar.propTypes = {
   toggle: PropTypes.func.isRequired,
 };
 export default Navbar;
-  

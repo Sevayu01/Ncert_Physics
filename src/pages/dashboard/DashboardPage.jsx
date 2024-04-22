@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import ModuleCard from "./ModuleCard";
-import module from "../../data/modules.json";
+import module from "../../../public/data/modules.json";
 import { useState } from "react";
 
 const DashboardPage = () => {

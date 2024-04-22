@@ -15,7 +15,7 @@ const QuizPage = () => {
 
   useEffect(() => {
     (async () => {
-      const quizImportPath = `../../data/quiz/${chapter}-quiz.json`;
+      const quizImportPath = `../../../public/data/quiz/${chapter}-quiz.json`;
       const quizData = await import(/* @vite-ignore */ quizImportPath);
       for (let i = 0; i < quizData.data.length; i++) {
         newObject[i] = -1;

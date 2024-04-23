@@ -1,0 +1,38 @@
+{
+  "title": "Electromagnetic Induction",
+  "topic": "Electromagnetic Induction",
+  "subtopics": [
+    {
+      "name": "Introduction",
+      "link": "introduction"
+    },
+    {
+      "name": "The Experiments of Faraday and Henry",
+      "link": "the-experiments-of-faraday-and-henry"
+    },
+    {
+      "name": "Magnetic Flux",
+      "link": "magnetic-flux"
+    },
+    {
+      "name": "Faraday's Law of Induction",
+      "link": "faradays-law-of-induction"
+    },
+    {
+      "name": "Lenz's Law and Conservation of Energy",
+      "link": "lenzs-law-and-conservation-of-energy"
+    },
+    {
+      "name": "Motional Electromotive Force",
+      "link": "motional-electromotive-force"
+    },
+    {
+      "name": "Inductance",
+      "link": "inductance"
+    },
+    {
+      "name": "AC Generator",
+      "link": "ac-generator"
+    }
+  ]
+}

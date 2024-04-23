@@ -1,149 +1,105 @@
 {
-  "data": [
-    {
-      "statement": "The region around a current-carrying conductor where its magnetic effect can be felt is called the:",
-      "options": [
-        "Electric field",
-        "Magnetic field",
-        "Electrostatic field",
-        "None of these"
-      ],
-      "answer": 1
-    },
-    {
-      "statement": "The force experienced by a moving charged particle in a uniform magnetic field depends on:",
-      "options": [
-        "Magnitude of the charge",
-        "Direction of the magnetic field",
-        "Velocity of the particle relative to the field",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "The direction of the magnetic force acting on a charged particle moving in a uniform magnetic field is given by:",
-      "options": [
-        "Right-hand rule",
-        "Fleming's left-hand rule",
-        "Left-hand rule",
-        "None of these"
-      ],
-      "answer": 2
-    },
-    {
-      "statement": "A current-carrying straight conductor placed in a uniform magnetic field experiences a force if the:",
-      "options": [
-        "Current is zero",
-        "Magnetic field is zero",
-        "Current and magnetic field are parallel",
-        "Current and magnetic field are perpendicular"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "The magnetic moment of a current loop is:",
-      "options": [
-        "Directly proportional to the area of the loop",
-        "Directly proportional to the current flowing through the loop",
-        "Product of the area of the loop and the current flowing through it",
-        "None of these"
-      ],
-      "answer": 2
-    },
-    {
-      "statement": "The device that utilizes the principle of a moving charged particle in a magnetic field to accelerate charged particles is called a:",
-      "options": ["Cyclotron", "Transformer", "Motor", "Generator"],
-      "answer": 0
-    },
-    {
-      "statement": "The emf induced in a coil due to a change in magnetic field linked with it is given by:",
-      "options": [
-        "Lenz's Law",
-        "Gauss's Law for magnetism",
-        "Faraday's Law of electromagnetic induction",
-        "Ampere's Law"
-      ],
-      "answer": 2
-    },
-    {
-      "statement": "A moving coil galvanometer works on the principle of:",
-      "options": [
-        "Electromagnetic induction",
-        "Magnetic moment",
-        "Lorentz force",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "The self-inductance of a coil depends on:",
-      "options": [
-        "Number of turns in the coil",
-        "Material of the core",
-        "Current flowing through the coil",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "The mutual inductance between two coils depends on:",
-      "options": [
-        "Relative orientation of the coils",
-        "Distance between the coils",
-        "Material of the cores",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "Diamagnetic materials have a:",
-      "options": [
-        "Positive magnetic susceptibility",
-        "Negative magnetic susceptibility",
-        "Zero magnetic susceptibility",
-        "Very high magnetic susceptibility"
-      ],
-      "answer": 1
-    },
-    {
-      "statement": "The magnetic field inside a solenoid is:",
-      "options": [
-        "Non-uniform and weak",
-        "Uniform and weak",
-        "Non-uniform and strong",
-        "Uniform and strong"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "Right-hand rule is used to determine the direction of the magnetic field produced by a:",
-      "options": [
-        "Moving point charge",
-        "Straight current-carrying conductor",
-        "Current loop",
-        "All of the above"
-      ],
-      "answer": 2
-    },
-    {
-      "statement": "A transformer works on the principle of:",
-      "options": [
-        "Electromagnetic induction",
-        "Self-inductance",
-        "Mutual inductance",
-        "All of the above"
-      ],
-      "answer": 3
-    },
-    {
-      "statement": "The electric motor converts:",
-      "options": [
-        "Electrical energy into mechanical energy",
-        "Mechanical energy into electrical energy",
-        "Chemical energy into electrical energy",
-        "Light energy into electrical energy"
-      ],
-      "answer": 0
-    }
-  ]
-}
+    "data": [
+      {
+        "statement": "According to Biot-Savart law, moving electrons having velocity 'v' produce magnetic field B such that",
+        "options": [
+          "Magnetic field B is parallel to $v$",
+          "Magnetic field B is perpendicular to $v$",
+          "Along the line which is joining the electron and point of observation",
+          "It follows the law"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "If an alpha particle projected towards the north is deflected towards the East by a magnetic field. What will be the direction of a magnetic field?",
+        "options": [
+          "Upward",
+          "Towards East",
+          "Towards South",
+          "Downwards"
+        ],
+        "answer": 0
+      },
+      {
+        "statement": "Magnetic field can be produced due to ____",
+        "options": [
+          "A charge at rest",
+          "A changing electric field",
+          "A moving charge",
+          "Both b and c"
+        ],
+        "answer": 3
+      },
+      {
+        "statement": "A current-carrying loop is placed in a uniform magnetic field. The torque acting on it does not depend upon",
+        "options": [
+          "area of loop",
+          "value of current",
+          "magnetic field",
+          "None of these"
+        ],
+        "answer": 3
+      },
+      {
+        "statement": "Magnetic field at the centre of a circular current-carrying conductor/coil is given by",
+        "options": [
+          "$\\frac{\\mu_0 I}{4R}$",
+          "$\\frac{\\mu_0 I}{2R}$",
+          "$\\frac{\\mu_0 I}{R}$",
+          "$\\frac{2\\mu_0 I}{R}$"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "Magnetic field at any point inside the straight solenoid is given as",
+        "options": [
+          "B = $\\mu_0 nI$",
+          "B = $\\mu_0 n+I$",
+          "B = $\\mu_0/nI$",
+          "B = $\\mu_0nI$"
+        ],
+        "answer": 3
+      },
+      {
+        "statement": "If an electron is moving with velocity $\\vec{v}$ produces a magnetic field $\\vec{B}$, then",
+        "options": [
+          "the direction of field $\\vec{B}$ will be same as the direction of velocity $\\vec{v}$",
+          "the direction of field $\\vec{B}$ will be opposite to the direction of velocity $\\vec{v}$",
+          "the direction of field $\\vec{B}$ will be perpendicular to the direction of velocity $\\vec{v}$",
+          "the direction of field $\\vec{B}$ does not depend upon the direction of velocity $\\vec{v}$"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "The magnetic moment of a current $I$ carrying circular coil of radius $r$ and number of turns $N$ varies as",
+        "options": [
+          "1$r^2$",
+          "1$r$",
+          "$r$",
+          "$r^2$"
+        ],
+        "answer": 3
+      },
+      {
+        "statement": "A moving coil galvanometer can be converted into an ammeter by",
+        "options": [
+          "introducing a shunt resistance of large value in series",
+          "introducing a shunt resistance of small value in parallel",
+          "introducing a resistance of small value in series",
+          "introducing a resistance of large value in parallel"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "Two alpha particles have the ratio of their velocities as 3:2 on entering the field. If they move in different circular paths, then the ratio of the radii of their paths is",
+        "options": [
+          "2:3",
+          "3:2",
+          "9:4",
+          "4:9"
+        ],
+        "answer": 1
+      }
+    ]
+   }
+   

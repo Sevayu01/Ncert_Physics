@@ -153,6 +153,11 @@
       "body": "As before, we take the origin at the center of the dipole. Now we know that the electric field obeys the superposition principle. Since the electric potential is related to the work done by the field, the electrostatic potential also follows the superposition principle. Thus, the potential due to the dipole is the sum of potentials due to the charges q and –q: "
     },
     {
+      "name": "image",
+      "alt": "image43",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image43.png"
+    },
+    {
       "name": "paragraph",
       "body": "The Electric Potential of a dipole is then given by:"
     },
@@ -315,6 +320,11 @@
     {
       "name": "paragraph",
       "body": "Let's consider a system of charges $q_1$, $q_2$, ..., $q_n$ with position vectors $r_1$, $r_2$, ..., $r_n$ relative to some origin. According to the superposition principle, the potential V at point P due to the total charge configuration is the algebraic sum of the potentials due to the individual charges."
+    },
+    {
+      "name": "image",
+      "alt": "image49",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image49.png"
     },
     {
       "name": "expression",

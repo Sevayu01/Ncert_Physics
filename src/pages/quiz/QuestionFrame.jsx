@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Choice from "./Choice";
 import PropTypes from "prop-types";
+import Latex from "react-latex-next";
+import "katex/dist/katex.min.css";
 
 const QuestionFrame = ({ question, idx, setSelected }) => {
   const { statement, options, answer } = question;
@@ -18,7 +20,9 @@ const QuestionFrame = ({ question, idx, setSelected }) => {
   return (
     <div className="ml-3 mb-10">
       <p className="text-[20px] mb-1 font-light libre">Question {idx + 1}.</p>
-      <p className="text-[22px] lg:w-[60rem] mb-5 font-bold">{statement}</p>
+      <p className="text-[22px] lg:w-[60rem] mb-5 font-bold relative">
+        <Latex>{statement}</Latex>
+      </p>
       {options.map((choice, choiceIdx) => {
         return (
           <Choice

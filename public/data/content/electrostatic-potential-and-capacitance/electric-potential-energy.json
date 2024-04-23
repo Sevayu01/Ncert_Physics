@@ -28,7 +28,11 @@
       "name": "paragraph",
       "body": "We can see whenever work done is positive change is potential energy is negative and vice versa."
     },
-
+    {
+      "name": "image",
+      "alt": "image46",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image46.png"
+    },
     {
       "name": "subheading",
       "body": "Electric Potential energy of two charges"

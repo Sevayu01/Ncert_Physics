@@ -1,3 +1,6 @@
+import Latex from "react-latex-next";
+import "katex/dist/katex.min.css";
+
 const Choice = ({ choice, answer, idx, clickedChoice, setClickedChoice }) => {
   const defaultStyle =
     "bg-[#F4F4F4] hover:bg-[#f0f0f0] lg:w-[60rem] my-2 py-3 px-4 rounded-md text-[18px] font-light cursor-pointer";
@@ -31,7 +34,9 @@ const Choice = ({ choice, answer, idx, clickedChoice, setClickedChoice }) => {
       onClick={clickedChoice === -1 ? clickHandler : () => {}}
     >
       <span className="text-[#ACACAC] mr-2">{idx + 1}.</span>
-      {choice}
+      <span className="relative">
+        <Latex>{choice}</Latex>
+      </span>
     </div>
   );
 };

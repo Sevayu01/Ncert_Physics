@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "statement": "In comparison with the electrostatic force between two electrons, the electrostatic force between two protons is:",
+      "options": [
+        "greater",
+        "smaller",
+        "zero",
+        "same"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "The position of the charge inside the enclosing surface is changed in such a way that the total charge remains constant. Then the total normal electric flux through the enclosing surface:",
+      "options": [
+        "increases",
+        "decreases",
+        "changes erratically",
+        "Remains unchanged"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "If a body is charged by rubbing it, its weight:",
+      "options": [
+        "Always decrease slightly",
+        "Always increase slightly",
+        "May increase or decrease slightly",
+        "No change in weight"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "Force per unit charge is:",
+      "options": [
+        "Electric current",
+        "Electric flux",
+        "Electric field",
+        "Electric potential"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "An electric dipole is placed in a uniform electric field. The net electric force on the dipole:",
+      "options": [
+        "Is always zero",
+        "Depends on the orientation",
+        "Depends on the dipole moment",
+        "Is always finite but not zero"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "When the separation between two charges is increased, the electric potential energy of the charges:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "remains the same",
+        "may increase or decrease"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "What is the dielectric constant of a metal?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Infinite"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "If the charge of 1 C is placed at a distance of 1 m from another charge of the same magnitude in a vacuum, it experiences an electrical force repulsion of magnitude:",
+      "options": [
+        "$ 9 \\times 10^9 \\text{ N} $",
+        "$ 8.99 \\times 10^9 \\text{ N} $",
+        "$ 9.1 \\times 10^9 \\text{ N} $",
+        "$ 9.2 \\times 10^9 \\text{ N} $"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "Ohm's law states that the current flowing through a conductor is directly proportional to:",
+      "options": [
+        "Voltage across the conductor",
+        "Resistance of the conductor",
+        "Length of the conductor",
+        "Material of the conductor"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "The power dissipated in a resistor is given by:",
+      "options": ["IR", "V^2/R", "I/V", "VR"],
+      "answer": 1
+    }
+  ]
+}

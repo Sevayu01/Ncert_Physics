@@ -10,19 +10,32 @@ const QuizPage = () => {
   }, []);
 
   const [quiz, setQuiz] = useState([]);
+  const [moduleName, setModuleName] = useState("");
   const [selected, setSelected] = useState(newObject);
   const { chapter } = useParams();
 
   useEffect(() => {
     (async () => {
       const quizImportPath = `../../../public/data/quiz/${chapter}-quiz.json`;
+      const moduleImportPath = `../../../public/data/modules.json`;
       const quizData = await import(/* @vite-ignore */ quizImportPath);
+      const moduleData = await import(/* @vite-ignore */ moduleImportPath);
       for (let i = 0; i < quizData.data.length; i++) {
         newObject[i] = -1;
       }
+      await getModuleName(moduleData.data);
       setQuiz(quizData.data);
     })();
   }, [quiz, chapter, newObject]);
+
+  const getModuleName = async (module) => {
+    for (let i = 0; i < module.length; i++) {
+      if (module[i].link === chapter) {
+        setModuleName(module[i].name);
+        break;
+      }
+    }
+  };
 
   if (quiz.length === 0) {
     return <div>Loading...</div>;
@@ -30,11 +43,10 @@ const QuizPage = () => {
 
   return (
     <div>
-      <Navbar title={"ELECTRICITY AND MAGNETISM"} />
+      <Navbar title={moduleName} />
       <div className="flex flex-row content-height">
         <QuestionNavigationPanel quiz={quiz} selected={selected} />
 
-        {/* Questions will be shown in this div */}
         <div className="w-full content-height px-6 overflow-y-scroll">
           <p className="font-bold text-[62px] mb-7">Quiz</p>
           {quiz.map((question, idx) => {

@@ -1,9 +1,32 @@
 {
-    "data": [
-      {
-        "name": "",
-        "body": ""
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "name": "heading",
+      "body": "Magnetic Flux"
+    },
+    {
+      "name": "paragraph",
+      "body": "Faraday's great insight lay in discovering a simple mathematical relation to explain the series of experiments he carried out on electromagnetic induction. However, before we state and appreciate his laws, we must get familiar with the notion of magnetic flux, $\\Phi_B$."
+    },
+    {
+      "name": "paragraph",
+      "body": "Magnetic flux through a plane of area $A$ placed in a uniform magnetic field $B$ can be written as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\Phi_B = B \\cdot A = BA \\cos \\theta\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The above equation can be extended to curved surfaces and nonuniform fields. If the magnetic field has different magnitudes and directions atvarious parts of a surface as shown below, then the  magnetic flux through the surface is given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\Phi_B = {B_1 \\cdot dA_1 } + {B_1 \\cdot dA_1 } + ....  = \\sum {B_i \\cdot dA_i}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $\\Delta i$ stands for summation over all the area elements $dA_i$ comprising the surface and $B_i$ is the magnetic field at the area element $dA_i$. The SI unit of magnetic flux is weber (Wb) or tesla meter squared (T m\\textsuperscript{2}). Magnetic flux is a scalar quantity."
+    }
+  ]
+}

@@ -42,23 +42,23 @@
     },
     {
       "name": "expression",
-      "body": "$\\Delta U = - W_{a-b} \\\\$"
+      "body": "\\[Delta U = - W_{a-b} \\]"
     },
     {
       "name": "expression",
-      "body": "$ U_b - U_a = - W_{a-b} \\\\$"
+      "body": "\\[ U_b - U_a = - W_{a-b} \\]"
     },
     {
       "name": "expression",
-      "body": "$\\frac{U_b}{q_0} - \\frac{U_a}{q_0} = - \\frac{W_{a-b}}{q_0} \\\\$"
+      "body": "\\[ \\frac{U_b}{q_0} - \\frac{U_a}{q_0} = - \\frac{W_{a-b}}{q_0} \\]"
     },
     {
       "name": "expression",
-      "body": "$ V_a - V_b = \\frac{W_{a-b}}{q_0} \\\\$"
+      "body": "\\[ V_a - V_b = \\frac{W_{a-b}}{q_0} \\]"
     },
     {
       "name": "expression",
-      "body": "$ V  = \\frac{U}{q_0} \\\\$"
+      "body": "\\[ V  = \\frac{U}{q_0} \\]"
     },
     {
       "name": "paragraph",
@@ -156,6 +156,11 @@
       "name": "image",
       "alt": "image43",
       "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image43.png"
+    },
+    {
+      "name": "image",
+      "alt": "PotentialDipole",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/PotentialDipole.gif"
     },
     {
       "name": "paragraph",

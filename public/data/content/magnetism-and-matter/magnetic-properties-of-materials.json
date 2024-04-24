@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "MAGNETIC PROPERTIES OF MATERIALS"
+    },
+    {
+      "name": "bold",
+      "body": "DiaMagnetism"
+    },
+    {
+      "name": "paragraph",
+      "body": "Diamagnetism is a property of certain materials where they repel from stronger magnetic fields and move towards weaker ones. When exposed to an external magnetic field, these materials weaken their internal magnetic field due to repulsion from the external field. This effect arises from the behavior of electrons orbiting atomic nuclei, creating induced currents that produce a magnetic moment opposite to the applied field, resulting in repulsion."
+    },
+    {
+      "name": "paragraph",
+      "body": "Common diamagnetic materials include bismuth, copper, lead, and water. Superconductors, when cooled to extremely low temperatures, exhibit perfect diamagnetism, expelling all magnetic field lines from their interior, known as the Meissner effect."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "bold",
+      "body": "ParaMagnetism"
+    },
+    {
+      "name": "paragraph",
+      "body": "Paramagnetic substances weakly magnetize in an external field, moving toward stronger fields and slightly attracting magnets. Each atom, ion, or molecule possesses a permanent magnetic dipole moment, but random thermal motion prevents net magnetization. In a strong external field $B_0$ and low temperatures, individual dipole moments align with $B_0$, enhancing the field within. Paramagnetic materials include aluminum, sodium, calcium, and oxygen. Magnetization $M$ is inversely proportional to absolute temperature ($T$), following Curie's law:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[M = C\\left(\\frac{B}{T}\\right)\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "or equivalently:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\chi = C\\left(\\frac{\\mu}{T}\\right)\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $C$ is Curie's constant. $\\chi$ and $\\mu_r$ depend on material and temperature. As the external field increases or temperature decreases, magnetization rises until reaching saturation $M_s$, where all dipoles align. Beyond this, Curie's law is invalid."
+    },
+    {
+      "name": "bold",
+      "body": "Ferromagnetism"
+    },
+    {
+      "name": "paragraph",
+      "body": "Ferromagnetic substances get strongly magnetised when placed in an external magnetic field, moving from a weak to a strong magnetic field."
+    },
+    {
+      "name": "paragraph",
+      "body": "Ferromagnetic materials, like iron and cobalt, exhibit complex behavior in magnetic fields. Their magnetisation depends on their magnetic history, with hysteresis being a notable phenomenon. This means that for a given magnetic field strength, the resulting magnetisation is not unique but depends on the material's previous magnetic state."
+    },
+    {
+      "name": "paragraph",
+      "body": "Individual atoms in ferromagnetic materials possess a dipole moment and spontaneously align in domains. These domains exhibit net magnetisation, increasing in size when exposed to an external magnetic field."
+    },
+    {
+      "name": "paragraph",
+      "body": "Paramagnetic materials, like aluminium and sodium, exhibit magnetisation inversely proportional to temperature, described by Curie's law:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\chi = \\frac{C}{T - T_c} \\quad \\text{where} \\quad T > T_c\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Here, \\(T_c\\) is the Curie temperature."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "bold",
+      "body": "Permanent Magnets and Electromagnets"
+    },
+    {
+      "name": "paragraph",
+      "body": "Permanent magnets retain ferromagnetic properties over time. They can be made by repeatedly hammering an iron rod or stroking a steel rod with a bar magnet. Alternatively, a ferromagnetic rod can be magnetized by placing it in a solenoid and passing a current through it."
+    },
+    {
+      "name": "paragraph",
+      "body": "Materials for permanent magnets need high retentivity and coercivity. Steel, alnico, cobalt steel, and ticonal are common choices. Electromagnets use ferromagnetic cores with high permeability and low retentivity, like soft iron. When a current passes through a solenoid with a soft iron core, magnetism increases greatly. Electromagnets find use in various applications, from electric bells to cranes."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "statement": "__________ is used to identify the direction of the current induced in a wire moving in a magnetic field.",
+      "options": [
+        "Ampere's Rule",
+        "Fleming's Left-Hand Rule",
+        "Fleming's Right-Hand Rule",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "According to Faraday's law of electromagnetic induction",
+      "options": [
+        "electric field is produced by time varying magnetic flux",
+        "magnetic field is produced by time varying electric flux",
+        "magnetic field is associated with a moving charge",
+        "None of these"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "A coil is wound on a frame of rectangular cross-section. If all the linear dimensions of the frame are increased by a factor of 2 and the number of turns per unit length of the coil remains the same, the self-inductance of the coil increases by a factor of",
+      "options": ["4", "8", "12", "16"],
+      "answer": 1
+    },
+    {
+      "statement": "The self-inductance associated with a coil is independent of _______",
+      "options": ["current", "time", "induced voltage", "resistance of coil"],
+      "answer": 3
+    },
+    {
+      "statement": "A solenoid is connected to a battery so that a steady current flows through it. If an iron core is inserted into the solenoid, the current will _______",
+      "options": [
+        "increase",
+        "decrease",
+        "remain the same",
+        "first increase then decrease"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "Which of the following gives the polarity of the induced emf?",
+      "options": [
+        "Biot-Savart Law",
+        "Lenz's Law",
+        "Ampere’s circuital Law",
+        "Fleming’s right-hand Rule"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "Which of the following apparatus uses electromagnetic induction?",
+      "options": ["Voltmeter", "Galvanometer", "Generator", "Electric Motor"],
+      "answer": 2
+    },
+    {
+      "statement": "Lenz's law is a consequence of the law of conservation of",
+      "options": ["charge", "energy", "induced emf", "induced current"],
+      "answer": 1
+    },
+    {
+      "statement": "Which of the following statements is not correct?",
+      "options": [
+        "Whenever the amount of magnetic flux linked with a circuit changes, an emf is induced in the circuit.",
+        "The induced emf lasts so long as the change in magnetic flux continues.",
+        "The direction of the induced emf is given by Lenz's law.",
+        "Lenz's law is a consequence of the law of conservation of momentum."
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "Identify the wrong statement.",
+      "options": [
+        "Eddy currents are produced in a steady magnetic field.",
+        "Eddy currents can be minimized by using laminated core.",
+        "Induction furnace uses eddy current to produce heat.",
+        "Eddy current can be used to produce braking force in moving trains."
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "Two inductors of inductance $L$ each are connected in series with opposite magnetic fluxes. The resultant inductance is (Ignore mutual inductance)",
+      "options": ["zero", "L", "2L", "3L"],
+      "answer": 2
+    }
+  ]
+}

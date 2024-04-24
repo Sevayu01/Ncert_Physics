@@ -1,8 +1,24 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "CONDUCTORS AND INSULATORS"
+    },
+    {
+      "name": "paragraph",
+      "body": "Imagine electricity as a group of tiny particles called electrons. Some things, like metals, our bodies, and the earth, let these electrons move around easily. We call them conductors. Other things, like plastic, wood, or glass, don't let electrons move easily. We call them insulators."
+    },
+    {
+      "name": "paragraph",
+      "body": "When we put these electrons on a conductor, they spread out all over it. But if we put them on an insulator, they stay in one spot."
+    },
+    {
+      "name": "paragraph",
+      "body": "For example:\nwhen you comb your hair with a plastic comb, it can get charged because plastic doesn't let the electrons move easily. But if you use a metal spoon, it doesn't get charged because the electrons can flow away through your body.\nNow, if you rub a metal rod with a wooden or plastic handle, it might get charged because the electrons can't escape through the non-metal part.\nSo, conductors let electrons move, while insulators keep them in place."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, if you rub a metal rod with a wooden or plastic handle, it might get charged because the electrons can't escape through the non-metal part . \nSo, conductors let electrons move, while insulators keep them in place"
     }
   ]
 }

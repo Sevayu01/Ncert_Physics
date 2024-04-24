@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "INTRODUCTION"
+    },
+    {
+      "name": "paragraph",
+      "body": "Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a variety of sources. The earth’s magnetism predates human evolution. The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC."
+    },
+    {
+      "name": "paragraph",
+      "body": "In the previous chapter we have learned that moving charges or electric currents produce magnetic fields. This discovery, which was made in the early part of the nineteenth century is credited to Oersted, Ampere, Biot and Savart, among others."
+    },
+    {
+      "name": "paragraph",
+      "body": "In the present chapter, we take a look at magnetism as a subject in its own right. Some of the commonly known ideas regarding magnetism are: "
+    },
+    {
+      "name": "paragraph",
+      "body": "(1.) The earth behaves as a magnet with the magnetic field pointing approximately from the geographic south to the north."
+    },
+    {
+      "name": "paragraph",
+      "body": "(2.) When a bar magnet is freely suspended, it points in the north-south direction. The tip which points to the geographic north is called the north pole and the tip which points to the geographic south is called the south pole of the magnet."
+    },
+    {
+      "name": "paragraph",
+      "body": "(3.) There is a repulsive force when north poles (or south poles) of two magnets are brought close together. Conversely, there is an attractive force between the north pole of one magnet and the south pole of the other."
+    },
+    {
+      "name": "paragraph",
+      "body": "(4.) We cannot isolate the north, or south pole of a magnet. If a bar magnet is broken into two halves, we get two similar bar magnets with somewhat weaker properties. Unlike electric charges, isolated magnetic north and south poles known as magnetic monopoles do not exist."
+    },
+    {
+      "name": "paragraph",
+      "body": "(5.) It is possible to make magnets out of iron and its alloys."
+    }
+  ]
+}

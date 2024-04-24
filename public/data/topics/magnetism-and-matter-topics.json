@@ -1,0 +1,26 @@
+{
+  "title": "Magnetism and Matter",
+  "topic": "Magnetism and Matter",
+  "subtopics": [
+    {
+      "name": "Introduction",
+      "link": "introduction"
+    },
+    {
+      "name": "The Bar Magnet",
+      "link": "the-bar-magnet"
+    },
+    {
+      "name": "Magnetism and Gauss' Law",
+      "link": "magnetism-and-gauss-law"
+    },
+    {
+      "name": "Magnitisation and Magnetic Intensity",
+      "link": "magnitisation-and-magnetic-intensity"
+    },
+    {
+      "name": "Magnetic Properties of Materials",
+      "link": "magnetic-properties-of-materials"
+    }
+  ]
+}

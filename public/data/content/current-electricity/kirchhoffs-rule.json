@@ -9,6 +9,16 @@
       "body": "Electric circuits often involve complex interconnections of resistors and cells. While formulas for series and parallel combinations of resistors are helpful, they may not suffice to determine all currents and potential differences in a circuit. Kirchhoff's rules provide a powerful tool for analyzing electric circuits."
     },
     {
+      "name": "image",
+      "alt": "KirchhoffsCurrentLaw",
+      "body": "../../../../public/assets/current-electricity/KirchhoffsCurrentLaw.gif"
+    },
+    {
+      "name": "image",
+      "alt": "KirchhoffsVoltageLaw",
+      "body": "../../../../public/assets/current-electricity/KirchhoffsVoltageLaw.gif"
+    },
+    {
       "name": "paragraph",
       "body": "To apply Kirchhoff's rules, we first label currents in each resistor with a symbol, like \\( I \\), and a directed arrow indicating the flow direction. Similarly, for each cell, we label the positive and negative electrodes and the direction of current flow through the cell. This allows us to determine the potential difference,"
     },
@@ -38,7 +48,7 @@
     },
     {
       "name": "expression",
-      "body": " \\sum \\text{Currents entering} = \\sum \\text{Currents leaving}"
+      "body": " \\[sum \\text{Currents entering} = \\sum \\text{Currents leaving}\\]"
     },
     {
       "name": "bold",
@@ -50,7 +60,7 @@
     },
     {
       "name": "expression",
-      "body": "\\sum \\text{Potential changes in a closed loop} = 0"
+      "body": "\\[sum \\text{Potential changes in a closed loop} = 0\\]"
     },
     {
       "name": "paragraph",

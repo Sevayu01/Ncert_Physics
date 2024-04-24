@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": " Magnetism and Gauss's Law"
+    },
+    {
+      "name": "paragraph",
+      "body": "In Chapter 1, we studied Gauss's law for electrostatics. We saw that for a closed surface, the number of lines leaving the surface is equal to the number of lines entering it. The situation is radically different for magnetic fields which are continuous and form closed loops. The number of magnetic field lines leaving the surface is balanced by the number of lines entering it. The net magnetic flux is zero for both surfaces. This is true for any closed surface."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "Consider a small vector area element $\\Delta S$ of a closed surface $S$ as shown above. The magnetic flux through $\\Delta S$ is defined as"
+    },
+    {
+      "name": "expression",
+      "body": "$\\Delta \\Phi_B = \\mathbf{B} \\cdot \\Delta \\mathbf{S}$"
+    },
+    {
+      "name": "paragraph",
+      "body": ", where $\\mathbf{B}$ is the field at $\\Delta S$. We divide $S$ into many small area elements and calculate the individual flux through each. Then, the net flux $\\Phi_B$ is,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\Phi_B = \\sum \\Delta \\Phi_B = \\sum \\mathbf{B}' \\cdot \\Delta \\mathbf{S}', \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where 'all' stands for 'all area elements $\\Delta S'$. Compare this with Gauss’s law of electrostatics. The flux through a closed surface in that case is given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\sum \\mathbf{E} \\cdot \\Delta \\mathbf{S} = \\frac{q}{\\varepsilon_0}, \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $q$ is the electric charge enclosed by the surface."
+    },
+    {
+      "name": "paragraph",
+      "body": "The difference between Gauss's law of magnetism and that for electrostatics is a reflection of the fact that isolated magnetic poles (also called monopoles) are not known to exist. There are no sources or sinks of $\\mathbf{B}$; the simplest magnetic element is a dipole or a current loop. All magnetic phenomena can be explained in terms of an arrangement of dipoles and/or current loops."
+    },
+    {
+      "name": "paragraph",
+      "body": "Thus, Gauss’s law for magnetism is: The net magnetic flux through any closed surface is zero."
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    },
+    {
+      "name": "paragraph",
+      "body": ""
+    }
+  ]
+}

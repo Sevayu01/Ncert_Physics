@@ -1,9 +1,36 @@
 {
-    "data": [
-      {
-        "name": "",
-        "body": ""
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "name": "heading",
+      "body": "Lenz's law and conservation of energy"
+    },
+    {
+      "name": "paragraph",
+      "body": " The negative sign in Faraday's equations of electromagnetic induction describes the direction in which the induced emf drives current around a circuit. However, that direction is most easilydetermined with the help of Lenz's law. This law states that:"
+    },
+    {
+      "name": "paragraph",
+      "body": " “The direction of any magnetic induction effect is such as to oppose the cause of the effect.”"
+    },
+    {
+      "name": "paragraph",
+      "body": "For different types of problems, Lenz's law has been further subdivided into following concepts."
+    },
+    {
+      "name": "paragraph",
+      "body": "1) Attraction and repulsion concept: If magnetic flux is changed by bringing a magnet and a loop (or solenoid etc.) closer to each other then direction of induced current is so produced, that the magnetic field produced by it always repels the two. Similarly, if they are moved away from each other then they are attracted towards each other. "
+    },
+    {
+      "name": "paragraph",
+      "body": "2) Cross or dot magnetic field increasing or decreasing concept: If cross magnetic field passing through a loop increases then induced current will produce dot magnetic field. Similarly, if dot magnetic field passing through a loop decreases then dot"
+    },
+    {
+      "name": "paragraph",
+      "body": "3) Situations where flux passing through the loop is always zero or change in flux is zero"
+    },
+    {
+      "name": "paragraph",
+      "body": "4) Attraction or repulsion between two loops facing each other if current in one loop is changed"
+    }
+  ]
+}

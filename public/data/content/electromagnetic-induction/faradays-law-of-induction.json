@@ -1,9 +1,40 @@
 {
-    "data": [
-      {
-        "name": "",
-        "body": ""
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "name": "heading",
+      "body": "Faraday's law of Induction"
+    },
+    {
+      "name": "paragraph",
+      "body": "From the experimental observations, Faraday arrived at a conclusion that an emf is induced in a coil when magnetic flux through the coil changes with time. The motion of a magnet towards or away from coil $C_1$ and moving a current-carrying coil $C_2$ towards or away from coil $C_1$,change the magnetic flux associated with coil $C_1$."
+    },
+    {
+      "name": "paragraph",
+      "body": "The change in magnetic flux induces emf in coil $C_1$. It was this induced emf which caused electric current to flow in coil $C_1$  and through the galvanometer. A plausible explanation  is as follows: When the tapping key $K$ is pressed, the current in coil $C_2$ (and the resulting magnetic field) rises from zero to a maximum value in a short time. Consequently, the magnetic flux through the neighbouring coil $C_1$ also increases. It is the change in magnetic flux through coil $C_1$ that produces an induced emf in coil $C_1$. When the key is held pressed, current in coil $C_2$ is constant. Therefore, there is no change in the magnetic flux through coil $C_1$ and the current in coil $C_1$ drops to zero. When the key is released, the current in $C_2$ and the resulting magnetic field decreases from the maximum value to zero in a short time. This results in a decrease in magnetic flux through coil $C_1$ and hence again induces an electric current in coil $C_1$. The common point in all these observations is that the time rate of change of magnetic flux through a circuit induces emf in it. Faraday stated experimental observations in the form of a law called Faraday's law of electromagnetic induction. The law is stated below: The magnitude of the induced emf in a circuit is equal to the time rate of change of magnetic flux through the circuit."
+    },
+    {
+      "name": "paragraph",
+      "body": "Mathematically, the induced emf is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\epsilon = -\\frac{d\\Phi}{dt}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The negative sign indicates the direction of $\\epsilon$ and hence the direction of current in a closed loop. This will be discussed in detail in the next section."
+    },
+    {
+      "name": "paragraph",
+      "body": "In the case of a closely wound coil of $N$ turns, change of flux associated with each turn is the same. Therefore, the expression for the total induced emf is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\epsilon = -N \\frac{d\\Phi}{dt}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The induced emf can be increased by increasing the number of turns $N$ of a closed coil. The flux can be varied by changing any one or more of the terms $B$, $A$, and $\\theta$. The flux can also be changed by varying $B$. The flux can also be altered by changing the shape of a coil (that is, by shrinking it or stretching it) in a magnetic field, or rotating a coil in a magnetic field such that the angle $\\theta$ between $B$ and $A$ changes. In these cases too, an emf is induced in the respective coils."
+    }
+  ]
+}

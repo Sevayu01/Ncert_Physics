@@ -1,95 +1,69 @@
 {
-    "data": [
-      {
-        "statement": "The rate of flow of electric charge through any cross-section of a conductor is known as __________.",
-        "options": [
-          "Electric flux",
-          "Electric potential",
-          "Electric current",
-          "Electric field"
-        ],
-        "answer": 2
-      },
-      {
-        "statement": "Which of the following is non-ohmic resistance?",
-        "options": [
-          "Lamp filament",
-          "Copper wire",
-          "Carbon resistor",
-          "Diode"
-        ],
-        "answer": 3
-      },
-      {
-        "statement": "Combine three resistors 5 Ω, 4.5 Ω, and 3 Ω in such a way that the total resistance of this combination is maximum",
-        "options": [
-          "12.5 Ω",
-          "13.5 Ω",
-          "14.5 Ω",
-          "16.5 Ω"
-        ],
-        "answer": 0
-      },
-      {
-        "statement": "In the series combination of two or more than two resistances",
-        "options": [
-          "the current through each resistance is same",
-          "the voltage through each resistance is same",
-          "neither current nor voltage through each resistance is same",
-          "both current and voltage through each resistance are same"
-        ],
-        "answer": 0
-      },
-      {
-        "statement": "In parallel combination of n cells, we obtain",
-        "options": [
-          "more voltage",
-          "more current",
-          "less voltage",
-          "less current"
-        ],
-        "answer": 1
-      },
-      {
-        "statement": "A charge is moving across a junction, then",
-        "options": [
-          "momentum will be conserved",
-          "momentum will not be conserved",
-          "at some places momentum will be conserved and at some other places momentum will not be conserved",
-          "none of these"
-        ],
-        "answer": 3
-      },
-      {
-        "statement": "Two resistors of 2 Ω and 4 Ω are connected in parallel. Find the equivalent resistance of the combination.",
-        "options": [
-          "0.57 Ω",
-          "1.33 Ω",
-          "6 Ω",
-          "1.5 Ω"
-        ],
-        "answer": 1
-      },
-      {
-        "statement": "A circuit has a resistance of 20 Ω and a voltage of 100 V. What is the current flowing through the circuit?",
-        "options": [
-          "5 A",
-          "10 A",
-          "2 A",
-          "50 A"
-        ],
-        "answer": 2
-      },
-      {
-        "statement": "Calculate the power dissipated in a resistor with a resistance of 8 Ω when a current of 4 A flows through it.",
-        "options": [
-          "32 W",
-          "16 W",
-          "2 W",
-          "64 W"
-        ],
-        "answer": 0
-      }
-    ]
-   }
-   
+  "data": [
+    {
+      "statement": "The rate of flow of electric charge through any cross-section of a conductor is known as __________.",
+      "options": [
+        "Electric flux",
+        "Electric potential",
+        "Electric current",
+        "Electric field"
+      ],
+      "answer": 2
+    },
+    {
+      "statement": "Which of the following is non-ohmic resistance?",
+      "options": ["Lamp filament", "Copper wire", "Carbon resistor", "Diode"],
+      "answer": 3
+    },
+    {
+      "statement": "Combine three resistors 5 Ω, 4.5 Ω, and 3 Ω in such a way that the total resistance of this combination is maximum",
+      "options": ["12.5 Ω", "13.5 Ω", "14.5 Ω", "16.5 Ω"],
+      "answer": 0
+    },
+    {
+      "statement": "In the series combination of two or more than two resistances",
+      "options": [
+        "the current through each resistance is same",
+        "the voltage through each resistance is same",
+        "neither current nor voltage through each resistance is same",
+        "both current and voltage through each resistance are same"
+      ],
+      "answer": 0
+    },
+    {
+      "statement": "In parallel combination of n cells, we obtain",
+      "options": [
+        "more voltage",
+        "more current",
+        "less voltage",
+        "less current"
+      ],
+      "answer": 1
+    },
+    {
+      "statement": "A charge is moving across a junction, then",
+      "options": [
+        "momentum will be conserved",
+        "momentum will not be conserved",
+        "at some places momentum will be conserved and at some other places momentum will not be conserved",
+        "none of these"
+      ],
+      "answer": 3
+    },
+    {
+      "statement": "Two resistors of 2 Ω and 4 Ω are connected in parallel. Find the equivalent resistance of the combination.",
+      "options": ["0.57 Ω", "1.33 Ω", "6 Ω", "1.5 Ω"],
+      "answer": 1
+    },
+    {
+      "statement": "A circuit has a resistance of 20 Ω and a voltage of 100 V. What is the current flowing through the circuit?",
+      "options": ["5 A", "10 A", "2 A", "50 A"],
+      "answer": 2
+    },
+    {
+      "statement": "Calculate the power dissipated in a resistor with a resistance of 8 Ω when a current of 4 A flows through it.",
+      "options": ["32 W", "16 W", "2 W", "64 W"],
+      "answer": 0
+    }
+  ]
+}

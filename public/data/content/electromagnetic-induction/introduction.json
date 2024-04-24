@@ -1,8 +1,16 @@
 {
   "data": [
     {
-      "name": "",
-      "body": ""
+      "name": "heading",
+      "body": "Introduction"
+    },
+    {
+      "name": "paragraph",
+      "body": "For a considerable period, electricity and magnetism were regarded as distinct and unrelated phenomena. However, in the early 19th century, pivotal experiments by Oersted, Ampere, and others unveiled their intimate connection. These experiments revealed that the motion of electric charges generates magnetic fields. Notably, an electric current deflects a nearby magnetic compass needle, sparking inquiries about the possibility of the reverse effect—whether moving magnets could induce electric currents. The resounding answer emerged through the groundbreaking work of Michael Faraday in England and Joseph Henry in the USA around 1830. Their experiments irrefutably demonstrated the induction of electric currents in closed coils when exposed to changing magnetic fields. This chapter delves into the phenomena surrounding changing magnetic fields, elucidating the underlying principles of electromagnetic induction."
+    },
+    {
+      "name": "paragraph",
+      "body": "When Faraday initially disclosed his discovery that the motion between a bar magnet and a wire loop engendered a small current in the latter, he encountered skepticism regarding its practical utility. In response, he likened the significance of electromagnetic induction to that of a newborn baby, emphasizing its potential for transformative impact. Indeed, electromagnetic induction transcends theoretical realms, proving immensely valuable in practical applications. Imagine a world devoid of electricity—devoid of electric lighting, trains, telephones, and personal computers. The pioneering experiments of Faraday and Henry paved the way for the development of modern generators and transformers. The advancement of today's civilization owes a significant debt to the discovery of electromagnetic induction."
     }
   ]
 }

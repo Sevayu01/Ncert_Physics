@@ -1,8 +1,60 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "Gauss Law"
+    },
+    {
+      "name": "bold",
+      "body": "Electric Flux on a Flat Surface with a Uniform Field"
+    },
+    {
+      "name": "paragraph",
+      "body": " Imagine a flat surface with an area $A$ in an electric field.The electric field has vectors; let's call one of them $E$.Only the part of the electric field $E$ that pierces the surface is considered. The amount of electric field piercing the patch is defined to be the electric fluxthrough it:\\[\\phi = (E \\cos\\theta) \\Delta A\\]\\[\\Delta\\phi = E \\cdot \\Delta A\\]To find the total flux through the surface, we sum the flux through every patchon the surface:\\[\\Delta\\phi = \\sum E \\cdot \\Delta A\\]\\subsection{Closed Surface and Gauss' Law}\\subsubsection{Closed Surface Requirement}To use Gauss’ law to relate flux and charge, we need a closed surface.\\subsubsection{Direction Consideration}Introduce an area vector pointing outward from the surface to keep track of thepiercing direction.Flux is positive if the field vector pierces outward, negative if it pierces inward,and zero if it skims the surface.\\subsubsection{Net Flux Calculation}To find the net flux through a closed surface, integrate the dot product over theentire surface.The integral sign with a loop indicates integration over the closed surface.Net flux is the sum of fluxes, considering their direction.\\subsubsection{Purpose of Net Flux}Gauss’ law relates the net flux through a closed surface to the charge enclosedby the surface.\\subsection{Flux as a Scalar}While we deal with electric field vectors, flux is a scalar quantity. It representsthe amount of piercing electric field, not a vector itself.The SI unit of flux is the newton–square-metre per coulomb. "
+    },
+    {
+      "name": "bold",
+      "body": "Gauss' Law"
+    },
+    {
+      "name": "paragraph",
+      "body": " According to Gauss's law, the total flux linked with a closed surface is $\\frac{1}{\\epsilon_0}$ times the charge enclosed by the closed surface: \\[ \\oint \\mathbf{E} \\cdot d\\mathbf{s} = \\frac{q}{\\epsilon_0} \\] For example, a point charge $q$ is placed inside a cube of the edge $a$. Now, as per Gauss's law, the flux through each face of the cube is $\\frac{q}{6\\epsilon_0}$. \\subsection{Gauss Law Formula} As per the Gauss theorem, the total charge enclosed in a closed surface is proportional to the total flux enclosed by the surface. Therefore, if $\\phi$ is total flux and $\\epsilon_0$ is electric constant, the total electric charge $Q$ enclosed by the surface is: \\[ Q=\\phi \\epsilon_0 \\] The Gauss law formula is expressed by: \\[ \\phi = \\frac{Q}{\\epsilon_0} \\] Where, \\begin{align*} Q&=\\text{Total charge within the given surface} \\\\ \\epsilon_0 & = \\text{The electric constant} \\end{align*}  \\documentclass{article} \\usepackage{amsmath} \\begin{document} \\section{The Gauss Theorem} The net flux through a closed surface is directly proportional to the net charge in the volume enclosed by the closed surface: \\[ \\Phi = \\oint \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{q_{\\text{net}}}{\\epsilon_0} \\] In simple words, the Gauss theorem relates the 'flow' of electric field lines (flux) to the charges within the enclosed surface. If no charges are enclosed by a surface, then the net electric flux remains zero. This means that the number of electric field lines entering the surface equals the field lines leaving the surface.  "
+    },
+    {
+      "name": "bold",
+      "body": "Applications "
+    },
+    {
+      "name": "bold",
+      "body": "1. Field due to an infinitely long straight uniformly charged wire: "
+    },
+    {
+      "name": "bold",
+      "body": "Applications"
+    },
+    {
+      "name": "bold",
+      "body": "Field due to an Infinitely Long Straight Uniformly Charged Wire"
+    },
+    {
+      "name": "paragraph",
+      "body": " Consider an infinitely long straight, uniformly charged wire with linear charge density $\\lambda$. Let $P$ be a point located at a perpendicular distance $r$ from the wire. The wire can be considered as a cylindrical Gaussian surface to determine the electric field $E$ at point $P$ using Gauss' law. The surface area of the curved part of the cylindrical Gaussian surface is given by: \\[ S = 2\\pi rl \\] The total charge enclosed by the Gaussian surface is: \\[ q = \\lambda l \\] The electric flux through the end surfaces of the cylindrical Gaussian surface is: \\[ \\Phi_1 = 0 \\] The electric flux through the curved surface of the cylindrical Gaussian surface is given by: \\[ \\Phi_2 = E \\cos\\theta \\cdot s \\] \\[ \\Phi_2 = E \\times 1 \\times 2\\pi rl \\] The total electric flux is: \\[ \\Phi = \\Phi_1 + \\Phi_2 \\] \\[ \\Phi = 0 + E \\cos\\theta \\cdot s \\] \\[ \\Phi_2 = 2\\pi rlE \\quad (\\text{eq. 1}) \\] From Gauss' law, we have: \\[ \\Phi = \\frac{q}{\\epsilon_0} = \\frac{\\lambda l}{\\epsilon_0} \\quad (\\text{eq. 2}) \\] Substituting equations 1 and 2, we get: \\[ 2\\pi rlE = \\frac{\\lambda l}{\\epsilon_0} \\] Thus, the electric field $E$ due to an infinitely long straight uniformly charged wire is: \\[ E = \\frac{1}{2\\pi\\epsilon_0} \\left( \\frac{\\lambda}{r} \\right) \\]  "
+    },
+    {
+      "name": "bold",
+      "body": "2. Field due to a Uniformly Charged Infinite Plane Sheet"
+    },
+    {
+      "name": "paragraph",
+      "body": " Picture a large, flat sheet with an even spread of electric charge all over it. This sheet extends infinitely, like a magical carpet. Let's denote the charge on the sheet as $\\sigma$ (sigma). We'll use the x-axis as our guide, pointing straight away from the sheet. Due to the sheet's symmetry, the electric field will only depend on the x-axis and won't vary along the y or z directions. Now, imagine a special shape, like a rectangular box, around a part of the sheet. We call this our 'Gaussian surface', which helps us understand and visualize the field. The electric field lines are like invisible threads passing through the top and bottom faces of our box. The total number of threads passing through both faces is represented by $2EA$, where $E$ is the electric field strength and $A$ is the area of the faces. According to Gauss' law, $2EA$ equals the charge inside our box divided by a special constant $\\epsilon_0$ (epsilon naught): \\[ 2EA = \\frac{\\sigma A}{\\epsilon_0} \\] Therefore, the electric field $E$ is given by:\\[ E = \\frac{\\sigma}{2\\epsilon_0} \\]The direction of the electric field is normal to the plane of the sheet (see figure).Note: The electric field is uniform and does not depend on the exact spot ($x$) onthe sheet. It remains constant everywhere, except near the ends if our sheet is notinfinite. "
+    },
+    {
+      "name": "bold",
+      "body": "3. Field due to a uniformly charged thin spherical shell"
+    },
+    {
+      "name": "paragraph",
+      "body": " Think of a magical round sphere with a charge spread all over its surface. This sphere is our uniformly charged thin spherical shell. To understand the electric field outside the shell, we create a magic bubble around a point $P$ outside the sphere. This bubble is like an invisible force field, and it's a sphere too, with its center at the center of the charged shell. Electric field lines are like threads coming out from the shell. Picture these threads passing through the surface of our bubble. The total number of threads is given by: \\[ E \\times 4\\pi r^2 \\] Gauss, our magical physicist friend, tells us that this total thread count is related to the charge inside the shell: \\[ \\sigma \\times 4\\pi R^2 \\] where $\\sigma$ is the charge density on the shell, $\\epsilon_0$ is a special constant, and $E$ is the electric field. The threads (flux) equal the charge inside divided by a special constant $\\epsilon_0$. So, \\[ E \\times 4\\pi r^2 = \\frac{\\sigma \\times 4\\pi R^2}{\\epsilon_0} \\] At the surface of the shell, draw a Gaussian surface of radius $R$, \\[ q_{\\text{enclosed}} = \\sigma \\times 4\\pi r^2 \\] \\[ E_{p2} \\times 4\\pi r^2 = \\frac{q_{\\text{enclosed}}}{\\epsilon_0} \\] \\[ E_{p2} = \\frac{\\sigma \\times 4\\pi r^2}{4\\pi r^2 \\epsilon_0} = \\frac{\\sigma}{\\epsilon_0} \\] For $r > R$: \\[ q_{\\text{enclosed}} = \\sigma \\times (4\\pi r^2) \\] \\[ E_{p3} \\times 4\\pi r^2 = \\frac{\\sigma \\times 4\\pi r^2}{\\epsilon_0} \\] \\[ E_{p3} = \\frac{\\sigma R^2}{\\epsilon_0 r^2} \\] Now, let's go inside the shell. Imagine standing at point $P$ inside the shell. We create another magic bubble. Gauss whispers that if there's no charge inside our bubble, the electric field inside is zero. It's like saying, 'If there's no magical glow inside, you won't feel anything'. Therefore, inside the shell, the electric field is zero: \\[ E = 0 \\]"
     }
   ]
 }

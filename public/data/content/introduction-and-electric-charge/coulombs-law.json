@@ -1,8 +1,49 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "COULOMB'S LAW"
+    },
+    {
+      "name": "paragraph",
+      "body": "Coulomb's law is a quantitative statement about the force between two point charges. This equation works for only charged particles (and a few other things that can be treated as particles). For extended objects, with charge located in many different places, we need more powerful techniques. So, here we consider just charged particles and not, say, two charged cats."
+    },
+    {
+      "name": "image",
+      "alt": "image25.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image25.png"
+    },
+    {
+      "name": "paragraph",
+      "body": "If two charged particles are brought near each other, they each exert an electrostatic force on the other. The direction of the force vectors depends on the signs of the charges. If the particles have the same sign of charge, they repel each other. That means that the force vector on each is directly away from the other particle. If, instead, the particles have opposite signs of charge, they attract each other. That means that the force vector on each is directly toward the other particle."
+    },
+    {
+      "name": "paragraph",
+      "body": "Imagine you have two particles, like tiny electric balls. One has a charge called \\( q_1 \\), and the other has a charge called \\( q_2 \\). These charges can be either positive or negative. Now, let's pay attention to the first particle. We want to figure out how much force is working on it. Think of this force like a push or a pull."
+    },
+    {
+      "name": "paragraph",
+      "body": "To explain this force, imagine there's an imaginary line going through both particles, like a line connecting them. This line is like a special arrow pointing from the second particle to the first one. We call it the radial axis. The force we're talking about is connected to this line, and we want to describe it using something called a unit vector. It's like a special arrow that points along this line."
+    },
+    {
+      "name": "paragraph",
+      "body": "Coulomb measured the force between two point charges and found that it varied inversely as the square of the distance between the charges and was directly proportional to the product of the magnitude of the two charges and acted along the line joining the two charges. Thus, if two point charges \\( q_1 \\) , \\( q_2 \\) are separated by a distance \\( r \\) in vacuum, the direction of force is in the direction of unit vector and the magnitude of the force (\\( F \\)) between them is given by:"
+    },
+    {
+      "name": "paragraph",
+      "body": "\\[ \\mathbf{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\mathbf{\\hat{r}} \\] where \\( \\mathbf{F} \\) is the force vector, \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\( r \\) is the distance between the charges, and \\( \\epsilon_0 \\) is the vacuum permittivity constant. "
+    },
+    {
+      "name": "paragraph",
+      "body": "The electrostatic constant k in above equation is often written as 1/4πε0. Then the magnitude of the electrostatic force in Coulomb's law becomes:"
+    },
+    {
+      "name": "paragraph",
+      "body": "\\[ F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\] where: \\begin{itemize} \\item \\( F \\) is the magnitude of the force, \\item \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\item \\( r \\) is the distance between the charges,\\item \\( \\epsilon_0 \\) is the vacuum permittivity constant (\\( \\epsilon_0 \\approx 8.854 \\times10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\)).\\[ k = 8.99 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2 \\]which is approximately equal to \\( \\frac{1}{4\\pi\\epsilon_0} \\), where \\( \\epsilon_0 \\) is thevacuum permittivity constant, approximately equal to \\( 8.854 \\times 10^{-12} \\,\\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\).The quantity ε0, called the permittivity constant, sometimes appears separately in equationsand is:"
+    },
+    {
+      "name": "paragraph",
+      "body": "Let the position vectors of charges \\( q_1 \\) and \\( q_2 \\) be \\( \\mathbf{r_1} \\) and \\(\\mathbf{r_2} \\) respectively. We denote the force on \\( q_1 \\) due to \\( q_2 \\) by \\(\\mathbf{F_{12}} \\) and the force on \\( q_2 \\) due to \\( q_1 \\) by \\( \\mathbf{F_{21}} \\).The vector leading from \\( 1 \\) to \\( 2 \\) is denoted by \\( \\mathbf{r_{21}} \\) and the vectorleading from \\( 2 \\) to \\( 1 \\) is denoted by \\( \\mathbf{r_{12}} \\):\\[ \\mathbf{r_{21}} = \\mathbf{r_2} - \\mathbf{r_1} \\]\\[ \\mathbf{r_{12}} = \\mathbf{r_1} - \\mathbf{r_2} = -(\\mathbf{r_{21}}) \\]\\[ \\mathbf{F_{21}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{21}}{r_{21}^2} \\mathbf{\\hat{r}_{21}} \\]\\[ \\mathbf{F_{12}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{12}}{r_{12}^2} \\mathbf{\\hat{r}_{12}} \\]\\[ \\mathbf{F_{21}} = -\\mathbf{F_{12}} \\]"
     }
   ]
 }

@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "THE BAR MAGNET"
+    },
+    {
+      "name": "paragraph",
+      "body": "We begin our study by examining iron filings sprinkled on a sheet of glass placed over a short bar magnet. The arrangement of iron filings is shown below."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "The pattern of iron filings suggests that the magnet has two poles similar to the positive and negative charge of an electric dipole. As mentioned in the introductory section, one pole is designated the North pole and the other, the South pole. When suspended freely, these poles point approximately towards the geographic north and south poles, respectively. A similar pattern of iron filings is observed around a current carrying solenoid."
+    },
+    {
+      "name": "bold",
+      "body": "The Magnetic Field Lines"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "The magnetic field lines are a visual and intuitive realization of the magnetic field. Their properties are:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(a) The magnetic field lines of a magnet (or a solenoid) form continuous closed loops. This is unlike the electric dipole where these field lines begin from a positive charge and end on the negative charge or escape to infinity."
+    },
+    {
+      "name": "paragraph",
+      "body": "(b) The tangent to the field line at a given point represents the direction of the net magnetic field $\\mathbf{B}$ at that point."
+    },
+    {
+      "name": "paragraph",
+      "body": "(c) The larger the number of field lines crossing per unit area, the stronger is the magnitude of the magnetic field $\\mathbf{B}$."
+    },
+    {
+      "name": "paragraph",
+      "body": "(d) The magnetic field lines do not intersect, for if they did, the direction of the magnetic field would not be unique at the point of intersection."
+    },
+    {
+      "name": "paragraph",
+      "body": "One can plot the magnetic field lines in a variety of ways. One way is to place a small magnetic compass needle at various positions and note its orientation. This gives us an idea of the magnetic field direction at various points in space."
+    },
+    {
+      "name": "bold",
+      "body": "Bar magnet as an equivalent solenoid"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "In the previous chapter, we have explained how a current loop acts as a magnetic dipole. We mentioned Ampere’s hypothesis that all magnetic phenomena can be explained in terms of circulating currents. The resemblance of magnetic field lines for a bar magnet and a solenoid suggest that a bar magnet may be thought of as a large number of circulating currents in analogy with a solenoid. Cutting a bar magnet in half is like cutting a solenoid. We get two smaller solenoids with weaker magnetic properties. The field lines remain continuous, emerging from one face of the solenoid and entering into the other face. One can test this analogy by moving a small compass needle in the neighborhood of a bar magnet and a current-carrying finite solenoid and noting that the deflections of the needle are similar in both cases."
+    },
+    {
+      "name": "paragraph",
+      "body": "To make this analogy more firm we calculate the axial field of a finite solenoid. We shall demonstrate that at large distances this axial field resembles that of a bar magnet."
+    },
+    {
+      "name": "expression",
+      "body": "\\[B = \\frac{\\mu_0}{4\\pi}\\frac{m}{r^3}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "This is also the far axial magnetic field of a bar magnet which one may obtain experimentally. Thus, a bar magnet and a solenoid produce similar magnetic fields. The magnetic moment of a bar magnet is thus equal to the magnetic moment of an equivalent solenoid that produces the same magnetic field."
+    },
+    {
+      "name": "bold",
+      "body": "The dipole in a uniform magnetic field"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "Let's place a small compass needle of known magnetic moment $m$ and allowing it to oscillate in the magnetic field. This arrangement is shown above. The torque on the needle is,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{t} = \\mathbf{m} \\times \\mathbf{B} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "In magnitude $|\\mathbf{t}| = mB \\sin{\\theta}$ where $\\mathbf{t}$ is restoring torque and $\\theta$ is the angle between $\\mathbf{m}$ and $\\mathbf{B}$."
+    },
+    {
+      "name": "paragraph",
+      "body": "An expression for magnetic potential energy can also be obtained on lines similar to electrostatic potential energy. The magnetic potential energy $U_m$ is given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ U_m = \\int_{\\theta_1}^{\\theta_2} \\tau \\,d\\theta = \\int_{\\theta_1}^{\\theta_2} mB \\sin{\\theta} \\,d\\theta = -m\\cdot B \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Taking the constant of integration to be zero means fixing the zero of potential energy at $\\theta = 90^\\circ$, i.e., when the needle is perpendicular to the field. Hence, potential energy is minimum ($= -mB$) at $\\theta = 0^\\circ$ (most stable position) and maximum ($= +mB$) at $\\theta = 180^\\circ$ (most unstable position)."
+    },
+    {
+      "name": "bold",
+      "body": "The electrostatic analog"
+    },
+    {
+      "name": "paragraph",
+      "body": "The magnetic field at large distances due to a bar magnet of magnetic moment $m$ can be obtained from the equation for electric field due to an electric dipole of dipole moment $p$, by making the following replacements:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\mathbf{E} \\rightarrow \\mathbf{B}, \\quad p \\rightarrow m, \\quad \\frac{1}{4\\pi\\varepsilon_0} \\rightarrow \\frac{\\mu_0}{4\\pi} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "In particular, we can write down the equatorial field ($B_E$) of a bar magnet at a distance $r$, for $r \\gg l$, where $l$ is the size of the magnet:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ B_E = -\\frac{\\mu_0}{4\\pi} \\frac{m}{2\\pi A r^3} = -\\frac{\\mu_0}{2\\pi} \\frac{m}{Ar^3} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Likewise, the axial field ($B_A$) of a bar magnet for $r \\gg l$ is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ B_A = \\frac{\\mu_0}{4\\pi} \\frac{m}{r^3} \\]"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    }
+  ]
+}

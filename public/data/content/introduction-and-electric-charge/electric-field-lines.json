@@ -1,8 +1,154 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": " Electric Field Lines"
+    },
+    {
+      "name": "paragraph",
+      "body": " When you bring one charge close to another fixed charge, the first charge feels a forcebecause of the second charge. The area around a charge where another charge feels aforce is called the electric field of that charge. In simpler terms, the electric field is like aninvisible area around a charge where other charges can feel a push or pull.The electric field is measured with both direction and strength. If it's a positive charge, thepush or pull is outward; for a negative charge, it's inward."
+    },
+    {
+      "name": "paragraph",
+      "body": " Key points about the electric field:Definition: The electric field is the space around a charge where another static charge feels aforce. Moving Charges: Moving charges can feel a force from magnetic fields, but they can't helpus detect an electric field. Magnetic fields don't affect static charges.Force Direction: If you put a positive charge in an electric field, it feels a force in the samedirection as the field. A negative charge feels a force opposite to the field direction.Field Extends Infinitely: For every charge, there's an electric field that goes on forever. Thisfield isn't affected by other charges nearby.No Self-Force: A charged particle doesn't feel a force from its own electric field."
+    },
+    {
+      "name": "bold",
+      "body": " The Electric Field Due to a Point Charge"
+    },
+    {
+      "name": "paragraph",
+      "body": " Electric Field Created by a Charged Particle:Imagine you have a charged particle, like a tiny speck with some electric charge on it. Now, ifyou put a small positive test charge near it, the charged particle will exert a force on that testcharge. This force is what we call (\\( F \\))."
+    },
+    {
+      "name": "paragraph",
+      "body": " Now, the Electric Field (\\( \\mathbf{E} \\)) created by this charged particle at the location of the test charge is simply this force divided by the test charge. Mathematically, it's (\\( \\mathbf{E} = \\frac{\\mathbf{F}}{q} \\))"
+    },
+    {
+      "name": "paragraph",
+      "body": "  The direction of this Electric Field (\\( \\mathbf{E} \\)) points away from the charged particle if the particle is positively charged, and towards the particle if it's negatively charged"
+    },
+    {
+      "name": "paragraph",
+      "body": "Electric Field (\\( \\mathbf{E} \\)): (\\( \\mathbf{E} = \\frac{\\mathbf{F}}{q} \\))\\item Magnitude of Electric Field (\\( |\\mathbf{E}| \\)): \\( |\\mathbf{E}| =\\frac{|q|}{4\\pi\\epsilon_0 r^2} \\)"
+    },
+    {
+      "name": "paragraph",
+      "body": "   Now, if you have multiple charged particles creating electric fields, you can find the total  electric field by adding up the individual electric fields. The principle here is superposition, which means you add them up as vectors."
+    },
+    {
+      "name": "paragraph",
+      "body": "  Formula for Total Electric Field (\\( \\mathbf{E}_{\\text{total}} \\)):\\[ \\mathbf{E}_{\\text{total}} = \\mathbf{E}_1 + \\mathbf{E}_2 + \\mathbf{E}_3 + \\dots \\]This tells us that the total electric field at a point is the sum of the electric fields created byeach charged particle individually"
+    },
+    {
+      "name": "paragraph",
+      "body": " Remember, electric fields have both magnitude and direction. The magnitude is given by the formula mentioned above, and the direction is determined by the sign of the charges involved."
+    },
+    {
+      "name": "paragraph",
+      "body": " That's it! This idea of electric fields helps us understand how charges influence the space around them, and by adding them up, we can find the overall electric field at a specific point."
+    },
+
+    {
+      "name": "bold",
+      "body": "  THE ELECTRIC FIELD DUE TO A DIPOLE"
+    },
+    {
+      "name": "paragraph",
+      "body": "   The pattern of electric field lines around an electric dipole, with an electric field vector shown at one point (tangent to the field line through that point)"
+    },
+    {
+      "name": "paragraph",
+      "body": "   Imagine two charged particles, one with a positive charge (q) and the other with a negative charge (−q), placed close to each other but separated by a distance (d). This setup is what we call an electric dipole. The charges are like opposite ends of a tiny bar. "
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, if you're standing along an imaginary line passing through these charges (let's call it the z axis), you'll feel electric fields coming from both charges. The positive charge creates a field pointing away from it, and the negative charge creates a field pointing towards it."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, if you're standing along an imaginary line passing through these charges (let's call it the z axis), you'll feel electric fields coming from both charges. The positive charge creates a field pointing away from it, and the negative charge creates a field pointing towards it."
+    },
+    {
+      "name": "image",
+      "alt": "MatchingEquationParts.gif",
+      "body": "../../../../public/assets/introduction-and-electric-charge/MatchingEquationParts.gif"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = E_{+} - E_{-}\\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{r_{+}}^2} \\right) - \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{r_{-}}^2} \\right)\\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ E = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{(z - \\frac{d}{2})}^2} - \\frac{q}{{(z + \\frac{d}{2})}^2} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "After a little algebra we can rewrite this equation as"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\left( \\frac{1}{{(1 - \\frac{d}{2z})}^2} - \\frac{1}{{(1 + \\frac{d}{2z})}^2} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "After forming a common denominator and multiplying its terms, we get"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{{(1 + \\frac{d}{2z})}^2 - {(1 - \\frac{d}{2z})}^2}{{(1 - \\frac{d}{2z})}^2{(1 + \\frac{d}{2z})}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1 - \\frac{d}{2z})}^2{(1 + \\frac{d}{2z})}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1 - {(\\frac{d}{2z})}^2)}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{1}{2\\pi\\epsilon_0} \\frac{qd}{z^3} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Weare usually interested in the electrical effect of a dipole only at distances that are largecompared with the dimensions of the dipole—that is, at distances such that \\( z \\gg d \\). Atsuch large distances, we have \\( \\frac{d}{2z} \\ll 1 \\). Thus, in our approximation, we canneglect the \\( \\frac{d}{2z} \\) term in the denominator, which leaves us with"
+    },
+    {
+      "name": "expression",
+      "body": " \\[ E = \\frac{1}{2\\pi \\epsilon_0} \\frac{{q}{d}}{z^3} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "  The product \\( qd \\), which involves the two intrinsic properties \\( q \\) and \\( d \\) of the dipole,is the magnitude \\( p \\) of a vector quantity known as the electric dipole moment of thedipole. (The unit of \\( p \\) is the coulomb-meter.)"
+    },
+    {
+      "name": "paragraph",
+      "body": " A dipole is like a pair of opposite charges close together. The electric field it creates isstrongest along an imaginary line connecting the charges. We call this line the dipole axis.When looking from far away, the dipole seems like two particles with equal but oppositecharges."
+    },
+    {
+      "name": "paragraph",
+      "body": " If we measure the electric field at a distance from the dipole, we can't figure out theindividual charge (q) or the separation between them (d). We only get their combined effect.The electric field at distant points decreases faster for a dipole than for a single charge whenyou move away. This happens because, from far away, the dipole looks like two particlesthat nearly cancel each other out due to their opposite charges. So, doubling the distancefrom a dipole reduces the electric field by a factor of 8, compared to only a factor of 4 for asingle charge."
+    },
+    {
+      "name": "bold",
+      "body": " A Point Charge in an Electric Field"
+    },
+    {
+      "name": "paragraph",
+      "body": " In the previous sections, we focused on figuring out the electric field produced by differentcharge arrangements. Now, let's switch gears to our second task: understanding whathappens to a charged particle when it finds itself in an electric field generated by otherstationary or slowly moving charges."
+    },
+    {
+      "name": "paragraph",
+      "body": " Here's the deal: when a charged particle enters this electric field, it experiences a forceforce is given by a simple formula"
+    },
+    {
+      "name": "paragraph",
+      "body": " \\[ F = q \\cdot E \\]Breaking it down: \\( F \\) is the force on the particle.\\item \\( q \\) is the charge of the particle (and yes, it includes whether it's positive ornegative).\\item \\( E \\) is the electric field created by the other charges at the location of our particle."
     }
   ]
 }

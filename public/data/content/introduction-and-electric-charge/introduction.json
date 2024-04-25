@@ -7,6 +7,40 @@
     {
       "name": "paragraph",
       "body": "All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweaters, particularly in dry weather. This is precisely the topic we are going to discuss in this and the next chapter. Static means anything that does not move or change with time. Electrostatics deals with the study of forces, fields, and potentials arising from static charges."
+    },
+    {
+      "name": "paragraph",
+      "body": "Imagine you rub a balloon on your hair, and suddenly it sticks to the wall. That's because of something called electric charge. A long time ago, a person named Thales found that if you rub amber (a type of rock) with wool or silk, it can attract light things like straw or bits of paper."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, there are two types of electric charge - think of it like magnets. If you try to push two magnets together, they don't like it, but if you bring them close, they stick together. Scientists called these charges positive and negative. Positive is like one type, and negative is like the other."
+    },
+    {
+      "name": "paragraph",
+      "body": "When you rub things together, like a plastic rod with a cat's fur, they get charged. But if you touch the charged plastic rod with something else, like a glass rod, the charges kind of cancel out, and they don't attract or repel each other anymore."
+    },
+    {
+      "name": "image",
+      "alt": "image18.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image18.png"
+    },
+    {
+      "name": "description",
+      "body": "Rods: like charges repel and unlike charges attract each other"
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, why do things get charged? Well, everything is made of tiny particles called atoms. Normally, they have a balanced amount of positive and negative charges, so they're neutral. But when you rub things, some of these charges move around. For example, when you rub a balloon on your hair, it steals some electrons, making it negatively charged. The forces between these charged particles are what make things stick or repel."
+    },
+    {
+      "name": "paragraph",
+      "body": "So, in a nutshell, rubbing makes things electrically charged, and it's all because of the movement of tiny particles with positive and negative charges. Cool, right?"
+    },
+    {
+      "name": "image",
+      "alt": "image1.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image1.png"
     }
   ]
 }

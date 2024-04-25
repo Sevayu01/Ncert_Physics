@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "heading": "heading",
+      "name": "heading",
       "body": "Basic Properties of Electric Charge "
     },
     {
@@ -11,6 +11,20 @@
     {
       "name": "paragraph",
       "body": " There are two types of charges: positive and negative. Positive and negative charges can cancel each other out."
+    },
+    {
+      "name": "image",
+      "alt": "image27.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image27.png"
+    },
+    {
+      "name": "paragraph",
+      "body": "Like charges repel whereas unlike charges attract each other."
+    },
+    {
+      "name": "image",
+      "alt": "image16.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image16.png"
     },
     {
       "name": "bold",
@@ -45,12 +59,17 @@
       "body": " All free charges are integral multiples of a basic unit denoted by \\( e \\). Charge on a body is given by \\( q = ne \\), where \\( n \\) is an integer. The basic unit of charge is the charge carried by an electron or proton. In SI units, 1 Coulomb (C) is the charge flowing through a wire in 1 second with a current of 1 Ampere. The value of the basic unit of charge (\\( e \\)) is \\( 1.602192 \\times 10^{-19} \\). Charges can be in steps of \\( e \\), and observable charges are integral multiples of \\( e \\). "
     },
     {
+      "name": "image",
+      "alt": "image21.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image21.png"
+    },
+    {
       "name": "bold",
       "body": "Real-Life Example"
     },
     {
       "name": "paragraph",
-      "body": " Think of electric charges like coins. You have coins of different values (positive and negative), and when you add them up, the total is like the total charge in a system. When you transfer coins between pockets, the total value doesn't change. This is like the conservation of charge in electric systems. \\end{document}"
+      "body": " Think of electric charges like coins. You have coins of different values (positive and negative), and when you add them up, the total is like the total charge in a system. When you transfer coins between pockets, the total value doesn't change. This is like the conservation of charge in electric systems."
     }
   ]
 }

@@ -9,6 +9,11 @@
       "body": "Coulomb's law is a quantitative statement about the force between two point charges. This equation works for only charged particles (and a few other things that can be treated as particles). For extended objects, with charge located in many different places, we need more powerful techniques. So, here we consider just charged particles and not, say, two charged cats."
     },
     {
+      "name": "image",
+      "alt": "image25.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image25.png"
+    },
+    {
       "name": "paragraph",
       "body": "If two charged particles are brought near each other, they each exert an electrostatic force on the other. The direction of the force vectors depends on the signs of the charges. If the particles have the same sign of charge, they repel each other. That means that the force vector on each is directly away from the other particle. If, instead, the particles have opposite signs of charge, they attract each other. That means that the force vector on each is directly toward the other particle."
     },

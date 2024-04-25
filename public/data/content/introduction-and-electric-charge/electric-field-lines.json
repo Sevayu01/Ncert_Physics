@@ -13,7 +13,7 @@
       "body": " Key points about the electric field:Definition: The electric field is the space around a charge where another static charge feels aforce. Moving Charges: Moving charges can feel a force from magnetic fields, but they can't helpus detect an electric field. Magnetic fields don't affect static charges.Force Direction: If you put a positive charge in an electric field, it feels a force in the samedirection as the field. A negative charge feels a force opposite to the field direction.Field Extends Infinitely: For every charge, there's an electric field that goes on forever. Thisfield isn't affected by other charges nearby.No Self-Force: A charged particle doesn't feel a force from its own electric field."
     },
     {
-      "name": "heading",
+      "name": "bold",
       "body": " The Electric Field Due to a Point Charge"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "name": "paragraph",
-      "body": " Formulas:\\begin{enumerate}\\item Electric Field (\\( \\mathbf{E} \\)): (\\( \\mathbf{E} = \\frac{\\mathbf{F}}{q} \\))\\item Magnitude of Electric Field (\\( |\\mathbf{E}| \\)): (\\( |\\mathbf{E}| =\\frac{|q|}{4\\pi\\epsilon_0 r^2} \\))\\end{enumerate}"
+      "body": "Electric Field (\\( \\mathbf{E} \\)): (\\( \\mathbf{E} = \\frac{\\mathbf{F}}{q} \\))\\item Magnitude of Electric Field (\\( |\\mathbf{E}| \\)): \\( |\\mathbf{E}| =\\frac{|q|}{4\\pi\\epsilon_0 r^2} \\)"
     },
     {
       "name": "paragraph",
@@ -50,7 +50,7 @@
     },
 
     {
-      "name": "heading",
+      "name": "bold",
       "body": "  THE ELECTRIC FIELD DUE TO A DIPOLE"
     },
     {
@@ -70,15 +70,56 @@
       "body": "Now, if you're standing along an imaginary line passing through these charges (let's call it the z axis), you'll feel electric fields coming from both charges. The positive charge creates a field pointing away from it, and the negative charge creates a field pointing towards it."
     },
     {
+      "name": "image",
+      "alt": "MatchingEquationParts.gif",
+      "body": "../../../../public/assets/introduction-and-electric-charge/MatchingEquationParts.gif"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = E_{+} - E_{-}\\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{r_{+}}^2} \\right) - \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{r_{-}}^2} \\right)\\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ E = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{(z - \\frac{d}{2})}^2} - \\frac{q}{{(z + \\frac{d}{2})}^2} \\right) \\]"
+    },
+    {
       "name": "paragraph",
-      "body": " E &=E_{+}- E_{-} \\E &=\\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{r_{+}}^2} \\right)- \\frac{1}{4\\pi\\epsilon_0} \\left(\\frac{q}{{r_{-}}^2} \\right)\\[ E = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{q}{{(z- \\frac{d}{2})}^2}- \\frac{q}{{(z + \\frac{d}{2})}^2}\\right) \\]\\[E &= \\frac{q}{{4\\pi\\epsilon_0z}^2} \\left( \\frac{1}{{(1- \\frac{d}{2z})}^2}- \\frac{1}{{(1 +\\frac{d}{2z})}^2} \\right) \\]\\[E &= \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{{(1 + \\frac{d}{2z})}^2- {(1- \\frac{d}{2z})}^2}{{(1\\frac{d}{2z})}^2{(1 + \\frac{d}{2z})}^2} \\]\\[E &= \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1- \\frac{d}{2z})}^2{(1 +\\frac{d}{2z})}^2} \\]\\[E &= \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1- {(\\frac{d}{2z})}^2)}^2} \\]\\[E &= \\frac{1}{2\\pi\\epsilon_0} \\frac{qd}{z^3} \\]"
+      "body": "After a little algebra we can rewrite this equation as"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\left( \\frac{1}{{(1 - \\frac{d}{2z})}^2} - \\frac{1}{{(1 + \\frac{d}{2z})}^2} \\right) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "After forming a common denominator and multiplying its terms, we get"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{{(1 + \\frac{d}{2z})}^2 - {(1 - \\frac{d}{2z})}^2}{{(1 - \\frac{d}{2z})}^2{(1 + \\frac{d}{2z})}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1 - \\frac{d}{2z})}^2{(1 + \\frac{d}{2z})}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{q}{{4\\pi\\epsilon_0z}^2} \\frac{\\frac{2d}{z}}{{(1 - {(\\frac{d}{2z})}^2)}^2} \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[E = \\frac{1}{2\\pi\\epsilon_0} \\frac{qd}{z^3} \\]"
     },
     {
       "name": "paragraph",
       "body": "Weare usually interested in the electrical effect of a dipole only at distances that are largecompared with the dimensions of the dipole—that is, at distances such that \\( z \\gg d \\). Atsuch large distances, we have \\( \\frac{d}{2z} \\ll 1 \\). Thus, in our approximation, we canneglect the \\( \\frac{d}{2z} \\) term in the denominator, which leaves us with"
     },
     {
-      "name": "paragraph",
+      "name": "expression",
       "body": " \\[ E = \\frac{1}{2\\pi \\epsilon_0} \\frac{{q}{d}}{z^3} \\]"
     },
     {
@@ -94,7 +135,7 @@
       "body": " If we measure the electric field at a distance from the dipole, we can't figure out theindividual charge (q) or the separation between them (d). We only get their combined effect.The electric field at distant points decreases faster for a dipole than for a single charge whenyou move away. This happens because, from far away, the dipole looks like two particlesthat nearly cancel each other out due to their opposite charges. So, doubling the distancefrom a dipole reduces the electric field by a factor of 8, compared to only a factor of 4 for asingle charge."
     },
     {
-      "name": "heading",
+      "name": "bold",
       "body": " A Point Charge in an Electric Field"
     },
     {
@@ -107,7 +148,7 @@
     },
     {
       "name": "paragraph",
-      "body": " \\[ F = q \\cdot E \\]Breaking it down:\\begin{itemize}\\item \\( F \\) is the force on the particle.\\item \\( q \\) is the charge of the particle (and yes, it includes whether it's positive ornegative).\\item \\( E \\) is the electric field created by the other charges at the location of our particle.\\end{itemize}"
+      "body": " \\[ F = q \\cdot E \\]Breaking it down: \\( F \\) is the force on the particle.\\item \\( q \\) is the charge of the particle (and yes, it includes whether it's positive ornegative).\\item \\( E \\) is the electric field created by the other charges at the location of our particle."
     }
   ]
 }

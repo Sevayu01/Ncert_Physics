@@ -19,6 +19,15 @@
     {
       "name": "paragraph",
       "body": "Now, if you rub a metal rod with a wooden or plastic handle, it might get charged because the electrons can't escape through the non-metal part . \nSo, conductors let electrons move, while insulators keep them in place"
+    },
+    {
+      "name": "paragraph",
+      "body": "So, conductors let electrons move, while insulators keep them in place."
+    },
+    {
+      "name": "image",
+      "alt": "image17.png",
+      "body": "../../../../public/assets/introduction-and-electric-charge/image17.png"
     }
   ]
 }

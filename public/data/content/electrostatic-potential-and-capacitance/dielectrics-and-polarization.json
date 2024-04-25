@@ -10,7 +10,7 @@
     },
     {
       "name": "paragraph",
-      "body": "Molecules in a substance may be polar or non-polar. Non-polar molecules, like oxygen and hydrogen, have symmetrical charge distributions and no permanent dipole moment. On the other hand, polar molecules, such as water (H\\textsubscript{2}O) and hydrogen chloride (HCl), have separated positive and negative charges, resulting in a permanent dipole moment even in the absence of an external field. In an external electric field, both non-polar and polar molecules develop induced dipole moments, aligning with the field direction."
+      "body": "Molecules in a substance may be polar or non-polar. Non-polar molecules, like oxygen and hydrogen, have symmetrical charge distributions and no permanent dipole moment. On the other hand, polar molecules, such as water ($H_{2}O$) and hydrogen chloride ($HCl$), have separated positive and negative charges, resulting in a permanent dipole moment even in the absence of an external field. In an external electric field, both non-polar and polar molecules develop induced dipole moments, aligning with the field direction."
     },
     {
       "name": "image",

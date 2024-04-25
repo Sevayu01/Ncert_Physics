@@ -1,13 +1,13 @@
 {
   "data": [
     {
-      "name": "image",
-      "alt": "image12",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image12.png"
-    },
-    {
       "name": "heading",
       "body": "Relation between field and potential"
+    },
+    {
+      "name": "image",
+      "alt": "image120",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image120.png"
     },
     {
       "name": "paragraph",

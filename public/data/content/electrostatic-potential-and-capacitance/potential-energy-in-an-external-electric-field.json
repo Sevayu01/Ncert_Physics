@@ -5,7 +5,7 @@
       "body": "Potential Energy in an External Electric Field"
     },
     {
-      "name": "bold",
+      "name": "subheading",
       "body": "1) Potential Energy of a single charge"
     },
     {
@@ -41,7 +41,7 @@
       "body": "where \\(V(\\mathbf{r})\\) is the external potential at the point \\(\\mathbf{r}\\). Thus, if an electron with charge \\(q = e = 1.6 \\times 10^{-19} \\, \\text{C}\\) is accelerated by a potential difference of \\(V = 1 \\, \\text{volt}\\), it would gain energy of \\(qV = 1.6 \\times 10^{-19} \\, \\text{J}\\). This unit of energy is defined as \\(1 \\, \\text{electron volt}\\) or \\(1 \\, \\text{eV}\\), i.e., \\(1 \\, \\text{eV} = 1.6 \\times 10^{-19} \\, \\text{J}\\). The units based on \\(eV\\) are most commonly used in atomic, nuclear, and particle physics, \\(1 \\, \\text{keV} = 10^3 \\, \\text{eV} = 1.6 \\times 10^{-16} \\, \\text{J}\\), \\(1 \\, \\text{MeV} = 10^6 \\, \\text{eV} = 1.6 \\times 10^{-13} \\, \\text{J}\\), \\(1 \\, \\text{GeV} = 10^9 \\, \\text{eV} = 1.6 \\times 10^{-10} \\, \\text{J}\\), and \\(1 \\, \\text{TeV} = 10^{12} \\, \\text{eV} = 1.6 \\times 10^{-7} \\, \\text{J}\\)."
     },
     {
-      "name": "bold",
+      "name": "subheading",
       "body": "2) Potential energy of a system of two charges in an external electric field"
     },
     {
@@ -77,13 +77,13 @@
       "body": "\\[ = q_1 V(\\mathbf{r}_1) + q_2 V (\\mathbf{r}_2) + \\frac{q_1 q_2}{4\\pi \\varepsilon_0 r_{12}} \\]"
     },
     {
-      "name": "paragraph",
+      "name": "subheading",
       "body": "3) Potential energy of a dipole in an external field"
     },
     {
       "name": "image",
-      "alt": "image4",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image4.png"
+      "alt": "image36",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image36.png"
     },
     {
       "name": "paragraph",
@@ -111,7 +111,7 @@
     },
     {
       "name": "expression",
-      "body": " $U'(\\theta) = {q} \\left[ V(\\mathbf{r}_1) - V(\\mathbf{r}_2) \\right] -{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }."
+      "body": " \\[U'(\\theta) = {q} \\left[ V(\\mathbf{r}_1) - V(\\mathbf{r}_2) \\right] -{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }\\]"
     },
     {
       "name": "paragraph",
@@ -119,7 +119,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[U'(\\theta) = {-pE \\cos\\theta}-{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} } = {-p.E}- {\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }.\\]"
+      "body": "\\[U'(\\theta) = {-pE \\cos\\theta}-{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} } = {-p.E}- {\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }\\]"
     },
     {
       "name": "paragraph",
@@ -132,10 +132,6 @@
     {
       "name": "expression",
       "body": "$q [V (\\mathbf{r}_1) - V (\\mathbf{r}_2)] = 0$"
-    },
-    {
-      "name": "paragraph",
-      "body": ""
     }
   ]
 }

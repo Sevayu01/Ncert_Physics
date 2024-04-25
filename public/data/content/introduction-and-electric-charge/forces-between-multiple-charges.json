@@ -1,8 +1,24 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "FORCES BETWEEN MULTIPLE CHARGES"
+    },
+    {
+      "name": "paragraph",
+      "body": "Coulomb's law gives the mutual electric force between two charges. How to calculate theforce on a charge where there are not one but several charges around? Consider a systemof \\( n \\) stationary charges \\( q_1, q_2, q_3, \\dots, q_n \\) in vacuum. What is the force on \\(q_1 \\) due to \\( q_2, q_3, \\dots, q_n \\)?"
+    },
+    {
+      "name": "paragraph",
+      "body": "Coulomb's law gives the mutual electric force between two charges. How to calculate the force on a charge where there are not one but several charges around? Consider a system of \\( n \\) stationary charges \\( q_1, q_2, q_3, \\dots, q_n \\) in vacuum. What is the force on \\( q_1 \\) due to \\( q_2, q_3, \\dots, q_n \\)? "
+    },
+    {
+      "name": "paragraph",
+      "body": "Experimentally, it is verified that force on any charge due to a number of other charges is thevector sum of all the forces on that charge due to the other charges, taken one at a time.The individual forces are unaffected due to the presence of other charges. This is termed asthe principle of superposition. The principle of superposition says that in a system of charges\\( q_1 , q_2 , \\dots, q_n \\), the force on \\( q_1 \\) due to \\( q_2 \\) is the same as given byCoulomb's law, i.e., it is unaffected by the presence of the other charges \\( q_3 , q_4 , \\dots,q_n \\). The total force \\( \\mathbf{F_1} \\) on the charge \\( q_1 \\), due to all other charges, isthen given by the vector sum of the forces \\( \\mathbf{F_{12}}, \\mathbf{F_{13}}, \\dots,\\mathbf{F_{1n}} \\):"
+    },
+    {
+      "name": "paragraph",
+      "body": "The force \\( \\mathbf{F} \\) on a charge \\( q_1 \\) due to other charges in the system can beexpressed as:\\[ \\mathbf{F}_{1} = \\frac{q_1}{4\\pi\\epsilon_0} \\sum_{i=2}^{n} \\frac{q_i}{r_{1i}^2}\\mathbf{\\hat{r}_{i}} \\]where \\( \\mathbf{F}_{F} \\) is the resultant force, \\( q_i \\) represents the charge at position \\(r_i \\), \\( r_{0i} \\) is the distance between charges \\( q_1 \\) and \\( q_i \\), and \\(\\mathbf{\\hat{r}_{i}} \\) is the unit vector pointing from charge \\( q_i \\) to charge \\( q_1 \\).The vector sum is obtained as usual by the parallelogram law of addition of vectors."
     }
   ]
 }

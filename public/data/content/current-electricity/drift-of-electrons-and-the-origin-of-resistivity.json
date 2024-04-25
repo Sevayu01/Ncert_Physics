@@ -10,6 +10,11 @@
       "body": "../../../../public/assets/current-electricity/image14.png"
     },
     {
+      "name": "image",
+      "alt": "BrownianMotion",
+      "body": "../../../../public/assets/current-electricity/BrownianMotion.gif"
+    },
+    {
       "name": "paragraph",
       "body": "As previously mentioned, electrons undergo collisions with heavy fixed ions, emerging with the same speed but in random directions. Considering all electrons, their average velocity is zero since their directions are random. Thus, for $N$ electrons at a given time, denoting the velocity of the $i$-th electron as $v_i$ ($i = 1, 2, 3, \\ldots, N$), we have:"
     },
@@ -77,6 +82,11 @@
       "name": "image",
       "alt": "image21",
       "body": "../../../../public/assets/current-electricity/image21.png"
+    },
+    {
+      "name": "image",
+      "alt": "DriftVelocity",
+      "body": "../../../../public/assets/current-electricity/DriftVelocity.gif"
     },
     {
       "name": "paragraph",

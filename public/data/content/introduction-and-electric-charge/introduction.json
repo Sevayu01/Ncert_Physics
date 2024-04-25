@@ -1,8 +1,12 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "Introduction"
+    },
+    {
+      "name": "paragraph",
+      "body": "All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweaters, particularly in dry weather. This is precisely the topic we are going to discuss in this and the next chapter. Static means anything that does not move or change with time. Electrostatics deals with the study of forces, fields, and potentials arising from static charges."
     }
   ]
 }

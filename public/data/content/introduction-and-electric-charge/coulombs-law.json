@@ -9,18 +9,8 @@
       "body": "Coulomb's law is a quantitative statement about the force between two point charges. This equation works for only charged particles (and a few other things that can be treated as particles). For extended objects, with charge located in many different places, we need more powerful techniques. So, here we consider just charged particles and not, say, two charged cats."
     },
     {
-      "name": "image",
-      "alt": "image27",
-      "body": "../../../../public/assets/current-electricity/image27.png"
-    },
-    {
       "name": "paragraph",
       "body": "If two charged particles are brought near each other, they each exert an electrostatic force on the other. The direction of the force vectors depends on the signs of the charges. If the particles have the same sign of charge, they repel each other. That means that the force vector on each is directly away from the other particle. If, instead, the particles have opposite signs of charge, they attract each other. That means that the force vector on each is directly toward the other particle."
-    },
-    {
-      "name": "image",
-      "alt": "image28",
-      "body": "../../../../public/assets/current-electricity/image28.png"
     },
     {
       "name": "paragraph",
@@ -44,11 +34,11 @@
     },
     {
       "name": "paragraph",
-      "body": "\\[ F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\] where: \\begin{itemize} \\item \\( F \\) is the magnitude of the force, \\item \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\item \\( r \\) is the distance between the charges, \\item \\( \\epsilon_0 \\) is the vacuum permittivity constant (\\( \\epsilon_0 \\approx 8.854 \\times 10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\)). \\[ k = 8.99 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2 \\] which is approximately equal to \\( \\frac{1}{4\\pi\\epsilon_0} \\), where \\( \\epsilon_0 \\) is the vacuum permittivity constant, approximately equal to \\( 8.854 \\times 10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\). The quantity ε0, called the permittivity constant, sometimes appears separately in equations and is:"
+      "body": "\\[ F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\] where: \\begin{itemize} \\item \\( F \\) is the magnitude of the force, \\item \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\item \\( r \\) is the distance between the charges,\\item \\( \\epsilon_0 \\) is the vacuum permittivity constant (\\( \\epsilon_0 \\approx 8.854 \\times10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\)).\\[ k = 8.99 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2 \\]which is approximately equal to \\( \\frac{1}{4\\pi\\epsilon_0} \\), where \\( \\epsilon_0 \\) is thevacuum permittivity constant, approximately equal to \\( 8.854 \\times 10^{-12} \\,\\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\).The quantity ε0, called the permittivity constant, sometimes appears separately in equationsand is:"
     },
     {
       "name": "paragraph",
-      "body": "Let the position vectors of charges \\( q_1 \\) and \\( q_2 \\) be \\( \\mathbf{r_1} \\) and \\( \\mathbf{r_2} \\) respectively. We denote the force on \\( q_1 \\) due to \\( q_2 \\) by \\( \\mathbf{F_{12}} \\) and the force on \\( q_2 \\) due to \\( q_1 \\) by \\( \\mathbf{F_{21}} \\). The vector leading from \\( 1 \\) to \\( 2 \\) is denoted by \\( \\mathbf{r_{21}} \\) and the vector leading from \\( 2 \\) to \\( 1 \\) is denoted by \\( \\mathbf{r_{12}} \\): \\[ \\mathbf{r_{21}} = \\mathbf{r_2} - \\mathbf{r_1} \\] \\[ \\mathbf{r_{12}} = \\mathbf{r_1} - \\mathbf{r_2} = -(\\mathbf{r_{21}}) \\] \\[ \\mathbf{F_{21}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{21}}{r_{21}^2} \\mathbf{\\hat{r}{21}} \\]\\[ \\mathbf{F{12}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{12}}{r_{12}^2} \\mathbf{\\hat{r}_{12}} \\] \\[ \\mathbf{F_{21}} = -\\mathbf{F_{12}} \\]"
+      "body": "Let the position vectors of charges \\( q_1 \\) and \\( q_2 \\) be \\( \\mathbf{r_1} \\) and \\(\\mathbf{r_2} \\) respectively. We denote the force on \\( q_1 \\) due to \\( q_2 \\) by \\(\\mathbf{F_{12}} \\) and the force on \\( q_2 \\) due to \\( q_1 \\) by \\( \\mathbf{F_{21}} \\).The vector leading from \\( 1 \\) to \\( 2 \\) is denoted by \\( \\mathbf{r_{21}} \\) and the vectorleading from \\( 2 \\) to \\( 1 \\) is denoted by \\( \\mathbf{r_{12}} \\):\\[ \\mathbf{r_{21}} = \\mathbf{r_2} - \\mathbf{r_1} \\]\\[ \\mathbf{r_{12}} = \\mathbf{r_1} - \\mathbf{r_2} = -(\\mathbf{r_{21}}) \\]\\[ \\mathbf{F_{21}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{21}}{r_{21}^2} \\mathbf{\\hat{r}_{21}} \\]\\[ \\mathbf{F_{12}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{qq_{12}}{r_{12}^2} \\mathbf{\\hat{r}_{12}} \\]\\[ \\mathbf{F_{21}} = -\\mathbf{F_{12}} \\]"
     }
   ]
 }

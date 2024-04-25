@@ -1,8 +1,28 @@
 {
   "data": [
     {
-      "name": "",
-      "data": ""
+      "name": "heading",
+      "body": "Electric Field"
+    },
+    {
+      "name": "paragraph",
+      "body": "In science and engineering, we use different aspects like temperature and pressureto understand spaces like auditoriums or swimming pools. Imagine the temperatureat various points in an auditorium or the pressure at different spots in a swimmingpool- that's what we mean by fields"
+    },
+    {
+      "name": "paragraph",
+      "body": " Now, some fields are simple, like temperature or pressure, which only have a size(magnitude) and no specific direction. These are called scalar fields.On the other hand, an electric field is a bit more complex. It's like a mapshowing both the strength and direction of forces around a charged object.Unlike temperature or pressure, electric fields involve both how strong theforce is and in what direction it acts. So, we call electric fields vector fields(E)."
+    },
+    {
+      "name": "paragraph",
+      "body": " To understand an electric field at a particular point (like a spot near a charged objewe do atest. We put a tiny positive charge there (it's like a test charge), and themeasure how the electric force acts on this charge. This helps us understandelectric field around that charged object. At P, we place a particle with a spositive charge q0, called a test charge because we use it to test the field"
+    },
+    {
+      "name": "paragraph",
+      "body": " \\[ \\vec{\\mathbf{E}} = \\frac{\\vec{\\mathbf{F}}}{q_0} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": " When we use a positive test charge, the electric field vectors have the same direction as theforce acting on the test charge. The arrow representing the electric field starts from wherewe're measuring (like point P) and points in the direction of the force. The strength (magnitude) of the electric field at point P is the force divided by the test charge(\\(F/q_0\\)). To represent this, we draw an arrow with its tail at the point where we're makingthe measurement . Drawing it any other way can lead to mistakes.It's important not to mix up 'force' and 'field' just because they both start with 'f' Electricforce is a push or pull, while the electric field is a more abstract property created by acharged object.In terms of units, the electric field is measured in newtons per coulomb (N/C).Wecan move the test charge to different points to measure electric fields there. This helpsus understand how the electric field is distributed around the charged object. The field existsindependently of the test charge; it's something a charged object creates in the surroundingspace, even in a vacuum, regardless of whether we're there to measure it."
     }
   ]
 }

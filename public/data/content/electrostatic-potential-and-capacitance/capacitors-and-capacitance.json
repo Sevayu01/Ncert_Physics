@@ -103,7 +103,7 @@
     },
     {
       "name": "paragraph",
-      "body": "In our case, it's the electric field ($\\sigma/\\epsilon_0$) times the distance between the plates ($d$)..This brings us to the concept of capacitance (C). The capacitance of a parallel plate capacitor, denoted by C, depends only on the geometry of the system. It's calculated as the permittivity of the medium (ε) times the area of one plate (A) divided by the separation between the plates (d)."
+      "body": "In our case, it's the electric field ($\\sigma/\\epsilon_0$) times the distance between the plates ($d$). This brings us to the concept of capacitance (C). The capacitance of a parallel plate capacitor, denoted by C, depends only on the geometry of the system. It's calculated as the permittivity of the medium (ε) times the area of one plate (A) divided by the separation between the plates (d)."
     },
     {
       "name": "expression",

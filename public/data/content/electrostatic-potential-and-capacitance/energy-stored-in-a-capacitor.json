@@ -9,6 +9,16 @@
       "body": "A capacitor is a system comprising two conductors with charges \\( Q \\) and \\(-Q\\). To determine the energy stored in this setup, let's consider two initially uncharged conductors, 1 and 2. Imagine a process of transferring charge from conductor 2 to conductor 1 bit by bit, resulting in conductor 1 obtaining a charge \\( Q \\) and conductor 2 having a charge \\(-Q\\) at the end."
     },
     {
+      "name": "image",
+      "alt": "image47",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image47.png"
+    },
+    {
+      "name": "image",
+      "alt": "CapacitorEnergy",
+      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/CapacitorEnergy.gif"
+    },
+    {
       "name": "paragraph",
       "body": "During the transfer of positive charge from conductor 2 to conductor 1, external work is done since conductor 1 is at a higher potential than conductor 2. To calculate the total work done, we start by calculating the work done in transferring an infinitesimal amount of charge."
     },
@@ -63,11 +73,6 @@
     {
       "name": "paragraph",
       "body": "This result on energy density of an electric field is very general and holds true for electric fields due to any configuration of charges."
-    },
-    {
-      "name": "image",
-      "alt": "image47",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image47.png"
     }
   ]
 }

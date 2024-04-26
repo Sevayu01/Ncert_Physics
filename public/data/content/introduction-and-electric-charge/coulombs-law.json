@@ -39,7 +39,7 @@
     },
     {
       "name": "paragraph",
-      "body": "\\[ F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\] where: \\begin{itemize} \\item \\( F \\) is the magnitude of the force, \\item \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\item \\( r \\) is the distance between the charges,\\item \\( \\epsilon_0 \\) is the vacuum permittivity constant (\\( \\epsilon_0 \\approx 8.854 \\times10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\)).\\[ k = 8.99 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2 \\]which is approximately equal to \\( \\frac{1}{4\\pi\\epsilon_0} \\), where \\( \\epsilon_0 \\) is thevacuum permittivity constant, approximately equal to \\( 8.854 \\times 10^{-12} \\,\\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\).The quantity ε0, called the permittivity constant, sometimes appears separately in equationsand is:"
+      "body": "\\[ F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\] where:  \\( F \\) is the magnitude of the force,  \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges,  \\( r \\) is the distance between the charges,\\( \\epsilon_0 \\) is the vacuum permittivity constant (\\( \\epsilon_0 \\approx 8.854 \\times10^{-12} \\, \\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\)).\\[ k = 8.99 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2 \\]which is approximately equal to \\( \\frac{1}{4\\pi\\epsilon_0} \\), where \\( \\epsilon_0 \\) is thevacuum permittivity constant, approximately equal to \\( 8.854 \\times 10^{-12} \\,\\text{C}^2/\\text{N}\\cdot\\text{m}^2 \\).The quantity ε0, called the permittivity constant, sometimes appears separately in equationsand is:"
     },
     {
       "name": "paragraph",

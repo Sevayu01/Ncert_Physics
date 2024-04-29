@@ -1,21 +1,14 @@
 import PropTypes from "prop-types";
 import { IoExpand } from "react-icons/io5";
 import { IoContractSharp } from "react-icons/io5";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 
 const Image = ({ body, alt }) => {
-  const [image, setImage] = useState(null);
-
-  useEffect(() => {
-    (async () => {
-      const image = await import(/* @vite-ignore */ body);
-      setImage(image.default);
-    })();
-  }, [body]);
+  
 
   const [overlayVisible, setOverlayVisible] = useState(false);
   const imageItem = (
-    <img className="w-full h-full mx-auto object-contain" loading="lazy" src={image} alt={alt} />
+    <img className="w-full h-full mx-auto object-contain" loading="lazy" src={body} alt={alt} />
   );
 
   return (

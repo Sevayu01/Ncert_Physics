@@ -3,7 +3,8 @@ import Navbar from "../../components/Navbar";
 import QuestionFrame from "./QuestionFrame";
 import QuestionNavigationPanel from "./QuestionNavigationPanel";
 import { useParams } from "react-router";
-
+import ImportContent from "../../chapterImportService.js";
+import ModuleData from "../../../public/data/modules.json"
 const QuizPage = () => {
   const newObject = useMemo(() => {
     return {};
@@ -16,10 +17,8 @@ const QuizPage = () => {
 
   useEffect(() => {
     (async () => {
-      const quizImportPath = `../../../public/data/quiz/${chapter}-quiz.json`;
-      const moduleImportPath = `../../../public/data/modules.json`;
-      const quizData = await import(/* @vite-ignore */ quizImportPath);
-      const moduleData = await import(/* @vite-ignore */ moduleImportPath);
+      const quizData = ImportContent({ chapter: chapter, type: "quiz" }); 
+      const moduleData = ModuleData;
       for (let i = 0; i < quizData.data.length; i++) {
         newObject[i] = -1;
       }

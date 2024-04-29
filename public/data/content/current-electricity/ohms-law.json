@@ -54,7 +54,7 @@
     },
     {
       "name": "paragraph",
-      "body": "where $\\sigma$ is the conductivity ($\\frac{1}{\\rho}$). Ohm's law is often expressed alternatively as $\\mathbf{j} = \\sigma \\mathbf{E}$, alongside the traditional $V = IR$."
+      "body": "where $\\sigma$ is the conductivity ($\\frac{1}{\\rho}$). Ohm's law is often expressed alternatively as $\\mathbf{j} = \\sigma \\mathbf{E}$, alongside the traditional $V = IR$. \\end{document}"
     }
   ]
 }

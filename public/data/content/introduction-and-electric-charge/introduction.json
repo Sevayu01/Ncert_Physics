@@ -23,7 +23,7 @@
     {
       "name": "image",
       "alt": "image18.png",
-      "body": "../../../../public/assets/introduction-and-electric-charge/image18.png"
+      "body": " /assets/introduction-and-electric-charge/image18.png"
     },
     {
       "name": "description",
@@ -40,7 +40,7 @@
     {
       "name": "image",
       "alt": "image1.png",
-      "body": "../../../../public/assets/introduction-and-electric-charge/image1.png"
+      "body": " /assets/introduction-and-electric-charge/image1.png"
     }
   ]
 }

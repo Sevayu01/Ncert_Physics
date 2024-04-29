@@ -17,8 +17,7 @@ export default defineConfig({
         {
           src: "/android-chrome-512x512.png",
           sizes: "512x512",
-          type: "image/png",
-          purpose: "any maskable"
+          type: "image/png", 
         }
       ],
       name: 'Physics World',
@@ -26,18 +25,23 @@ export default defineConfig({
 
 
     },
+ // precache all files in the out dir
     includeAssets: [
+      "**/*",
       "/favicon.ico",
       "/assets/*.*",
       "/**/*.*",
       "/*.*",
       "/*/*.*",
+      "/*/*/*.*",
+      "/*/*.*",
+      
     ],
     workbox: {
       runtimeCaching: [
         {
           urlPattern: ({ url }) => {
-            return url.pathname.startsWith("/api");
+            return url.pathname.startsWith("/");
           },
           handler: "CacheFirst",
           options: {

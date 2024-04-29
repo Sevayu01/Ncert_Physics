@@ -11,7 +11,7 @@
     {
       "name": "image",
       "alt": "image1",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image1.png"
+      "body": "/assets/electrostatic-potential-and-capacitance/image1.png"
     },
     {
       "name": "paragraph",

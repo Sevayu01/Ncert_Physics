@@ -6,7 +6,7 @@
     },
     {
       "name": "image",
-      "body": "../../../../public/assets/moving-charges-and-magnetism/image37.png",
+      "body": "/assets/moving-charges-and-magnetism/image37.png",
       "alt": "image37"
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "name": "image",
-      "body": "../../../../public/assets/moving-charges-and-magnetism/image40.png",
+      "body": " /assets/moving-charges-and-magnetism/image40.png",
       "alt": "image40"
     }
   ]

@@ -3,8 +3,17 @@ import DashboardPage from "./pages/dashboard/DashboardPage";
 import ContentPage from "./pages/content/ContentPage";
 import "./App.css";
 import QuizPage from "./pages/quiz/QuizPage";
-
+import ImportContent from "./chapterImportService.js";
 function App() {
+  const x = async () => { 
+    const quizData =  ImportContent({chapter:"current-electricity", type:"quiz"});
+    const topicsData = ImportContent({chapter:"current-electricity", type:"topics"});
+  
+  
+    return quizData;
+  }
+
+  x();
   return (
     <>
     <Routes>

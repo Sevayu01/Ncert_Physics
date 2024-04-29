@@ -14,7 +14,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[V_P - V_R = \\frac{U_P - U_R}{q}\\]"
+      "body": "$V_P - V_R = \\frac{U_P - U_R}{q}$"
     },
     {
       "name": "paragraph",
@@ -42,7 +42,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[ \\Delta U = - W_{a-b} \\]"
+      "body": "\\[Delta U = - W_{a-b} \\]"
     },
     {
       "name": "expression",
@@ -78,15 +78,15 @@
     },
     {
       "name": "expression",
-      "body": "\\[V = \\frac{U}{q_0}\\]"
+      "body": "$V = \\frac{U}{q_0}$"
     },
     {
       "name": "expression",
-      "body": "\\[V = \\frac{U}{q_0} = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q \\cdot q_0}{r \\cdot q_0}\\]"
+      "body": "$V = \\frac{U}{q_0} = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q \\cdot q_0}{r \\cdot q_0}$"
     },
     {
       "name": "expression",
-      "body": "\\[V = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q}{r}\\]"
+      "body": "$V = \\frac{1}{4\\pi\\epsilon_0} \\cdot \\frac{q}{r}$"
     },
     {
       "name": "paragraph",
@@ -155,12 +155,12 @@
     {
       "name": "image",
       "alt": "image43",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image43.png"
+      "body": " /assets/electrostatic-potential-and-capacitance/image43.png"
     },
     {
       "name": "image",
       "alt": "PotentialDipole",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/PotentialDipole.gif"
+      "body": " /assets/electrostatic-potential-and-capacitance/PotentialDipole.gif"
     },
     {
       "name": "paragraph",
@@ -240,7 +240,7 @@
     },
     {
       "name": "paragraph",
-      "body": "Consider an electric dipole consisting of charges $q$ and $-q$ separated by a distance $2a$. The dipole moment $\\{p}$ is defined as $\\{p} = q \\times 2a$. The electric potential due to this dipole is given by:"
+      "body": "Consider an electric dipole consisting of charges $q$ and $-q$ separated by a distance $2a$. The dipole moment $\\mathbf{p}$ is defined as $\\mathbf{p} = q \\times 2a$. The electric potential due to this dipole is given by:"
     },
     {
       "name": "bold",
@@ -292,7 +292,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[ V = \\frac{1}{4\\pi\\epsilon_0} \\frac{2q \\cdot a}{r^3} \\cos\\theta = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\{p} \\cdot \\{r}}{r^3} \\]"
+      "body": "\\[ V = \\frac{1}{4\\pi\\epsilon_0} \\frac{2q \\cdot a}{r^3} \\cos\\theta = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\mathbf{p} \\cdot \\mathbf{r}}{r^3} \\]"
     },
     {
       "name": "paragraph",
@@ -329,7 +329,7 @@
     {
       "name": "image",
       "alt": "image49",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image49.png"
+      "body": " /assets/electrostatic-potential-and-capacitance/image49.png"
     },
     {
       "name": "expression",
@@ -337,7 +337,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[ U = k \\left( \\frac{q_1}{|\\mathbf{r}_1 - \\mathbf{r}_p|} + \\frac{q_2}{|\\mathbf{r}_2 - \\mathbf{r}_p|} + \\frac{q_3}{|\\mathbf{r}_3 - \\mathbf{r}_p|} + \\frac{q_4}{|\\mathbf{r}_4 - \\mathbf{r}_p|} + \\frac{q_5}{|\\mathbf{r}_5 - \\mathbf{r}_p|} \\right) \\]"
+      "body": "$U = k \\left( \\frac{q_1}{|\\mathbf{r}_1 - \\mathbf{r}_p|} + \\frac{q_2}{|\\mathbf{r}_2 - \\mathbf{r}_p|} + \\frac{q_3}{|\\mathbf{r _3 - \\mathbf{r}_p|} + \\frac{q_4}{|\\mathbf{r}_4 - \\mathbf{r}_p|} + \\frac{q_5}{|\\mathbf{r}_5 - \\mathbf{r}_p|}  \\right)$"
     },
     {
       "name": "paragraph",

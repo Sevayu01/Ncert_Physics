@@ -7,12 +7,12 @@
     {
       "name": "image",
       "alt": "image14",
-      "body": "../../../../public/assets/current-electricity/image14.png"
+      "body": " /assets/current-electricity/image14.png"
     },
     {
       "name": "image",
       "alt": "BrownianMotion",
-      "body": "../../../../public/assets/current-electricity/BrownianMotion.gif"
+      "body": " /assets/current-electricity/BrownianMotion.gif"
     },
     {
       "name": "paragraph",
@@ -81,12 +81,12 @@
     {
       "name": "image",
       "alt": "image21",
-      "body": "../../../../public/assets/current-electricity/image21.png"
+      "body": " /assets/current-electricity/image21.png"
     },
     {
       "name": "image",
       "alt": "DriftVelocity",
-      "body": "../../../../public/assets/current-electricity/DriftVelocity.gif"
+      "body": " /assets/current-electricity/DriftVelocity.gif"
     },
     {
       "name": "paragraph",

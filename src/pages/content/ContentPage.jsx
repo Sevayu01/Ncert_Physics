@@ -10,6 +10,7 @@ import Navbar from "../../components/Navbar";
 import BoldLine from "./contentComponents/BoldLine";
 import Description from "./contentComponents/Description";
 import SubHeading from "./contentComponents/SubHeading";
+import ContentImport from "../../chapterImportService.js";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -24,12 +25,11 @@ const ContentPage = () => {
 
   useEffect(() => {
     (async () => {
-      const contentImportPath = `../../../public/data/content/${chapter}/${topic}.json`;
-      const topicImportPath = `../../../public/data/topics/${chapter}-topics.json`;
-      const importedData = await import(/* @vite-ignore */ contentImportPath);
-      const importedTopic = await import(/* @vite-ignore */ topicImportPath);
+
+      const importedData = ContentImport({ chapter: chapter, topic: topic });
+      const importedTopic = ContentImport({ chapter: chapter, type: "topics" });
       setData(importedData.data);
-      setTopics(importedTopic.default);
+      setTopics(importedTopic);
     })();
   }, [chapter, topic]);
 

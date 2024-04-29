@@ -58,8 +58,8 @@
     },
     {
       "name": "image",
-      "alt": "image55",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image55.png"
+      "alt": "image111",
+      "body": " /assets/electrostatic-potential-and-capacitance/image111.png"
     },
     {
       "name": "bold",
@@ -123,8 +123,13 @@
     },
     {
       "name": "image",
-      "alt": "image27",
-      "body": "../../../../public/assets/electrostatic-potential-and-capacitance/image27.png"
+      "alt": "image55",
+      "body": " /assets/electrostatic-potential-and-capacitance/image55.png"
+    },
+    {
+      "name": "image",
+      "alt": "CapacitorEnergy",
+      "body": " /assets/electrostatic-potential-and-capacitance/CapacitorEnergy.gif"
     }
   ]
 }

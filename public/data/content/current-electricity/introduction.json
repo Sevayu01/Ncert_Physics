@@ -7,6 +7,11 @@
     {
       "name": "paragraph",
       "body": "In the first chapter, all charges, whether they are free or bound, were assumed to be stationary. When charges are in motion, they generate an electric current. Such currents occur naturally in various scenarios. Lightning is a notable example, where charges move from clouds to the earth through the atmosphere, often leading to catastrophic outcomes. Unlike lightning, which exhibits an erratic flow of charges, we encounter many devices in our daily lives where charges flow steadily, akin to water smoothly streaming in a river. Examples of such devices include torches and battery-operated clocks. In this chapter, we will delve into some fundamental laws governing steady electric currents."
+    },
+    {
+      "name": "image",
+      "alt": "image15",
+      "body": "../../../../public/assets/current-electricity/image15.png"
     }
   ]
 }

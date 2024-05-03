@@ -1,0 +1,123 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Ac voltage applied to an inductor"
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image7.png",
+            "alt":"image"
+        },
+        {
+            "name":"paragraph",
+            "body":"Above figure shows an AC source connected to an inductor. Usually, inductors have appreciable resistance in their windings, but we shall assume that this inductor has negligible resistance. Thus, the circuit is a purely inductive AC circuit. Let the voltage across the source be \\( v = V_m \\sin(\\omega t) \\). Using Kirchhoff’s loop rule:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\sum {\\varepsilon (t)} = 0 \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Since there is no resistor in the circuit:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[  V - L\\frac{di}{dt} = 0  \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"where the second term is the self-induced Faraday emf in the inductor, and \\( L \\) is the self-inductance of the inductor. The negative sign follows from Lenz’s law.Replacing \\( V \\) by \\( v_m \\sin(\\omega t) \\), we get:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[\\frac{di}{dt} = \\frac{v}{L} = \\frac{v_m}{L} \\sin(\\omega t)\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The above equation implies that the equation for \\( i(t) \\), the current as a function of time, must be such that its slope \\( \\frac{di}{dt} \\) is a sinusoidally varying quantity, with the same phase as the source voltage and an amplitude given by \\( \\frac{v_m}{L} \\). To obtain the current, we integrate \\( \\frac{di}{dt} \\) with respect to time:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[\\int \\frac{di}{dt} dt = \\int \\sin(\\omega t) \\, d\\left(\\frac{v}{L}\\right) dt\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"This represents the integration of the rate of change of current with respect to time (\\( \\frac{di}{dt} \\)) with respect to time, which equals the integration of \\( \\sin(\\omega t) \\) with respect to \\( \\frac{v}{L} \\) with respect to \\( t \\)."
+        },
+        {
+            "name":"expression",
+            "body":"\\[ i = -\\frac{v_m}{\\omega L} \\cos(\\omega t) + \\text{constant} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The integration constant has the dimension of current and is time independent. Since the source has an electromotive force (emf) which oscillates symmetrically about zero, the current it sustains also oscillates symmetrically about zero, so that no constant or time-independent component of the current exists. Therefore, the integration constant is zero."
+        },
+        {
+            "name":"expression",
+            "body":"\\[  -\\cos(\\omega t) = {\\sin(\\omega t - \\frac{\\pi}{2}) } \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Now,"
+        },
+        {
+            "name":"paragraph",
+            "body":"\\[  i = i_m{\\sin(\\omega t - \\frac{\\pi}{2}) } \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Where \\( i_m = \\frac{v_m}{\\omega L} \\) is the amplitude of the current. The quantity \\( \\omega L \\) is analogous to the resistance and is called inductive reactance, denoted by \\( X_L \\): \\( X_L = \\omega L \\)."
+        },
+        {
+            "name":"paragraph",
+            "body":"The amplitude of the current is, then \\( i_m = \\frac{v_m}{X_L} \\)."
+        },
+        {
+            "name":"paragraph",
+            "body":"The dimension of inductive reactance is the same as that of resistance, and its SI unit is ohm (\\( \\Omega \\)). The inductive reactance limits the current in a purely inductive circuit in the same way as the resistance limits the current in a purely resistive circuit. The inductive reactance is directly proportional to the inductance and to the frequency of the current."
+        },
+        {
+            "name":"paragraph",
+            "body":"Comparing the source voltage and the current in an inductor shows that the current lags the voltage by \\( \\frac{\\pi}{2} \\) or one-quarter (\\( \\frac{1}{4} \\)) cycle."
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image5.png",
+            "alt":"image5"
+        },
+        {
+            "name":"paragraph",
+            "body":"Above figure shows the voltage and the current phasors in the present case at instant \\( t_1 \\). The current phasor \\( I \\) is \\( \\frac{\\pi}{2} \\) (or 90 degrees) behind the voltage phasor \\( V \\)."
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image8.png",
+            "alt":"image8"
+        },
+        {
+            "name":"paragraph",
+            "body":"From the above figure, we see that the current reaches its maximum value later than the voltage by one-fourth of a period \\( \\frac{\\pi}{2\\omega} \\). You have seen that an inductor has reactance that limits current similar to resistance in a DC circuit. Does it also consume power like a resistance? Let us try to find out."
+        },
+        {
+            "name":"paragraph",
+            "body":"The instantaneous power supplied to the inductor is:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[P = iv = i_m \\sin(\\omega t - \\frac{\\pi}{2}) v_m\\sin (\\omega t) = -i_m v_m   \\sin(\\omega t) \\cos(\\omega t) = - \\frac{i_m v_m}{2} \\sin( 2 \\omega t)\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":" So, the average power over a complete cycle is"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ P(t) = \\omega L \\sin^2(2\\omega t) = -\\frac{v_m i_m}{\\omega} \\sin(2\\omega t) = 0 \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Since the average of \\( \\sin(2 \\omega t) \\) over a complete cycle is zero. Thus, the average power supplied to an inductor over one complete cycle is zero"
+        }
+    ]
+}

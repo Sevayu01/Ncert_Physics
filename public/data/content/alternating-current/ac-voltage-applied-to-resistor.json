@@ -1,0 +1,175 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"AC voltage applied to a resistor"
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image10.png",
+            "alt":"image10"
+        },
+        {
+            "name":"paragraph",
+            "body":"Above image shows a resistor connected to a source of AC voltage. The symbol for an AC source in a circuit diagram is \\( \\tilde{V} \\). We consider a source which produces sinusoidally varying potential difference across its terminals. Let this potential difference, also called AC voltage, be given by"
+        },
+        {
+            "name":"expression",
+            "body":"\\( v(t) = V_m \\sin(\\omega t) \\)"
+        },
+        {
+            "name":"paragraph",
+            "body":"where \\( V_m \\) is the amplitude of the oscillating potential difference and \\( \\omega \\) is its angular frequency."
+        },
+        {
+            "name":"paragraph",
+            "body":"To find the value of current through the resistor, we apply Kirchhoff’s loop rule \\( \\sum_{i} \\varepsilon_i(t) = 0 \\) to the circuit shown in the above figure to get:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v(t) = i(t) R \\]"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v_m \\sin(\\omega t) = i_m R \\sin(\\omega t) \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Since \\( R \\) is a constant, we can write this equation as:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\sin(i_m) = \\frac{v_m}{R} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"where the current amplitude \\( i_m \\) is given by:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ i_m = \\frac{v_m}{R} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Above equation is Ohm’s law, which for resistors, works equally well for both ac and dc voltages. The voltage across a pure resistor and the current through it, plotted as a function of time below."
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image1.png",
+            "alt":""
+        },
+        {
+            "name":"paragraph",
+            "body":"Note, in particular, that both \\( v \\) and \\( i \\) reach zero, minimum, and maximum values at the same time. Clearly, the voltage and current are in phase with each other."
+        },
+        {
+            "name":"paragraph",
+            "body":"We see that, like the applied voltage, the current varies sinusoidally and has corresponding positive and negative values during each cycle. Thus, the sum of the instantaneous current values over one complete cycle is zero, and the average current is zero. The fact that the average current is zero, however, does not mean that the average power consumed is zero and that there is no dissipation of electrical energy. As you know, Joule heating is given by \\( i^2R \\) and depends on \\( i^2 \\) (which is always positive whether \\( i \\) is positive or negative) and not on \\( i \\). Thus, there is Joule heating and dissipation of electrical energy when an AC current passes through a resistor."
+        },
+        {
+            "name":"paragraph",
+            "body":"The instantaneous power dissipated in the resistor is:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ p = i^2R \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The average value of \\( p \\) over a cycle is:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\langle p \\rangle = \\frac{1}{2} \\langle i^2R \\rangle \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"where the bar over a letter (here, \\( p \\)) denotes its average value and \\( \\langle ... \\rangle \\) denotes taking the average of the quantity inside the bracket. Since \\( i^2_m \\) and \\( R \\) are constants, we have:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\langle p \\rangle = \\frac{1}{2} i^2_m R \\langle \\sin^2(\\omega t) \\rangle \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Using the trigonometric identity, \\( \\sin^2 t = \\frac{1}{2} (1 - \\cos 2t) \\), we have \\( \\langle \\sin^2 t \\rangle = \\frac{1}{2} (1 - \\langle \\cos 2t \\rangle) \\), and since \\( \\langle \\cos^2 t \\rangle = 0 \\), we have:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\langle \\sin^2 t \\rangle = \\frac{1}{2} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Thus,"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\langle p \\rangle = \\frac{1}{2}  i^2_m R \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"To express AC power in the same form as DC power (\\( P = I^2R \\)), a special value of current is defined and used. It is called root mean square (rms) or effective current and is denoted by \\( I_{\\text{rms}} \\) or \\( I \\)."
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image11.png",
+            "alt":"image11"
+        },
+        {
+            "name":"paragraph",
+            "body":"It is defined by:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ I  = \\frac{i_{\\text{m}}}{\\sqrt{2}} = \\frac{i_m}{\\sqrt{2}} = 0.707 \\, i_m \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":" In terms of I, the average power, denoted by P is"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\langle P \\rangle = I^2 R \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Here I is rms value for current"
+        },
+        {
+            "name":"paragraph",
+            "body":"Similarly, we define the rms voltage or effective voltage by"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ V  = \\frac{v_{\\text{m}}}{\\sqrt{2}} = \\frac{v_m}{\\sqrt{2}} = 0.707 \\, v_m \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Since, \\[ V_m = I_m R \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"or,"
+        },
+        {
+            "name":"paragraph",
+            "body":"\\[  \\frac{v_{\\text{m}}}{\\sqrt{2}} = \\frac{i_{\\text{m}}}{\\sqrt{2}} R \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"or,"
+        },
+        {
+            "name":"paragraph",
+            "body":"\\[ V = IR \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Above equation gives the relation between ac current and ac voltage and is similar to that in the dc case. This shows the advantage of introducing the concept of rms values. In terms of rms values, the equation for power and relation between current and voltage in ac circuits are essentially the same as those for the dc case.It is customary to measure and specify rms values for AC quantities. For example, the household line voltage of 220 V is an rms value with a peak voltage of \\( V_m = \\sqrt{2} \\times V = (1.414) \\times (220 \\, \\text{V}) = 311 \\, \\text{V} \\)."
+        },
+        {
+            "name":"paragraph",
+            "body":"In fact, the rms current (\\( I_{\\text{rms}} \\)) is the equivalent DC current that would produce the same average power loss as the alternating current. The equation for power can also be written as \\( P = \\frac{V^2}{R} = IV \\) (since \\( V = IR \\))."
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":" POWER IN AC CIRCUIT: THE POWER FACTOR"
+        },
+        {
+            "name":"paragraph",
+            "body":"Power in AC circuits, characterized by voltage \\( v = V_m \\sin(\\omega t) \\), driving a current \\( i = I_m \\sin(\\omega t + \\phi) \\), is fundamental to understanding circuit behavior. Here, \\( I_m = \\frac{V_m}{Z} \\) and \\( \\phi = \\tan^{-1}\\left(\\frac{X_C - X_L}{R}\\right) \\)."
+        },
+        {
+            "name":"paragraph",
+            "body":"The instantaneous power \\( p \\) supplied by the source is given by:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[p = vi = \\left( V_m \\sin(\\omega t) \\right) \\times \\left[ I_m \\sin(\\omega t + \\phi) \\right] = \\frac{V_m I_m}{2} \\left[ \\cos(\\phi) - \\cos(2\\omega t + \\phi) \\right]\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The average power over a cycle is the average of the two terms on the right-hand side of the equation. Since the second term is time-dependent and averages to zero, the average power \\( P \\) becomes:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[P = \\frac{V_m I_m}{2} \\cos(\\phi) = \\left( \\frac{V_m}{\\sqrt{2}} \\right) \\left( \\frac{I_m}{\\sqrt{2}} \\right) \\cos(\\phi) = VI \\cos(\\phi)\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"This can also be expressed as:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[P = I^2 Z \\cos(\\phi)\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Hence, the average power dissipated depends not only on the voltage and current but also on the cosine of the phase angle \\( \\phi \\) between them, known as the power factor."
+        },
+        {
+            "name":"paragraph",
+            "body":"Let's explore the following cases:"
+        },
+        {
+            "name":"paragraph",
+            "body":"(i) Resistive circuit: In a pure resistive circuit (\\( R \\)), \\( \\phi = 0 \\), resulting in \\( \\cos \\phi = 1 \\), indicating maximum power dissipation."
+        },
+        {
+            "name":"paragraph",
+            "body":"(ii) Purely inductive or capacitive circuit: In circuits with only inductors or capacitors, the phase difference (\\( \\phi \\)) is \\( \\frac{\\pi}{2} \\), yielding \\( \\cos \\phi = 0 \\), signifying no power dissipation despite current flow. This phenomenon is sometimes termed as wattless current."
+        },
+        {
+            "name":"paragraph",
+            "body":"(iii) LCR series circuit: In such circuits, power dissipation occurs only in the resistor, even if \\( \\phi \\) is non-zero due to the presence of inductors or capacitors."
+        },
+        {
+            "name":"paragraph",
+            "body":"(iv) Power dissipated at resonance in LCR circuit: At resonance (\\( X_C - X_L = 0 \\)), \\( \\phi = 0 \\), leading to \\( \\cos \\phi = 1 \\). Hence, the maximum power is dissipated in the circuit (through \\( R \\)) at resonance."
+        }
+    ]
+}

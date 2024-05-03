@@ -1,0 +1,141 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"AC VOLTAGE APPLIED TO A SERIES LCR CIRCUIT"
+        },
+        {
+            "name":"paragraph",
+            "body":"The circuit depicted in the diagram shows a series LCR circuit connected to an AC source $ e $, with the source voltage denoted as $ v = V_m \\sin \\omega t $. Considering $ q $ as the charge on the capacitor and $ i $ as the current, at time $ t $, we have, from Kirchhoff’s loop rule:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ L \\frac{di}{dt} + iR + \\frac{q}{C} = v \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"We aim to determine the instantaneous current $ i $ and its phase relationship to the applied alternating voltage $ v $. We'll solve this problem using two methods. First, we'll employ the technique of phasors, and in the second method, we'll solve the equation analytically to obtain the time-dependent behavior of $ I $."
+        },
+        {
+            "name":"bold",
+            "body":"Phasor-diagram Solution"
+        },
+        {
+            "name":"paragraph",
+            "body":"In the given circuit, the resistor, inductor, and capacitor are in series, meaning the AC current in each element has the same amplitude and phase at any time. Let $ i = I_m \\sin(\\omega t + \\phi) $, where $ \\phi $ is the phase difference between the voltage across the source and the current in the circuit. Constructing a phasor diagram based on our previous knowledge, let $ I $ represent the current in the circuit as given by the equation. Additionally, let $ V_L $, $ V_R $, $ V_C $, and $ V $ represent the voltage across the inductor, resistor, capacitor, and the source, respectively."
+        },
+        {
+            "name":"paragraph",
+            "body":"From the previous section, we know that $ V_R $ is parallel to $ I $, $ V_C $ is $ \\frac{\\pi}{2} $ behind $ I $, and $ V_L $ is $ \\frac{\\pi}{2} $ ahead of $ I $. The lengths of these phasors, or the amplitudes of $ V_R $, $ V_C $, and $ V_L $, are:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v_{R_m} = I_m R, \\quad v_{C_m} = I_m X_C, \\quad v_{L_m} = I_m X_L \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The voltage equation for the circuit can be expressed as:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v_L + v_R + v_C = v \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"The phasor relation whose vertical component gives the above equation is:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ V_L + V_R + V_C = V \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"This relation is represented in the phasor diagram. Since $ V_C $ and $ V_L $ are always along the same line and in opposite directions, they can be combined into a single phasor $ (V_C + V_L) $ which has a magnitude $ |V_{C_m} - V_{L_m}| $. As $ V $ is represented as the hypotenuse of a right triangle whose sides are $ V_R $ and $ (V_C + V_L) $, the Pythagorean theorem gives:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v_m^2 = v_{R_m}^2 + (v_{C_m} + v_{L_m})^2 \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"Substituting the values of $ V_{R_m} $, $ V_{C_m} $, and $ V_{L_m} $ from the equations above into the equation, we have:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ v_m^2 = (I_m R)^2 + (I_m X_C - I_m X_L)^2 \\]\\[ = I_m^2 [R^2 + (X_C - X_L)^2] \\]"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\text{or} \\quad I_m = \\frac{v_m}{\\sqrt{R^2 + (X_C - X_L)^2}} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"By analogy to resistance in a circuit, we introduce the impedance $ Z $ in an AC circuit:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ I_m = \\frac{v_m}{Z} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"where"
+        },
+        {
+            "name":"expression",
+            "body":"$ Z = \\sqrt{R^2 + (X_C - X_L)^2} $."
+        },
+        {
+            "name":"paragraph",
+            "body":"Since phasor $ I $ is always parallel to phasor $ V_R $, the phase angle $ \\phi $ is the angle between $ V_R $ and $ V $, and can be determined from:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\tan \\phi = \\frac{v_{C_m} - v_{L_m}}{v_{R_m}} \\]\\[ \\tan \\phi = \\frac{X_C - X_L}{R} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"These equations are graphically represented in the phasor diagram. This diagram is called the Impedance diagram, which is a right triangle with $ Z $ as its hypotenuse."
+        },
+        {
+            "name":"paragraph",
+            "body":"The equations provide the current amplitude and phase angle. If $ X_C > X_L $, $ \\phi $ is positive, indicating a mainly capacitive circuit where the current leads the source voltage. Conversely, if $ X_C < X_L $, $ \\phi $ is negative, indicating a predominantly inductive circuit where the current lags behind the source voltage."
+        },
+        {
+            "name":"paragraph",
+            "body":"This analysis yields the current's amplitude and phase in an LCR series circuit using phasor techniques. However, this method has limitations. The phasor diagram only addresses steady-state solutions, neglecting transient effects. Furthermore, the obtained solution is specific and does not consider initial conditions. The general solution encompasses both transient and steady-state behaviors. Over time, transient effects diminish, leaving the circuit's behavior described by the steady-state solution."
+        },
+        {
+            "name":"bold",
+            "body":"Resonance"
+        },
+        {
+            "name":"paragraph",
+            "body":"Resonance is a fascinating property of RLC circuits, akin to a child swinging at their natural frequency. When an energy source operates near the circuit's natural frequency, the oscillation amplitude peaks. In an RLC circuit driven by a voltage source with amplitude $V_m$ and frequency $\\omega$, the current amplitude $I_m$ is given by:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[I_m = \\frac{V_m}{\\sqrt{R^2 + (X_C - X_L)^2}}\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"At resonance, when $X_C = X_L$, the impedance is minimized ($Z = R$), and the resonant frequency $\\omega_0$ is:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[\\omega_0 = \\frac{1}{\\sqrt{LC}}\\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"At $\\omega_0$, $I_m$ reaches its maximum value, $I_m = \\frac{V_m}{R}$. Consider a scenario depicted in Figure 7.16, where $I_m$ varies with $\\omega$ in an RLC series circuit with $L = 1.00 \\, \\text{mH}$, $C = 1.00 \\, \\text{nF}$, and two resistance values: (i) $R = 100 \\, \\Omega$ and (ii) $R = 200 \\, \\Omega$. With $V_m = 100 \\, \\text{V}$, $\\omega_0 = 1.00 \\times 10^6 \\, \\text{rad/s}$."
+        },
+        {
+            "name":"paragraph",
+            "body":"At resonance, $I_m$ for case (i) is twice that of case (ii), as $I_m = \\frac{V_m}{R}$. Resonant circuits find applications in radios or TVs, where tuning adjusts the capacitance to match the desired station's frequency. Resonance requires both inductance and capacitance in the circuit, allowing voltages across $L$ and $C$ to cancel out and $I_m = \\frac{V_m}{R}$. RL or RC circuits lacking one of these components cannot exhibit resonance."
+        },
+        {
+            "name":"image",
+            "body":"../../../../public/assets/alternating-current/image4.png",
+            "alt":"image4"
+        }
+    ]
+}

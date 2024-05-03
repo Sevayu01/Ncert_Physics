@@ -1,0 +1,39 @@
+{
+    "title": "Alternating Current",
+    "topic": "Alternating Current",
+    "subtopics": [
+      {
+        "name": "Introduction",
+        "link": "introduction"
+      },
+      {
+        "name": "Ac Voltage Applied To a Resistor",
+        "link": "ac-voltage-applied-to-resistor"
+      },
+      {
+        "name": "Representation of AC current and voltage by rotating vectors",
+        "link": "representation-of-ac-current-and-voltage"
+      },
+      {
+        "name": "Ac voltage applied to an inductor",
+        "link": "ac-voltage-applied-to-an-inductor"
+      },
+      {
+        "name": "Ac voltage applied to a capacitor",
+        "link": "ac-voltage-applied-to-a-capacitor"
+      },
+      {
+        "name": "Ac voltage applied to a series lcr circuit",
+        "link": "ac-voltage-applied-to-a-series-lcr-circuit"
+      },
+      {
+        "name": "Power in ac circuit ( Power factor)",
+        "link": "power-in-ac-circuit"
+      },
+      {
+        "name": "Transformers",
+        "link": "transformers"
+      }
+    ]
+  }
+  

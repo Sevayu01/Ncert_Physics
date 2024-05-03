@@ -23,6 +23,10 @@
     {
       "name": "Electromagnetic Induction",
       "link": "electromagnetic-induction"
+    },
+    {
+      "name":"Alternating Current",
+      "link":"alternating-current"
     }
   ]
 }

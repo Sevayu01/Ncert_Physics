@@ -10,8 +10,8 @@
     },
     {
       "name": "image",
-      "body": "",
-      "alt": ""
+      "body": "../../../../public/assets/magnetism-and-matter/image65.png",
+      "alt": "image65"
     },
     {
       "name": "paragraph",
@@ -31,7 +31,7 @@
     },
     {
       "name": "paragraph",
-      "body": "where 'all' stands for 'all area elements $\\Delta S'$. Compare this with Gauss’s law of electrostatics. The flux through a closed surface in that case is given by"
+      "body": "where 'all' stands for 'all area elements $\\Delta S'$. Compare this with Gauss's law of electrostatics. The flux through a closed surface in that case is given by"
     },
     {
       "name": "expression",
@@ -47,7 +47,7 @@
     },
     {
       "name": "paragraph",
-      "body": "Thus, Gauss’s law for magnetism is: The net magnetic flux through any closed surface is zero."
+      "body": "Thus, Gauss's law for magnetism is: The net magnetic flux through any closed surface is zero."
     },
     {
       "name": "paragraph",

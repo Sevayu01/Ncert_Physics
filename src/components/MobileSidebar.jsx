@@ -1,32 +1,33 @@
-// sidebar for smaller devices
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-const MobileSidebar = ({ isOpen, onClose,topic,subtopics}) => {
+import PropTypes from "prop-types";
+import { Link, useParams } from "react-router-dom";
+
+const MobileSidebar = ({ isOpen, toggle, topic, subtopics }) => {
+  const { chapter } = useParams();
+
   return (
     <div
-      className={`fixed top-0 left-0 h-full w-64 bg-[#ADBDC8] text-white pl-6 transition-transform ease-in-out duration-300 transform ${
-        isOpen ? 'translate-x-0' : '-translate-x-full'
+      className={`fixed z-10 left-0 right-0 h-full bg-[#333539] text-white  pl-6 transition-transform ease-in-out duration-300 transform ${
+        isOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
-      {/* Sidebar content goes here */}
-      <button className="p-4 " onClick={onClose}>
-        Close Sidebar
-      </button>
-      <p className="text-left pt-5 text-xl pb-4 font-medium text-black">{topic}</p>
-      {subtopics.map((e,idx)=>{
-        return(
-          <Link to={e.link} key={idx}><p className="text-left text-xl pb-2">{e.name}</p></Link>
-          // <p className="text-left text-md pb-2 text-black" key={idx}>{e.name}</p>
-        )
-      })}
+      <div className="mt-12">
+        {subtopics.map((e, idx) => {
+          return (
+            <Link to={`/${chapter}/${e.link}`} key={idx} onClick={toggle}>
+              <p className="text-left text-xl pb-4 px-2">{e.name}</p>
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 };
+
 MobileSidebar.propTypes = {
   isOpen: PropTypes.bool.isRequired,
-  onClose: PropTypes.func.isRequired,
+  toggle: PropTypes.func.isRequired,
   topic: PropTypes.string.isRequired,
-  subtopics: PropTypes.array.isRequired
+  subtopics: PropTypes.array.isRequired,
 };
 
 export default MobileSidebar;

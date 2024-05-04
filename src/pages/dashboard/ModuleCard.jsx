@@ -15,7 +15,7 @@ const ModuleCard = ({ name, link }) => {
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
   const cardStyle = {
-    width: "18rem",
+    width: "19.5rem",
     height: "23rem",
     backgroundColor: randomColor,
     borderRadius: "8px",

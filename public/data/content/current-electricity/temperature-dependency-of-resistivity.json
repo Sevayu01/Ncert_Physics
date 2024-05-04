@@ -24,12 +24,12 @@
     {
       "name": "image",
       "alt": "image40",
-      "body": "../../../../public/assets/current-electricity/image40.png"
+      "body": "/assets/current-electricity/image40.png"
     },
     {
       "name": "image",
       "alt": "image28",
-      "body": "../../../../public/assets/current-electricity/image28.png"
+      "body": "/assets/current-electricity/image28.png"
     },
     {
       "name": "paragraph",

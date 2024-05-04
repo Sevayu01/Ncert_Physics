@@ -11,7 +11,7 @@
     {
       "name": "image",
       "alt": "image15",
-      "body": "../../../../public/assets/current-electricity/image15.png"
+      "body": "/assets/current-electricity/image15.png"
     }
   ]
 }

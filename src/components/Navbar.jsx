@@ -1,14 +1,17 @@
-import PropTypes from 'prop-types';
-import {Link} from "react-router-dom";
-const Navbar = ({ title ,toggle}) => {
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+
+const Navbar = ({ title, toggle, isDashboardPage }) => {
   return (
-    <div className=" bg-[#333539] w-full h-16 py-4 px-10 flex flex-row justify-between text-white">
+    <div className=" bg-[#333539] w-full h-16 py-4 px-10 hidden sm:flex flex-row justify-between text-white">
       <div className="flex flex-row gap-5">
-        <button id="toggleSidebar" className="lg:hidden  text-white px-2 pb-2" onClick={toggle}>
-          ☰
-        </button>
-        <Link to="/"><button>Home</button></Link>
-        {/* <button>Home</button> */}
+        {!isDashboardPage && (
+          <>
+            <Link to="/">
+              <button>Home</button>
+            </Link>
+          </>
+        )}
       </div>
       <p>{title}</p>
       <p></p>
@@ -19,6 +22,7 @@ const Navbar = ({ title ,toggle}) => {
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
   toggle: PropTypes.func.isRequired,
+  isDashboardPage: PropTypes.bool.isRequired,
 };
+
 export default Navbar;
-  

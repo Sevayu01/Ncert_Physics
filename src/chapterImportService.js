@@ -98,8 +98,8 @@ import electromagneticSpectrum from "../public/data/content/electromagnetic-wave
 import electromagneticWaves from "../public/data/content/electromagnetic-waves/electromagnetic-waves.json";
 import electromagneticWavesIntroduction from "../public/data/content/electromagnetic-waves/introduction.json";
 
-import electromagneticWavesQuiz from "../public/data/quiz/electromagnetic-induction-quiz.json";
-import electromagneticWavesTopics from "../public/data/topics/electromagnetic-induction-topics.json";
+import electromagneticWavesQuiz from "../public/data/quiz/electromagnetic-waves-quiz.json";
+import electromagneticWavesTopics from "../public/data/topics/electromagnetic-waves-topics.json";
 
 export default function MyImp({ chapter, type, topic = null }) {
     let content = null;

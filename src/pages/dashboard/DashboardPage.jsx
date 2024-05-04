@@ -19,6 +19,7 @@ const DashboardPage = () => {
   return (
     <>
       <Navbar isDashboardPage={true} />
+
       <div className="w-10/12 xl:w-7/12 mb-10 mx-auto pt-4">
         <div className="text-[36px] mb-12 pb-2 border-b-[1px] border-[#BFBFBF]">
           Dashboard

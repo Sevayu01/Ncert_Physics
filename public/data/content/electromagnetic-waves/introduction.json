@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Introduction"
+        },
+        {
+            "name":"paragraph",
+            "body":"In Chapter 4, we learned that an electric current produces a magnetic field, and that two current-carrying wires exert a magnetic force on each other. Furthermore, in Chapter 6, we have seen that a magnetic field changing with time gives rise to an electric field. It was argued by James Clerk Maxwell (1831-1879) that the converse is also true – not only an electric current but also a time-varying electric field generates a magnetic field. Maxwell noticed an inconsistency in the Ampere’s circuital law while applying it to find the magnetic field at a point outside a capacitor connected to a time-varying current. He suggested the existence of an additional current, called by him, the displacement current, to remove this inconsistency."
+        },
+        {
+            "name":"paragraph",
+            "body":"Maxwell formulated a set of equations involving electric and magnetic fields, and their sources, the charge and current densities. These equations are known as Maxwell’s equations. Together with the Lorentz force formula (Chapter 4), they mathematically express all the basic laws of electromagnetism."
+        },
+        {
+            "name":"paragraph",
+            "body":"In this chapter, we first discuss the need for displacement current and its consequences. Then we present a descriptive account of electromagnetic waves. The broad spectrum of electromagnetic waves, stretching from gamma rays (wavelength ~$10^{-12}$ m) to long radio waves (wavelength ~$10^{6}$ m) is described."
+        }
+    ]
+}

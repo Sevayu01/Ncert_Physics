@@ -22,7 +22,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/electromagnetic-waves/image4.png",
+            "body":" /assets/electromagnetic-waves/image4.png",
             "alt":"image4"
         },
         {
@@ -39,7 +39,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/electromagnetic-waves/image3.png",
+            "body":" /assets/electromagnetic-waves/image3.png",
             "alt":"image3"
         },
         {
@@ -108,7 +108,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/electromagnetic-waves/image1.png",
+            "body":" /assets/electromagnetic-waves/image1.png",
             "alt":"image1"
         },
         {
@@ -121,7 +121,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/electromagnetic-waves/image5.png",
+            "body":" /assets/electromagnetic-waves/image5.png",
             "alt":"image5"
         }
     ]

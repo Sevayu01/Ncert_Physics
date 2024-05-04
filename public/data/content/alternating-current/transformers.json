@@ -14,7 +14,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/alternating-current/image9.jpg",
+            "body":" /assets/alternating-current/image9.jpg",
             "alt":"image9"
         },
         {

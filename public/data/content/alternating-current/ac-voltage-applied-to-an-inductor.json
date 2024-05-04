@@ -6,7 +6,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/alternating-current/image7.png",
+            "body":" /assets/alternating-current/image7.png",
             "alt":"image"
         },
         {
@@ -83,7 +83,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/alternating-current/image5.png",
+            "body":" /assets/alternating-current/image5.png",
             "alt":"image5"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/alternating-current/image8.png",
+            "body":" /assets/alternating-current/image8.png",
             "alt":"image8"
         },
         {

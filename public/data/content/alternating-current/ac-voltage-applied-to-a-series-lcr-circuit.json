@@ -134,7 +134,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/alternating-current/image4.png",
+            "body":" /assets/alternating-current/image4.png",
             "alt":"image4"
         }
     ]

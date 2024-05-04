@@ -29,6 +29,7 @@ import currentElectricityResistivityOfVariousMaterials from '../public/data/cont
 import currentElectricityTemperatureDependencyOfResistivity from '../public/data/content/current-electricity/temperature-dependency-of-resistivity.json';
 import currentElectricityWheatstoneBridge from '../public/data/content/current-electricity/wheatstone-bridge.json';
 
+
 import electrostaticPotentialAndCapacitanceCapacitorsAndCapacitance from '../public/data/content/electrostatic-potential-and-capacitance/capacitors-and-capacitance.json';
 import electrostaticPotentialAndCapacitanceElectricPotentialEnergy from '../public/data/content/electrostatic-potential-and-capacitance/electric-potential-energy.json';
 import electrostaticPotentialAndCapacitanceIntroduction from '../public/data/content/electrostatic-potential-and-capacitance/introduction.json';

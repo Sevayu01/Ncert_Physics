@@ -74,7 +74,7 @@
         },
         {
             "name":"image",
-            "body":"../../../../public/assets/electromagnetic-waves/image2.jpg",
+            "body":" /assets/electromagnetic-waves/image2.jpg",
             "alt":"image2"
         }
     ]

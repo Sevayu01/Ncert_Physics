@@ -81,6 +81,26 @@ import movingChargeMagFieldAxisCircular from "../public/data/content/moving-char
 import electroPotCapacitEffactOfDielectric from "../public/data/content/electrostatic-potential-and-capacitance/effect-of-dielectric-on-capacitance"
 import electroPotCapacitEquipotSurfaces from "../public/data/content/electrostatic-potential-and-capacitance/equipotential-surfaces"
 
+import acVoltageAppliedToCapacitor from "../public/data/content/alternating-current/ac-voltage-applied-to-a-capacitor.json"
+import acVoltageAppliedToInductor from "../public/data/content/alternating-current/ac-voltage-applied-to-an-inductor.json"
+import acVoltageAppliedToLCRCircuit from "../public/data/content/alternating-current/ac-voltage-applied-to-a-series-lcr-circuit.json"
+import acVoltageAppliedToResistor from "../public/data/content/alternating-current/ac-voltage-applied-to-resistor.json"
+import acVoltageAppliedToIntroduction from "../public/data/content/alternating-current/introduction.json"
+import powerInACCircuit from "../public/data/content/alternating-current/power-in-ac-circuit.json"
+import representationOfACCurrentAndVoltage from "../public/data/content/alternating-current/representation-of-ac-current-and-voltage.json"
+import transformers from "../public/data/content/alternating-current/transformers.json"
+
+import alternatingCurrentQuiz from "../public/data/quiz/alternating-current-quiz.json"
+import alternatingCurrentTopics from "../public/data/topics/alternating-current-topics.json"
+
+import displacementCurrent from "../public/data/content/electromagnetic-waves/displacement-current.json";
+import electromagneticSpectrum from "../public/data/content/electromagnetic-waves/electromagnetic-spectrum.json";
+import electromagneticWaves from "../public/data/content/electromagnetic-waves/electromagnetic-waves.json";
+import electromagneticWavesIntroduction from "../public/data/content/electromagnetic-waves/introduction.json";
+
+import electromagneticWavesQuiz from "../public/data/quiz/electromagnetic-induction-quiz.json";
+import electromagneticWavesTopics from "../public/data/topics/electromagnetic-induction-topics.json";
+
 export default function MyImp({ chapter, type, topic = null }) {
     let content = null;
 
@@ -182,8 +202,8 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = electromagneticInductionInductance;
                 } else if (topic === 'magnetic-flux') {
                     content = electromagneticInductionMagneticFlux;
-                } 
-                else if(topic === 'the-experiments-of-faraday-and-henry'){
+                }
+                else if (topic === 'the-experiments-of-faraday-and-henry') {
                     content = emiFaraday;
                 }
                 else {
@@ -218,10 +238,10 @@ export default function MyImp({ chapter, type, topic = null }) {
                 } else if (topic === 'relationship-between-field-and-potential') {
                     content = electrostaticPotentialAndCapacitanceRelationshipBetweenFieldAndPotential;
                 }
-                else if(topic === 'effect-of-dielectric-on-capacitance'){
+                else if (topic === 'effect-of-dielectric-on-capacitance') {
                     content = electroPotCapacitEffactOfDielectric;
                 }
-                else if(topic === 'equipotential-surfaces'){
+                else if (topic === 'equipotential-surfaces') {
                     content = electroPotCapacitEquipotSurfaces;
                 }
                 else {
@@ -306,10 +326,10 @@ export default function MyImp({ chapter, type, topic = null }) {
                 } else if (topic === 'torque-on-current-loop-magnetic-dipole') {
                     content = movingChargesAndMagnetismTorqueOnCurrentLoopMagneticDipole;
                 }
-                else if(topic == 'force-between-two-parallel-currents'){
+                else if (topic == 'force-between-two-parallel-currents') {
                     content = movingChargeForceBWParrallelCurrents;
                 }
-                else if(topic == 'magnetic-field-on-the-axis-of-a-circular-current-loop'){
+                else if (topic == 'magnetic-field-on-the-axis-of-a-circular-current-loop') {
                     content = movingChargeMagFieldAxisCircular;
                 }
                 else {
@@ -321,6 +341,60 @@ export default function MyImp({ chapter, type, topic = null }) {
             }
             else {
                 content = movingChargesTopics;
+            }
+
+            break;
+        }
+        case 'alternating-current': {
+            if (topic !== null) {
+                if (topic === 'ac-voltage-applied-to-a-capacitor') {
+                    content = acVoltageAppliedToCapacitor;
+                } else if (topic === 'ac-voltage-applied-to-an-inductor') {
+                    content = acVoltageAppliedToInductor;
+                } else if (topic === 'ac-voltage-applied-to-a-series-lcr-circuit') {
+                    content = acVoltageAppliedToLCRCircuit;
+                } else if (topic === 'ac-voltage-applied-to-resistor') {
+                    content = acVoltageAppliedToResistor;
+                } else if (topic === 'introduction') {
+                    content = acVoltageAppliedToIntroduction;
+                } else if (topic === 'power-in-ac-circuit') {
+                    content = powerInACCircuit;
+                } else if (topic === 'representation-of-ac-current-and-voltage') {
+                    content = representationOfACCurrentAndVoltage;
+                } else if (topic === 'transformers') {
+                    content = transformers;
+                } else {
+                    console.error('Invalid topic:', topic);
+                }
+            }
+            else if (type === 'quiz') {
+                content = alternatingCurrentQuiz;
+            }
+            else {
+                content = alternatingCurrentTopics;
+            }
+
+            break;
+        }
+        case 'electromagnetic-waves': {
+            if (topic !== null) {
+                if (topic === 'displacement-current') {
+                    content = displacementCurrent;
+                } else if (topic === 'electromagnetic-spectrum') {
+                    content = electromagneticSpectrum;
+                } else if (topic === 'electromagnetic-waves') {
+                    content = electromagneticWaves;
+                } else if (topic === 'introduction') {
+                    content = electromagneticWavesIntroduction;
+                } else {
+                    console.error('Invalid topic:', topic);
+                }
+            }
+            else if (type === 'quiz') {
+                content = electromagneticWavesQuiz;
+            }
+            else {
+                content = electromagneticWavesTopics;
             }
 
             break;

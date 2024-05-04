@@ -1,0 +1,105 @@
+{
+    "data": [
+      {
+        "statement": "Maxwell in his famous equations of electromagnetism introduced the concept of",
+        "options": [
+          "ac current",
+          "displacement current",
+          "impedance",
+          "reactance"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "The conduction current is same as displacement current when source is",
+        "options": [
+          "ac only",
+          "dc only",
+          "either ac or dc",
+          "neither dc nor ac"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Which of the following statement is false for the properties of electromagnetic waves?",
+        "options": [
+          "Both electric and magnetic field vectors attain the maxima and minima at the same place and same time.",
+          "The energy in electromagnetic waves is divided equally between electric and magnetic field vectors.",
+          "Both electric and magnetic field vectors are parallel to each other and perpendicular to the direction of propagation of wave.",
+          "These waves do not require any material medium for propagation."
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Which of the following has/have zero average value in a plane electromagnetic wave?",
+        "options": [
+          "Both magnetic and electric fields",
+          "Electric field only",
+          "Magnetic field only",
+          "None of these"
+        ],
+        "answer": 0
+      },
+      {
+        "statement": "The waves used by artificial satellites for communication is",
+        "options": [
+          "microwaves",
+          "infrared waves",
+          "radio waves",
+          "X-rays"
+        ],
+        "answer": 0
+      },
+      {
+        "statement": "Which of the following electromagnetic waves is used in medicine to destroy cancer cells?",
+        "options": [
+          "IR-rays",
+          "Visible rays",
+          "Gamma rays",
+          "Ultraviolet rays"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Which of the following waves have a maximum frequency?",
+        "options": [
+          "infrared waves",
+          "gamma rays",
+          "microwaves",
+          "radio waves"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "According to Maxwell’s Hypothesis, a changing electric field gives rise to?",
+        "options": [
+          "Induced EMF",
+          "Electric Field",
+          "Magnetic Field",
+          "Magnetic Dipole"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Which of the following is used to investigate the structure of solids?",
+        "options": [
+          "Gamma Rays",
+          "Infrared Rays",
+          "X-Rays",
+          "Cosmic Rays"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "What is the phase difference between electric and magnetic fields in an electromagnetic wave?",
+        "options": [
+          "0",
+          "π",
+          "π/2",
+          "π/4"
+        ],
+        "answer": 1
+      }
+    ]
+   }
+   

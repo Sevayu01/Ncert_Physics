@@ -1,86 +1,86 @@
 {
-    "data":[
-        {
-            "name":"heading",
-            "body":"AC GENERATOR"
-        },
-        {
-            "name":"paragraph",
-            "body":"The phenomenon of electromagnetic induction has led to significant technological advancements, notably in generating alternating currents (AC)."
-        },
-        {
-            "name":"paragraph",
-            "body":"As discussed earlier, one way to generate an electric current in a loop is by changing its orientation or effective area. When a coil spins in a magnetic field $B$, the effective area of the loop becomes $A \\cos \\theta$, where $\\theta$ is the angle between $A$ and $B$. This concept is fundamental to the operation of a basic AC generator, converting mechanical energy into electrical energy."
-        },
-        {
-            "name":"paragraph",
-            "body":"The essential components of an AC generator include a coil mounted on a rotor shaft, with the coil's axis perpendicular to the magnetic field's direction. This coil, the armature, rotates in a uniform magnetic field, inducing an electric current. The ends of the coil connect to an external circuit using slip rings and brushes"
-        },
-        {
-            "name":"image",
-            "body":"",
-            "alt":""
-        },
-        {
-            "name":"paragraph",
-            "body":"When the coil rotates at a constant angular speed $\\omega$, the angle $\\theta$ between the magnetic field vector $B$ and the area vector $A$ of the coil at any instant $t$ is given by $\\theta = \\omega t$ (assuming $\\theta = 0^\\circ$ at $t = 0$). Consequently, the effective area of the coil exposed to the magnetic field lines varies with time. From Eq. (6.1), the flux at any time $t$ is:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\Phi_B = BA \\cos \\theta = BA \\cos \\omega t \\quad \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"According to Faraday's law, the induced emf for the rotating coil of $N$ turns is then:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\varepsilon = -N \\left( \\frac{d\\Phi_B}{dt} \\right) = -NBA \\frac{d(\\cos \\omega t)}{dt} \\quad \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Thus, the instantaneous value of the emf is given by:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\varepsilon = \\varepsilon_0 NBA \\sin \\omega t \\quad \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"where $\\varepsilon_0 NBA \\omega$ is the maximum value of the emf, occurring when $\\sin \\omega t = \\pm 1$. Denoting $\\varepsilon_0 NBA \\omega$ as $\\varepsilon_0$, we have:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\varepsilon = \\varepsilon_0 \\sin \\omega t \\quad \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Since the sine function varies between +1 and -1, the sign, or polarity, of the emf changes with time. It's notable from Fig. 6.17 that the emf reaches its extremum value when $\\theta = 90^\\circ$ or $\\theta = 270^\\circ$, as the change of flux is greatest at these points."
-        },
-        {
-            "name":"paragraph",
-            "body":"The direction of the current changes periodically, hence it's termed alternating current (AC). Given that $\\omega = 2\\pi \\nu$, can be rewritten as:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\varepsilon = \\varepsilon_0 \\sin 2\\pi \\nu t \\quad \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"where $\\nu$ is the frequency of revolution of the generator's coil."
-        },
-        {
-            "name":"paragraph",
-            "body":"The instantaneous value of the emf varies periodically between +$\\varepsilon_0$ and –$\\varepsilon_0$. We will explore how to determine the time-averaged value for the alternating voltage and current in the subsequent chapter."
-        },
-        {
-            "name":"paragraph",
-            "body":"In commercial generators, mechanical energy for rotation is often sourced from water in hydroelectric generators or steam in thermal generators. Nuclear fuel may also power nuclear generators. Modern generators can output up to 500 MW, lighting millions of 100 W bulbs! Coils typically stay stationary while electromagnets rotate. Rotation frequency is around 50 Hz in India and 60 Hz in countries like the USA."
-        },
-        {
-            "name":"image",
-            "body":"",
-            "alt":""
-        }
-    ]
+  "data": [
+    {
+      "name": "heading",
+      "body": "AC GENERATOR"
+    },
+    {
+      "name": "paragraph",
+      "body": "The phenomenon of electromagnetic induction has led to significant technological advancements, notably in generating alternating currents (AC)."
+    },
+    {
+      "name": "paragraph",
+      "body": "As discussed earlier, one way to generate an electric current in a loop is by changing its orientation or effective area. When a coil spins in a magnetic field $B$, the effective area of the loop becomes $A \\cos \\theta$, where $\\theta$ is the angle between $A$ and $B$. This concept is fundamental to the operation of a basic AC generator, converting mechanical energy into electrical energy."
+    },
+    {
+      "name": "paragraph",
+      "body": "The essential components of an AC generator include a coil mounted on a rotor shaft, with the coil's axis perpendicular to the magnetic field's direction. This coil, the armature, rotates in a uniform magnetic field, inducing an electric current. The ends of the coil connect to an external circuit using slip rings and brushes"
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    },
+    {
+      "name": "paragraph",
+      "body": "When the coil rotates at a constant angular speed $\\omega$, the angle $\\theta$ between the magnetic field vector $B$ and the area vector $A$ of the coil at any instant $t$ is given by $\\theta = \\omega t$ (assuming $\\theta = 0^\\circ$ at $t = 0$). Consequently, the effective area of the coil exposed to the magnetic field lines varies with time. From Eq. (6.1), the flux at any time $t$ is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\Phi_B = BA \\cos \\theta = BA \\cos \\omega t \\quad \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "According to Faraday's law, the induced emf for the rotating coil of $N$ turns is then:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\varepsilon = -N \\left( \\frac{d\\Phi_B}{dt} \\right) = -NBA \\frac{d(\\cos \\omega t)}{dt} \\quad \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Thus, the instantaneous value of the emf is given by:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\varepsilon = \\varepsilon_0 NBA \\sin \\omega t \\quad \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $\\varepsilon_0 NBA \\omega$ is the maximum value of the emf, occurring when $\\sin \\omega t = \\pm 1$. Denoting $\\varepsilon_0 NBA \\omega$ as $\\varepsilon_0$, we have:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\varepsilon = \\varepsilon_0 \\sin \\omega t \\quad \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Since the sine function varies between +1 and -1, the sign, or polarity, of the emf changes with time. It's notable from Fig. 6.17 that the emf reaches its extremum value when $\\theta = 90^\\circ$ or $\\theta = 270^\\circ$, as the change of flux is greatest at these points."
+    },
+    {
+      "name": "paragraph",
+      "body": "The direction of the current changes periodically, hence it's termed alternating current (AC). Given that $\\omega = 2\\pi \\nu$, can be rewritten as:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\varepsilon = \\varepsilon_0 \\sin 2\\pi \\nu t \\quad \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $\\nu$ is the frequency of revolution of the generator's coil."
+    },
+    {
+      "name": "paragraph",
+      "body": "The instantaneous value of the emf varies periodically between +$\\varepsilon_0$ and –$\\varepsilon_0$. We will explore how to determine the time-averaged value for the alternating voltage and current in the subsequent chapter."
+    },
+    {
+      "name": "paragraph",
+      "body": "In commercial generators, mechanical energy for rotation is often sourced from water in hydroelectric generators or steam in thermal generators. Nuclear fuel may also power nuclear generators. Modern generators can output up to 500 MW, lighting millions of 100 W bulbs! Coils typically stay stationary while electromagnets rotate. Rotation frequency is around 50 Hz in India and 60 Hz in countries like the USA."
+    },
+    {
+      "name": "image",
+      "body": "",
+      "alt": ""
+    }
+  ]
 }

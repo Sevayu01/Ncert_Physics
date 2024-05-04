@@ -6,7 +6,7 @@ const MobileSidebar = ({ isOpen, toggle, topic, subtopics }) => {
 
   return (
     <div
-      className={`fixed z-10 left-0 right-0 h-full bg-[#333539] text-white  pl-6 transition-transform ease-in-out duration-300 transform ${
+      className={`absolute z-10 left-0 right-0 h-full bg-[#333539] text-white  pl-6 transition-transform ease-in-out duration-300 transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >

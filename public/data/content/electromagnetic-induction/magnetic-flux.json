@@ -9,6 +9,11 @@
       "body": "Faraday's great insight lay in discovering a simple mathematical relation to explain the series of experiments he carried out on electromagnetic induction. However, before we state and appreciate his laws, we must get familiar with the notion of magnetic flux, $\\Phi_B$."
     },
     {
+      "name": "image",
+      "body": "/assets/electromagnetic-induction/image66.png",
+      "alt": "image66"
+    },
+    {
       "name": "paragraph",
       "body": "Magnetic flux through a plane of area $A$ placed in a uniform magnetic field $B$ can be written as:"
     },
@@ -19,6 +24,11 @@
     {
       "name": "paragraph",
       "body": "The above equation can be extended to curved surfaces and nonuniform fields. If the magnetic field has different magnitudes and directions atvarious parts of a surface as shown below, then the  magnetic flux through the surface is given by"
+    },
+    {
+      "name": "image",
+      "body": "/assets/electromagnetic-induction/image79.png",
+      "alt": "image79"
     },
     {
       "name": "expression",

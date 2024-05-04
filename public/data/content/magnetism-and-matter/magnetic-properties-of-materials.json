@@ -18,7 +18,7 @@
     },
     {
       "name": "image",
-      "body": "../../../../public/assets/magnetism-and-matter/image36.png",
+      "body": "/assets/magnetism-and-matter/image36.png",
       "alt": "image36"
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "name": "image",
-      "body": "../../../../public/assets/magnetism-and-matter/image71.png",
+      "body": "/assets/magnetism-and-matter/image71.png",
       "alt": "image71"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "name": "image",
-      "body": "../../../../public/assets/magnetism-and-matter/image19.png",
+      "body": "/assets/magnetism-and-matter/image19.png",
       "alt": "image19"
     }
   ]

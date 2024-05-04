@@ -5,6 +5,9 @@ import QuestionNavigationPanel from "./QuestionNavigationPanel";
 import { useParams } from "react-router";
 import ImportContent from "../../chapterImportService.js";
 import ModuleData from "../../../public/data/modules.json"
+import MobileNavbar from "../../components/MobileNavbar.jsx";
+import MobileSidebar from "../../components/MobileSidebar.jsx";
+
 const QuizPage = () => {
   const newObject = useMemo(() => {
     return {};
@@ -12,20 +15,28 @@ const QuizPage = () => {
 
   const [quiz, setQuiz] = useState([]);
   const [moduleName, setModuleName] = useState("");
+  const [topics, setTopics] = useState(null);
   const [selected, setSelected] = useState(newObject);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { chapter } = useParams();
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   useEffect(() => {
     (async () => {
-      const quizData = ImportContent({ chapter: chapter, type: "quiz" }); 
+      const quizData = await ImportContent({ chapter: chapter, type: "quiz" }); 
+      const importedTopic = await ImportContent({ chapter: chapter, type: "topics" });
       const moduleData = ModuleData;
       for (let i = 0; i < quizData.data.length; i++) {
         newObject[i] = -1;
       }
       await getModuleName(moduleData.data);
+      setTopics(importedTopic);
       setQuiz(quizData.data);
     })();
-  }, [quiz, chapter, newObject]);
+  }, [quiz, chapter, newObject, topics]);
 
   const getModuleName = async (module) => {
     for (let i = 0; i < module.length; i++) {
@@ -39,12 +50,15 @@ const QuizPage = () => {
   if (quiz.length === 0) {
     return <div>Loading...</div>;
   }
-
+  
   return (
     <div>
       <Navbar title={moduleName} />
+      <MobileNavbar title={moduleName} toggle={toggleSidebar} />
+
       <div className="flex flex-row content-height">
         <QuestionNavigationPanel quiz={quiz} selected={selected} />
+        <MobileSidebar isOpen={isSidebarOpen} toggle={toggleSidebar} subtopics={topics.subtopics} />
 
         <div className="w-full content-height px-6 overflow-y-scroll">
           <p className="font-bold text-[62px] mb-7">Quiz</p>

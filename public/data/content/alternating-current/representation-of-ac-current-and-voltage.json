@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Representation of AC current and voltage by rotating vectors"
+        },
+        {
+            "name":"paragraph",
+            "body":"In the previous section, we learned that the current through a resistor is in phase with the AC voltage. But this is not the case for an inductor, a capacitor, or a combination of these circuit elements. To show the phase relationship between voltage and current in an AC circuit, we use the notion of phasors.The analysis of an AC circuit is facilitated by the use of a phasor diagram."
+        },
+        {
+            "name":"paragraph",
+            "body":" A phasor is a vector which rotates about the origin with angular speed \\( \\omega \\), as shown above. The vertical components of phasors \\( V \\) and \\( I \\) represent the sinusoidally varying quantities \\( v \\) and \\( i \\). The magnitudes of phasors \\( V \\) and \\( I \\) represent the amplitudes or the peak values \\( V_m \\) and \\( I_m \\) of these oscillating quantities. The first figure shows the voltage and current phasors and their relationship at time \\( t_1 \\) for the case of an AC source connected to a resistor. The projection of voltage and current phasors on the vertical axis, i.e., \\( V_m \\sin \\omega t \\) and \\( I_m \\sin \\omega t \\), respectively represent the value of voltage and current at that instant. As they rotate with frequency \\( \\omega \\), curves shown in the second figure are generated."
+        },
+        {
+            "name":"paragraph",
+            "body":"From the first figure, we see that phasors \\( V \\) and \\( I \\) for the case of a resistor are in the same direction. This is true for all times. This means that the phase angle between the voltage and the current is zero."
+        }
+    ]
+}

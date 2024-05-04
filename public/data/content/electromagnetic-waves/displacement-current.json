@@ -1,0 +1,128 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Displacement Current"
+        },
+        {
+            "name":"paragraph",
+            "body":"In Chapter 4, we learned that an electrical current produces a magnetic field around it. Maxwell showed that for logical consistency, a changing electric field must also produce a magnetic field. This effect is of great importance because it explains the existence of radio waves, gamma rays, visible light, and all other forms of electromagnetic waves."
+        },
+        {
+            "name":"paragraph",
+            "body":"To see how a changing electric field gives rise to a magnetic field, let us consider the process of charging a capacitor and apply Ampere’s circuital law given by"
+        },
+        {
+            "name":"expression",
+            "body":"$\\oint\\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 \\mathbf{i}(t)$"
+        },
+        {
+            "name":"paragraph",
+            "body":"to find the magnetic field at a point outside the capacitor."
+        },
+        {
+            "name":"image",
+            "body":" /assets/electromagnetic-waves/image4.png",
+            "alt":"image4"
+        },
+        {
+            "name":"paragraph",
+            "body":"The above figure shows a parallel plate capacitor $C$ which is part of a circuit through which a time-dependent current $i(t)$ flows. Let's find the magnetic field at a point such as $P$, in a region outside the parallel plate capacitor. For this, we consider a plane circular loop of radius $r$ whose plane is perpendicular to the direction of the current-carrying wire, and which is centered symmetrically with respect to the wire. Due to symmetry, the magnetic field is directed along the circumference of the circular loop and is the same in magnitude at all points on the loop. Therefore, if $B$ is the magnitude of the field, the left side of the above equation is $B(2\\pi r)$."
+        },
+        {
+            "name":"paragraph",
+            "body":"So, we have:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ B(2\\pi r) = \\mu_0 i(t) \\]"
+        },
+        {
+            "name":"image",
+            "body":" /assets/electromagnetic-waves/image3.png",
+            "alt":"image3"
+        },
+        {
+            "name":"paragraph",
+            "body":"Now, consider a different surface which has the same boundary. This surface is shaped like a tiffin box (without the lid). On applying Ampere’s circuital law to such surfaces with the same perimeter, we find that the left hand side of the equation has not changed but the right-hand side is zero and not $\\mu_0 i$, since no current passes through the surface of the above figure. So we have a contradiction; calculated one way, there is a magnetic field at a point $P$; calculated another way, the magnetic field at $P$ is zero."
+        },
+        {
+            "name":"paragraph",
+            "body":"Since the contradiction arises from our use of Ampere’s circuital law, this law must be missing something. The missing term must be such that one gets the same magnetic field at point $P$ no matter what surface is used. We can actually guess the missing term by looking carefully at the above figure. Is there anything passing through the surface $S$ between the plates of the capacitor? Yes, of course, the electric field! If the plates of the capacitor have an area $A$, and a total charge $Q$, the magnitude of the electric field $E$ between the plates is $\\left(\\frac{Q}{A}\\right)/\\varepsilon_0$. The field is perpendicular to the surface $S$. It has the same magnitude over the area $A$ of the capacitor plates, and vanishes outside it."
+        },
+        {
+            "name":"paragraph",
+            "body":"So, what is the electric flux $\\Phi_E$ through the surface $S$? Using Gauss’s law, it is $\\frac{Q}{\\varepsilon_0}$."
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\Phi_E = |E| \\cdot A = \\frac{1}{\\varepsilon_0} \\left(\\frac{Q}{A}\\right) A = \\frac{Q}{\\varepsilon_0} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"If the charge Q on the capacitor plates changes with time, creating a current $i = \\frac{dQ}{dt}$, we have:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\frac{d\\Phi_E}{dt} = \\frac{1}{\\varepsilon_0} \\frac{dQ}{dt} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"This implies that for consistency:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\varepsilon_0 \\frac{d}{dt}\\Phi_E = i \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"This missing term in Ampere’s circuital law leads to a generalization by adding a term to the total current carried by conductors through the surface. This additional term is $\\varepsilon_0$ times the rate of change of electric flux through the same surface. By doing so, the total current has the same value of current i for all surfaces, removing any contradiction in the value of B obtained using the generalized Ampere’s law. The current carried by conductors due to flow of charges is called conduction current"
+        },
+        {
+            "name":"paragraph",
+            "body":"The generalization made by Maxwell then is the following: The source of a magnetic field is not just the conduction electric current due to flowing charges, but also the time rate of change of electric field. More precisely, the total current i is the sum of the conduction current denoted by \\(i_c\\), and the displacement current denoted by \\(i_d\\) (\\(= \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\))."
+        },
+        {
+            "name":"paragraph",
+            "body":"So we have:"
+        },
+        {
+            "name":"paragraph",
+            "body":"\\[ i = i_c + i_d = i_c  + \\varepsilon_0 \\frac{d\\Phi_E}{dt} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"In explicit terms, this means that outside the capacitor plates, we have only conduction current \\(i_c = i\\), and no displacement current, i.e., \\(i_d = 0\\). On the other hand, inside the capacitor, there is no conduction current, i.e., \\(i_c = 0\\), and there is only displacement current, so that \\(i_d = i\\)."
+        },
+        {
+            "name":"paragraph",
+            "body":"The generalization of Ampere's circuital law has the same form as Ampere's circuital law with one difference: “the total current passing through any surface of which the closed loop is the perimeter” is the sum of the conduction current and the displacement current. The generalised law is given by:"
+        },
+        {
+            "name":"expression",
+            "body":"\\[ \\oint \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 i_c  + \\mu_0 \\varepsilon_0 \\frac{d\\Phi_E}{dt} \\]"
+        },
+        {
+            "name":"paragraph",
+            "body":"and is known as Ampere-Maxwell law."
+        },
+        {
+            "name":"image",
+            "body":" /assets/electromagnetic-waves/image1.png",
+            "alt":"image1"
+        },
+        {
+            "name":"paragraph",
+            "body":"The displacement current, like regular electric current, has similar effects. Sometimes, in scenarios like steady electric fields in a wire, the displacement current may not be there due to a constant electric field. But in cases like a charging capacitor, both regular and displacement currents may exist in different areas. It's also possible for both types of currents to be present in the same place because there are no perfectly conducting or insulating materials. Particularly, in large areas, there might be only displacement current due to changing electric fields, creating a magnetic field even without a nearby regular current source."
+        },
+        {
+            "name":"paragraph",
+            "body":"The displacement current has a big impact, making the laws of electricity and magnetism more balanced. Faraday’s law of electromagnetic induction says that a changing magnetic field makes an electric field, and conversely, a changing electric field creates a magnetic field due to the displacement current. Time-dependent electric and magnetic fields influence each other, as supported by Faraday’s law of electromagnetic induction and the Ampere-Maxwell law. An important outcome of this balance is the existence of electromagnetic waves, which will be explained further later."
+        },
+        {
+            "name":"image",
+            "body":" /assets/electromagnetic-waves/image5.png",
+            "alt":"image5"
+        }
+    ]
+}

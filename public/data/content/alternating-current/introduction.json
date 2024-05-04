@@ -1,0 +1,12 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Introduction"
+        },
+        {
+            "name":"paragraph",
+            "body":"We have so far discussed direct current (DC) sources and circuits with DC sources. These currents remain constant in direction over time. However, variations in voltage and current over time are quite common. The electricity supplied to our homes and offices follows a sine wave pattern over time. Such voltage variation is termed as alternating voltage (AC voltage), and the resulting current in a circuit is known as alternating current (AC current). Nowadays, most electrical devices operate on AC voltage because the majority of electrical energy provided by power companies is transmitted and distributed as AC. One significant advantage of AC voltage is its efficient conversion using transformers to alter voltage levels. Additionally, AC power transmission is economically feasible over long distances. AC circuits possess characteristics that are utilized in various everyday devices. For instance, when we tune our radios to a favorite station, we exploit a unique property of AC circuits, among many others covered in this chapter."
+        }       
+    ]
+}

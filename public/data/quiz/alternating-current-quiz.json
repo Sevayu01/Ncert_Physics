@@ -1,0 +1,105 @@
+{
+    "data": [
+      {
+        "statement": "Alternating voltage (V) is represented by the equation",
+        "options": [
+          "V(t) = Vm eωt",
+          "V(t) = Vm sin ωt",
+          "V(t) = Vm cot ωt",
+          "V(t) = Vm tan ωt"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "In the case of an inductor",
+        "options": [
+          "voltage lags the current by π2",
+          "voltage leads the current by π2",
+          "voltage leads the current by π3",
+          "voltage leads the current by π4"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "In a pure capacitive circuit if the frequency of ac source is doubled, then its capacitive reactance will be",
+        "options": [
+          "remains same",
+          "doubled",
+          "halved",
+          "zero"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "In which of the following circuits the maximum power dissipation is observed?",
+        "options": [
+          "Pure capacitive circuit",
+          "Pure inductive circuit",
+          "Pure resistive circuit",
+          "None of these"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "In a series LCR circuit the voltage across an inductor, capacitor and resistor are 20 V, 20 V and 40 V respectively. The phase difference between the applied voltage and the current in the circuit is",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "0°"
+        ],
+        "answer": 3
+      },
+      {
+        "statement": "When is the current in a circuit wattless?",
+        "options": [
+          "When the inductance of the circuit is zero",
+          "When the resistance of the circuit is zero",
+          "When the current is alternating",
+          "When both resistance and inductance are zero"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "What happens to the quality factor of an LCR circuit if the resistance is increased?",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Remains the same",
+          "None of the above"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "What is the frequency of the AC Mains in India?",
+        "options": [
+          "60 Hz",
+          "50 Hz",
+          "40 Hz",
+          "30 Hz"
+        ],
+        "answer": 1
+      },
+      {
+        "statement": "At resonant frequency the current amplitude in series LCR circuit is",
+        "options": [
+          "maximum",
+          "minimum",
+          "zero",
+          "infinity"
+        ],
+        "answer": 0
+      },
+      {
+        "statement": "A transformer works on the principle of",
+        "options": [
+          "self induction",
+          "electrical inertia",
+          "mutual induction",
+          "magnetic effect of the electrical current"
+        ],
+        "answer": 2
+      }
+    ]
+   }
+   

@@ -1,0 +1,81 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Electromagnetic Spectrum"
+        },
+        {
+            "name":"paragraph",
+            "body":"At the time Maxwell predicted the existence of electromagnetic waves, the only familiar electromagnetic waves were the visible light waves. The existence of ultraviolet and infrared waves was barely established. By the end of the nineteenth century, X-rays and gamma rays had also been discovered.  We now know that, electromagnetic waves include visible light waves, X-rays, gamma rays, radio waves, microwaves, ultraviolet and infrared waves. The classification of em waves according to frequency is the electromagnetic spectrum. There is no sharp division between one kind of wave and the next. The classification is based roughly on how the waves are produced and/or detected. We briefly describe these different types of electromagnetic waves, in order of decreasing wavelengths."
+        },
+        {
+            "name":"bold",
+            "body":"Radio Waves"
+        },
+        {
+            "name":"paragraph",
+            "body":"Radio waves are produced by the accelerated motion of charges in conducting wires. They are used in radio and television communication systems. They are generally in the frequency range from 500 kHz to about 1000 MHz. The AM (amplitude modulated) band is from 530 kHz to 1710 kHz. Higher frequencies upto 54 MHz are used for short wave bands. TV waves range from 54 MHz to 890 MHz. The FM (frequency modulated) radio band extends from 88 MHz to 108 MHz. Cellular phones use radio waves to transmit voice communication in the ultrahigh frequency (UHF) band."
+        },
+        {
+            "name":"bold",
+            "body":"Micro Waves"
+        },
+        {
+            "name":"paragraph",
+            "body":"Microwaves (short-wavelength radio waves), with frequencies in the gigahertz (GHz) range, are produced by special vacuum tubes (called klystrons, magnetrons and Gunn diodes). Due to their short wavelengths, they are suitable for the radar systems used in aircraft navigation. Radar also provides the basis for the speed guns used to time fast balls, tennis serves, and automobiles. Microwave ovens are an interesting domestic application of these waves. In such ovens, the frequency of the microwaves is selected to match the resonant frequency of water molecules so that energy from the waves is transferred efficiently to the kinetic energy of the molecules. This raises the temperature of any food containing water."
+        },
+        {
+            "name":"bold",
+            "body":"Infrared Waves"
+        },
+        {
+            "name":"paragraph",
+            "body":"Infrared waves, often called heat waves, are emitted by hot bodies and molecules. They're absorbed by materials, particularly those with water molecules, heating them due to increased thermal motion. Infrared lamps are widely used in physical therapy for this heating effect. Additionally, infrared radiation plays a vital role in Earth's temperature regulation through the greenhouse effect. Incoming visible light absorbed by Earth's surface is reradiated as infrared radiation, trapped by greenhouse gases like carbon dioxide and water vapor. Infrared detectors have various applications, from military surveillance to monitoring crop growth via Earth satellites. Electronic devices, like semiconductor light emitting diodes, emit infrared radiation and are commonly used in remote switches for household electronics like TVs and video recorders."
+        },
+        {
+            "name":"bold",
+            "body":"Visible Rays"
+        },
+        {
+            "name":"paragraph",
+            "body":"Visible light is the most familiar form of electromagnetic waves, detected by the human eye. It spans from approximately \\(4 \\times 10^{14}\\) Hz to \\(7 \\times 10^{14}\\) Hz, or a wavelength range of about 700 nm to 400 nm. The visible light emitted or reflected from objects provides us with information about the world around us. Our eyes are sensitive to this range of wavelengths, allowing us to perceive colors and shapes."
+        },
+        {
+            "name":"paragraph",
+            "body":"However, different animals have varying sensitivities to different wavelengths. For instance, snakes can detect infrared waves, and many insects can perceive ultraviolet light within the visible range."
+        },
+        {
+            "name":"paragraph",
+            "body":"Ultraviolet Rays"
+        },
+        {
+            "name":"paragraph",
+            "body":"Ultraviolet (UV) radiation ranges from about \\(4 \\times 10^{-7}\\) m (400 nm) to \\(6 \\times 10^{-10}\\) m (0.6 nm). It comes from special lamps and hot objects, especially the sun. However, much of the sun's UV output is absorbed by the ozone layer, 40-50 km above the Earth. This protects life on Earth. UV radiation can harm health, causing skin tanning by inducing melanin production. Ordinary glass offers some UV protection, but prolonged exposure through windows can still be harmful."
+        },
+        {
+            "name":"paragraph",
+            "body":"Workers in high-UV environments, like welders, wear protective gear. Due to its short wavelengths, UV radiation can be focused precisely for applications like LASIK eye surgery. UV lamps sterilize water by killing germs. Depletion of the ozone layer, mainly by chlorofluorocarbons (CFCs) like freon, is a global concern. The ozone layer shields against harmful UV radiation, and its depletion poses risks to health and the environment."
+        },
+        {
+            "name":"paragraph",
+            "body":"X-rays"
+        },
+        {
+            "name":"paragraph",
+            "body":"Beyond the UV region lies the X-ray part of the electromagnetic spectrum. X-rays, ranging from about \\(10^{-8}\\) m (10 nm) to \\(10^{-13}\\) m (0.1 nm), have significant medical applications. They are generated by bombarding a metal target with high-energy electrons."
+        },
+        {
+            "name":"paragraph",
+            "body":"X-rays are vital for medical diagnosis and cancer treatment. However, due to their ability to damage living tissues, precautions must be taken to limit exposure. Overexposure or unnecessary exposure can have harmful effects on health."
+        },
+        {
+            "name":"paragraph",
+            "body":"X-rays occupy the high-frequency range of the electromagnetic spectrum, with wavelengths from about \\(10^{-10}\\) m to less than \\(10^{-14}\\) m. This radiation, generated in nuclear reactions and emitted by radioactive nuclei, is utilized in medicine to combat cancer cells."
+        },
+        {
+            "name":"image",
+            "body":" /assets/electromagnetic-waves/image2.jpg",
+            "alt":"image2"
+        }
+    ]
+}

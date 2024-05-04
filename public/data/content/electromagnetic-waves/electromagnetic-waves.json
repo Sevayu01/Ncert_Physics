@@ -1,0 +1,56 @@
+{
+    "data":[
+        {
+            "name":"heading",
+            "body":"Electromagnetic Waves"
+        },
+        {
+            "name":"bold",
+            "body":"Production of Electromagnetic Waves"
+        },
+        {
+            "name":"paragraph",
+            "body":"Electromagnetic waves are produced by accelerated charges, as per Maxwell's theory. When charges undergo oscillations, generating an oscillating electric field, this induces an oscillating magnetic field. Conversely, the changing magnetic field produces an oscillating electric field. These mutually regenerating fields propagate through space. The frequency of the wave matches the frequency of charge oscillation. Energy carried by the wave is derived from the energy of the accelerating charge."
+        },
+        {
+            "name":"bold",
+            "body":"Experimental Verification"
+        },
+        {
+            "name":"paragraph",
+            "body":"Experimental confirmation of light as an electromagnetic wave was challenging due to the high frequency of visible light compared to available electronic circuit frequencies. Hence, initial experiments focused on lower frequencies, like radio waves, such as Hertz's experiment in 1887. Subsequently, Jagdish Chandra Bose and Guglielmo Marconi made significant contributions in this area, with Bose demonstrating shorter wavelength waves and Marconi achieving long-distance transmission."
+        },
+        {
+            "name":"bold",
+            "body":"Nature of Electromagnetic Waves"
+        },
+        {
+            "name":"paragraph",
+            "body":"Maxwell's equations show that electromagnetic waves consist of perpendicular electric and magnetic fields, both perpendicular to the direction of propagation. This is illustrated by considering the displacement current between capacitor plates, where the fields are perpendicular. A typical example of a plane electromagnetic wave shows sinusoidal variations of electric and magnetic fields with respect to the direction of propagation."
+        },
+        {
+            "name":"paragraph",
+            "body":"The magnitude of the wave vector $k$ determines the wave's direction, while angular frequency $\\omega$ is related to the wave's speed $c$ through $\\omega = ck$. The relationship between frequency $\\nu$ and wavelength $\\lambda$ is $\\nu \\lambda = c$."
+        },
+        {
+            "name":"paragraph",
+            "body":"The magnitude of electric and magnetic fields in an electromagnetic wave are related by $B_0 = \\frac{E_0}{c}$. Unlike other waves, electromagnetic waves propagate through vacuum without requiring a material medium, contrary to the earlier notion of ether, which was disproved by the Michelson-Morley experiment in 1887."
+        },
+        {
+            "name":"paragraph",
+            "body":"Electromagnetic waves propagate through material mediums, such as glass, with velocities determined by the medium's electric and magnetic properties. The refractive index of a medium, defined as the ratio of velocities of light in two media, depends on these properties."
+        },
+        {
+            "name":"paragraph",
+            "body":"In vacuum, electromagnetic waves travel at approximately $3 \\times 10^8$ m/s, defining the meter as the distance light travels in a specific time interval. Hertz's experiments in the late 19th century confirmed electromagnetic wave existence and their wave nature, demonstrating properties like diffraction, refraction, and polarization."
+        },
+        {
+            "name":"paragraph",
+            "body":"Electromagnetic waves carry energy and momentum, illustrated by their ability to transfer energy and momentum to charged particles. This transfer results in radiation pressure, where the magnitude of the total momentum delivered to a surface is $p = \\frac{U}{c}$, with $U$ as the total energy transferred and $c$ as the speed of light."
+        },
+        {
+            "name":"paragraph",
+            "body":"Despite their momentum transfer, electromagnetic waves exert negligible pressure due to the large value of $c$. However, they play a crucial role in various technological applications, transporting energy over long distances via radio and TV signals and sunlight reaching the Earth."
+        }
+    ]
+}

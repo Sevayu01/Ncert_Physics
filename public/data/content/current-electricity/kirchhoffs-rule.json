@@ -11,12 +11,12 @@
     {
       "name": "image",
       "alt": "KirchhoffsCurrentLaw",
-      "body": "../../../../public/assets/current-electricity/KirchhoffsCurrentLaw.gif"
+      "body": "/assets/current-electricity/KirchhoffsCurrentLaw.gif"
     },
     {
       "name": "image",
       "alt": "KirchhoffsVoltageLaw",
-      "body": "../../../../public/assets/current-electricity/KirchhoffsVoltageLaw.gif"
+      "body": " /assets/current-electricity/KirchhoffsVoltageLaw.gif"
     },
     {
       "name": "paragraph",

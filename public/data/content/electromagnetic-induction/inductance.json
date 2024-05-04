@@ -14,7 +14,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[\\frac{d\\Phi}{dt} \\propto \\frac{dI}{dt}  \\quad \\]"
+      "body": "\\[\\frac{d\\Phi}{dt} \\propto \\frac{dI}{dt}  \\quad (\\text)\\]"
     },
     {
       "name": "paragraph",
@@ -22,7 +22,7 @@
     },
     {
       "name": "expression",
-      "body": "\\[N\\Phi_B \\propto I \\quad \\]"
+      "body": "\\[N\\Phi_B \\propto I \\quad (\\text)\\]"
     },
     {
       "name": "paragraph",

@@ -21,9 +21,9 @@ const Sidebar = ({ topic, subtopics }) => {
         );
       })}
       <Link to={`/${chapter}/quiz`} key={8}>
-        <p className="text-xl pb-2 bg-[#556672] hover:bg-[#3c4851] w-[80%] text-center rounded-md items-center py-2 text-white font-medium">
+        <button className="text-xl pb-2 bg-[#556672] hover:bg-[#3c4851] w-[80%] text-center rounded-md items-center py-2 text-white font-medium">
           Quiz
-        </p>
+        </button>
       </Link>
     </div>
   );

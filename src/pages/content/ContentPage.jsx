@@ -7,9 +7,11 @@ import Image from "./contentComponents/Image";
 import MobileSidebar from "../../components/MobileSidebar";
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
+import MobileNavbar from "../../components/MobileNavbar";
 import BoldLine from "./contentComponents/BoldLine";
 import Description from "./contentComponents/Description";
 import SubHeading from "./contentComponents/SubHeading";
+import ContentImport from "../../chapterImportService.js";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -24,12 +26,11 @@ const ContentPage = () => {
 
   useEffect(() => {
     (async () => {
-      const contentImportPath = `../../../public/data/content/${chapter}/${topic}.json`;
-      const topicImportPath = `../../../public/data/topics/${chapter}-topics.json`;
-      const importedData = await import(/* @vite-ignore */ contentImportPath);
-      const importedTopic = await import(/* @vite-ignore */ topicImportPath);
+
+      const importedData = ContentImport({ chapter: chapter, topic: topic });
+      const importedTopic = ContentImport({ chapter: chapter, type: "topics" });
       setData(importedData.data);
-      setTopics(importedTopic.default);
+      setTopics(importedTopic);
     })();
   }, [chapter, topic]);
 
@@ -40,17 +41,19 @@ const ContentPage = () => {
   return (
     <div>
       <Navbar title={topics.title} toggle={toggleSidebar} />
-      <div className="flex flex-row content-height">
+      <MobileNavbar title={topics.title} toggle={toggleSidebar} />
+
+      <div className="flex flex-row content-height relative">
         <Sidebar topic={topics.topic} subtopics={topics.subtopics} />
 
         <MobileSidebar
           isOpen={isSidebarOpen}
-          onClose={toggleSidebar}
+          toggle={toggleSidebar}
           topic={topics.topic}
           subtopics={topics.subtopics}
         />
 
-        <div className="w-full pl-6 pr-24 pb-10 overflow-y-scroll">
+        <div className="w-full pl-6 pr-6 sm:pr-24 pb-10 overflow-y-scroll">
           {data.map((element, idx) => {
             switch (element.name) {
               case "heading":
@@ -62,7 +65,9 @@ const ContentPage = () => {
               case "description":
                 return <Description key={idx} text={element.body} />;
               case "image":
-                return <Image key={idx} alt={element.alt} body={element.body} />;
+                return (
+                  <Image key={idx} alt={element.alt} body={element.body} />
+                );
               case "expression":
                 return <Expression latex={element.body} />;
               case "bold":

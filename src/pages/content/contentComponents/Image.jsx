@@ -1,27 +1,26 @@
 import PropTypes from "prop-types";
 import { IoExpand } from "react-icons/io5";
 import { IoContractSharp } from "react-icons/io5";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Image = ({ body, alt }) => {
-  const [image, setImage] = useState(null);
-
-  useEffect(() => {
-    (async () => {
-      const image = await import(/* @vite-ignore */ body);
-      setImage(image.default);
-    })();
-  }, [body]);
-
   const [overlayVisible, setOverlayVisible] = useState(false);
   const imageItem = (
-    <img className="w-full h-full mx-auto object-contain" loading="lazy" src={image} alt={alt} />
+    <img
+      className="w-full h-full mx-auto object-contain"
+      loading="lazy"
+      src={body}
+      alt={alt}
+    />
   );
 
   return (
     <center>
+      <div className=" w-full mx-auto rounded-lg sm:hidden block">
+        {imageItem}
+      </div>
       <div
-        className={`flex justify-center relative rounded-lg w-[30rem] my-10 ${
+        className={`sm:flex justify-center relative rounded-lg w-[30rem] my-10 hidden ${
           !overlayVisible ? "overflow-hidden" : ""
         }`}
       >

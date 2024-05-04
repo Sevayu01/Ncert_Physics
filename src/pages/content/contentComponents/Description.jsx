@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Description = ({ text }) => {
   return (
     <>
-    <center className="my-2 relative px-[30%] relative">
+    <center className="my-2 px-[30%] relative">
       <Latex>{text}</Latex>
     </center>
     </>

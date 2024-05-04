@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Expression = ({ latex }) => {
   return (
     <>
-    <center className="my-2 relative">
+    <center className="my-2 relative overflow-x-scroll sm:overflow-visible">
       <Latex>{latex}</Latex>
     </center>
     </>

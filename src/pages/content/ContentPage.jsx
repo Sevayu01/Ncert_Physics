@@ -40,7 +40,7 @@ const ContentPage = () => {
 
   return (
     <div>
-      <Navbar title={topics.title} toggle={toggleSidebar} />
+      <Navbar title={topics.title} />
       <MobileNavbar title={topics.title} toggle={toggleSidebar} />
 
       <div className="flex flex-row content-height relative">

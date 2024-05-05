@@ -92,7 +92,6 @@ const QuizPage = () => {
         `You scored ${percentScore}%. You can take the quiz again anytime to improve your score.`
       );
     }
-    window.location.reload();
   };
 
   const getModuleName = async (module) => {

@@ -63,7 +63,6 @@ import electromagneticInductionIntroduction from '../public/data/content/electro
 import electromagneticInductionMotionalElectromotiveForce from '../public/data/content/electromagnetic-induction/motional-electromotive-force.json';
 import electromagneticInductionFaradaysLawOfInduction from '../public/data/content/electromagnetic-induction/faradays-law-of-induction.json';
 import electromagneticInductionLenzsLawAndConservationOfEnergy from '../public/data/content/electromagnetic-induction/lenzs-law-and-conservation-of-energy.json';
-import electromagneticInductionTheExperimentsOfFaradayAndHenry from '../public/data/content/electromagnetic-induction/the-experiments-of-faraday-and-henry.json';
 import electromagneticInductionInductance from '../public/data/content/electromagnetic-induction/inductance.json';
 import electromagneticInductionMagneticFlux from '../public/data/content/electromagnetic-induction/magnetic-flux.json';
 
@@ -75,7 +74,6 @@ import magnetismAndMatterTheBarMagnet from '../public/data/content/magnetism-and
 
 
 
-import emiFaraday from "../public/data/content/electromagnetic-induction/the-experiments-of-faraday-and-henry"
 import movingChargeForceBWParrallelCurrents from "../public/data/content/moving-charges-and-magnetism/force-between-two-parallel-currents"
 import movingChargeMagFieldAxisCircular from "../public/data/content/moving-charges-and-magnetism/magnetic-field-on-the-axis-of-a-circular-current-loop"
 import electroPotCapacitEffactOfDielectric from "../public/data/content/electrostatic-potential-and-capacitance/effect-of-dielectric-on-capacitance"
@@ -196,15 +194,10 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = electromagneticInductionFaradaysLawOfInduction;
                 } else if (topic === 'lenzs-law-and-conservation-of-energy') {
                     content = electromagneticInductionLenzsLawAndConservationOfEnergy;
-                } else if (topic === 'the-experiments-of-faraday-and-henry') {
-                    content = electromagneticInductionTheExperimentsOfFaradayAndHenry;
                 } else if (topic === 'inductance') {
                     content = electromagneticInductionInductance;
                 } else if (topic === 'magnetic-flux') {
                     content = electromagneticInductionMagneticFlux;
-                }
-                else if (topic === 'the-experiments-of-faraday-and-henry') {
-                    content = emiFaraday;
                 }
                 else {
                     console.error('Invalid topic:', topic);

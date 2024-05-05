@@ -1,12 +1,14 @@
 import Navbar from "../../components/Navbar";
 import ModuleCard from "./ModuleCard";
 import module from "../../../public/data/modules.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { fetchScoreList } from "../../db";
 
 const DashboardPage = () => {
   const { data } = module;
   const [modules] = useState(data);
-  const [progress] = useState(20);
+  const [progress, setProgress] = useState(null);
+
   const progressBarStyle = {
     position: "absolute",
     top: 0,
@@ -15,6 +17,21 @@ const DashboardPage = () => {
     width: `${progress}%`,
     backgroundColor: "#92ED4B",
   };
+
+  useEffect(() => {
+    (async () => {
+      const scoreList = await fetchScoreList();
+      let completedModules = 0;
+      for (let i = 0; i < scoreList.length; i++) {
+        if (scoreList[i].score < 70) continue;
+
+        completedModules++;
+      }
+      setProgress(Math.floor((completedModules / data.length) * 100));
+    })()
+  }, []);
+
+  if (progress === null) return <div>Loading...</div>;
 
   return (
     <>

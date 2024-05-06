@@ -1,121 +1,121 @@
 {
-    "data":[
-        {
-            "name":"heading",
-            "body":"TRANSFORMERS"   
-        },
-        {
-            "name":"paragraph",
-            "body":"For many purposes, it is necessary to change (or transform) an alternating voltage from one to another of greater or smaller value. This is done with a device called a transformer using the principle of mutual induction."
-        },
-        {
-            "name":"paragraph",
-            "body":"A transformer consists of two sets of coils, insulated from each other. They are wound on a soft iron core, either one on top of the other or on separate limbs of the core. One of the coils, called the primary coil, has $N_p$ turns. The other coil is called the secondary coil; it has $N_s$ turns. Often the primary coil is the input coil and the secondary coil is the output coil of the transformer."
-        },
-        {
-            "name":"image",
-            "body":" /assets/alternating-current/image9.jpg",
-            "alt":"image9"
-        },
-        {
-            "name":"paragraph",
-            "body":"When an alternating voltage is applied to the primary, the resulting current produces an alternating magnetic flux which links the secondary and induces an emf in it. The value of this emf depends on the number of turns in the secondary. We consider an ideal transformer in which the primary has negligible resistance and all the flux in the core links both primary and secondary windings. Let $\\phi$ be the flux in each turn in the core at time $t$ due to current in the primary when a voltage $v_p$ is applied to it. Then the induced emf or voltage $\\varepsilon_s$, in the secondary with $N_s$ turns is"
-        },
-        {
-            "name":"expression",
-            "body":"\\[\\varepsilon_s = -N_s \\frac{d\\phi}{dt}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"The alternating flux $\\phi$ also induces an emf, called back emf, in the primary. This is given by"
-        },
-        {
-            "name":"expression",
-            "body":"\\[\\varepsilon_p = -N_p \\frac{d\\phi}{dt}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"But $\\varepsilon_p = v_p$. If this were not so, the primary current would be infinite since the primary has zero resistance (as assumed). If the secondary is an open circuit or the current taken from it is small, then to a good approximation"
-        },
-        {
-            "name":"expression",
-            "body":"\\[\\varepsilon_s = v_s\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"where $v_s$ is the voltage across the secondary. Therefore, the equations can be written as"
-        },
-        {
-            "name":"expression",
-            "body":"\\[v_s = -N_s \\frac{d\\phi}{dt}, \\quad v_p = -N_p \\frac{d\\phi}{dt}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"From these equations, we have"
-        },
-        {
-            "name":"expression",
-            "body":"\\[\\frac{v_s}{v_p} = \\frac{N_s}{N_p}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"If the transformer is assumed to be 100\\% efficient (no energy losses), the power input is equal to the power output, and since $P = iv$,"
-        },
-        {
-            "name":"expression",
-            "body":"\\[I_p v_p = I_s v_s\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Although some energy is always lost, this is a good approximation, since a well-designed transformer may have an efficiency of more than 95\\%. Combining equations, we have"
-        },
-        {
-            "name":"expression",
-            "body":"\\[\\frac{I_p}{I_s} = \\frac{v_s}{v_p} = \\frac{N_s}{N_p}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Since $i$ and $v$ both oscillate with the same frequency as the AC source, this equation also gives the ratio of the amplitudes or rms values of corresponding quantities."
-        },
-        {
-            "name":"paragraph",
-            "body":"Now, we can see how a transformer affects the voltage and current. We have:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[v_s = \\frac{N_s}{N_p} v_p \\quad \\text{and} \\quad I_s = \\frac{N_p}{N_s} I_p\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"That is, if the secondary coil has a greater number of turns than the primary ($N_s > N_p$), the voltage is stepped up ($v_s > v_p$). This type of arrangement is called a step-up transformer. However, in this arrangement, there is less current in the secondary than in the primary ($N_p/N_s < 1$ and $I_s < I_p$). For example, if the primary coil of a transformer has 100 turns and the secondary has 200 turns, $N_s/N_p = 2$ and $N_p/N_s = 1/2$. Thus, a 220 V input at 10 A will step up to 440 V output at 5.0 A."
-        },
-        {
-            "name":"paragraph",
-            "body":"If the secondary coil has fewer turns than the primary ($N_s < N_p$), we have a step-down transformer. In this case, $v_s < v_p$ and $I_s > I_p$. That is, the voltage is stepped down, or reduced, and the current is increased."
-        },
-        {
-            "name":"paragraph",
-            "body":"In practical transformers, small energy losses occur due to various reasons:"
-        },
-        {
-            "name":"paragraph",
-            "body":"(1) Flux Leakage: Some flux doesn't pass through the secondary due to poor core design or air gaps. This can be minimized by winding the primary and secondary coils one over the other."
-        },
-        {
-            "name":"paragraph",
-            "body":"(2) Resistance of Windings: The wire used for windings has resistance, causing energy loss due to heat ($I^2R$). Thicker wire is used in high current, low voltage windings to minimize this loss."
-        },
-        {
-            "name":"paragraph",
-            "body":"(3) Eddy Currents: Alternating magnetic flux induces eddy currents in the iron core, leading to heating. This effect is reduced by using a laminated core."
-        },
-        {
-            "name":"paragraph",
-            "body":"(4) Hysteresis: The core's magnetization is repeatedly reversed by the alternating magnetic field, resulting in energy expenditure and heat. Using a magnetic material with low hysteresis loss minimizes this."
-        },
-        {
-            "name":"paragraph",
-            "body":"Large-scale transmission and distribution of electrical energy over long distances utilize transformers. The voltage output of generators is stepped up to reduce current (and consequently, $I^2R$ loss), making it suitable for long-distance transmission. It's then transmitted to area substations near consumers, where the voltage is stepped down. Further step-down occurs at distributing substations and utility poles before reaching homes with a power supply of 240 V."
-        }
-    ]
+  "data": [
+    {
+      "name": "heading",
+      "body": "TRANSFORMERS"
+    },
+    {
+      "name": "paragraph",
+      "body": "For many purposes, it is necessary to change (or transform) an alternating voltage from one to another of greater or smaller value. This is done with a device called a transformer using the principle of mutual induction."
+    },
+    {
+      "name": "paragraph",
+      "body": "A transformer consists of two sets of coils, insulated from each other. They are wound on a soft iron core, either one on top of the other or on separate limbs of the core. One of the coils, called the primary coil, has $N_p$ turns. The other coil is called the secondary coil; it has $N_s$ turns. Often the primary coil is the input coil and the secondary coil is the output coil of the transformer."
+    },
+    {
+      "name": "image",
+      "body": " /assets/alternating-current/image9.jpg",
+      "alt": "image9"
+    },
+    {
+      "name": "paragraph",
+      "body": "When an alternating voltage is applied to the primary, the resulting current produces an alternating magnetic flux which links the secondary and induces an emf in it. The value of this emf depends on the number of turns in the secondary. We consider an ideal transformer in which the primary has negligible resistance and all the flux in the core links both primary and secondary windings. Let $\\phi$ be the flux in each turn in the core at time $t$ due to current in the primary when a voltage $v_p$ is applied to it. Then the induced emf or voltage $\\varepsilon_s$, in the secondary with $N_s$ turns is"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\varepsilon_s = -N_s \\frac{d\\phi}{dt}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The alternating flux $\\phi$ also induces an emf, called back emf, in the primary. This is given by"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\varepsilon_p = -N_p \\frac{d\\phi}{dt}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "But $\\varepsilon_p = v_p$. If this were not so, the primary current would be infinite since the primary has zero resistance (as assumed). If the secondary is an open circuit or the current taken from it is small, then to a good approximation"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\varepsilon_s = v_s\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where $v_s$ is the voltage across the secondary. Therefore, the equations can be written as"
+    },
+    {
+      "name": "expression",
+      "body": "\\[v_s = -N_s \\frac{d\\phi}{dt}, \\quad v_p = -N_p \\frac{d\\phi}{dt}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "From these equations, we have"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\frac{v_s}{v_p} = \\frac{N_s}{N_p}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "If the transformer is assumed to be 100\\% efficient (no energy losses), the power input is equal to the power output, and since $P = iv$,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[I_p v_p = I_s v_s\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Although some energy is always lost, this is a good approximation, since a well-designed transformer may have an efficiency of more than 95\\%. Combining equations, we have"
+    },
+    {
+      "name": "expression",
+      "body": "\\[\\frac{I_p}{I_s} = \\frac{v_s}{v_p} = \\frac{N_s}{N_p}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Since $i$ and $v$ both oscillate with the same frequency as the AC source, this equation also gives the ratio of the amplitudes or rms values of corresponding quantities."
+    },
+    {
+      "name": "paragraph",
+      "body": "Now, we can see how a transformer affects the voltage and current. We have:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[v_s = \\frac{N_s}{N_p} v_p \\quad \\text{and} \\quad I_s = \\frac{N_p}{N_s} I_p\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "That is, if the secondary coil has a greater number of turns than the primary ($N_s > N_p$), the voltage is stepped up ($v_s > v_p$). This type of arrangement is called a step-up transformer. However, in this arrangement, there is less current in the secondary than in the primary ($N_p/N_s < 1$ and $I_s < I_p$). For example, if the primary coil of a transformer has 100 turns and the secondary has 200 turns, $N_s/N_p = 2$ and $N_p/N_s = 1/2$. Thus, a 220 V input at 10 A will step up to 440 V output at 5.0 A."
+    },
+    {
+      "name": "paragraph",
+      "body": "If the secondary coil has fewer turns than the primary ($N_s < N_p$), we have a step-down transformer. In this case, $v_s < v_p$ and $I_s > I_p$. That is, the voltage is stepped down, or reduced, and the current is increased."
+    },
+    {
+      "name": "paragraph",
+      "body": "In practical transformers, small energy losses occur due to various reasons:"
+    },
+    {
+      "name": "paragraph",
+      "body": "(1) Flux Leakage: Some flux doesn't pass through the secondary due to poor core design or air gaps. This can be minimized by winding the primary and secondary coils one over the other."
+    },
+    {
+      "name": "paragraph",
+      "body": "(2) Resistance of Windings: The wire used for windings has resistance, causing energy loss due to heat ($I^2R$). Thicker wire is used in high current, low voltage windings to minimize this loss."
+    },
+    {
+      "name": "paragraph",
+      "body": "(3) Eddy Currents: Alternating magnetic flux induces eddy currents in the iron core, leading to heating. This effect is reduced by using a laminated core."
+    },
+    {
+      "name": "paragraph",
+      "body": "(4) Hysteresis: The core's magnetization is repeatedly reversed by the alternating magnetic field, resulting in energy expenditure and heat. Using a magnetic material with low hysteresis loss minimizes this."
+    },
+    {
+      "name": "paragraph",
+      "body": "Large-scale transmission and distribution of electrical energy over long distances utilize transformers. The voltage output of generators is stepped up to reduce current (and consequently, $I^2R$ loss), making it suitable for long-distance transmission. It's then transmitted to area substations near consumers, where the voltage is stepped down. Further step-down occurs at distributing substations and utility poles before reaching homes with a power supply of 240 V."
+    }
+  ]
 }

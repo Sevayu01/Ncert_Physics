@@ -82,8 +82,8 @@
     },
     {
       "name": "image",
-      "alt": "image4",
-      "body": " /assets/electrostatic-potential-and-capacitance/image4.png"
+      "alt": "image2",
+      "body": " /assets/electrostatic-potential-and-capacitance/image2.png"
     },
     {
       "name": "paragraph",
@@ -132,10 +132,6 @@
     {
       "name": "expression",
       "body": "$q [V (\\mathbf{r}_1) - V (\\mathbf{r}_2)] = 0$"
-    },
-    {
-      "name": "paragraph",
-      "body": ""
     }
   ]
 }

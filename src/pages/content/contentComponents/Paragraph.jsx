@@ -4,7 +4,7 @@ import "katex/dist/katex.min.css";
 
 const Paragraph = ({ text }) => {
   return (
-    <div className="text-left w-full mb-4 text-lg relative">
+    <div className="relative w-full mb-4 text-lg text-left">
       <Latex>
         {text}
       </Latex>

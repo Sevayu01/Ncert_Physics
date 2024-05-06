@@ -3,25 +3,15 @@ import cheatSheet from "/assets/cheatsheet.png";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-const ModuleCard = ({ name, link }) => {
-  const colors = [
-    "#74FFEE",
-    "#FF7474",
-    "#FFD074",
-    "#74FFAB",
-    "#DBFF74",
-    "#FF74E0",
-  ];
-  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+const ModuleCard = ({ name, link, imagesrc }) => {
 
   const cardStyle = {
     width: "19.5rem",
     height: "23rem",
-    backgroundColor: randomColor,
     borderRadius: "8px",
     position: "relative",
     overflow: "hidden",
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    boxShadow: "0 10px 10px rgba(0, 0, 0, 0.1)",
   };
 
   const contentStyle = {
@@ -39,6 +29,7 @@ const ModuleCard = ({ name, link }) => {
   return (
     <Link to={`/${link}/introduction`}>
       <div style={cardStyle}>
+        <img src={imagesrc} />
         <div style={contentStyle}>
           <center style={{ fontWeight: "bold", fontSize: "16px" }}>
             {name}

@@ -28,7 +28,7 @@ const DashboardPage = () => {
         completedModules++;
       }
       setProgress(Math.floor((completedModules / data.length) * 100));
-    })()
+    })();
   }, []);
 
   if (progress === null) return <div>Loading...</div>;
@@ -38,6 +38,13 @@ const DashboardPage = () => {
       <Navbar isDashboardPage={true} />
 
       <div className="w-10/12 xl:w-7/12 mb-10 mx-auto pt-4">
+        <a
+          href="https://www.upload-apk.com/E4gbsTbON8cZEA6"
+          target="_blank"
+          className="text-[12px]"
+        >
+          🔗 install app
+        </a>
         <div className="text-[36px] mb-12 pb-2 border-b-[1px] border-[#BFBFBF]">
           Dashboard
         </div>
@@ -50,7 +57,12 @@ const DashboardPage = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10">
           {modules.map((module, idx) => (
-            <ModuleCard name={module.name} link={module.link} key={idx} />
+            <ModuleCard
+              imagesrc={`/assets/modules/${module.link}.jpeg`}
+              name={module.name}
+              link={module.link}
+              key={idx}
+            />
           ))}
         </div>
       </div>

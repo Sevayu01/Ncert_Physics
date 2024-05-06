@@ -10,6 +10,11 @@
       "alt": "image6"
     },
     {
+      "name": "image",
+      "body": " /assets/alternating-current/ACVoltageCapacitor.gif",
+      "alt": "ACVoltageCapacitor.gif"
+    },
+    {
       "name": "paragraph",
       "body": "Above figure shows an AC source \\( e \\) generating AC voltage \\( v = V_m \\sin(\\omega t) \\) connected to a capacitor only, a purely capacitive AC circuit. When a capacitor is connected to a voltage source in a DC circuit, current will flow for the short time required to charge the capacitor. As charge accumulates on the capacitor plates, the voltage across them increases, opposing the current. That is, a capacitor in a DC circuit will limit or oppose the current as it charges. When the capacitor is fully charged, the current in the circuit falls to zero."
     },

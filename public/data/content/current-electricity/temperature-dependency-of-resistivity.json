@@ -45,11 +45,11 @@
     },
     {
       "name": "expression",
-      "body": "\\sigma = \\frac{ne^2}{m} \\tau"
+      "body": "$\\sigma = \\frac{ne^2}{m} \\tau$"
     },
     {
       "name": "expression",
-      "body": "So , \\rho = \\frac{1}{\\sigma} = \\frac{m}{ne^2\\tau}"
+      "body": "$So , \\rho = \\frac{1}{\\sigma} = \\frac{m}{ne^2\\tau}$"
     },
     {
       "name": "paragraph",

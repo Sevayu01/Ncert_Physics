@@ -5,8 +5,100 @@
         "body": "Cheat Sheet"
       },
       {
-        "name": "",
-        "body": ""
+        "name":"bold",
+        "body":"Ohm's law"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ V=IR\\]"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ R = \\frac{\\rho l}{A} \\]"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\mathbf{E} = \\mathbf{j} \\rho \\]"
+      },
+      {
+        "name":"bold",
+        "body":"drift velocity:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ v_d = \\frac{eE \\tau}{m} \\]"
+      },
+      {
+        "name":"bold",
+        "body":"mobility:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\mu = \\frac{|v_d|}{|E|} = \\frac{e}{m} \\tau \\]"
+      },
+      {
+        "name":"bold",
+        "body":"temperature dependence of resistivity:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\rho_T = \\rho_0 [1 + \\alpha(T - T_0)] \\]"
+      },
+      {
+        "name":"bold",
+        "body":"power:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[P = I^2R = \\frac{V^2}{R}\\]"
+      },
+      {
+        "name":"bold",
+        "body":"cells is series"
+      },
+      {
+        "name":"formula",
+        "body":"\\[e_{\\text{eq}} = e_1 + e_2\\]"
+      },
+      {
+        "name":"formula",
+        "body":"\\[r_{\\text{eq}} = r_1 + r_2\\]"
+      },
+      {
+        "name":"bold",
+        "body":"cells in parallel"
+      },
+      {
+        "name":"formula",
+        "body":"\\[e_{\\text{eq}} = \\frac{e_1 r_2 + e_2 r_1}{r_1 + r_2}\\]"
+      },
+      {
+        "name":"formula",
+        "body":"\\[r_{\\text{eq}} = \\frac{r_1 r_2}{r_1 + r_2}\\]"
+      },
+      {
+        "name":"bold",
+        "body":"Junction rule:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[sum \\text{Currents entering} = \\sum \\text{Currents leaving}\\]"
+      },
+      {
+        "name":"bold",
+        "body":"loop rule:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[sum \\text{Potential changes in a closed loop} = 0\\]"
+      },
+      {
+        "name":"bold",
+        "body":"Wheat stone bridge:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[\\frac{R_1}{R_2} = \\frac{R_3}{R_4}\\]"
       }
     ]
   }

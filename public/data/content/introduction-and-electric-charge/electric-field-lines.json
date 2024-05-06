@@ -9,12 +9,22 @@
       "body": " When you bring one charge close to another fixed charge, the first charge feels a forcebecause of the second charge. The area around a charge where another charge feels aforce is called the electric field of that charge. In simpler terms, the electric field is like aninvisible area around a charge where other charges can feel a push or pull.The electric field is measured with both direction and strength. If it's a positive charge, thepush or pull is outward; for a negative charge, it's inward."
     },
     {
+      "name": "image",
+      "body":"/assets/introduction-and-electric-charge/image5.png",
+      "alt":"image5"
+    },
+    {
       "name": "paragraph",
       "body": " Key points about the electric field:Definition: The electric field is the space around a charge where another static charge feels aforce. Moving Charges: Moving charges can feel a force from magnetic fields, but they can't helpus detect an electric field. Magnetic fields don't affect static charges.Force Direction: If you put a positive charge in an electric field, it feels a force in the samedirection as the field. A negative charge feels a force opposite to the field direction.Field Extends Infinitely: For every charge, there's an electric field that goes on forever. Thisfield isn't affected by other charges nearby.No Self-Force: A charged particle doesn't feel a force from its own electric field."
     },
     {
       "name": "bold",
       "body": " The Electric Field Due to a Point Charge"
+    },
+    {
+      "name": "image",
+      "body":"/assets/introduction-and-electric-charge/image1a.png",
+      "alt":"image1"
     },
     {
       "name": "paragraph",
@@ -52,6 +62,11 @@
     {
       "name": "bold",
       "body": "  THE ELECTRIC FIELD DUE TO A DIPOLE"
+    },
+    {
+      "name": "image",
+      "body":"/assets/introduction-and-electric-charge/image3.png",
+      "alt":"image3"
     },
     {
       "name": "paragraph",
@@ -116,7 +131,7 @@
     },
     {
       "name": "paragraph",
-      "body": "Weare usually interested in the electrical effect of a dipole only at distances that are largecompared with the dimensions of the dipole—that is, at distances such that \\( z \\gg d \\). Atsuch large distances, we have \\( \\frac{d}{2z} \\ll 1 \\). Thus, in our approximation, we canneglect the \\( \\frac{d}{2z} \\) term in the denominator, which leaves us with"
+      "body": "We are usually interested in the electrical effect of a dipole only at distances that are largecompared with the dimensions of the dipole—that is, at distances such that \\( z \\gg d \\). Atsuch large distances, we have \\( \\frac{d}{2z} \\ll 1 \\). Thus, in our approximation, we canneglect the \\( \\frac{d}{2z} \\) term in the denominator, which leaves us with"
     },
     {
       "name": "expression",

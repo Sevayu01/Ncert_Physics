@@ -43,7 +43,7 @@ const ModuleCard = ({ name, link }) => {
           <center style={{ fontWeight: "bold", fontSize: "16px" }}>
             {name}
           </center>
-          <div className="px-16 bottom-0 left-0 right-0 top-20 absolute flex flex-row justify-around">
+          <div className="absolute bottom-0 left-0 right-0 flex flex-row justify-around px-16 top-20">
             <Link to={`/${link}/quiz`}>
               <img src={quizIcon} className="w-8 h-8 cursor-pointer" />
             </Link>

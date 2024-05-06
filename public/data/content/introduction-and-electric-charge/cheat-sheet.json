@@ -5,8 +5,108 @@
         "body": "Cheat Sheet"
       },
       {
-        "name": "",
-        "body": ""
+        "name": "formula",
+        "body": "\\[ \\mathbf{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\mathbf{\\hat{r}} \\] "
+      },
+      {
+        "name": "formula",
+        "body":"\\[ \\mathbf{F_{21}} = -\\mathbf{F_{12}} \\]"
+      },
+      {
+        "name":"bold",
+        "body":"The force \\( \\mathbf{F} \\) on a charge \\( q_1 \\) due to other charges in the system can beexpressed as:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\mathbf{F}_{1} = \\frac{q_1}{4\\pi\\epsilon_0} \\sum_{i=2}^{n} \\frac{q_i}{r_{1i}^2}\\mathbf{\\hat{r}_{i}} \\]"
+      },
+      {
+        "name":"",
+        "body":"\\[ \\vec{\\mathbf{E}} = \\frac{\\vec{\\mathbf{F}}}{q_0} \\]"
+      },
+      {
+        "name":"formula",
+        "body":"(\\( \\mathbf{E}_{\\text{total}} \\)):\\[ \\mathbf{E}_{\\text{total}} = \\mathbf{E}_1 + \\mathbf{E}_2 + \\mathbf{E}_3 + \\dots \\]"
+      },
+      {
+        "name":"bold",
+        "body":"Electric field due to a dipole"
+      },
+      { 
+        "name":"formula",
+        "body":"\\[ E = \\frac{1}{2\\pi \\epsilon_0} \\frac{{q}{d}}{z^3} \\]"
+      },
+      {
+        "name":"bold",
+        "body":"a point charge in a electric field"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ F = q \\cdot E \\]"
+      },
+      {
+        "name":"bold",
+        "body":"Electric Flux on a Flat Surface with a Uniform Field"
+      },
+      {
+        "name":"formula",
+        "body":"\\[\\phi = (E \\cos\\theta) \\Delta A\\]"
+      },
+      {
+        "name":"bold",
+        "body":"Gauss Law"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\phi = \\frac{Q}{\\epsilon_0} \\]"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ \\Phi = \\oint \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{q_{\\text{net}}}{\\epsilon_0} \\]"
+      },
+      {
+        "name":"bold",
+        "body":"Field due to an infinitely long straight uniformly charged wire:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ E = \\frac{1}{2\\pi\\epsilon_0} \\left( \\frac{\\lambda}{r} \\right) \\]"
+      },
+      {
+        "name":"bold",
+        "body":"Field due to a Uniformly Charged Infinite Plane Sheet"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ E = \\frac{\\sigma}{2\\epsilon_0} \\]"
+      },
+      {
+        "name":"bold",
+        "body":"Field due to a uniformly charged thin spherical shell"
+      },
+      {
+        "name":"paragraph",
+        "body":"on the surface of shell:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ E_{p2} = \\frac{\\sigma \\times 4\\pi r^2}{4\\pi r^2 \\epsilon_0} = \\frac{\\sigma}{\\epsilon_0} \\]"
+      },
+      {
+        "name":"paragraph",
+        "body":"for r>R:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ E_{p3} = \\frac{\\sigma R^2}{\\epsilon_0 r^2} \\]"
+      },
+      {
+        "name":"paragraph",
+        "body":"inside the shell:"
+      },
+      {
+        "name":"formula",
+        "body":"\\[ E = 0 \\]"
       }
     ]
   }

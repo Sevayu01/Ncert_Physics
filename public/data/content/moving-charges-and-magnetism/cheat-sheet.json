@@ -5,8 +5,144 @@
       "body": "Cheat Sheet"
     },
     {
-      "name": "",
-      "body": ""
+      "name": "bold",
+      "body": "Magnetic force"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\mathbf{F} = q \\left[ \\mathbf{E}(\\mathbf{r}) + \\mathbf{v} \\times \\mathbf{B}(\\mathbf{r}) \\right] \\equiv \\mathbf{F}_{\\text{electric}} + \\mathbf{F}_{\\text{magnetic}} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\mathbf{F} = [(nq \\mathbf{v_d})lA] \\times \\mathbf{B} = [ \\mathbf{j}A l ] \\times \\mathbf{B} = I\\ell \\times \\mathbf{B} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "radius of circular path of particle:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ r = \\frac{mv}{qB} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "momentum:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\omega = \\frac{v}{r} = \\frac{qB}{m} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "biot-savart law:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ |d\\mathbf{B}| = \\frac{d \\sin \\theta \\, \\mu_0 I}{4\\pi r^2} = \\frac{\\mu_0 I \\sin \\theta}{4\\pi r^2} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\frac{\\mu_0}{4\\pi} = 7 \\times 10^{-7} \\, \\text{Tm/A} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "magnetic field on this axis of a circular loop:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\mathbf{B} = B \\hat{\\mathbf{i}} = \\frac{\\mu_0 IR^2}{2} \\frac{x}{(x^2 + R^2)^{3/2}} \\hat{\\mathbf{i}} = \\frac{\\mu_0 IR^2}{2} \\frac{x}{(x^2 + R^2)^{3/2}} \\hat{\\mathbf{i}} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "solenoid:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ B = \\mu_0 n I \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Ampere's Circuital Law"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\mathbf{B} = \\frac{\\mu_0 I}{2r} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "force between two parallel wires:"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ F_{ba} = I_b L B_a = \\frac{\\mu_0}{2\\pi} \\frac{I_a I_b L}{d} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ F_{ba} = -F_{ab} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Torque on a current loop:"
+    },
+    {
+      "name": "paragraph",
+      "body": "magnetic field in loop's plane:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[\\tau = \\frac{IabB}{2}\\]"
+    },
+    {
+      "name":"paragraph",
+      "body":"Loop Plane at an Angle to the Magnetic Field:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[\\tau = IAB \\sin(\\theta)\\]"
+    },
+    {
+      "name":"paragraph",
+      "body":"The force $F$ acting on the coil due to the magnetic field can be calculated as:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[F = IabB\\]"
+    },
+    {
+      "name":"bold",
+      "body":"magnetic moment:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[m = I \\times A\\]"
+    },
+    {
+      "name":"paragraph",
+      "body":"Multiple Turns:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[m = N I A\\]"
+    },
+    {
+      "name":"bold",
+      "body":"magnetic field of a current circular loop:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[ B = \\frac{\\mu IR^2}{2x^3} \\]"
+    },
+    {
+      "name":"bold",
+      "body":"current sensitivity:"
+    },
+    {
+      "name":"formula",
+      "body":"\\[ \\frac{\\phi}{I} = \\frac{NAB}{k} \\]"
+    },
+    {
+      "name":"formula",
+      "body":"\\[ \\frac{\\phi}{V} = \\frac{NAB}{k} \\cdot \\frac{1}{R} \\]"
     }
   ]
 }

@@ -5,8 +5,108 @@
         "body": "Cheat Sheet"
       },
       {
-        "name": "",
-        "body": ""
+        "name": "formula",
+        "body": "$\\Delta U = U_{P} - U_{R} = W_{RP}$"
+      },
+      {
+        "name": "formula",
+        "body": "\\[W_{\\text{electric}} = -W_{\\text{external}}\\]"
+      },
+      {
+        "name": "formula",
+        "body": "$W_{a\\to b} = \\int_{a}^{b} F \\, ds = \\int_{a}^{b} F \\cos \\theta \\, ds$"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ U_{q_0 q}(r) = \\frac{q q_0}{4 \\pi \\epsilon_0 r} \\]"
+      },
+      {
+        "name": "bold",
+        "body": "The electric potential energy due to a system of charges is given by"
+      },
+      {
+        "name": "formula",
+        "body": "$U = k \\sum_{i < j} \\frac{q_i \\cdot q_j}{|\\mathbf{r}_i - \\mathbf{r}_j|}$"
+      },
+      {
+        "name": "formula",
+        "body": "$V_P - V_R = \\frac{U_P - U_R}{q}$"
+      },
+      {
+        "name": "bold",
+        "body": "The electric potential at any point in an electric field"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ V  = \\frac{U}{q_0} \\]"
+      },
+      {
+        "name": "bold",
+        "body": "Electric potential due to a point charge"
+      },
+      {
+        "name": "formula",
+        "body": "\\[V(r) = \\frac{Q}{4\\pi \\epsilon_0 r}\\]"
+      },
+      {
+        "name": "bold",
+        "body": "Electric Potential due to electric dipole"
+      },
+      {
+        "name": "bold",
+        "body": "On the dipole axis ($\\theta = 0, \\pi$), potential is given by:"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ V = \\pm \\frac{1}{4\\pi\\epsilon_0} \\frac{p}{r^2} \\]"
+      },
+      {
+        "name": "bold",
+        "body": "In the equatorial plane ($\\theta = \\pi/2$), potential is zero."
+      },
+      {
+        "name": "formula",
+        "body": "Electric potential due to system of charges"
+      },
+      {
+        "name": "formula",
+        "body": "$V = V_1 + V_2 + V_3 + V_4 + …….. + V_n$"
+      },
+      {
+        "name": "formula",
+        "body": "Q = CV"
+      },
+      {
+        "name": "bold",
+        "body": "Series Capacitor"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ V = V_1 + V_2 = \\frac{Q}{C_1} + \\frac{Q}{C_2} \\]"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ \\frac{1}{C} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\ldots + \\frac{1}{C_n} \\]"
+      },
+      {
+        "name": "bold",
+        "body": "Parallel Plate Capacitor"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ Q = Q_1 + Q_2 \\]"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ C = C_1 + C_2 + \\ldots + C_n \\]"
+      },
+      {
+        "name": "bold",
+        "body": "Energy stored in a capacitor"
+      },
+      {
+        "name": "formula",
+        "body": "\\[ U = \\frac{1}{2} \\epsilon_0 E^2 A d \\]"
       }
     ]
   }

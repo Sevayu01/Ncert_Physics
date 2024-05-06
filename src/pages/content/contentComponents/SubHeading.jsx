@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 
 const SubHeading = ({ heading }) => {
   return (
-    <div className="text-left w-full">
-      <h6 className="text-xl font-bold mb-2 mt-8">{heading}</h6>
+    <div className="w-full text-left">
+      <h6 className="mt-8 mb-2 text-xl font-bold">{heading}</h6>
     </div>
   );
 };

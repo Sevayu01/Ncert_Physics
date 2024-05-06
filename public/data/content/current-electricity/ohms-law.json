@@ -5,6 +5,11 @@
       "body": "Ohm's Law"
     },
     {
+      "name":"image",
+      "body":"/assets/current-electricity/image3.png",
+      "alt":"image3"
+    },
+    {
       "name": "paragraph",
       "body": "G.S. Ohm discovered a fundamental law concerning current flow in 1828, predating the understanding of the underlying physical mechanisms. Consider a conductor with a current $I$ flowing through it and let $V$ represent the potential difference across its ends. Ohm's law states that:"
     },

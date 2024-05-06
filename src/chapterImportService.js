@@ -394,7 +394,7 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = electromagneticWaves;
                 } else if (topic === 'introduction') {
                     content = electromagneticWavesIntroduction;
-                } else if (topic === 'cheet-sheet') {
+                } else if (topic === 'cheat-sheet') {
                     content = electromagneticWavesCheatSheet;
                 } else {
                     console.error('Invalid topic:', topic);

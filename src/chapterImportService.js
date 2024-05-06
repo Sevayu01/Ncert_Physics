@@ -4,6 +4,8 @@ import electrostaticPotentialQuiz from '../public/data/quiz/electrostatic-potent
 import introductionChargeQuiz from '../public/data/quiz/introduction-and-electric-charge-quiz.json';
 import magnetismMatterQuiz from '../public/data/quiz/magnetism-and-matter-quiz.json';
 import movingChargesQuiz from '../public/data/quiz/moving-charges-and-magnetism-quiz.json';
+import alternatingCurrentQuiz from "../public/data/quiz/alternating-current-quiz.json"
+import electromagneticWavesQuiz from "../public/data/quiz/electromagnetic-waves-quiz.json";
 
 
 import currentElectricityTopics from '../public/data/topics/current-electricity-topics.json';
@@ -12,6 +14,8 @@ import electrostaticPotentialTopics from '../public/data/topics/electrostatic-po
 import introductionChargeTopics from '../public/data/topics/introduction-and-electric-charge-topics.json';
 import magnetismMatterTopics from '../public/data/topics/magnetism-and-matter-topics.json';
 import movingChargesTopics from '../public/data/topics/moving-charges-and-magnetism-topics.json';
+import alternatingCurrentTopics from "../public/data/topics/alternating-current-topics.json"
+import electromagneticWavesTopics from "../public/data/topics/electromagnetic-waves-topics.json";
 
 
 import currentElectricityCellsEmfInternalResistance from '../public/data/content/current-electricity/cells-emf-internal-resistance.json';
@@ -28,6 +32,7 @@ import currentElectricityOhmsLaw from '../public/data/content/current-electricit
 import currentElectricityResistivityOfVariousMaterials from '../public/data/content/current-electricity/resistivity-of-various-materials.json';
 import currentElectricityTemperatureDependencyOfResistivity from '../public/data/content/current-electricity/temperature-dependency-of-resistivity.json';
 import currentElectricityWheatstoneBridge from '../public/data/content/current-electricity/wheatstone-bridge.json';
+import currentElectricityCheatSheet from '../public/data/content/current-electricity/cheat-sheet.json';
 
 
 import electrostaticPotentialAndCapacitanceCapacitorsAndCapacitance from '../public/data/content/electrostatic-potential-and-capacitance/capacitors-and-capacitance.json';
@@ -39,6 +44,9 @@ import electrostaticPotentialAndCapacitancePotentialEnergyInAnExternalElectricFi
 import electrostaticPotentialAndCapacitanceDielectricsAndPolarization from '../public/data/content/electrostatic-potential-and-capacitance/dielectrics-and-polarization.json';
 import electrostaticPotentialAndCapacitanceEnergyStoredInACapacitor from '../public/data/content/electrostatic-potential-and-capacitance/energy-stored-in-a-capacitor.json';
 import electrostaticPotentialAndCapacitanceRelationshipBetweenFieldAndPotential from '../public/data/content/electrostatic-potential-and-capacitance/relationship-between-field-and-potential.json';
+import electroPotCapacitEffactOfDielectric from "../public/data/content/electrostatic-potential-and-capacitance/effect-of-dielectric-on-capacitance"
+import electroPotCapacitEquipotSurfaces from "../public/data/content/electrostatic-potential-and-capacitance/equipotential-surfaces"
+import electrostaticPotentialAndCapacitanceCheatSheet from '../public/data/content/electrostatic-potential-and-capacitance/cheat-sheet.json';
 
 import introductionAndElectricChargeConductorsAndInsulators from '../public/data/content/introduction-and-electric-charge/conductors-and-insulators.json';
 import introductionAndElectricChargeElectricCharge from '../public/data/content/introduction-and-electric-charge/electric-charge.json';
@@ -48,6 +56,7 @@ import introductionAndElectricChargeCoulombsLaw from '../public/data/content/int
 import introductionAndElectricChargeElectricFieldLines from '../public/data/content/introduction-and-electric-charge/electric-field-lines.json';
 import introductionAndElectricChargeForcesBetweenMultipleCharges from '../public/data/content/introduction-and-electric-charge/forces-between-multiple-charges.json';
 import introductionAndElectricChargeIntroduction from '../public/data/content/introduction-and-electric-charge/introduction.json';
+import introductionAndElectricChargeCheatSheet from '../public/data/content/introduction-and-electric-charge/cheat-sheet.json';
 
 import movingChargesAndMagnetismAmperesCircuitalLaw from '../public/data/content/moving-charges-and-magnetism/amperes-circuital-law.json';
 import movingChargesAndMagnetismMagneticForce from '../public/data/content/moving-charges-and-magnetism/magnetic-force.json';
@@ -57,6 +66,7 @@ import movingChargesAndMagnetismSolenoid from '../public/data/content/moving-cha
 import movingChargesAndMagnetismMagneticFieldDueToACurrentElement from '../public/data/content/moving-charges-and-magnetism/magnetic-field-due-to-a-current-element.json';
 import movingChargesAndMagnetismTheMovingCoilGalvanometer from '../public/data/content/moving-charges-and-magnetism/the-moving-coil-galvanometer.json';
 import movingChargesAndMagnetismTorqueOnCurrentLoopMagneticDipole from '../public/data/content/moving-charges-and-magnetism/torque-on-current-loop-magnetic-dipole.json';
+import movingChargesAndMagnetismCheatSheet from '../public/data/content/moving-charges-and-magnetism/cheat-sheet.json';
 
 import electromagneticInductionAcGenerator from '../public/data/content/electromagnetic-induction/ac-generator.json';
 import electromagneticInductionIntroduction from '../public/data/content/electromagnetic-induction/introduction.json';
@@ -65,19 +75,17 @@ import electromagneticInductionFaradaysLawOfInduction from '../public/data/conte
 import electromagneticInductionLenzsLawAndConservationOfEnergy from '../public/data/content/electromagnetic-induction/lenzs-law-and-conservation-of-energy.json';
 import electromagneticInductionInductance from '../public/data/content/electromagnetic-induction/inductance.json';
 import electromagneticInductionMagneticFlux from '../public/data/content/electromagnetic-induction/magnetic-flux.json';
+import electromagneticInductionCheatSheet from '../public/data/content/electromagnetic-induction/cheat-sheet.json';
 
 import magnetismAndMatterIntroduction from '../public/data/content/magnetism-and-matter/introduction.json';
 import magnetismAndMatterMagneticPropertiesOfMaterials from '../public/data/content/magnetism-and-matter/magnetic-properties-of-materials.json';
 import magnetismAndMatterMagnitisationAndMagneticIntensity from '../public/data/content/magnetism-and-matter/magnitisation-and-magnetic-intensity.json';
 import magnetismAndMatterMagnetismAndGaussLaw from '../public/data/content/magnetism-and-matter/magnetism-and-gauss-law.json';
 import magnetismAndMatterTheBarMagnet from '../public/data/content/magnetism-and-matter/the-bar-magnet.json';
-
-
-
 import movingChargeForceBWParrallelCurrents from "../public/data/content/moving-charges-and-magnetism/force-between-two-parallel-currents"
 import movingChargeMagFieldAxisCircular from "../public/data/content/moving-charges-and-magnetism/magnetic-field-on-the-axis-of-a-circular-current-loop"
-import electroPotCapacitEffactOfDielectric from "../public/data/content/electrostatic-potential-and-capacitance/effect-of-dielectric-on-capacitance"
-import electroPotCapacitEquipotSurfaces from "../public/data/content/electrostatic-potential-and-capacitance/equipotential-surfaces"
+import magnetismAndMatterCheatSheet from '../public/data/content/magnetism-and-matter/cheat-sheet.json';
+
 
 import acVoltageAppliedToCapacitor from "../public/data/content/alternating-current/ac-voltage-applied-to-a-capacitor.json"
 import acVoltageAppliedToInductor from "../public/data/content/alternating-current/ac-voltage-applied-to-an-inductor.json"
@@ -87,17 +95,14 @@ import acVoltageAppliedToIntroduction from "../public/data/content/alternating-c
 import powerInACCircuit from "../public/data/content/alternating-current/power-in-ac-circuit.json"
 import representationOfACCurrentAndVoltage from "../public/data/content/alternating-current/representation-of-ac-current-and-voltage.json"
 import transformers from "../public/data/content/alternating-current/transformers.json"
-
-import alternatingCurrentQuiz from "../public/data/quiz/alternating-current-quiz.json"
-import alternatingCurrentTopics from "../public/data/topics/alternating-current-topics.json"
+import alternatingCurrentCheatSheet from "../public/data/content/alternating-current/cheat-sheet.json"
 
 import displacementCurrent from "../public/data/content/electromagnetic-waves/displacement-current.json";
 import electromagneticSpectrum from "../public/data/content/electromagnetic-waves/electromagnetic-spectrum.json";
 import electromagneticWaves from "../public/data/content/electromagnetic-waves/electromagnetic-waves.json";
 import electromagneticWavesIntroduction from "../public/data/content/electromagnetic-waves/introduction.json";
+import electromagneticWavesCheatSheet from "../public/data/content/electromagnetic-waves/cheat-sheet.json";
 
-import electromagneticWavesQuiz from "../public/data/quiz/electromagnetic-waves-quiz.json";
-import electromagneticWavesTopics from "../public/data/topics/electromagnetic-waves-topics.json";
 
 export default function MyImp({ chapter, type, topic = null }) {
     let content = null;
@@ -169,8 +174,9 @@ export default function MyImp({ chapter, type, topic = null }) {
                     }
                     else if (topic === 'wheatstone-bridge') {
                         content = currentElectricityWheatstoneBridge;
-                    }
-                    else {
+                    } else if (topic === 'cheat-sheet') {
+                        content = currentElectricityCheatSheet;
+                    } else {
                         console.error('Invalid topic:', topic);
                     }
                 }
@@ -198,8 +204,9 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = electromagneticInductionInductance;
                 } else if (topic === 'magnetic-flux') {
                     content = electromagneticInductionMagneticFlux;
-                }
-                else {
+                } else if (topic === 'cheat-sheet') {
+                    content = electromagneticInductionCheatSheet;
+                } else {
                     console.error('Invalid topic:', topic);
                 }
             }
@@ -236,8 +243,9 @@ export default function MyImp({ chapter, type, topic = null }) {
                 }
                 else if (topic === 'equipotential-surfaces') {
                     content = electroPotCapacitEquipotSurfaces;
-                }
-                else {
+                } else if (topic === 'cheat-sheet') {
+                    content = electrostaticPotentialAndCapacitanceCheatSheet;
+                } else {
                     console.error('Invalid topic:', topic);
                 }
             }
@@ -266,6 +274,8 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = introductionAndElectricChargeForcesBetweenMultipleCharges;
                 } else if (topic === 'introduction') {
                     content = introductionAndElectricChargeIntroduction;
+                } else if (topic === 'cheat-sheet') {
+                    content = introductionAndElectricChargeCheatSheet;
                 } else {
                     console.error('Invalid topic:', topic);
                 }
@@ -289,6 +299,8 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = magnetismAndMatterMagnetismAndGaussLaw;
                 } else if (topic === 'the-bar-magnet') {
                     content = magnetismAndMatterTheBarMagnet;
+                } else if (topic === 'cheat-sheet') {
+                    content = magnetismAndMatterCheatSheet;
                 } else {
                     console.error('Invalid topic:', topic);
                 }
@@ -324,8 +336,9 @@ export default function MyImp({ chapter, type, topic = null }) {
                 }
                 else if (topic == 'magnetic-field-on-the-axis-of-a-circular-current-loop') {
                     content = movingChargeMagFieldAxisCircular;
-                }
-                else {
+                } else if (topic === 'cheat-sheet') {
+                    content = movingChargesAndMagnetismCheatSheet;
+                } else {
                     console.error('Invalid topic:', topic);
                 }
             }
@@ -356,6 +369,8 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = representationOfACCurrentAndVoltage;
                 } else if (topic === 'transformers') {
                     content = transformers;
+                } else if (topic === 'cheat-sheet') {
+                    content = alternatingCurrentCheatSheet;
                 } else {
                     console.error('Invalid topic:', topic);
                 }
@@ -379,6 +394,8 @@ export default function MyImp({ chapter, type, topic = null }) {
                     content = electromagneticWaves;
                 } else if (topic === 'introduction') {
                     content = electromagneticWavesIntroduction;
+                } else if (topic === 'cheet-sheet') {
+                    content = electromagneticWavesCheatSheet;
                 } else {
                     console.error('Invalid topic:', topic);
                 }

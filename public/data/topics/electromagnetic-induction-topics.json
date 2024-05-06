@@ -29,6 +29,10 @@
     {
       "name": "AC Generator",
       "link": "ac-generator"
+    },
+    {
+      "name": "Cheat Sheet", 
+      "link": "cheat-sheet"
     }
   ]
 }

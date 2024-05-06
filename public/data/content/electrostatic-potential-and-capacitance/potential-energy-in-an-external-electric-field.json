@@ -111,11 +111,11 @@
     },
     {
       "name": "expression",
-      "body": " $U'(\\theta) = {q} \\left[ V(\\mathbf{r}_1) - V(\\mathbf{r}_2) \\right] -{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }."
+      "body": " \\[U'(\\theta) = {q} \\left[ V(\\mathbf{r}_1) - V(\\mathbf{r}_2) \\right] -{\\frac{q ^ 2}{4\\epsilon_0\\pi \\times 2a} }\\]."
     },
     {
       "name": "paragraph",
-      "body": "Here, $\\mathbf{r}_1$ and $\\mathbf{r}_2$ denote the position vectors of $+q$ and $-q$. Now, the potential difference between positions $\\mathbf{r}_1$ and $\\mathbf{r}_2$ equals the work done in bringing a unit positive charge against the field from $\\mathbf{r}_2$ to $\\mathbf{r}_1$. The displacement parallel to the force is $2a \\cos\\theta$. Thus, $[V(\\mathbf{r}_1) - V (\\mathbf{r}_2)] = -E \\times 2a \\cos\\theta$. We thus obtain,"
+      "body": "Here, \\[mathbf{r}_1$ and $\\mathbf{r}_2$ denote the position vectors of $+q$ and $-q$\\]. Now, the potential difference between positions $\\mathbf{r}_1$ and $\\mathbf{r}_2$ equals the work done in bringing a unit positive charge against the field from $\\mathbf{r}_2$ to $\\mathbf{r}_1$. The displacement parallel to the force is $2a \\cos\\theta$. Thus, $[V(\\mathbf{r}_1) - V (\\mathbf{r}_2)] = -E \\times 2a \\cos\\theta$. We thus obtain,"
     },
     {
       "name": "expression",

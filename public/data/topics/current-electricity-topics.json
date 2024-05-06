@@ -57,6 +57,10 @@
     {
       "name": "Wheatstone Bridge",
       "link": "wheatstone-bridge"
+    },
+    {
+      "name": "Cheat Sheet", 
+      "link": "cheat-sheet"
     }
   ]
 }

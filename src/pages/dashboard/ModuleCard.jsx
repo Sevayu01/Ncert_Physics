@@ -1,5 +1,5 @@
 import quizIcon from "/assets/quiz.png";
-import faqIcon from "/assets/faq.png";
+import cheatSheet from "/assets/cheatsheet.png";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
@@ -48,7 +48,9 @@ const ModuleCard = ({ name, link }) => {
               <img src={quizIcon} className="w-8 h-8 cursor-pointer" />
             </Link>
 
-            <img src={faqIcon} className="w-8 h-8 cursor-pointer" />
+            <Link to={`/${link}/cheat-sheet`}>
+            <img src={cheatSheet} className="w-8 cursor-pointer" />
+            </Link>
           </div>
         </div>
       </div>

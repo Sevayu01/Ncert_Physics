@@ -33,6 +33,10 @@
       {
         "name": "Transformers",
         "link": "transformers"
+      },
+      {
+        "name": "Cheat Sheet", 
+        "link": "cheat-sheet"
       }
     ]
   }

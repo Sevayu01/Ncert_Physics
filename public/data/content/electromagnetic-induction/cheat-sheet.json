@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Cheat Sheet"
+    },
+    {
+      "name": "bold",
+      "body": "Magnetic Flux"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\Phi_B = B \\cdot A = BA \\cos \\theta\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\Phi_B = {B_1 \\cdot dA_1 } + {B_1 \\cdot dA_1 } + ....  = \\sum {B_i \\cdot dA_i}\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Induces EMF"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\epsilon = -N \\frac{d\\Phi}{dt}\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Motional EMF"
+    },
+    {
+      "name": "formula",
+      "body": "\\( \\Phi_B = Blx \\)"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\varepsilon = -{{d\\Phi_B}\\over{dt}} = -Bl {{d}\\over{dt}}(x) = -Bl {{d}\\over{dt}}(vt) = Blv \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ W = qvBl \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\varepsilon = {{W}\\over{q}} = Blv \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ F = q (E + v \\cdot B) = qE \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Inductance"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\frac{d\\Phi}{dt} \\propto \\frac{dI}{dt}  \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ M = \\mu_r \\mu_0 n_1 n_2 \\pi r_1^2 l \\quad  \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\varepsilon = -M\\frac{dI_2}{dt} \\quad \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Self Inductance"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\varepsilon = -L \\frac{dI}{dt} \\quad \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ W = \\frac{1}{2}LI^2 \\quad  \\]"
+    },
+    {
+      "name": "bold",
+      "body": "AC Generator"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\varepsilon = \\varepsilon_0 \\sin 2\\pi \\nu t \\quad \\]"
+    }
+  ]
+}

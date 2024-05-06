@@ -33,6 +33,10 @@
     {
       "name": "Gauss' Law",
       "link": "gauss-law"
+    },
+    {
+      "name": "Cheat Sheet", 
+      "link": "cheat-sheet"
     }
   ]
 }

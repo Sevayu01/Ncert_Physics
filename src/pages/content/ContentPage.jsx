@@ -12,6 +12,7 @@ import BoldLine from "./contentComponents/BoldLine";
 import Description from "./contentComponents/Description";
 import SubHeading from "./contentComponents/SubHeading";
 import ContentImport from "../../chapterImportService.js";
+import Formula from "./contentComponents/Formula.jsx";
 
 const ContentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -26,7 +27,6 @@ const ContentPage = () => {
 
   useEffect(() => {
     (async () => {
-
       const importedData = ContentImport({ chapter: chapter, topic: topic });
       const importedTopic = ContentImport({ chapter: chapter, type: "topics" });
       setData(importedData.data);
@@ -64,14 +64,16 @@ const ContentPage = () => {
                 return <Paragraph key={idx} text={element.body} />;
               case "description":
                 return <Description key={idx} text={element.body} />;
+              case "expression":
+                return <Expression latex={element.body} />;
+              case "formula":
+                return <Formula latex={element.body} />;
+              case "bold":
+                return <BoldLine key={idx} text={element.body} />;
               case "image":
                 return (
                   <Image key={idx} alt={element.alt} body={element.body} />
                 );
-              case "expression":
-                return <Expression latex={element.body} />;
-              case "bold":
-                return <BoldLine key={idx} text={element.body} />;
               default:
                 return null;
             }

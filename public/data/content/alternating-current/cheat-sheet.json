@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Cheat Sheet"
+    },
+    {
+      "name": "formula",
+      "body": "\\( v(t) = V_m \\sin(\\omega t) \\)"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ v(t) = i(t) R \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ i_m = \\frac{v_m}{R} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\langle p \\rangle = \\frac{1}{2}  i^2_m R \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ I  = \\frac{i_{\\text{m}}}{\\sqrt{2}} = \\frac{i_m}{\\sqrt{2}} = 0.707 \\, i_m \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ V  = \\frac{v_{\\text{m}}}{\\sqrt{2}} = \\frac{v_m}{\\sqrt{2}} = 0.707 \\, v_m \\]"
+    },
+    {
+      "name": "bold",
+      "body": "AC voltage applied to an inductor"
+    },
+    {
+      "name": "formula",
+      "body": "\\[  V - L\\frac{di}{dt} = 0  \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[  i = i_m{\\sin(\\omega t - \\frac{\\pi}{2}) } \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ X_L = \\omega L \\]"
+    },
+    {
+      "name": "bold",
+      "body": "AC voltage applied to an capacitor"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ i = i_m \\sin(\\omega t + \\frac{\\pi}{2}) \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ X_C = \\frac{1}{\\omega C} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "AC voltage applied to an LCR circuit"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ L \\frac{di}{dt} + iR + \\frac{q}{C} = v \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ v_L + v_R + v_C = v \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\quad I_m = \\frac{v_m}{\\sqrt{R^2 + (X_C - X_L)^2}} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\tan \\phi = \\frac{v_{C_m} - v_{L_m}}{v_{R_m}} \\]\\[ \\tan \\phi = \\frac{X_C - X_L}{R} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\omega_0 = \\frac{1}{\\sqrt{LC}}\\]"
+    },
+    {
+      "name": "bold",
+      "body": "power in an AC circuit."
+    },
+    {
+      "name": "formula",
+      "body": "\\[P = I^2 Z \\cos(\\phi)\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Transformers"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\frac{v_s}{v_p} = \\frac{N_s}{N_p}\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[I_p v_p = I_s v_s\\]"
+    }
+  ]
+}

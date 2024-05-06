@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "name": "heading",
+      "body": "Cheat Sheet"
+    },
+    {
+      "name": "bold",
+      "body": "Bar Magnet"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ B_E = -\\frac{\\mu_0}{4\\pi} \\frac{m}{2\\pi A r^3} = -\\frac{\\mu_0}{2\\pi} \\frac{m}{Ar^3} \\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ B_A = \\frac{\\mu_0}{4\\pi} \\frac{m}{r^3} \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Magnetism and the gauss' law"
+    },
+    {
+      "name": "formula",
+      "body": "\\[ \\sum \\mathbf{E} \\cdot \\Delta \\mathbf{S} = \\frac{q}{\\varepsilon_0}, \\]"
+    },
+    {
+      "name": "bold",
+      "body": "Magnetization and magnetic intensity"
+    },
+    {
+      "name": "formula",
+      "body": "\\[M = \\frac{m}{V}\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[H = \\frac{B}{\\mu} \\cdot M\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[B = \\mu \\cdot (H + M)\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[M = \\chi \\cdot H\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\mu_r = 1 + \\chi\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Curie's law"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\chi = C\\left(\\frac{\\mu}{T}\\right)\\]"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\chi = \\frac{C}{T - T_c} \\quad \\text{where} \\quad T > T_c\\]"
+    }
+  ]
+}

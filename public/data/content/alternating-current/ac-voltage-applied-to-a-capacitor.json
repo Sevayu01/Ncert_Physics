@@ -1,123 +1,123 @@
 {
-    "data":[
-        {
-            "name":"heading",
-            "body":"Ac voltage applied to a capacitor"
-        },
-        {
-            "name":"image",
-            "body":" /assets/alternating-current/image6.png",
-            "alt":"image6"
-        },
-        {
-            "name":"paragraph",
-            "body":"Above figure shows an AC source \\( e \\) generating AC voltage \\( v = V_m \\sin(\\omega t) \\) connected to a capacitor only, a purely capacitive AC circuit. When a capacitor is connected to a voltage source in a DC circuit, current will flow for the short time required to charge the capacitor. As charge accumulates on the capacitor plates, the voltage across them increases, opposing the current. That is, a capacitor in a DC circuit will limit or oppose the current as it charges. When the capacitor is fully charged, the current in the circuit falls to zero."
-        },
-        {
-            "name":"paragraph",
-            "body":"When the capacitor is connected to an AC source, as shown above, it limits or regulates the current, but does not completely prevent the flow of charge. The capacitor is alternately charged and discharged as the current reverses each half cycle. Let \\( q \\) be the charge on the capacitor at any time \\( t \\). The instantaneous voltage \\( v \\) across the capacitor is:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ v = \\frac{q}{C} \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"From the Kirchhoff’s loop rule, the voltage across the source and the capacitor are equal,"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ V_m \\sin(\\omega t) = \\frac{q}{C} \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"To find the current, we use the relation"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ i = \\frac{d}{dt} \\left( V_m C \\sin(\\omega t) \\right) = \\omega C V_m \\cos(\\omega t) \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Using the relation"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ \\cos(\\omega t) = \\sin(\\omega t + \\frac{\\pi}{2}) \\]"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ i = i_m \\sin(\\omega t + \\frac{\\pi}{2}) \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"where the amplitude of the oscillating current is \\( i_m = \\omega C V_m \\). We can rewrite it as"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ i_m = \\frac{v_m}{\\frac{1}{\\omega C}}\\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"Comparing it to \\( i_m = \\frac{V_m}{R} \\) for a purely resistive circuit, we find that \\( \\frac{1}{\\omega C} \\) plays the role of resistance. It is called capacitive reactance and is denoted by \\( X_C \\):"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ X_C = \\frac{1}{\\omega C} \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"So that the amplitude of the current is:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ i_m = \\frac{V_m}{X_C} \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"The dimension of capacitive reactance is the same as that of resistance, and its SI unit is ohm (\\(\\Omega\\)). The capacitive reactance limits the amplitude of the current in a purely capacitive circuit in the same way as the resistance limits the current in a purely resistive circuit. But it is inversely proportional to the frequency and the capacitance."
-        },
-        {
-            "name":"image",
-            "body":" /assets/alternating-current/image2.png",
-            "alt":"image2"
-        },
-        {
-            "name":"paragraph",
-            "body":"Above figure shows the phasor diagram at an instant t1 . Here the current phasor I is p/2 ahead of the voltage phasor V as they rotate counterclockwise."
-        },
-        {
-            "name":"image",
-            "body":" /assets/alternating-current/image3.png",
-            "alt":"image3"
-        },
-        {
-            "name":"paragraph",
-            "body":"The above figure shows the variation of voltage and current with time. We see that the current reaches its maximum value earlier than the voltage by one-fourth of a period."
-        },
-        {
-            "name":"paragraph",
-            "body":"The instantaneous power supplied to the capacitor is:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ P_C = iv = i_m \\cdot v_m \\cos(\\omega t) \\sin(\\omega t) = i_m v_m \\cos(\\omega t) \\sin(\\omega t) \\]"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ = \\frac{i_m v_m}{2} \\sin(2\\omega t) \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"So, as in the case of an inductor, the average power is:"
-        },
-        {
-            "name":"expression",
-            "body":"\\[ P_C = \\langle \\frac{i_m v_m}{\\omega} \\sin(2\\omega t) \\rangle = 0 \\]"
-        },
-        {
-            "name":"paragraph",
-            "body":"since \\( \\langle \\sin(2\\omega t) \\rangle = 0 \\) over a complete cycle. Thus, we see that in the case of an inductor, the current lags the voltage by \\( \\frac{\\pi}{2} \\) and in the case of a capacitor, the current leads the voltage by \\( \\frac{\\pi}{2} \\)."
-        }
-    ]
+  "data": [
+    {
+      "name": "heading",
+      "body": "Ac voltage applied to a capacitor"
+    },
+    {
+      "name": "image",
+      "body": " /assets/alternating-current/image6.png",
+      "alt": "image6"
+    },
+    {
+      "name": "paragraph",
+      "body": "Above figure shows an AC source \\( e \\) generating AC voltage \\( v = V_m \\sin(\\omega t) \\) connected to a capacitor only, a purely capacitive AC circuit. When a capacitor is connected to a voltage source in a DC circuit, current will flow for the short time required to charge the capacitor. As charge accumulates on the capacitor plates, the voltage across them increases, opposing the current. That is, a capacitor in a DC circuit will limit or oppose the current as it charges. When the capacitor is fully charged, the current in the circuit falls to zero."
+    },
+    {
+      "name": "paragraph",
+      "body": "When the capacitor is connected to an AC source, as shown above, it limits or regulates the current, but does not completely prevent the flow of charge. The capacitor is alternately charged and discharged as the current reverses each half cycle. Let \\( q \\) be the charge on the capacitor at any time \\( t \\). The instantaneous voltage \\( v \\) across the capacitor is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ v = \\frac{q}{C} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "From the Kirchhoff’s loop rule, the voltage across the source and the capacitor are equal,"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ V_m \\sin(\\omega t) = \\frac{q}{C} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "To find the current, we use the relation"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ i = \\frac{d}{dt} \\left( V_m C \\sin(\\omega t) \\right) = \\omega C V_m \\cos(\\omega t) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Using the relation"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ \\cos(\\omega t) = \\sin(\\omega t + \\frac{\\pi}{2}) \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ i = i_m \\sin(\\omega t + \\frac{\\pi}{2}) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "where the amplitude of the oscillating current is \\( i_m = \\omega C V_m \\). We can rewrite it as"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ i_m = \\frac{v_m}{\\frac{1}{\\omega C}}\\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "Comparing it to \\( i_m = \\frac{V_m}{R} \\) for a purely resistive circuit, we find that \\( \\frac{1}{\\omega C} \\) plays the role of resistance. It is called capacitive reactance and is denoted by \\( X_C \\):"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ X_C = \\frac{1}{\\omega C} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "So that the amplitude of the current is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ i_m = \\frac{V_m}{X_C} \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "The dimension of capacitive reactance is the same as that of resistance, and its SI unit is ohm (\\(\\Omega\\)). The capacitive reactance limits the amplitude of the current in a purely capacitive circuit in the same way as the resistance limits the current in a purely resistive circuit. But it is inversely proportional to the frequency and the capacitance."
+    },
+    {
+      "name": "image",
+      "body": " /assets/alternating-current/image2.png",
+      "alt": "image2"
+    },
+    {
+      "name": "paragraph",
+      "body": "Above figure shows the phasor diagram at an instant t1 . Here the current phasor I is p/2 ahead of the voltage phasor V as they rotate counterclockwise."
+    },
+    {
+      "name": "image",
+      "body": " /assets/alternating-current/image3.png",
+      "alt": "image3"
+    },
+    {
+      "name": "paragraph",
+      "body": "The above figure shows the variation of voltage and current with time. We see that the current reaches its maximum value earlier than the voltage by one-fourth of a period."
+    },
+    {
+      "name": "paragraph",
+      "body": "The instantaneous power supplied to the capacitor is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ P_C = iv = i_m \\cdot v_m \\cos(\\omega t) \\sin(\\omega t) = i_m v_m \\cos(\\omega t) \\sin(\\omega t) \\]"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ = \\frac{i_m v_m}{2} \\sin(2\\omega t) \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "So, as in the case of an inductor, the average power is:"
+    },
+    {
+      "name": "expression",
+      "body": "\\[ P_C = \\langle \\frac{i_m v_m}{\\omega} \\sin(2\\omega t) \\rangle = 0 \\]"
+    },
+    {
+      "name": "paragraph",
+      "body": "since \\( \\langle \\sin(2\\omega t) \\rangle = 0 \\) over a complete cycle. Thus, we see that in the case of an inductor, the current lags the voltage by \\( \\frac{\\pi}{2} \\) and in the case of a capacitor, the current leads the voltage by \\( \\frac{\\pi}{2} \\)."
+    }
+  ]
 }

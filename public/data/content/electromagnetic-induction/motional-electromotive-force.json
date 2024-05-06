@@ -10,6 +10,11 @@
       "alt": "image52"
     },
     {
+      "name": "image",
+      "body": "/assets/electromagnetic-induction/MotionalEMF.gif",
+      "alt": "MotionalEMF.gif"
+    },
+    {
       "name": "paragraph",
       "body": "Let us consider a straight conductor moving in a uniform and time-independent magnetic field. The figure shows a rectangular conductor \\( PQRS \\) in which the conductor \\( PQ \\) is free to move. The rod \\( PQ \\) is moved towards the left with a constant velocity \\( v \\) as shown in the figure. Assume that there is no loss of energy due to friction. \\( PQRS \\) forms a closed circuit enclosing an area that changes as \\( PQ \\) moves. It is placed in a uniform magnetic field \\( B \\) which is perpendicular to the plane of this system. If the length \\( RQ = x \\) and \\( RS = l \\), the magnetic flux \\( \\Phi_B \\) enclosed by the loop \\( PQRS \\) will be"
     },

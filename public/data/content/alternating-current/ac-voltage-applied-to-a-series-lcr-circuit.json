@@ -5,6 +5,11 @@
       "body": "AC VOLTAGE APPLIED TO A SERIES LCR CIRCUIT"
     },
     {
+      "name": "image",
+      "body": " /assets/alternating-current/LCR.gif",
+      "alt": "LCR.gif"
+    },
+    {
       "name": "paragraph",
       "body": "The circuit depicted in the diagram shows a series LCR circuit connected to an AC source $ e $, with the source voltage denoted as $ v = V_m \\sin \\omega t $. Considering $ q $ as the charge on the capacitor and $ i $ as the current, at time $ t $, we have, from Kirchhoff’s loop rule:"
     },

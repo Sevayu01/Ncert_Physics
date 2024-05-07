@@ -5,9 +5,36 @@
       "body": "Cheat Sheet"
     },
     {
-      "name": "image",
-      "body": "/assets/electromagnetic-waves/image5.png",
-      "alt": "image5"
+      "name": "bold",
+      "body": "Gauss' law for electricity"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\oint_S \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{Q_{\\text{enc}}}{\\epsilon_0}\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Gauss' law for magnetism"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\oint_S \\mathbf{B} \\cdot d\\mathbf{A} = 0\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Farady's law"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\oint_C \\mathbf{E} \\cdot d\\mathbf{l} = -\\frac{d\\Phi_B}{dt}\\]"
+    },
+    {
+      "name": "bold",
+      "body": "Ampere-Maxwell law"
+    },
+    {
+      "name": "formula",
+      "body": "\\[\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 \\left( I_{\\text{enc}} + \\epsilon_0 \\frac{d\\Phi_E}{dt} \\right)\\]"
     }
   ]
 }

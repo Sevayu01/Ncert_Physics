@@ -13,6 +13,11 @@
       "body": "Coulomb's law gives the mutual electric force between two charges. How to calculate the force on a charge where there are not one but several charges around? Consider a system of \\( n \\) stationary charges \\( q_1, q_2, q_3, \\dots, q_n \\) in vacuum. What is the force on \\( q_1 \\) due to \\( q_2, q_3, \\dots, q_n \\)? "
     },
     {
+      "name":"image",
+      "body":"/assets/introduction-and-electric-charge/image100.jpg",
+      "alt":"image100"
+    },
+    {
       "name": "paragraph",
       "body": "Experimentally, it is verified that force on any charge due to a number of other charges is thevector sum of all the forces on that charge due to the other charges, taken one at a time.The individual forces are unaffected due to the presence of other charges. This is termed asthe principle of superposition. The principle of superposition says that in a system of charges\\( q_1 , q_2 , \\dots, q_n \\), the force on \\( q_1 \\) due to \\( q_2 \\) is the same as given byCoulomb's law, i.e., it is unaffected by the presence of the other charges \\( q_3 , q_4 , \\dots,q_n \\). The total force \\( \\mathbf{F_1} \\) on the charge \\( q_1 \\), due to all other charges, isthen given by the vector sum of the forces \\( \\mathbf{F_{12}}, \\mathbf{F_{13}}, \\dots,\\mathbf{F_{1n}} \\):"
     },

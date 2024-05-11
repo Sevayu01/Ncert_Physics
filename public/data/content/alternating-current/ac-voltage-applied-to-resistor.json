@@ -55,8 +55,8 @@
         },
         {
             "name":"image",
-            "body":" /assets/alternating-current/image1.png",
-            "alt":""
+            "body":" /assets/alternating-current/image1.jpg",
+            "alt":"image1"
         },
         {
             "name":"paragraph",
@@ -112,7 +112,7 @@
         },
         {
             "name":"image",
-            "body":" /assets/alternating-current/image11.png",
+            "body":" /assets/alternating-current/image11.jpg",
             "alt":"image11"
         },
         {

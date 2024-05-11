@@ -26,11 +26,6 @@
       "body": " According to Gauss's law, the total flux linked with a closed surface is $\\frac{1}{\\epsilon_0}$ times the charge enclosed by the closed surface: \\[ \\oint \\mathbf{E} \\cdot d\\mathbf{s} = \\frac{q}{\\epsilon_0} \\] For example, a point charge $q$ is placed inside a cube of the edge $a$. Now, as per Gauss's law, the flux through each face of the cube is $\\frac{q}{6\\epsilon_0}$. \\subsection{Gauss Law Formula} As per the Gauss theorem, the total charge enclosed in a closed surface is proportional to the total flux enclosed by the surface. Therefore, if $\\phi$ is total flux and $\\epsilon_0$ is electric constant, the total electric charge $Q$ enclosed by the surface is: \\[ Q=\\phi \\epsilon_0 \\] The Gauss law formula is expressed by: \\[ \\phi = \\frac{Q}{\\epsilon_0} \\] Where, Q=Total charge within the given surface \\\\ \\epsilon_0 & = \\text{The electric constant} \\end{align*}  \\documentclass{article} \\usepackage{amsmath} \\begin{document} \\section{The Gauss Theorem} The net flux through a closed surface is directly proportional to the net charge in the volume enclosed by the closed surface: \\[ \\Phi = \\oint \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{q_{\\text{net}}}{\\epsilon_0} \\] In simple words, the Gauss theorem relates the 'flow' of electric field lines (flux) to the charges within the enclosed surface. If no charges are enclosed by a surface, then the net electric flux remains zero. This means that the number of electric field lines entering the surface equals the field lines leaving the surface.  "
     },
     {
-      "name": "image",
-      "body":"/assets/introduction-and-electric-charge/image9.png",
-      "alt":"image9"
-    },
-    {
       "name": "bold",
       "body": "Applications "
     },
@@ -39,22 +34,12 @@
       "body": "1. Field due to an infinitely long straight uniformly charged wire: "
     },
     {
-      "name": "image",
-      "body":"/assets/introduction-and-electric-charge/image6.png",
-      "alt":"image6"
-    },
-    {
       "name": "paragraph",
       "body": " Consider an infinitely long straight, uniformly charged wire with linear charge density $\\lambda$. Let $P$ be a point located at a perpendicular distance $r$ from the wire. The wire can be considered as a cylindrical Gaussian surface to determine the electric field $E$ at point $P$ using Gauss' law. The surface area of the curved part of the cylindrical Gaussian surface is given by: \\[ S = 2\\pi rl \\] The total charge enclosed by the Gaussian surface is: \\[ q = \\lambda l \\] The electric flux through the end surfaces of the cylindrical Gaussian surface is: \\[ \\Phi_1 = 0 \\] The electric flux through the curved surface of the cylindrical Gaussian surface is given by: \\[ \\Phi_2 = E \\cos\\theta \\cdot s \\] \\[ \\Phi_2 = E \\times 1 \\times 2\\pi rl \\] The total electric flux is: \\[ \\Phi = \\Phi_1 + \\Phi_2 \\] \\[ \\Phi = 0 + E \\cos\\theta \\cdot s \\] \\[ \\Phi_2 = 2\\pi rlE \\quad (\\text{eq. 1}) \\] From Gauss' law, we have: \\[ \\Phi = \\frac{q}{\\epsilon_0} = \\frac{\\lambda l}{\\epsilon_0} \\quad (\\text{eq. 2}) \\] Substituting equations 1 and 2, we get: \\[ 2\\pi rlE = \\frac{\\lambda l}{\\epsilon_0} \\] Thus, the electric field $E$ due to an infinitely long straight uniformly charged wire is: \\[ E = \\frac{1}{2\\pi\\epsilon_0} \\left( \\frac{\\lambda}{r} \\right) \\]  "
     },
     {
       "name": "bold",
       "body": "2. Field due to a Uniformly Charged Infinite Plane Sheet"
-    },
-    {
-      "name": "image",
-      "body":"/assets/introduction-and-electric-charge/image2.jpg",
-      "alt":"image2"
     },
     {
       "name": "image",
